@@ -1,0 +1,5556 @@
+{
+  "resourceType": "Bundle",
+  "id": "425f2c4a-4cb7-506a-a1fb-a9ed63ddcf16",
+  "meta": {
+    "profile": [
+      "http://hl7.eu/fhir/eps/StructureDefinition/bundle-eu-eps"
+    ]
+  },
+  "type": "document",
+  "language": "sv",
+  "identifier": {
+    "system": "urn:ietf:rfc:3986",
+    "value": "urn:uuid:9ef1b040-2e87-55a5-a38d-7d900a538acc"
+  },
+  "timestamp": "2026-11-19T14:02:37+01:00",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:22a13a2e-6b79-5dae-ab82-419ca2fb137d",
+      "resource": {
+        "resourceType": "Composition",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/composition-eu-eps"
+          ]
+        },
+        "status": "preliminary",
+        "identifier": {
+          "system": "urn:ietf:rfc:3986",
+          "value": "urn:uuid:9ef1b040-2e87-55a5-a38d-7d900a538acc"
+        },
+        "type": {
+          "text": "Patient summary Document",
+          "coding": [
+            {
+              "code": "60591-5",
+              "system": "http://loinc.org",
+              "display": "Patient summary Document"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:62163571-9ce2-5951-bbe4-81c0bc923b07"
+        },
+        "date": "2026-11-19T14:02:37+01:00",
+        "author": [
+          {
+            "reference": "urn:uuid:e7b50cd9-5e2e-576d-8609-dd4a45ca7025"
+          }
+        ],
+        "custodian": {
+          "reference": "urn:uuid:e7b50cd9-5e2e-576d-8609-dd4a45ca7025"
+        },
+        "title": "European Patient Summary (source-derived candidate)",
+        "section": [
+          {
+            "title": "Allergies and intolerances",
+            "code": {
+              "text": "48765-2",
+              "coding": [
+                {
+                  "code": "48765-2",
+                  "system": "http://loinc.org"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Not documented in supplied source records.</p></div>"
+            },
+            "emptyReason": {
+              "text": "Unavailable",
+              "coding": [
+                {
+                  "code": "unavailable",
+                  "system": "http://terminology.hl7.org/CodeSystem/list-empty-reason",
+                  "display": "Unavailable"
+                }
+              ]
+            }
+          },
+          {
+            "title": "Problem list",
+            "code": {
+              "text": "11450-4",
+              "coding": [
+                {
+                  "code": "11450-4",
+                  "system": "http://loinc.org"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>K353 Akut appendicit med lokaliserad peritonit</li></ul></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:73fae997-f407-5464-9fdd-4025efeec69e"
+              }
+            ]
+          },
+          {
+            "title": "Medication list",
+            "code": {
+              "text": "10160-0",
+              "coding": [
+                {
+                  "code": "10160-0",
+                  "system": "http://loinc.org"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Glucos. B. Braun 50 mg/ml Infusionsvätska, lösning; en spruta dagligen</li><li>Addex-Kalium 2 mmol/ml Koncentrat till infusionsvätska, lösning; en spruta dagligen</li><li>Addex-Natriumklorid 4 mmol/ml Koncentrat till infusionsvätska, lösning; en spruta dagligen</li><li>Addex-Magnesium 1 mmol/ml Koncentrat till infusionsvätska, lösning; en spruta dagligen</li><li>Bloxazoc 50 mg Depottablett; &lt;1 tablett på morgonen, 1 tablett till kvällen mot högt blodtryck&gt;</li><li>Birgittas special 10 mg/g Enterokapsel, hård; Här måste man skriva vad läkemedelet heter, styrka och beredningsform, dosering och förpackningstorlek ev licensnummer</li><li>Kalle Anka blandning 5 mg/ml Infusionsvätska, lösning; dosage unspecified</li><li>Lidokain APL 5 % Munhålepasta; &lt;1 applikation på morgonen, 1 applikation till lunch, 1 applikation till kvällen smärtlindring munslemhinna&gt;</li><li>Cisordinol Depot 200 mg/ml Injektionsvätska, lösning; &lt;1 ml injektionsvätska var 3:e vecka tisdag i muskel oro&gt;</li><li>Medicinsk Oxygen Air Liquide 100 % Medicinsk gas, komprimerad; &lt;2 L medicinsk gas, komprimerad till kvällen inandas&gt;</li><li>Paracetamol Fresenius Kabi 10 mg/ml Infusionsvätska, lösning; &lt;100 ml infusionsvätska under natten, 100 ml infusionsvätska på morgonen, 100 ml infusionsvätska på eftermiddagen&gt;; &lt;100 ml infusionsvätska på morgonen, 100 ml infusionsvätska på eftermiddagen, 100 ml infusionsvätska under natten&gt;</li><li>Metronidazole Braun 5 mg/ml Infusionsvätska, lösning; &lt;300 ml infusionsvätska på förmiddagen&gt;; &lt;300 ml infusionsvätska&gt;</li><li>Ringer-Acetat Baxter Viaflo Ospecificerad Infusionsvätska, lösning; &lt;enligt separat behandlingsschema&gt;</li></ul></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:fc96c1cb-b047-5f4e-ace6-82c71806ada1"
+              },
+              {
+                "reference": "urn:uuid:fc084cc5-3252-537c-9756-978a2dc82913"
+              },
+              {
+                "reference": "urn:uuid:8b1c343e-ee41-5213-968e-8ed35a40a8f7"
+              },
+              {
+                "reference": "urn:uuid:79b3298c-ed7a-50c8-8ea4-86abf3950b2e"
+              },
+              {
+                "reference": "urn:uuid:e4cc1a6d-2f41-5760-a206-4ddeff97d285"
+              },
+              {
+                "reference": "urn:uuid:d261b569-de40-5499-bd58-d278c2aa77c1"
+              },
+              {
+                "reference": "urn:uuid:4833d856-8379-5310-a618-f43b63b5c4ea"
+              },
+              {
+                "reference": "urn:uuid:e8735f64-3f00-59a6-8b34-0b4689048328"
+              },
+              {
+                "reference": "urn:uuid:2a8cb8d4-bd82-57ed-b05c-7e005d3f10dd"
+              },
+              {
+                "reference": "urn:uuid:85c79cf0-77b0-51cb-84c4-63ab8459a30c"
+              },
+              {
+                "reference": "urn:uuid:6d5b9723-6924-5e06-b20a-341c27252d40"
+              },
+              {
+                "reference": "urn:uuid:6586510f-291f-50c8-a928-750d1011c4d7"
+              },
+              {
+                "reference": "urn:uuid:1ca06bc9-4d0e-50de-b7c3-95f150885130"
+              }
+            ]
+          },
+          {
+            "title": "Immunizations",
+            "code": {
+              "text": "11369-6",
+              "coding": [
+                {
+                  "code": "11369-6",
+                  "system": "http://loinc.org"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Not documented in supplied source records.</p></div>"
+            },
+            "emptyReason": {
+              "text": "Unavailable",
+              "coding": [
+                {
+                  "code": "unavailable",
+                  "system": "http://terminology.hl7.org/CodeSystem/list-empty-reason",
+                  "display": "Unavailable"
+                }
+              ]
+            }
+          },
+          {
+            "title": "Relevant diagnostic tests and laboratory data",
+            "code": {
+              "text": "30954-2",
+              "coding": [
+                {
+                  "code": "30954-2",
+                  "system": "http://loinc.org"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>P-APT-tid: 42 s</li><li>P-Fibrin-D-Dimer: 17,7 mg/L FEU</li><li>P-PK(INR): 3,0 INR</li><li>P-Glukos: 8,7 mmol/L</li><li>P-Antitrombin(Tromb): 0,18 kIE/L</li><li>P-Natrium: 135 mmol/L</li><li>P-Kalium: 3,6 mmol/L</li><li>P-CRP: 23 mg/L</li><li>P-Calcium: 2,28 mmol/L</li><li>P-Albumin: 23 g/L</li><li>P-Urea: 1,2 mmol/L</li><li>P-ALP (Alk fosfatas): 2,2 mikrokat/L</li><li>P-GT: 1,5 mikrokat/L</li><li>P-Magnesium: 0,83 mmol/L</li><li>fP-Triglycerid: Ikteriskt mmol/L</li><li>P-Kolesterol: Ikteriskt mmol/L</li><li>P-Cystatin C: 0,94 mg/L</li><li>Pt-eGFR(CysC)relativ: 87 mL/min/1.7</li><li>P-Järn: 26 mikromol/L</li><li>P-Transferrinmättnad: 0,86 </li><li>P-Transferrin: 1,19 g/L</li><li>B-Leukocyter: 4,1 x10(9)/L</li><li>B-Erytrocyter: 3,5 x10(12)/L</li><li>B-Hemoglobin: 111 g/L</li><li>B-EVF: 0,30 </li><li>Erc(B)-MCV: 85 fL</li><li>Erc(B)-MCH: 32 pg</li><li>B-Trombocyter: 139 x10(9)/L</li><li>P-ASAT: 15,2 mikrokat/L</li><li>P-Fibrinogen (koag): Se kommentar g/L</li><li>P-Bilirubin: 363 mikromol/L</li><li>P-ALAT: 28,3 mikrokat/L</li><li>P-Kreatinin: 50 mikromol/L</li><li>Pt-eGFR(Krea)relativ: &gt;90 mL/min/1.7</li><li>B-SR: 27 mm</li><li>S-TSH: 0,08 mE/L</li><li>S-alfa-Fetoprotein: 63 mikrog/L</li><li>S-CEA: 1,9 mikrog/L</li><li>S-CA 19-9: &lt;3,0 kE/L</li><li>S-Albumin: 24 g/L</li><li>S-Alfa-1-antitrypsin: 1,4 g/L</li><li>S-Orosomukoid: 0,39 g/L</li><li>S-Haptoglobin: &lt;0,10 g/L</li><li>S-CRP: 22 mg/L</li><li>S-Immunglobulin A: 6,8 g/L</li><li>S-Immunglobulin M: 0,94 g/L</li><li>S-Immunglobulin G: 37,6 g/L</li><li>S-Proteinfraktioner: Se kommentar </li><li>B-HbA1c (IFCC): 42 mmol/mol</li><li>kB-Klorid: Provtagn fel mmol/L</li><li>kB-pH: Provtagn fel </li><li>kB-pCO2: Provtagn fel kPa</li><li>kB-pO2: Provtagn fel kPa</li><li>kB-Hemoglobin: Provtagn fel g/L</li><li>kB-BaseExess(st): Provtagn fel mmol/L</li><li>kB-St.bikarbonat: Provtagn fel mmol/L</li><li>kB-Calciumjon, fri: Provtagn fel mmol/L</li><li>kB-sO2: Provtagn fel %</li><li>kB-MetHb: Provtagn fel %</li><li>kB-COHb: Provtagn fel %</li><li>kB-Natrium: Provtagn fel mmol/L</li><li>kB-Kalium: Provtagn fel mmol/L</li><li>vB-pH: 7,40 </li><li>vB-pCO2: 6,4 kPa</li><li>vB-BaseExess(st): 4 mmol/L</li><li>vB-St.bikarbonat: 27 mmol/L</li><li>vB-Natrium: 139 mmol/L</li><li>vB-Kalium: 4,4 mmol/L</li><li>vB-MetHb: 1,2 %</li><li>vB-COHb: 1,1 %</li><li>vB-Hemoglobin: 135 g/L</li><li>vB-Klorid: 103 mmol/L</li><li>vB-Calciumjon, fri: 1,24 mmol/L</li><li>Vikt: 72.0 kg</li><li>Vikt: 75.0 kg</li></ul></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:0470c345-a9c8-594b-903f-06202dfa64b5"
+              },
+              {
+                "reference": "urn:uuid:359a385d-c593-5951-8053-9f8d27a10404"
+              },
+              {
+                "reference": "urn:uuid:566eabd0-d62b-5339-8f87-87bc744edf7f"
+              },
+              {
+                "reference": "urn:uuid:027081dd-059a-5a47-85af-61487974764a"
+              },
+              {
+                "reference": "urn:uuid:7b4fea47-f7f3-57b5-8bf7-bf58b40b1a06"
+              },
+              {
+                "reference": "urn:uuid:11db93da-cc64-5d3a-9c60-ab92555fe141"
+              },
+              {
+                "reference": "urn:uuid:d7e166bc-cd7a-5e60-aebd-db630a523197"
+              },
+              {
+                "reference": "urn:uuid:87262f4a-7988-500b-a043-788cb30b7a9c"
+              },
+              {
+                "reference": "urn:uuid:550cc282-4dc7-58b5-bd14-8084155afb9e"
+              },
+              {
+                "reference": "urn:uuid:0a47884d-03a7-55e1-bed2-514d3ff89859"
+              },
+              {
+                "reference": "urn:uuid:2d9d0785-88e3-50b1-a300-d963a249b874"
+              },
+              {
+                "reference": "urn:uuid:b75a54f1-6262-5833-9718-ebe1aa25d376"
+              },
+              {
+                "reference": "urn:uuid:af7ab1c7-8e5c-5674-bb49-8e406f0caee3"
+              },
+              {
+                "reference": "urn:uuid:d13a6d87-5add-5709-a2e4-b399324b31b7"
+              },
+              {
+                "reference": "urn:uuid:7176502a-67b2-59fc-8895-fa2b82481be3"
+              },
+              {
+                "reference": "urn:uuid:f3a03985-0bb0-5ae8-81bc-a52295c57ff1"
+              },
+              {
+                "reference": "urn:uuid:56b97a9c-bb06-5e95-a51e-5ab4b5d6bd45"
+              },
+              {
+                "reference": "urn:uuid:30213f3a-4f0a-5c3e-94f1-2c535863feed"
+              },
+              {
+                "reference": "urn:uuid:6f240140-51f4-57af-80e5-a31fd4d33a22"
+              },
+              {
+                "reference": "urn:uuid:b2d08aac-0931-5bb3-bf62-483c1e468f62"
+              },
+              {
+                "reference": "urn:uuid:01e6421b-22f7-5611-9687-5eb24ba87224"
+              },
+              {
+                "reference": "urn:uuid:70471371-390b-554b-82ce-44fdfb5fd00b"
+              },
+              {
+                "reference": "urn:uuid:0b102cff-671f-5b6f-ae66-52cb052e40ec"
+              },
+              {
+                "reference": "urn:uuid:ea6abba8-b48a-5c84-8bd3-ebf2adff2276"
+              },
+              {
+                "reference": "urn:uuid:4611879e-2cc2-50c6-bbef-5fa60f70f0eb"
+              },
+              {
+                "reference": "urn:uuid:1af83a25-ac91-5c97-94a5-9e71931c7cc4"
+              },
+              {
+                "reference": "urn:uuid:5ea7078f-a5ca-50b4-ab6a-79c83a8267df"
+              },
+              {
+                "reference": "urn:uuid:6c296b01-449d-5982-8d24-b1fa5f7f5413"
+              },
+              {
+                "reference": "urn:uuid:c96bf56c-fc61-5b27-916b-689d7a902121"
+              },
+              {
+                "reference": "urn:uuid:336f1cf3-7883-5bbf-aac5-f44525c894da"
+              },
+              {
+                "reference": "urn:uuid:484e3840-155b-581f-9b30-5db3b7f593a0"
+              },
+              {
+                "reference": "urn:uuid:60308198-7bb6-51c8-a7de-b4f19d361381"
+              },
+              {
+                "reference": "urn:uuid:4dcea862-cee6-5236-aebc-af503a839721"
+              },
+              {
+                "reference": "urn:uuid:22eb0548-b5ea-53da-aa55-b02f1d410c88"
+              },
+              {
+                "reference": "urn:uuid:6cbe0c0f-8ac0-5ba1-8821-302e76ddaf25"
+              },
+              {
+                "reference": "urn:uuid:919068ba-cfb1-56fc-9f52-0e012f7779b4"
+              },
+              {
+                "reference": "urn:uuid:032baa3d-701c-556b-a748-a9ccb7051649"
+              },
+              {
+                "reference": "urn:uuid:4c3d34dd-f322-5885-a5f9-c02b92b4bbea"
+              },
+              {
+                "reference": "urn:uuid:59fcd0c2-e453-5ae3-912d-54a06cba171c"
+              },
+              {
+                "reference": "urn:uuid:0a0a4023-8a80-50b9-983b-2904399500af"
+              },
+              {
+                "reference": "urn:uuid:ae48eb52-9182-5187-87a4-c77ec42b8f78"
+              },
+              {
+                "reference": "urn:uuid:fc5ad6dd-2b6e-5a58-ba5b-a2f40d08d26e"
+              },
+              {
+                "reference": "urn:uuid:d746bf3a-d778-5035-a369-9f680ab43ad3"
+              },
+              {
+                "reference": "urn:uuid:b55aaa23-3a2b-5685-ac4b-0e4684452e02"
+              },
+              {
+                "reference": "urn:uuid:72437b00-d953-5fe3-a2b6-45d6842d2a6b"
+              },
+              {
+                "reference": "urn:uuid:d497a4ed-d82c-5630-9c13-d59a838c3332"
+              },
+              {
+                "reference": "urn:uuid:603a6b77-40ee-504d-956b-b5589bb5b54c"
+              },
+              {
+                "reference": "urn:uuid:e8819e8f-2827-5a4e-939c-5e8965f6a2da"
+              },
+              {
+                "reference": "urn:uuid:9f01bc58-3482-5c45-92d6-f5e525423614"
+              },
+              {
+                "reference": "urn:uuid:0bceb0f3-e75b-5e10-b70f-d8080db2264a"
+              },
+              {
+                "reference": "urn:uuid:c6e9ffef-d2aa-582d-97c5-2cad7a346053"
+              },
+              {
+                "reference": "urn:uuid:47fd3d2d-21f6-5b5e-805b-0b5c1682a428"
+              },
+              {
+                "reference": "urn:uuid:9f78e217-438f-5e87-a185-00468c86abd3"
+              },
+              {
+                "reference": "urn:uuid:74200d2a-85cb-5b3f-b77b-1e4c86202783"
+              },
+              {
+                "reference": "urn:uuid:f61271dc-1b1e-5454-a74b-21f8b711781a"
+              },
+              {
+                "reference": "urn:uuid:79506f9c-eb66-588a-a7be-8d4e901fd376"
+              },
+              {
+                "reference": "urn:uuid:36331202-fbf6-5de5-bbad-fd84d4c419cc"
+              },
+              {
+                "reference": "urn:uuid:d32bc919-306f-51c5-8d94-5b322339c093"
+              },
+              {
+                "reference": "urn:uuid:e885c142-f060-5b14-b30c-90bf2e98442c"
+              },
+              {
+                "reference": "urn:uuid:b0b449b1-806e-598a-8088-0680caa24c75"
+              },
+              {
+                "reference": "urn:uuid:9e31f9cb-395f-559e-a1c5-4a121f5b7c90"
+              },
+              {
+                "reference": "urn:uuid:45fbdbe4-28e3-5e75-b589-a011e10e212a"
+              },
+              {
+                "reference": "urn:uuid:2c7135f8-2735-5dc7-9452-4c89824eb70c"
+              },
+              {
+                "reference": "urn:uuid:dd1373d0-8e14-50a1-92e4-0e84a0411b8e"
+              },
+              {
+                "reference": "urn:uuid:cee4bda1-ef65-5322-a6bd-e7948e5c0d45"
+              },
+              {
+                "reference": "urn:uuid:aac5508b-367e-5e59-b9d9-b2d824ac6b02"
+              },
+              {
+                "reference": "urn:uuid:7e44d5d6-4e03-552d-9f53-3e293885f174"
+              },
+              {
+                "reference": "urn:uuid:884501d8-7b2e-5838-b8a8-bddcb5557848"
+              },
+              {
+                "reference": "urn:uuid:09f23314-b5ff-5f05-aa2a-b230ebb345e1"
+              },
+              {
+                "reference": "urn:uuid:632e4afa-e3cd-5aa8-a274-cc955cc873a9"
+              },
+              {
+                "reference": "urn:uuid:8b68591c-c3b3-5931-bcf2-87b1ef4131a0"
+              },
+              {
+                "reference": "urn:uuid:3f8a06ae-fb8f-524c-b3de-b22d8a9e2b48"
+              },
+              {
+                "reference": "urn:uuid:f594e658-80e7-520b-8900-a4105d16bee5"
+              }
+            ]
+          },
+          {
+            "title": "Medical devices",
+            "code": {
+              "text": "46264-8",
+              "coding": [
+                {
+                  "code": "46264-8",
+                  "system": "http://loinc.org"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Not documented in supplied source records.</p></div>"
+            },
+            "emptyReason": {
+              "text": "Unavailable",
+              "coding": [
+                {
+                  "code": "unavailable",
+                  "system": "http://terminology.hl7.org/CodeSystem/list-empty-reason",
+                  "display": "Unavailable"
+                }
+              ]
+            }
+          },
+          {
+            "title": "Plan of care",
+            "code": {
+              "text": "18776-5",
+              "coding": [
+                {
+                  "code": "18776-5",
+                  "system": "http://loinc.org"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Not documented in supplied source records.</p></div>"
+            },
+            "emptyReason": {
+              "text": "Unavailable",
+              "coding": [
+                {
+                  "code": "unavailable",
+                  "system": "http://terminology.hl7.org/CodeSystem/list-empty-reason",
+                  "display": "Unavailable"
+                }
+              ]
+            }
+          },
+          {
+            "title": "History of procedures",
+            "code": {
+              "text": "47519-4",
+              "coding": [
+                {
+                  "code": "47519-4",
+                  "system": "http://loinc.org"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Laparoskopisk appendektomi</li><li>SA101 Generell anestesi och sedering. Induktion: Intravenös utan relaxation. Luftvägskontroll med: Spontanandning med tillägg av oxygen. Huvudsakligt underhåll av narkos/sedering: Ingen. Huvudsakligt underhåll av analgesi: Intravenöst.</li></ul></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:528e31be-5a84-5969-9174-89d449330f11"
+              },
+              {
+                "reference": "urn:uuid:846d27ca-1f05-55e2-8e88-92d0f5a5faae"
+              }
+            ]
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Automatically mapped candidate; requires clinical review and official EU EPS validation.</p></div>"
+        },
+        "id": "22a13a2e-6b79-5dae-ab82-419ca2fb137d"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:62163571-9ce2-5951-bbe4-81c0bc923b07",
+      "resource": {
+        "resourceType": "Patient",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/patient-eu-eps"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "http://electronichealth.se/identifier/personnummer",
+            "value": "196607113146"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Patient summary; patient identifier recorded in source.</p></div>"
+        },
+        "name": [
+          {
+            "text": "OpenEHR Kvinna58"
+          }
+        ],
+        "birthDate": "1966-07-11",
+        "id": "62163571-9ce2-5951-bbe4-81c0bc923b07"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e7b50cd9-5e2e-576d-8609-dd4a45ca7025",
+      "resource": {
+        "resourceType": "Organization",
+        "name": "Source healthcare organization (not identified)",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Source healthcare organization not identified</p></div>"
+        },
+        "id": "e7b50cd9-5e2e-576d-8609-dd4a45ca7025"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:73fae997-f407-5464-9fdd-4025efeec69e",
+      "resource": {
+        "resourceType": "Condition",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/condition-eu-core"
+          ]
+        },
+        "code": {
+          "text": "Akut appendicit med lokaliserad peritonit",
+          "coding": [
+            {
+              "code": "K353",
+              "system": "https://terminologitjansten.inera.se/inera-kodverksforvaltning/kodverk/icd-10-se",
+              "display": "Akut appendicit med lokaliserad peritonit"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:62163571-9ce2-5951-bbe4-81c0bc923b07"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Akut appendicit med lokaliserad peritonit</p></div>"
+        },
+        "recordedDate": "2024-09-27",
+        "id": "73fae997-f407-5464-9fdd-4025efeec69e"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e477324e-d031-5595-ba0d-c012ccc859ba",
+      "resource": {
+        "resourceType": "Medication",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medication-eu-core"
+          ]
+        },
+        "code": {
+          "text": "Glucos. B. Braun 50 mg/ml Infusionsvätska, lösning",
+          "coding": [
+            {
+              "code": "B05BA03",
+              "system": "http://www.whocc.no/atc",
+              "display": "Glucos. B. Braun 50 mg/ml Infusionsvätska, lösning"
+            }
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Glucos. B. Braun 50 mg/ml Infusionsvätska, lösning</p></div>"
+        },
+        "id": "e477324e-d031-5595-ba0d-c012ccc859ba"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:fc96c1cb-b047-5f4e-ace6-82c71806ada1",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/MedicationStatement-eu-eps"
+          ]
+        },
+        "status": "unknown",
+        "subject": {
+          "reference": "urn:uuid:62163571-9ce2-5951-bbe4-81c0bc923b07"
+        },
+        "medicationReference": {
+          "reference": "urn:uuid:e477324e-d031-5595-ba0d-c012ccc859ba",
+          "display": "Glucos. B. Braun 50 mg/ml Infusionsvätska, lösning"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Glucos. B. Braun 50 mg/ml Infusionsvätska, lösning</p></div>"
+        },
+        "dosage": [
+          {
+            "text": "en spruta dagligen"
+          }
+        ],
+        "effectivePeriod": {
+          "start": "2024-10-10"
+        },
+        "reasonCode": [
+          {
+            "text": "infusion"
+          }
+        ],
+        "identifier": [
+          {
+            "value": "196607113146-39"
+          }
+        ],
+        "id": "fc96c1cb-b047-5f4e-ace6-82c71806ada1"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cc785230-b171-5277-a8da-915a0940010c",
+      "resource": {
+        "resourceType": "Medication",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medication-eu-core"
+          ]
+        },
+        "code": {
+          "text": "Addex-Kalium 2 mmol/ml Koncentrat till infusionsvätska, lösning",
+          "coding": [
+            {
+              "code": "B05XA06",
+              "system": "http://www.whocc.no/atc",
+              "display": "Addex-Kalium 2 mmol/ml Koncentrat till infusionsvätska, lösning"
+            }
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Addex-Kalium 2 mmol/ml Koncentrat till infusionsvätska, lösning</p></div>"
+        },
+        "id": "cc785230-b171-5277-a8da-915a0940010c"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:fc084cc5-3252-537c-9756-978a2dc82913",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/MedicationStatement-eu-eps"
+          ]
+        },
+        "status": "unknown",
+        "subject": {
+          "reference": "urn:uuid:62163571-9ce2-5951-bbe4-81c0bc923b07"
+        },
+        "medicationReference": {
+          "reference": "urn:uuid:cc785230-b171-5277-a8da-915a0940010c",
+          "display": "Addex-Kalium 2 mmol/ml Koncentrat till infusionsvätska, lösning"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Addex-Kalium 2 mmol/ml Koncentrat till infusionsvätska, lösning</p></div>"
+        },
+        "dosage": [
+          {
+            "text": "en spruta dagligen"
+          }
+        ],
+        "effectivePeriod": {
+          "start": "2024-10-10"
+        },
+        "reasonCode": [
+          {
+            "text": "infusion"
+          }
+        ],
+        "identifier": [
+          {
+            "value": "196607113146-39"
+          }
+        ],
+        "id": "fc084cc5-3252-537c-9756-978a2dc82913"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:d619c199-1cf3-520d-9359-96c8e5884135",
+      "resource": {
+        "resourceType": "Medication",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medication-eu-core"
+          ]
+        },
+        "code": {
+          "text": "Addex-Natriumklorid 4 mmol/ml Koncentrat till infusionsvätska, lösning",
+          "coding": [
+            {
+              "code": "B05XA03",
+              "system": "http://www.whocc.no/atc",
+              "display": "Addex-Natriumklorid 4 mmol/ml Koncentrat till infusionsvätska, lösning"
+            }
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Addex-Natriumklorid 4 mmol/ml Koncentrat till infusionsvätska, lösning</p></div>"
+        },
+        "id": "d619c199-1cf3-520d-9359-96c8e5884135"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:8b1c343e-ee41-5213-968e-8ed35a40a8f7",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/MedicationStatement-eu-eps"
+          ]
+        },
+        "status": "unknown",
+        "subject": {
+          "reference": "urn:uuid:62163571-9ce2-5951-bbe4-81c0bc923b07"
+        },
+        "medicationReference": {
+          "reference": "urn:uuid:d619c199-1cf3-520d-9359-96c8e5884135",
+          "display": "Addex-Natriumklorid 4 mmol/ml Koncentrat till infusionsvätska, lösning"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Addex-Natriumklorid 4 mmol/ml Koncentrat till infusionsvätska, lösning</p></div>"
+        },
+        "dosage": [
+          {
+            "text": "en spruta dagligen"
+          }
+        ],
+        "effectivePeriod": {
+          "start": "2024-10-10"
+        },
+        "reasonCode": [
+          {
+            "text": "infusion"
+          }
+        ],
+        "identifier": [
+          {
+            "value": "196607113146-39"
+          }
+        ],
+        "id": "8b1c343e-ee41-5213-968e-8ed35a40a8f7"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:2d5a0cb9-8901-5791-8a48-78eeeaecb093",
+      "resource": {
+        "resourceType": "Medication",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medication-eu-core"
+          ]
+        },
+        "code": {
+          "text": "Addex-Magnesium 1 mmol/ml Koncentrat till infusionsvätska, lösning",
+          "coding": [
+            {
+              "code": "B05XA05",
+              "system": "http://www.whocc.no/atc",
+              "display": "Addex-Magnesium 1 mmol/ml Koncentrat till infusionsvätska, lösning"
+            }
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Addex-Magnesium 1 mmol/ml Koncentrat till infusionsvätska, lösning</p></div>"
+        },
+        "id": "2d5a0cb9-8901-5791-8a48-78eeeaecb093"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:79b3298c-ed7a-50c8-8ea4-86abf3950b2e",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/MedicationStatement-eu-eps"
+          ]
+        },
+        "status": "unknown",
+        "subject": {
+          "reference": "urn:uuid:62163571-9ce2-5951-bbe4-81c0bc923b07"
+        },
+        "medicationReference": {
+          "reference": "urn:uuid:2d5a0cb9-8901-5791-8a48-78eeeaecb093",
+          "display": "Addex-Magnesium 1 mmol/ml Koncentrat till infusionsvätska, lösning"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Addex-Magnesium 1 mmol/ml Koncentrat till infusionsvätska, lösning</p></div>"
+        },
+        "dosage": [
+          {
+            "text": "en spruta dagligen"
+          }
+        ],
+        "effectivePeriod": {
+          "start": "2024-10-10"
+        },
+        "reasonCode": [
+          {
+            "text": "infusion"
+          }
+        ],
+        "identifier": [
+          {
+            "value": "196607113146-39"
+          }
+        ],
+        "id": "79b3298c-ed7a-50c8-8ea4-86abf3950b2e"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:22f50ea6-de82-5d08-baa7-39cc654db03f",
+      "resource": {
+        "resourceType": "Medication",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medication-eu-core"
+          ]
+        },
+        "code": {
+          "text": "Bloxazoc 50 mg Depottablett",
+          "coding": [
+            {
+              "code": "C07AB02",
+              "system": "http://www.whocc.no/atc",
+              "display": "Bloxazoc 50 mg Depottablett"
+            }
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Bloxazoc 50 mg Depottablett</p></div>"
+        },
+        "id": "22f50ea6-de82-5d08-baa7-39cc654db03f"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e4cc1a6d-2f41-5760-a206-4ddeff97d285",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/MedicationStatement-eu-eps"
+          ]
+        },
+        "status": "completed",
+        "subject": {
+          "reference": "urn:uuid:62163571-9ce2-5951-bbe4-81c0bc923b07"
+        },
+        "medicationReference": {
+          "reference": "urn:uuid:22f50ea6-de82-5d08-baa7-39cc654db03f",
+          "display": "Bloxazoc 50 mg Depottablett"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Bloxazoc 50 mg Depottablett</p></div>"
+        },
+        "dosage": [
+          {
+            "text": "<1 tablett på morgonen, 1 tablett till kvällen mot högt blodtryck>"
+          }
+        ],
+        "effectivePeriod": {
+          "start": "2024-10-29",
+          "end": "2025-01-29"
+        },
+        "reasonCode": [
+          {
+            "text": "mot högt blodtryck"
+          }
+        ],
+        "identifier": [
+          {
+            "value": "196607113146-60"
+          }
+        ],
+        "id": "e4cc1a6d-2f41-5760-a206-4ddeff97d285"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:4459547d-a7df-5a1b-b1f3-52740242e5ed",
+      "resource": {
+        "resourceType": "Medication",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medication-eu-core"
+          ]
+        },
+        "code": {
+          "text": "Birgittas special 10 mg/g Enterokapsel, hård",
+          "coding": [
+            {
+              "code": "V10B",
+              "system": "http://www.whocc.no/atc",
+              "display": "Birgittas special 10 mg/g Enterokapsel, hård"
+            }
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Birgittas special 10 mg/g Enterokapsel, hård</p></div>"
+        },
+        "id": "4459547d-a7df-5a1b-b1f3-52740242e5ed"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:d261b569-de40-5499-bd58-d278c2aa77c1",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/MedicationStatement-eu-eps"
+          ]
+        },
+        "status": "unknown",
+        "subject": {
+          "reference": "urn:uuid:62163571-9ce2-5951-bbe4-81c0bc923b07"
+        },
+        "medicationReference": {
+          "reference": "urn:uuid:4459547d-a7df-5a1b-b1f3-52740242e5ed",
+          "display": "Birgittas special 10 mg/g Enterokapsel, hård"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Birgittas special 10 mg/g Enterokapsel, hård</p></div>"
+        },
+        "dosage": [
+          {
+            "text": "Här måste man skriva vad läkemedelet heter, styrka och beredningsform, dosering och förpackningstorlek ev licensnummer"
+          }
+        ],
+        "effectivePeriod": {
+          "start": "2024-10-10"
+        },
+        "reasonCode": [
+          {
+            "text": "smärtlindring"
+          }
+        ],
+        "identifier": [
+          {
+            "value": "196607113146-44"
+          }
+        ],
+        "id": "d261b569-de40-5499-bd58-d278c2aa77c1"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:ca3182cd-61e6-5919-8778-b8ce05e4a581",
+      "resource": {
+        "resourceType": "Medication",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medication-eu-core"
+          ]
+        },
+        "code": {
+          "text": "Kalle Anka blandning 5 mg/ml Infusionsvätska, lösning",
+          "coding": [
+            {
+              "code": "N02AA01",
+              "system": "http://www.whocc.no/atc",
+              "display": "Kalle Anka blandning 5 mg/ml Infusionsvätska, lösning"
+            }
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Kalle Anka blandning 5 mg/ml Infusionsvätska, lösning</p></div>"
+        },
+        "id": "ca3182cd-61e6-5919-8778-b8ce05e4a581"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:4833d856-8379-5310-a618-f43b63b5c4ea",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/MedicationStatement-eu-eps"
+          ]
+        },
+        "status": "unknown",
+        "subject": {
+          "reference": "urn:uuid:62163571-9ce2-5951-bbe4-81c0bc923b07"
+        },
+        "medicationReference": {
+          "reference": "urn:uuid:ca3182cd-61e6-5919-8778-b8ce05e4a581",
+          "display": "Kalle Anka blandning 5 mg/ml Infusionsvätska, lösning"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Kalle Anka blandning 5 mg/ml Infusionsvätska, lösning</p></div>"
+        },
+        "dosage": [
+          {
+            "text": "Dosage not documented"
+          }
+        ],
+        "effectivePeriod": {
+          "start": "2024-10-10"
+        },
+        "identifier": [
+          {
+            "value": "196607113146-42"
+          }
+        ],
+        "id": "4833d856-8379-5310-a618-f43b63b5c4ea"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a86480f2-d312-5b2d-bd1f-7594d8fc44c6",
+      "resource": {
+        "resourceType": "Medication",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medication-eu-core"
+          ]
+        },
+        "code": {
+          "text": "Lidokain APL 5 % Munhålepasta",
+          "coding": [
+            {
+              "code": "N01BB02",
+              "system": "http://www.whocc.no/atc",
+              "display": "Lidokain APL 5 % Munhålepasta"
+            }
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Lidokain APL 5 % Munhålepasta</p></div>"
+        },
+        "id": "a86480f2-d312-5b2d-bd1f-7594d8fc44c6"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e8735f64-3f00-59a6-8b34-0b4689048328",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/MedicationStatement-eu-eps"
+          ]
+        },
+        "status": "unknown",
+        "subject": {
+          "reference": "urn:uuid:62163571-9ce2-5951-bbe4-81c0bc923b07"
+        },
+        "medicationReference": {
+          "reference": "urn:uuid:a86480f2-d312-5b2d-bd1f-7594d8fc44c6",
+          "display": "Lidokain APL 5 % Munhålepasta"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Lidokain APL 5 % Munhålepasta</p></div>"
+        },
+        "dosage": [
+          {
+            "text": "<1 applikation på morgonen, 1 applikation till lunch, 1 applikation till kvällen smärtlindring munslemhinna>"
+          }
+        ],
+        "effectivePeriod": {
+          "start": "2024-10-10"
+        },
+        "reasonCode": [
+          {
+            "text": "smärtlindring munslemhinna"
+          }
+        ],
+        "identifier": [
+          {
+            "value": "196607113146-43"
+          }
+        ],
+        "id": "e8735f64-3f00-59a6-8b34-0b4689048328"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a4f132c2-0701-5186-a938-326958d12ec9",
+      "resource": {
+        "resourceType": "Medication",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medication-eu-core"
+          ]
+        },
+        "code": {
+          "text": "Cisordinol Depot 200 mg/ml Injektionsvätska, lösning",
+          "coding": [
+            {
+              "code": "N05AF05",
+              "system": "http://www.whocc.no/atc",
+              "display": "Cisordinol Depot 200 mg/ml Injektionsvätska, lösning"
+            }
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Cisordinol Depot 200 mg/ml Injektionsvätska, lösning</p></div>"
+        },
+        "id": "a4f132c2-0701-5186-a938-326958d12ec9"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:2a8cb8d4-bd82-57ed-b05c-7e005d3f10dd",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/MedicationStatement-eu-eps"
+          ]
+        },
+        "status": "unknown",
+        "subject": {
+          "reference": "urn:uuid:62163571-9ce2-5951-bbe4-81c0bc923b07"
+        },
+        "medicationReference": {
+          "reference": "urn:uuid:a4f132c2-0701-5186-a938-326958d12ec9",
+          "display": "Cisordinol Depot 200 mg/ml Injektionsvätska, lösning"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Cisordinol Depot 200 mg/ml Injektionsvätska, lösning</p></div>"
+        },
+        "dosage": [
+          {
+            "text": "<1 ml injektionsvätska var 3:e vecka tisdag i muskel oro>"
+          }
+        ],
+        "effectivePeriod": {
+          "start": "2024-10-10"
+        },
+        "reasonCode": [
+          {
+            "text": "oro"
+          }
+        ],
+        "identifier": [
+          {
+            "value": "196607113146-41"
+          }
+        ],
+        "id": "2a8cb8d4-bd82-57ed-b05c-7e005d3f10dd"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:dbab8ced-455c-54a6-8281-5b369e6cc974",
+      "resource": {
+        "resourceType": "Medication",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medication-eu-core"
+          ]
+        },
+        "code": {
+          "text": "Medicinsk Oxygen Air Liquide 100 % Medicinsk gas, komprimerad",
+          "coding": [
+            {
+              "code": "V03AN01",
+              "system": "http://www.whocc.no/atc",
+              "display": "Medicinsk Oxygen Air Liquide 100 % Medicinsk gas, komprimerad"
+            }
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Medicinsk Oxygen Air Liquide 100 % Medicinsk gas, komprimerad</p></div>"
+        },
+        "id": "dbab8ced-455c-54a6-8281-5b369e6cc974"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:85c79cf0-77b0-51cb-84c4-63ab8459a30c",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/MedicationStatement-eu-eps"
+          ]
+        },
+        "status": "unknown",
+        "subject": {
+          "reference": "urn:uuid:62163571-9ce2-5951-bbe4-81c0bc923b07"
+        },
+        "medicationReference": {
+          "reference": "urn:uuid:dbab8ced-455c-54a6-8281-5b369e6cc974",
+          "display": "Medicinsk Oxygen Air Liquide 100 % Medicinsk gas, komprimerad"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Medicinsk Oxygen Air Liquide 100 % Medicinsk gas, komprimerad</p></div>"
+        },
+        "dosage": [
+          {
+            "text": "<2 L medicinsk gas, komprimerad till kvällen inandas>"
+          }
+        ],
+        "effectivePeriod": {
+          "start": "2024-10-10"
+        },
+        "identifier": [
+          {
+            "value": "196607113146-40"
+          }
+        ],
+        "id": "85c79cf0-77b0-51cb-84c4-63ab8459a30c"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:d9edcee5-0405-57f8-b4f3-b8b5c47eb654",
+      "resource": {
+        "resourceType": "Medication",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medication-eu-core"
+          ]
+        },
+        "code": {
+          "text": "Paracetamol Fresenius Kabi 10 mg/ml Infusionsvätska, lösning",
+          "coding": [
+            {
+              "code": "N02BE01",
+              "system": "http://www.whocc.no/atc",
+              "display": "Paracetamol Fresenius Kabi 10 mg/ml Infusionsvätska, lösning"
+            }
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Paracetamol Fresenius Kabi 10 mg/ml Infusionsvätska, lösning</p></div>"
+        },
+        "id": "d9edcee5-0405-57f8-b4f3-b8b5c47eb654"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:6d5b9723-6924-5e06-b20a-341c27252d40",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/MedicationStatement-eu-eps"
+          ]
+        },
+        "status": "completed",
+        "subject": {
+          "reference": "urn:uuid:62163571-9ce2-5951-bbe4-81c0bc923b07"
+        },
+        "medicationReference": {
+          "reference": "urn:uuid:d9edcee5-0405-57f8-b4f3-b8b5c47eb654",
+          "display": "Paracetamol Fresenius Kabi 10 mg/ml Infusionsvätska, lösning"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Paracetamol Fresenius Kabi 10 mg/ml Infusionsvätska, lösning</p></div>"
+        },
+        "dosage": [
+          {
+            "text": "<100 ml infusionsvätska under natten, 100 ml infusionsvätska på morgonen, 100 ml infusionsvätska på eftermiddagen>; <100 ml infusionsvätska på morgonen, 100 ml infusionsvätska på eftermiddagen, 100 ml infusionsvätska under natten>"
+          }
+        ],
+        "effectivePeriod": {
+          "start": "2024-09-17",
+          "end": "2024-09-19"
+        },
+        "identifier": [
+          {
+            "value": "196607113146-32"
+          }
+        ],
+        "id": "6d5b9723-6924-5e06-b20a-341c27252d40"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:d70e83f4-2dee-5002-881c-c0d7eaef0028",
+      "resource": {
+        "resourceType": "Medication",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medication-eu-core"
+          ]
+        },
+        "code": {
+          "text": "Metronidazole Braun 5 mg/ml Infusionsvätska, lösning",
+          "coding": [
+            {
+              "code": "J01XD01",
+              "system": "http://www.whocc.no/atc",
+              "display": "Metronidazole Braun 5 mg/ml Infusionsvätska, lösning"
+            }
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Metronidazole Braun 5 mg/ml Infusionsvätska, lösning</p></div>"
+        },
+        "id": "d70e83f4-2dee-5002-881c-c0d7eaef0028"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:6586510f-291f-50c8-a928-750d1011c4d7",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/MedicationStatement-eu-eps"
+          ]
+        },
+        "status": "completed",
+        "subject": {
+          "reference": "urn:uuid:62163571-9ce2-5951-bbe4-81c0bc923b07"
+        },
+        "medicationReference": {
+          "reference": "urn:uuid:d70e83f4-2dee-5002-881c-c0d7eaef0028",
+          "display": "Metronidazole Braun 5 mg/ml Infusionsvätska, lösning"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Metronidazole Braun 5 mg/ml Infusionsvätska, lösning</p></div>"
+        },
+        "dosage": [
+          {
+            "text": "<300 ml infusionsvätska på förmiddagen>; <300 ml infusionsvätska>"
+          }
+        ],
+        "effectivePeriod": {
+          "start": "2024-09-18",
+          "end": "2024-09-18"
+        },
+        "identifier": [
+          {
+            "value": "196607113146-35"
+          }
+        ],
+        "id": "6586510f-291f-50c8-a928-750d1011c4d7"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:f03e5ad1-e5ed-5126-af5b-281afb0f6946",
+      "resource": {
+        "resourceType": "Medication",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medication-eu-core"
+          ]
+        },
+        "code": {
+          "text": "Ringer-Acetat Baxter Viaflo Ospecificerad Infusionsvätska, lösning",
+          "coding": [
+            {
+              "code": "B05BB01",
+              "system": "http://www.whocc.no/atc",
+              "display": "Ringer-Acetat Baxter Viaflo Ospecificerad Infusionsvätska, lösning"
+            }
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Ringer-Acetat Baxter Viaflo Ospecificerad Infusionsvätska, lösning</p></div>"
+        },
+        "id": "f03e5ad1-e5ed-5126-af5b-281afb0f6946"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:1ca06bc9-4d0e-50de-b7c3-95f150885130",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/MedicationStatement-eu-eps"
+          ]
+        },
+        "status": "completed",
+        "subject": {
+          "reference": "urn:uuid:62163571-9ce2-5951-bbe4-81c0bc923b07"
+        },
+        "medicationReference": {
+          "reference": "urn:uuid:f03e5ad1-e5ed-5126-af5b-281afb0f6946",
+          "display": "Ringer-Acetat Baxter Viaflo Ospecificerad Infusionsvätska, lösning"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Ringer-Acetat Baxter Viaflo Ospecificerad Infusionsvätska, lösning</p></div>"
+        },
+        "dosage": [
+          {
+            "text": "<enligt separat behandlingsschema>"
+          }
+        ],
+        "effectivePeriod": {
+          "start": "2024-09-17",
+          "end": "2024-09-20"
+        },
+        "identifier": [
+          {
+            "value": "196607113146-31"
+          }
+        ],
+        "id": "1ca06bc9-4d0e-50de-b7c3-95f150885130"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:0470c345-a9c8-594b-903f-06202dfa64b5",
+      "resource": {
+        "resourceType": "Observation",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medicalTestResult-eu-core"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "text": "Laboratory",
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "P-APT-tid",
+          "coding": [
+            {
+              "code": "NPU01682",
+              "system": "http://npu-terminology.org",
+              "display": "P-APT-tid"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:62163571-9ce2-5951-bbe4-81c0bc923b07"
+        },
+        "performer": [
+          {
+            "reference": "urn:uuid:e7b50cd9-5e2e-576d-8609-dd4a45ca7025"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>P-APT-tid: 42 s</p></div>"
+        },
+        "effectiveDateTime": "2024-10-17",
+        "valueQuantity": {
+          "value": 42.0,
+          "unit": "s"
+        },
+        "referenceRange": [
+          {
+            "text": "20-30"
+          }
+        ],
+        "id": "0470c345-a9c8-594b-903f-06202dfa64b5"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:359a385d-c593-5951-8053-9f8d27a10404",
+      "resource": {
+        "resourceType": "Observation",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medicalTestResult-eu-core"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "text": "Laboratory",
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "P-Fibrin-D-Dimer",
+          "coding": [
+            {
+              "code": "NPU28289",
+              "system": "http://npu-terminology.org",
+              "display": "P-Fibrin-D-Dimer"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:62163571-9ce2-5951-bbe4-81c0bc923b07"
+        },
+        "performer": [
+          {
+            "reference": "urn:uuid:e7b50cd9-5e2e-576d-8609-dd4a45ca7025"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>P-Fibrin-D-Dimer: 17,7 mg/L FEU</p></div>"
+        },
+        "effectiveDateTime": "2024-10-17",
+        "valueQuantity": {
+          "value": 17.7,
+          "unit": "mg/L FEU"
+        },
+        "referenceRange": [
+          {
+            "text": "<0,50"
+          }
+        ],
+        "id": "359a385d-c593-5951-8053-9f8d27a10404"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:566eabd0-d62b-5339-8f87-87bc744edf7f",
+      "resource": {
+        "resourceType": "Observation",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medicalTestResult-eu-core"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "text": "Laboratory",
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "P-PK(INR)",
+          "coding": [
+            {
+              "code": "NPU01685",
+              "system": "http://npu-terminology.org",
+              "display": "P-PK(INR)"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:62163571-9ce2-5951-bbe4-81c0bc923b07"
+        },
+        "performer": [
+          {
+            "reference": "urn:uuid:e7b50cd9-5e2e-576d-8609-dd4a45ca7025"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>P-PK(INR): 3,0 INR</p></div>"
+        },
+        "effectiveDateTime": "2024-10-17",
+        "valueQuantity": {
+          "value": 3.0,
+          "unit": "INR"
+        },
+        "referenceRange": [
+          {
+            "text": "<1,3"
+          }
+        ],
+        "id": "566eabd0-d62b-5339-8f87-87bc744edf7f"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:027081dd-059a-5a47-85af-61487974764a",
+      "resource": {
+        "resourceType": "Observation",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medicalTestResult-eu-core"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "text": "Laboratory",
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "P-Glukos",
+          "coding": [
+            {
+              "code": "NPU02192",
+              "system": "http://npu-terminology.org",
+              "display": "P-Glukos"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:62163571-9ce2-5951-bbe4-81c0bc923b07"
+        },
+        "performer": [
+          {
+            "reference": "urn:uuid:e7b50cd9-5e2e-576d-8609-dd4a45ca7025"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>P-Glukos: 8,7 mmol/L</p></div>"
+        },
+        "effectiveDateTime": "2024-10-17",
+        "valueQuantity": {
+          "value": 8.7,
+          "unit": "mmol/L"
+        },
+        "referenceRange": [
+          {
+            "text": "4,2-6,0"
+          }
+        ],
+        "id": "027081dd-059a-5a47-85af-61487974764a"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:7b4fea47-f7f3-57b5-8bf7-bf58b40b1a06",
+      "resource": {
+        "resourceType": "Observation",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medicalTestResult-eu-core"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "text": "Laboratory",
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "P-Antitrombin(Tromb)",
+          "coding": [
+            {
+              "code": "NPU54111",
+              "system": "http://npu-terminology.org",
+              "display": "P-Antitrombin(Tromb)"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:62163571-9ce2-5951-bbe4-81c0bc923b07"
+        },
+        "performer": [
+          {
+            "reference": "urn:uuid:e7b50cd9-5e2e-576d-8609-dd4a45ca7025"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>P-Antitrombin(Tromb): 0,18 kIE/L</p></div>"
+        },
+        "effectiveDateTime": "2024-10-17",
+        "valueQuantity": {
+          "value": 0.18,
+          "unit": "kIE/L"
+        },
+        "referenceRange": [
+          {
+            "text": "0,80-1,20"
+          }
+        ],
+        "id": "7b4fea47-f7f3-57b5-8bf7-bf58b40b1a06"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:11db93da-cc64-5d3a-9c60-ab92555fe141",
+      "resource": {
+        "resourceType": "Observation",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medicalTestResult-eu-core"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "text": "Laboratory",
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "P-Natrium",
+          "coding": [
+            {
+              "code": "NPU03429",
+              "system": "http://npu-terminology.org",
+              "display": "P-Natrium"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:62163571-9ce2-5951-bbe4-81c0bc923b07"
+        },
+        "performer": [
+          {
+            "reference": "urn:uuid:e7b50cd9-5e2e-576d-8609-dd4a45ca7025"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>P-Natrium: 135 mmol/L</p></div>"
+        },
+        "effectiveDateTime": "2024-10-17",
+        "valueQuantity": {
+          "value": 135.0,
+          "unit": "mmol/L"
+        },
+        "referenceRange": [
+          {
+            "text": "137-145"
+          }
+        ],
+        "id": "11db93da-cc64-5d3a-9c60-ab92555fe141"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:d7e166bc-cd7a-5e60-aebd-db630a523197",
+      "resource": {
+        "resourceType": "Observation",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medicalTestResult-eu-core"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "text": "Laboratory",
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "P-Kalium",
+          "coding": [
+            {
+              "code": "NPU03230",
+              "system": "http://npu-terminology.org",
+              "display": "P-Kalium"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:62163571-9ce2-5951-bbe4-81c0bc923b07"
+        },
+        "performer": [
+          {
+            "reference": "urn:uuid:e7b50cd9-5e2e-576d-8609-dd4a45ca7025"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>P-Kalium: 3,6 mmol/L</p></div>"
+        },
+        "effectiveDateTime": "2024-10-17",
+        "valueQuantity": {
+          "value": 3.6,
+          "unit": "mmol/L"
+        },
+        "referenceRange": [
+          {
+            "text": "3,5-4,6"
+          }
+        ],
+        "id": "d7e166bc-cd7a-5e60-aebd-db630a523197"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:87262f4a-7988-500b-a043-788cb30b7a9c",
+      "resource": {
+        "resourceType": "Observation",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medicalTestResult-eu-core"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "text": "Laboratory",
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "P-CRP",
+          "coding": [
+            {
+              "code": "NPU19748",
+              "system": "http://npu-terminology.org",
+              "display": "P-CRP"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:62163571-9ce2-5951-bbe4-81c0bc923b07"
+        },
+        "performer": [
+          {
+            "reference": "urn:uuid:e7b50cd9-5e2e-576d-8609-dd4a45ca7025"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>P-CRP: 23 mg/L</p></div>"
+        },
+        "effectiveDateTime": "2024-10-17",
+        "valueQuantity": {
+          "value": 23.0,
+          "unit": "mg/L"
+        },
+        "referenceRange": [
+          {
+            "text": "<3"
+          }
+        ],
+        "id": "87262f4a-7988-500b-a043-788cb30b7a9c"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:550cc282-4dc7-58b5-bd14-8084155afb9e",
+      "resource": {
+        "resourceType": "Observation",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medicalTestResult-eu-core"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "text": "Laboratory",
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "P-Calcium",
+          "coding": [
+            {
+              "code": "NPU01443",
+              "system": "http://npu-terminology.org",
+              "display": "P-Calcium"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:62163571-9ce2-5951-bbe4-81c0bc923b07"
+        },
+        "performer": [
+          {
+            "reference": "urn:uuid:e7b50cd9-5e2e-576d-8609-dd4a45ca7025"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>P-Calcium: 2,28 mmol/L</p></div>"
+        },
+        "effectiveDateTime": "2024-10-17",
+        "valueQuantity": {
+          "value": 2.28,
+          "unit": "mmol/L"
+        },
+        "referenceRange": [
+          {
+            "text": "2,15-2,50"
+          }
+        ],
+        "id": "550cc282-4dc7-58b5-bd14-8084155afb9e"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:0a47884d-03a7-55e1-bed2-514d3ff89859",
+      "resource": {
+        "resourceType": "Observation",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medicalTestResult-eu-core"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "text": "Laboratory",
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "P-Albumin",
+          "coding": [
+            {
+              "code": "NPU19673",
+              "system": "http://npu-terminology.org",
+              "display": "P-Albumin"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:62163571-9ce2-5951-bbe4-81c0bc923b07"
+        },
+        "performer": [
+          {
+            "reference": "urn:uuid:e7b50cd9-5e2e-576d-8609-dd4a45ca7025"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>P-Albumin: 23 g/L</p></div>"
+        },
+        "effectiveDateTime": "2024-10-17",
+        "valueQuantity": {
+          "value": 23.0,
+          "unit": "g/L"
+        },
+        "referenceRange": [
+          {
+            "text": "36-48"
+          }
+        ],
+        "id": "0a47884d-03a7-55e1-bed2-514d3ff89859"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:2d9d0785-88e3-50b1-a300-d963a249b874",
+      "resource": {
+        "resourceType": "Observation",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medicalTestResult-eu-core"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "text": "Laboratory",
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "P-Urea",
+          "coding": [
+            {
+              "code": "NPU01459",
+              "system": "http://npu-terminology.org",
+              "display": "P-Urea"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:62163571-9ce2-5951-bbe4-81c0bc923b07"
+        },
+        "performer": [
+          {
+            "reference": "urn:uuid:e7b50cd9-5e2e-576d-8609-dd4a45ca7025"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>P-Urea: 1,2 mmol/L</p></div>"
+        },
+        "effectiveDateTime": "2024-10-17",
+        "valueQuantity": {
+          "value": 1.2,
+          "unit": "mmol/L"
+        },
+        "referenceRange": [
+          {
+            "text": "3,2-8,1"
+          }
+        ],
+        "id": "2d9d0785-88e3-50b1-a300-d963a249b874"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:b75a54f1-6262-5833-9718-ebe1aa25d376",
+      "resource": {
+        "resourceType": "Observation",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medicalTestResult-eu-core"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "text": "Laboratory",
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "P-ALP (Alk fosfatas)",
+          "coding": [
+            {
+              "code": "NPU53078",
+              "system": "http://npu-terminology.org",
+              "display": "P-ALP (Alk fosfatas)"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:62163571-9ce2-5951-bbe4-81c0bc923b07"
+        },
+        "performer": [
+          {
+            "reference": "urn:uuid:e7b50cd9-5e2e-576d-8609-dd4a45ca7025"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>P-ALP (Alk fosfatas): 2,2 mikrokat/L</p></div>"
+        },
+        "effectiveDateTime": "2024-10-17",
+        "valueQuantity": {
+          "value": 2.2,
+          "unit": "mikrokat/L"
+        },
+        "referenceRange": [
+          {
+            "text": "0,7-1,9"
+          }
+        ],
+        "id": "b75a54f1-6262-5833-9718-ebe1aa25d376"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:af7ab1c7-8e5c-5674-bb49-8e406f0caee3",
+      "resource": {
+        "resourceType": "Observation",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medicalTestResult-eu-core"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "text": "Laboratory",
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "P-GT",
+          "coding": [
+            {
+              "code": "NPU22283",
+              "system": "http://npu-terminology.org",
+              "display": "P-GT"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:62163571-9ce2-5951-bbe4-81c0bc923b07"
+        },
+        "performer": [
+          {
+            "reference": "urn:uuid:e7b50cd9-5e2e-576d-8609-dd4a45ca7025"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>P-GT: 1,5 mikrokat/L</p></div>"
+        },
+        "effectiveDateTime": "2024-10-17",
+        "valueQuantity": {
+          "value": 1.5,
+          "unit": "mikrokat/L"
+        },
+        "referenceRange": [
+          {
+            "text": "<1,4"
+          }
+        ],
+        "id": "af7ab1c7-8e5c-5674-bb49-8e406f0caee3"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:d13a6d87-5add-5709-a2e4-b399324b31b7",
+      "resource": {
+        "resourceType": "Observation",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medicalTestResult-eu-core"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "text": "Laboratory",
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "P-Magnesium",
+          "coding": [
+            {
+              "code": "NPU02647",
+              "system": "http://npu-terminology.org",
+              "display": "P-Magnesium"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:62163571-9ce2-5951-bbe4-81c0bc923b07"
+        },
+        "performer": [
+          {
+            "reference": "urn:uuid:e7b50cd9-5e2e-576d-8609-dd4a45ca7025"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>P-Magnesium: 0,83 mmol/L</p></div>"
+        },
+        "effectiveDateTime": "2024-10-17",
+        "valueQuantity": {
+          "value": 0.83,
+          "unit": "mmol/L"
+        },
+        "referenceRange": [
+          {
+            "text": "0,70-0,95"
+          }
+        ],
+        "id": "d13a6d87-5add-5709-a2e4-b399324b31b7"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:7176502a-67b2-59fc-8895-fa2b82481be3",
+      "resource": {
+        "resourceType": "Observation",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medicalTestResult-eu-core"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "text": "Laboratory",
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "fP-Triglycerid",
+          "coding": [
+            {
+              "code": "NPU03620",
+              "system": "http://npu-terminology.org",
+              "display": "fP-Triglycerid"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:62163571-9ce2-5951-bbe4-81c0bc923b07"
+        },
+        "performer": [
+          {
+            "reference": "urn:uuid:e7b50cd9-5e2e-576d-8609-dd4a45ca7025"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>fP-Triglycerid: Ikteriskt mmol/L</p></div>"
+        },
+        "effectiveDateTime": "2024-10-17",
+        "valueString": "Ikteriskt",
+        "referenceRange": [
+          {
+            "text": "0,45-2,6"
+          }
+        ],
+        "id": "7176502a-67b2-59fc-8895-fa2b82481be3"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:f3a03985-0bb0-5ae8-81bc-a52295c57ff1",
+      "resource": {
+        "resourceType": "Observation",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medicalTestResult-eu-core"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "text": "Laboratory",
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "P-Kolesterol",
+          "coding": [
+            {
+              "code": "NPU01566",
+              "system": "http://npu-terminology.org",
+              "display": "P-Kolesterol"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:62163571-9ce2-5951-bbe4-81c0bc923b07"
+        },
+        "performer": [
+          {
+            "reference": "urn:uuid:e7b50cd9-5e2e-576d-8609-dd4a45ca7025"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>P-Kolesterol: Ikteriskt mmol/L</p></div>"
+        },
+        "effectiveDateTime": "2024-10-17",
+        "valueString": "Ikteriskt",
+        "referenceRange": [
+          {
+            "text": "2,9-6,1"
+          }
+        ],
+        "id": "f3a03985-0bb0-5ae8-81bc-a52295c57ff1"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:56b97a9c-bb06-5e95-a51e-5ab4b5d6bd45",
+      "resource": {
+        "resourceType": "Observation",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medicalTestResult-eu-core"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "text": "Laboratory",
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "P-Cystatin C",
+          "coding": [
+            {
+              "code": "NPU23745",
+              "system": "http://npu-terminology.org",
+              "display": "P-Cystatin C"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:62163571-9ce2-5951-bbe4-81c0bc923b07"
+        },
+        "performer": [
+          {
+            "reference": "urn:uuid:e7b50cd9-5e2e-576d-8609-dd4a45ca7025"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>P-Cystatin C: 0,94 mg/L</p></div>"
+        },
+        "effectiveDateTime": "2024-10-17",
+        "valueQuantity": {
+          "value": 0.94,
+          "unit": "mg/L"
+        },
+        "referenceRange": [
+          {
+            "text": "0,63-1,03"
+          }
+        ],
+        "id": "56b97a9c-bb06-5e95-a51e-5ab4b5d6bd45"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:30213f3a-4f0a-5c3e-94f1-2c535863feed",
+      "resource": {
+        "resourceType": "Observation",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medicalTestResult-eu-core"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "text": "Laboratory",
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "Pt-eGFR(CysC)relativ",
+          "coding": [
+            {
+              "code": "SWE05405",
+              "display": "Pt-eGFR(CysC)relativ"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:62163571-9ce2-5951-bbe4-81c0bc923b07"
+        },
+        "performer": [
+          {
+            "reference": "urn:uuid:e7b50cd9-5e2e-576d-8609-dd4a45ca7025"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Pt-eGFR(CysC)relativ: 87 mL/min/1.7</p></div>"
+        },
+        "effectiveDateTime": "2024-10-17",
+        "valueQuantity": {
+          "value": 87.0,
+          "unit": "mL/min/1.7"
+        },
+        "referenceRange": [
+          {
+            "text": ">80"
+          }
+        ],
+        "id": "30213f3a-4f0a-5c3e-94f1-2c535863feed"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:6f240140-51f4-57af-80e5-a31fd4d33a22",
+      "resource": {
+        "resourceType": "Observation",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medicalTestResult-eu-core"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "text": "Laboratory",
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "P-Järn",
+          "coding": [
+            {
+              "code": "NPU02508",
+              "system": "http://npu-terminology.org",
+              "display": "P-Järn"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:62163571-9ce2-5951-bbe4-81c0bc923b07"
+        },
+        "performer": [
+          {
+            "reference": "urn:uuid:e7b50cd9-5e2e-576d-8609-dd4a45ca7025"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>P-Järn: 26 mikromol/L</p></div>"
+        },
+        "effectiveDateTime": "2024-10-17",
+        "valueQuantity": {
+          "value": 26.0,
+          "unit": "mikromol/L"
+        },
+        "referenceRange": [
+          {
+            "text": "9-34"
+          }
+        ],
+        "id": "6f240140-51f4-57af-80e5-a31fd4d33a22"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:b2d08aac-0931-5bb3-bf62-483c1e468f62",
+      "resource": {
+        "resourceType": "Observation",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medicalTestResult-eu-core"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "text": "Laboratory",
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "P-Transferrinmättnad",
+          "coding": [
+            {
+              "code": "NPU04191",
+              "system": "http://npu-terminology.org",
+              "display": "P-Transferrinmättnad"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:62163571-9ce2-5951-bbe4-81c0bc923b07"
+        },
+        "performer": [
+          {
+            "reference": "urn:uuid:e7b50cd9-5e2e-576d-8609-dd4a45ca7025"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>P-Transferrinmättnad: 0,86 </p></div>"
+        },
+        "effectiveDateTime": "2024-10-17",
+        "valueQuantity": {
+          "value": 0.86
+        },
+        "referenceRange": [
+          {
+            "text": "0,15-0,60"
+          }
+        ],
+        "id": "b2d08aac-0931-5bb3-bf62-483c1e468f62"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:01e6421b-22f7-5611-9687-5eb24ba87224",
+      "resource": {
+        "resourceType": "Observation",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medicalTestResult-eu-core"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "text": "Laboratory",
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "P-Transferrin",
+          "coding": [
+            {
+              "code": "NPU26470",
+              "system": "http://npu-terminology.org",
+              "display": "P-Transferrin"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:62163571-9ce2-5951-bbe4-81c0bc923b07"
+        },
+        "performer": [
+          {
+            "reference": "urn:uuid:e7b50cd9-5e2e-576d-8609-dd4a45ca7025"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>P-Transferrin: 1,19 g/L</p></div>"
+        },
+        "effectiveDateTime": "2024-10-17",
+        "valueQuantity": {
+          "value": 1.19,
+          "unit": "g/L"
+        },
+        "referenceRange": [
+          {
+            "text": "1,90-3,30"
+          }
+        ],
+        "id": "01e6421b-22f7-5611-9687-5eb24ba87224"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:70471371-390b-554b-82ce-44fdfb5fd00b",
+      "resource": {
+        "resourceType": "Observation",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medicalTestResult-eu-core"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "text": "Laboratory",
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "B-Leukocyter",
+          "coding": [
+            {
+              "code": "NPU02593",
+              "system": "http://npu-terminology.org",
+              "display": "B-Leukocyter"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:62163571-9ce2-5951-bbe4-81c0bc923b07"
+        },
+        "performer": [
+          {
+            "reference": "urn:uuid:e7b50cd9-5e2e-576d-8609-dd4a45ca7025"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>B-Leukocyter: 4,1 x10(9)/L</p></div>"
+        },
+        "effectiveDateTime": "2024-10-17",
+        "valueQuantity": {
+          "value": 4.1,
+          "unit": "x10(9)/L"
+        },
+        "referenceRange": [
+          {
+            "text": "3,5-8,8"
+          }
+        ],
+        "id": "70471371-390b-554b-82ce-44fdfb5fd00b"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:0b102cff-671f-5b6f-ae66-52cb052e40ec",
+      "resource": {
+        "resourceType": "Observation",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medicalTestResult-eu-core"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "text": "Laboratory",
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "B-Erytrocyter",
+          "coding": [
+            {
+              "code": "NPU01960",
+              "system": "http://npu-terminology.org",
+              "display": "B-Erytrocyter"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:62163571-9ce2-5951-bbe4-81c0bc923b07"
+        },
+        "performer": [
+          {
+            "reference": "urn:uuid:e7b50cd9-5e2e-576d-8609-dd4a45ca7025"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>B-Erytrocyter: 3,5 x10(12)/L</p></div>"
+        },
+        "effectiveDateTime": "2024-10-17",
+        "valueQuantity": {
+          "value": 3.5,
+          "unit": "x10(12)/L"
+        },
+        "referenceRange": [
+          {
+            "text": "4,2-5,7"
+          }
+        ],
+        "id": "0b102cff-671f-5b6f-ae66-52cb052e40ec"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:ea6abba8-b48a-5c84-8bd3-ebf2adff2276",
+      "resource": {
+        "resourceType": "Observation",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medicalTestResult-eu-core"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "text": "Laboratory",
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "B-Hemoglobin",
+          "coding": [
+            {
+              "code": "NPU28309",
+              "system": "http://npu-terminology.org",
+              "display": "B-Hemoglobin"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:62163571-9ce2-5951-bbe4-81c0bc923b07"
+        },
+        "performer": [
+          {
+            "reference": "urn:uuid:e7b50cd9-5e2e-576d-8609-dd4a45ca7025"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>B-Hemoglobin: 111 g/L</p></div>"
+        },
+        "effectiveDateTime": "2024-10-17",
+        "valueQuantity": {
+          "value": 111.0,
+          "unit": "g/L"
+        },
+        "referenceRange": [
+          {
+            "text": "134-170"
+          }
+        ],
+        "id": "ea6abba8-b48a-5c84-8bd3-ebf2adff2276"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:4611879e-2cc2-50c6-bbef-5fa60f70f0eb",
+      "resource": {
+        "resourceType": "Observation",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medicalTestResult-eu-core"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "text": "Laboratory",
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "B-EVF",
+          "coding": [
+            {
+              "code": "NPU01961",
+              "system": "http://npu-terminology.org",
+              "display": "B-EVF"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:62163571-9ce2-5951-bbe4-81c0bc923b07"
+        },
+        "performer": [
+          {
+            "reference": "urn:uuid:e7b50cd9-5e2e-576d-8609-dd4a45ca7025"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>B-EVF: 0,30 </p></div>"
+        },
+        "effectiveDateTime": "2024-10-17",
+        "valueQuantity": {
+          "value": 0.3
+        },
+        "referenceRange": [
+          {
+            "text": "0,39-0,50"
+          }
+        ],
+        "id": "4611879e-2cc2-50c6-bbef-5fa60f70f0eb"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:1af83a25-ac91-5c97-94a5-9e71931c7cc4",
+      "resource": {
+        "resourceType": "Observation",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medicalTestResult-eu-core"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "text": "Laboratory",
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "Erc(B)-MCV",
+          "coding": [
+            {
+              "code": "NPU01944",
+              "system": "http://npu-terminology.org",
+              "display": "Erc(B)-MCV"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:62163571-9ce2-5951-bbe4-81c0bc923b07"
+        },
+        "performer": [
+          {
+            "reference": "urn:uuid:e7b50cd9-5e2e-576d-8609-dd4a45ca7025"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Erc(B)-MCV: 85 fL</p></div>"
+        },
+        "effectiveDateTime": "2024-10-17",
+        "valueQuantity": {
+          "value": 85.0,
+          "unit": "fL"
+        },
+        "referenceRange": [
+          {
+            "text": "82-98"
+          }
+        ],
+        "id": "1af83a25-ac91-5c97-94a5-9e71931c7cc4"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:5ea7078f-a5ca-50b4-ab6a-79c83a8267df",
+      "resource": {
+        "resourceType": "Observation",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medicalTestResult-eu-core"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "text": "Laboratory",
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "Erc(B)-MCH",
+          "coding": [
+            {
+              "code": "NPU26880",
+              "system": "http://npu-terminology.org",
+              "display": "Erc(B)-MCH"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:62163571-9ce2-5951-bbe4-81c0bc923b07"
+        },
+        "performer": [
+          {
+            "reference": "urn:uuid:e7b50cd9-5e2e-576d-8609-dd4a45ca7025"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Erc(B)-MCH: 32 pg</p></div>"
+        },
+        "effectiveDateTime": "2024-10-17",
+        "valueQuantity": {
+          "value": 32.0,
+          "unit": "pg"
+        },
+        "referenceRange": [
+          {
+            "text": "27-33"
+          }
+        ],
+        "id": "5ea7078f-a5ca-50b4-ab6a-79c83a8267df"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:6c296b01-449d-5982-8d24-b1fa5f7f5413",
+      "resource": {
+        "resourceType": "Observation",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medicalTestResult-eu-core"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "text": "Laboratory",
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "B-Trombocyter",
+          "coding": [
+            {
+              "code": "NPU03568",
+              "system": "http://npu-terminology.org",
+              "display": "B-Trombocyter"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:62163571-9ce2-5951-bbe4-81c0bc923b07"
+        },
+        "performer": [
+          {
+            "reference": "urn:uuid:e7b50cd9-5e2e-576d-8609-dd4a45ca7025"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>B-Trombocyter: 139 x10(9)/L</p></div>"
+        },
+        "effectiveDateTime": "2024-10-17",
+        "valueQuantity": {
+          "value": 139.0,
+          "unit": "x10(9)/L"
+        },
+        "referenceRange": [
+          {
+            "text": "145-348"
+          }
+        ],
+        "id": "6c296b01-449d-5982-8d24-b1fa5f7f5413"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:c96bf56c-fc61-5b27-916b-689d7a902121",
+      "resource": {
+        "resourceType": "Observation",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medicalTestResult-eu-core"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "text": "Laboratory",
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "P-ASAT",
+          "coding": [
+            {
+              "code": "NPU22279",
+              "system": "http://npu-terminology.org",
+              "display": "P-ASAT"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:62163571-9ce2-5951-bbe4-81c0bc923b07"
+        },
+        "performer": [
+          {
+            "reference": "urn:uuid:e7b50cd9-5e2e-576d-8609-dd4a45ca7025"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>P-ASAT: 15,2 mikrokat/L</p></div>"
+        },
+        "effectiveDateTime": "2024-10-17",
+        "valueQuantity": {
+          "value": 15.2,
+          "unit": "mikrokat/L"
+        },
+        "referenceRange": [
+          {
+            "text": "<0,76"
+          }
+        ],
+        "id": "c96bf56c-fc61-5b27-916b-689d7a902121"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:336f1cf3-7883-5bbf-aac5-f44525c894da",
+      "resource": {
+        "resourceType": "Observation",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medicalTestResult-eu-core"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "text": "Laboratory",
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "P-Fibrinogen (koag)",
+          "coding": [
+            {
+              "code": "NPU19768",
+              "system": "http://npu-terminology.org",
+              "display": "P-Fibrinogen (koag)"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:62163571-9ce2-5951-bbe4-81c0bc923b07"
+        },
+        "performer": [
+          {
+            "reference": "urn:uuid:e7b50cd9-5e2e-576d-8609-dd4a45ca7025"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>P-Fibrinogen (koag): Se kommentar g/L</p></div>"
+        },
+        "effectiveDateTime": "2024-10-17",
+        "valueString": "Se kommentar",
+        "referenceRange": [
+          {
+            "text": "2,0-4,2"
+          }
+        ],
+        "id": "336f1cf3-7883-5bbf-aac5-f44525c894da"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:484e3840-155b-581f-9b30-5db3b7f593a0",
+      "resource": {
+        "resourceType": "Observation",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medicalTestResult-eu-core"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "text": "Laboratory",
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "P-Bilirubin",
+          "coding": [
+            {
+              "code": "NPU01370",
+              "system": "http://npu-terminology.org",
+              "display": "P-Bilirubin"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:62163571-9ce2-5951-bbe4-81c0bc923b07"
+        },
+        "performer": [
+          {
+            "reference": "urn:uuid:e7b50cd9-5e2e-576d-8609-dd4a45ca7025"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>P-Bilirubin: 363 mikromol/L</p></div>"
+        },
+        "effectiveDateTime": "2024-10-17",
+        "valueQuantity": {
+          "value": 363.0,
+          "unit": "mikromol/L"
+        },
+        "referenceRange": [
+          {
+            "text": "<26"
+          }
+        ],
+        "id": "484e3840-155b-581f-9b30-5db3b7f593a0"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:60308198-7bb6-51c8-a7de-b4f19d361381",
+      "resource": {
+        "resourceType": "Observation",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medicalTestResult-eu-core"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "text": "Laboratory",
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "P-ALAT",
+          "coding": [
+            {
+              "code": "NPU19981",
+              "system": "http://npu-terminology.org",
+              "display": "P-ALAT"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:62163571-9ce2-5951-bbe4-81c0bc923b07"
+        },
+        "performer": [
+          {
+            "reference": "urn:uuid:e7b50cd9-5e2e-576d-8609-dd4a45ca7025"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>P-ALAT: 28,3 mikrokat/L</p></div>"
+        },
+        "effectiveDateTime": "2024-10-17",
+        "valueQuantity": {
+          "value": 28.3,
+          "unit": "mikrokat/L"
+        },
+        "referenceRange": [
+          {
+            "text": "<1,1"
+          }
+        ],
+        "id": "60308198-7bb6-51c8-a7de-b4f19d361381"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:4dcea862-cee6-5236-aebc-af503a839721",
+      "resource": {
+        "resourceType": "Observation",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medicalTestResult-eu-core"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "text": "Laboratory",
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "P-Kreatinin",
+          "coding": [
+            {
+              "code": "NPU04998",
+              "system": "http://npu-terminology.org",
+              "display": "P-Kreatinin"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:62163571-9ce2-5951-bbe4-81c0bc923b07"
+        },
+        "performer": [
+          {
+            "reference": "urn:uuid:e7b50cd9-5e2e-576d-8609-dd4a45ca7025"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>P-Kreatinin: 50 mikromol/L</p></div>"
+        },
+        "effectiveDateTime": "2024-10-17",
+        "valueQuantity": {
+          "value": 50.0,
+          "unit": "mikromol/L"
+        },
+        "referenceRange": [
+          {
+            "text": "<100"
+          }
+        ],
+        "id": "4dcea862-cee6-5236-aebc-af503a839721"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:22eb0548-b5ea-53da-aa55-b02f1d410c88",
+      "resource": {
+        "resourceType": "Observation",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medicalTestResult-eu-core"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "text": "Laboratory",
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "Pt-eGFR(Krea)relativ",
+          "coding": [
+            {
+              "code": "SWE05406",
+              "display": "Pt-eGFR(Krea)relativ"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:62163571-9ce2-5951-bbe4-81c0bc923b07"
+        },
+        "performer": [
+          {
+            "reference": "urn:uuid:e7b50cd9-5e2e-576d-8609-dd4a45ca7025"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Pt-eGFR(Krea)relativ: &gt;90 mL/min/1.7</p></div>"
+        },
+        "effectiveDateTime": "2024-10-17",
+        "valueString": ">90",
+        "referenceRange": [
+          {
+            "text": ">80"
+          }
+        ],
+        "id": "22eb0548-b5ea-53da-aa55-b02f1d410c88"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:6cbe0c0f-8ac0-5ba1-8821-302e76ddaf25",
+      "resource": {
+        "resourceType": "Observation",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medicalTestResult-eu-core"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "text": "Laboratory",
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "B-SR",
+          "coding": [
+            {
+              "code": "NPU03404",
+              "system": "http://npu-terminology.org",
+              "display": "B-SR"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:62163571-9ce2-5951-bbe4-81c0bc923b07"
+        },
+        "performer": [
+          {
+            "reference": "urn:uuid:e7b50cd9-5e2e-576d-8609-dd4a45ca7025"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>B-SR: 27 mm</p></div>"
+        },
+        "effectiveDateTime": "2024-10-17",
+        "valueQuantity": {
+          "value": 27.0,
+          "unit": "mm"
+        },
+        "referenceRange": [
+          {
+            "text": "<10"
+          }
+        ],
+        "id": "6cbe0c0f-8ac0-5ba1-8821-302e76ddaf25"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:919068ba-cfb1-56fc-9f52-0e012f7779b4",
+      "resource": {
+        "resourceType": "Observation",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medicalTestResult-eu-core"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "text": "Laboratory",
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "S-TSH",
+          "coding": [
+            {
+              "code": "FLX00779",
+              "display": "S-TSH"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:62163571-9ce2-5951-bbe4-81c0bc923b07"
+        },
+        "performer": [
+          {
+            "reference": "urn:uuid:e7b50cd9-5e2e-576d-8609-dd4a45ca7025"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>S-TSH: 0,08 mE/L</p></div>"
+        },
+        "effectiveDateTime": "2024-10-17",
+        "valueQuantity": {
+          "value": 0.08,
+          "unit": "mE/L"
+        },
+        "referenceRange": [
+          {
+            "text": "0,3-4,2"
+          }
+        ],
+        "id": "919068ba-cfb1-56fc-9f52-0e012f7779b4"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:032baa3d-701c-556b-a748-a9ccb7051649",
+      "resource": {
+        "resourceType": "Observation",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medicalTestResult-eu-core"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "text": "Laboratory",
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "S-alfa-Fetoprotein",
+          "coding": [
+            {
+              "code": "NPU19766",
+              "system": "http://npu-terminology.org",
+              "display": "S-alfa-Fetoprotein"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:62163571-9ce2-5951-bbe4-81c0bc923b07"
+        },
+        "performer": [
+          {
+            "reference": "urn:uuid:e7b50cd9-5e2e-576d-8609-dd4a45ca7025"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>S-alfa-Fetoprotein: 63 mikrog/L</p></div>"
+        },
+        "effectiveDateTime": "2024-10-17",
+        "valueQuantity": {
+          "value": 63.0,
+          "unit": "mikrog/L"
+        },
+        "referenceRange": [
+          {
+            "text": "<8,0"
+          }
+        ],
+        "id": "032baa3d-701c-556b-a748-a9ccb7051649"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:4c3d34dd-f322-5885-a5f9-c02b92b4bbea",
+      "resource": {
+        "resourceType": "Observation",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medicalTestResult-eu-core"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "text": "Laboratory",
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "S-CEA",
+          "coding": [
+            {
+              "code": "NPU19719",
+              "system": "http://npu-terminology.org",
+              "display": "S-CEA"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:62163571-9ce2-5951-bbe4-81c0bc923b07"
+        },
+        "performer": [
+          {
+            "reference": "urn:uuid:e7b50cd9-5e2e-576d-8609-dd4a45ca7025"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>S-CEA: 1,9 mikrog/L</p></div>"
+        },
+        "effectiveDateTime": "2024-10-17",
+        "valueQuantity": {
+          "value": 1.9,
+          "unit": "mikrog/L"
+        },
+        "referenceRange": [
+          {
+            "text": "<4,7"
+          }
+        ],
+        "id": "4c3d34dd-f322-5885-a5f9-c02b92b4bbea"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:59fcd0c2-e453-5ae3-912d-54a06cba171c",
+      "resource": {
+        "resourceType": "Observation",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medicalTestResult-eu-core"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "text": "Laboratory",
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "S-CA 19-9",
+          "coding": [
+            {
+              "code": "NPU01450",
+              "system": "http://npu-terminology.org",
+              "display": "S-CA 19-9"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:62163571-9ce2-5951-bbe4-81c0bc923b07"
+        },
+        "performer": [
+          {
+            "reference": "urn:uuid:e7b50cd9-5e2e-576d-8609-dd4a45ca7025"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>S-CA 19-9: &lt;3,0 kE/L</p></div>"
+        },
+        "effectiveDateTime": "2024-10-17",
+        "valueString": "<3,0",
+        "referenceRange": [
+          {
+            "text": "<34"
+          }
+        ],
+        "id": "59fcd0c2-e453-5ae3-912d-54a06cba171c"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:0a0a4023-8a80-50b9-983b-2904399500af",
+      "resource": {
+        "resourceType": "Observation",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medicalTestResult-eu-core"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "text": "Laboratory",
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "S-Albumin",
+          "coding": [
+            {
+              "code": "FLX01836",
+              "display": "S-Albumin"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:62163571-9ce2-5951-bbe4-81c0bc923b07"
+        },
+        "performer": [
+          {
+            "reference": "urn:uuid:e7b50cd9-5e2e-576d-8609-dd4a45ca7025"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>S-Albumin: 24 g/L</p></div>"
+        },
+        "effectiveDateTime": "2024-10-17",
+        "valueQuantity": {
+          "value": 24.0,
+          "unit": "g/L"
+        },
+        "referenceRange": [
+          {
+            "text": "36-48"
+          }
+        ],
+        "id": "0a0a4023-8a80-50b9-983b-2904399500af"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:ae48eb52-9182-5187-87a4-c77ec42b8f78",
+      "resource": {
+        "resourceType": "Observation",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medicalTestResult-eu-core"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "text": "Laboratory",
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "S-Alfa-1-antitrypsin",
+          "coding": [
+            {
+              "code": "NPU19692",
+              "system": "http://npu-terminology.org",
+              "display": "S-Alfa-1-antitrypsin"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:62163571-9ce2-5951-bbe4-81c0bc923b07"
+        },
+        "performer": [
+          {
+            "reference": "urn:uuid:e7b50cd9-5e2e-576d-8609-dd4a45ca7025"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>S-Alfa-1-antitrypsin: 1,4 g/L</p></div>"
+        },
+        "effectiveDateTime": "2024-10-17",
+        "valueQuantity": {
+          "value": 1.4,
+          "unit": "g/L"
+        },
+        "referenceRange": [
+          {
+            "text": "0,86-1,8"
+          }
+        ],
+        "id": "ae48eb52-9182-5187-87a4-c77ec42b8f78"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:fc5ad6dd-2b6e-5a58-ba5b-a2f40d08d26e",
+      "resource": {
+        "resourceType": "Observation",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medicalTestResult-eu-core"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "text": "Laboratory",
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "S-Orosomukoid",
+          "coding": [
+            {
+              "code": "NPU19873",
+              "system": "http://npu-terminology.org",
+              "display": "S-Orosomukoid"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:62163571-9ce2-5951-bbe4-81c0bc923b07"
+        },
+        "performer": [
+          {
+            "reference": "urn:uuid:e7b50cd9-5e2e-576d-8609-dd4a45ca7025"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>S-Orosomukoid: 0,39 g/L</p></div>"
+        },
+        "effectiveDateTime": "2024-10-17",
+        "valueQuantity": {
+          "value": 0.39,
+          "unit": "g/L"
+        },
+        "referenceRange": [
+          {
+            "text": "0,40-1,1"
+          }
+        ],
+        "id": "fc5ad6dd-2b6e-5a58-ba5b-a2f40d08d26e"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:d746bf3a-d778-5035-a369-9f680ab43ad3",
+      "resource": {
+        "resourceType": "Observation",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medicalTestResult-eu-core"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "text": "Laboratory",
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "S-Haptoglobin",
+          "coding": [
+            {
+              "code": "NPU19788",
+              "system": "http://npu-terminology.org",
+              "display": "S-Haptoglobin"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:62163571-9ce2-5951-bbe4-81c0bc923b07"
+        },
+        "performer": [
+          {
+            "reference": "urn:uuid:e7b50cd9-5e2e-576d-8609-dd4a45ca7025"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>S-Haptoglobin: &lt;0,10 g/L</p></div>"
+        },
+        "effectiveDateTime": "2024-10-17",
+        "valueString": "<0,10",
+        "referenceRange": [
+          {
+            "text": "0,24-1,9"
+          }
+        ],
+        "id": "d746bf3a-d778-5035-a369-9f680ab43ad3"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:b55aaa23-3a2b-5685-ac4b-0e4684452e02",
+      "resource": {
+        "resourceType": "Observation",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medicalTestResult-eu-core"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "text": "Laboratory",
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "S-CRP",
+          "coding": [
+            {
+              "code": "FLX01837",
+              "display": "S-CRP"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:62163571-9ce2-5951-bbe4-81c0bc923b07"
+        },
+        "performer": [
+          {
+            "reference": "urn:uuid:e7b50cd9-5e2e-576d-8609-dd4a45ca7025"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>S-CRP: 22 mg/L</p></div>"
+        },
+        "effectiveDateTime": "2024-10-17",
+        "valueQuantity": {
+          "value": 22.0,
+          "unit": "mg/L"
+        },
+        "referenceRange": [
+          {
+            "text": "<3"
+          }
+        ],
+        "id": "b55aaa23-3a2b-5685-ac4b-0e4684452e02"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:72437b00-d953-5fe3-a2b6-45d6842d2a6b",
+      "resource": {
+        "resourceType": "Observation",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medicalTestResult-eu-core"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "text": "Laboratory",
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "S-Immunglobulin A",
+          "coding": [
+            {
+              "code": "NPU19795",
+              "system": "http://npu-terminology.org",
+              "display": "S-Immunglobulin A"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:62163571-9ce2-5951-bbe4-81c0bc923b07"
+        },
+        "performer": [
+          {
+            "reference": "urn:uuid:e7b50cd9-5e2e-576d-8609-dd4a45ca7025"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>S-Immunglobulin A: 6,8 g/L</p></div>"
+        },
+        "effectiveDateTime": "2024-10-17",
+        "valueQuantity": {
+          "value": 6.8,
+          "unit": "g/L"
+        },
+        "referenceRange": [
+          {
+            "text": "0,88-4,5"
+          }
+        ],
+        "id": "72437b00-d953-5fe3-a2b6-45d6842d2a6b"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:d497a4ed-d82c-5630-9c13-d59a838c3332",
+      "resource": {
+        "resourceType": "Observation",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medicalTestResult-eu-core"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "text": "Laboratory",
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "S-Immunglobulin M",
+          "coding": [
+            {
+              "code": "NPU19825",
+              "system": "http://npu-terminology.org",
+              "display": "S-Immunglobulin M"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:62163571-9ce2-5951-bbe4-81c0bc923b07"
+        },
+        "performer": [
+          {
+            "reference": "urn:uuid:e7b50cd9-5e2e-576d-8609-dd4a45ca7025"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>S-Immunglobulin M: 0,94 g/L</p></div>"
+        },
+        "effectiveDateTime": "2024-10-17",
+        "valueQuantity": {
+          "value": 0.94,
+          "unit": "g/L"
+        },
+        "referenceRange": [
+          {
+            "text": "0,27-2,1"
+          }
+        ],
+        "id": "d497a4ed-d82c-5630-9c13-d59a838c3332"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:603a6b77-40ee-504d-956b-b5589bb5b54c",
+      "resource": {
+        "resourceType": "Observation",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medicalTestResult-eu-core"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "text": "Laboratory",
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "S-Immunglobulin G",
+          "coding": [
+            {
+              "code": "NPU19814",
+              "system": "http://npu-terminology.org",
+              "display": "S-Immunglobulin G"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:62163571-9ce2-5951-bbe4-81c0bc923b07"
+        },
+        "performer": [
+          {
+            "reference": "urn:uuid:e7b50cd9-5e2e-576d-8609-dd4a45ca7025"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>S-Immunglobulin G: 37,6 g/L</p></div>"
+        },
+        "effectiveDateTime": "2024-10-17",
+        "valueQuantity": {
+          "value": 37.6,
+          "unit": "g/L"
+        },
+        "referenceRange": [
+          {
+            "text": "6,7-14,5"
+          }
+        ],
+        "id": "603a6b77-40ee-504d-956b-b5589bb5b54c"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e8819e8f-2827-5a4e-939c-5e8965f6a2da",
+      "resource": {
+        "resourceType": "Observation",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medicalTestResult-eu-core"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "text": "Laboratory",
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "S-Proteinfraktioner",
+          "coding": [
+            {
+              "code": "FLX00804",
+              "display": "S-Proteinfraktioner"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:62163571-9ce2-5951-bbe4-81c0bc923b07"
+        },
+        "performer": [
+          {
+            "reference": "urn:uuid:e7b50cd9-5e2e-576d-8609-dd4a45ca7025"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>S-Proteinfraktioner: Se kommentar </p></div>"
+        },
+        "effectiveDateTime": "2024-10-17",
+        "valueString": "Se kommentar",
+        "id": "e8819e8f-2827-5a4e-939c-5e8965f6a2da"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:9f01bc58-3482-5c45-92d6-f5e525423614",
+      "resource": {
+        "resourceType": "Observation",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medicalTestResult-eu-core"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "text": "Laboratory",
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "B-HbA1c (IFCC)",
+          "coding": [
+            {
+              "code": "NPU27300",
+              "system": "http://npu-terminology.org",
+              "display": "B-HbA1c (IFCC)"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:62163571-9ce2-5951-bbe4-81c0bc923b07"
+        },
+        "performer": [
+          {
+            "reference": "urn:uuid:e7b50cd9-5e2e-576d-8609-dd4a45ca7025"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>B-HbA1c (IFCC): 42 mmol/mol</p></div>"
+        },
+        "effectiveDateTime": "2024-10-17",
+        "valueQuantity": {
+          "value": 42.0,
+          "unit": "mmol/mol"
+        },
+        "referenceRange": [
+          {
+            "text": "27-42"
+          }
+        ],
+        "id": "9f01bc58-3482-5c45-92d6-f5e525423614"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:0bceb0f3-e75b-5e10-b70f-d8080db2264a",
+      "resource": {
+        "resourceType": "Observation",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medicalTestResult-eu-core"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "text": "Laboratory",
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "kB-Klorid",
+          "coding": [
+            {
+              "code": "FLX01790",
+              "display": "kB-Klorid"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:62163571-9ce2-5951-bbe4-81c0bc923b07"
+        },
+        "performer": [
+          {
+            "reference": "urn:uuid:e7b50cd9-5e2e-576d-8609-dd4a45ca7025"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>kB-Klorid: Provtagn fel mmol/L</p></div>"
+        },
+        "effectiveDateTime": "2024-10-22",
+        "valueString": "Provtagn fel",
+        "referenceRange": [
+          {
+            "text": "98-107"
+          }
+        ],
+        "id": "0bceb0f3-e75b-5e10-b70f-d8080db2264a"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:c6e9ffef-d2aa-582d-97c5-2cad7a346053",
+      "resource": {
+        "resourceType": "Observation",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medicalTestResult-eu-core"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "text": "Laboratory",
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "kB-pH",
+          "coding": [
+            {
+              "code": "NPU12490",
+              "system": "http://npu-terminology.org",
+              "display": "kB-pH"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:62163571-9ce2-5951-bbe4-81c0bc923b07"
+        },
+        "performer": [
+          {
+            "reference": "urn:uuid:e7b50cd9-5e2e-576d-8609-dd4a45ca7025"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>kB-pH: Provtagn fel </p></div>"
+        },
+        "effectiveDateTime": "2024-10-22",
+        "valueString": "Provtagn fel",
+        "referenceRange": [
+          {
+            "text": "7,35-7,45"
+          }
+        ],
+        "id": "c6e9ffef-d2aa-582d-97c5-2cad7a346053"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:47fd3d2d-21f6-5b5e-805b-0b5c1682a428",
+      "resource": {
+        "resourceType": "Observation",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medicalTestResult-eu-core"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "text": "Laboratory",
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "kB-pCO2",
+          "coding": [
+            {
+              "code": "NPU12481",
+              "system": "http://npu-terminology.org",
+              "display": "kB-pCO2"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:62163571-9ce2-5951-bbe4-81c0bc923b07"
+        },
+        "performer": [
+          {
+            "reference": "urn:uuid:e7b50cd9-5e2e-576d-8609-dd4a45ca7025"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>kB-pCO2: Provtagn fel kPa</p></div>"
+        },
+        "effectiveDateTime": "2024-10-22",
+        "valueString": "Provtagn fel",
+        "referenceRange": [
+          {
+            "text": "4,6-6,0"
+          }
+        ],
+        "id": "47fd3d2d-21f6-5b5e-805b-0b5c1682a428"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:9f78e217-438f-5e87-a185-00468c86abd3",
+      "resource": {
+        "resourceType": "Observation",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medicalTestResult-eu-core"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "text": "Laboratory",
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "kB-pO2",
+          "coding": [
+            {
+              "code": "NPU12500",
+              "system": "http://npu-terminology.org",
+              "display": "kB-pO2"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:62163571-9ce2-5951-bbe4-81c0bc923b07"
+        },
+        "performer": [
+          {
+            "reference": "urn:uuid:e7b50cd9-5e2e-576d-8609-dd4a45ca7025"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>kB-pO2: Provtagn fel kPa</p></div>"
+        },
+        "effectiveDateTime": "2024-10-22",
+        "valueString": "Provtagn fel",
+        "referenceRange": [
+          {
+            "text": "10,0-13,0"
+          }
+        ],
+        "id": "9f78e217-438f-5e87-a185-00468c86abd3"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:74200d2a-85cb-5b3f-b77b-1e4c86202783",
+      "resource": {
+        "resourceType": "Observation",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medicalTestResult-eu-core"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "text": "Laboratory",
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "kB-Hemoglobin",
+          "coding": [
+            {
+              "code": "FLX00301",
+              "display": "kB-Hemoglobin"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:62163571-9ce2-5951-bbe4-81c0bc923b07"
+        },
+        "performer": [
+          {
+            "reference": "urn:uuid:e7b50cd9-5e2e-576d-8609-dd4a45ca7025"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>kB-Hemoglobin: Provtagn fel g/L</p></div>"
+        },
+        "effectiveDateTime": "2024-10-22",
+        "valueString": "Provtagn fel",
+        "referenceRange": [
+          {
+            "text": "134-170"
+          }
+        ],
+        "id": "74200d2a-85cb-5b3f-b77b-1e4c86202783"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:f61271dc-1b1e-5454-a74b-21f8b711781a",
+      "resource": {
+        "resourceType": "Observation",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medicalTestResult-eu-core"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "text": "Laboratory",
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "kB-BaseExess(st)",
+          "coding": [
+            {
+              "code": "NPU12520",
+              "system": "http://npu-terminology.org",
+              "display": "kB-BaseExess(st)"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:62163571-9ce2-5951-bbe4-81c0bc923b07"
+        },
+        "performer": [
+          {
+            "reference": "urn:uuid:e7b50cd9-5e2e-576d-8609-dd4a45ca7025"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>kB-BaseExess(st): Provtagn fel mmol/L</p></div>"
+        },
+        "effectiveDateTime": "2024-10-22",
+        "valueString": "Provtagn fel",
+        "referenceRange": [
+          {
+            "text": "-3-3"
+          }
+        ],
+        "id": "f61271dc-1b1e-5454-a74b-21f8b711781a"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:79506f9c-eb66-588a-a7be-8d4e901fd376",
+      "resource": {
+        "resourceType": "Observation",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medicalTestResult-eu-core"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "text": "Laboratory",
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "kB-St.bikarbonat",
+          "coding": [
+            {
+              "code": "FLX00474",
+              "display": "kB-St.bikarbonat"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:62163571-9ce2-5951-bbe4-81c0bc923b07"
+        },
+        "performer": [
+          {
+            "reference": "urn:uuid:e7b50cd9-5e2e-576d-8609-dd4a45ca7025"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>kB-St.bikarbonat: Provtagn fel mmol/L</p></div>"
+        },
+        "effectiveDateTime": "2024-10-22",
+        "valueString": "Provtagn fel",
+        "referenceRange": [
+          {
+            "text": "22-27"
+          }
+        ],
+        "id": "79506f9c-eb66-588a-a7be-8d4e901fd376"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:36331202-fbf6-5de5-bbad-fd84d4c419cc",
+      "resource": {
+        "resourceType": "Observation",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medicalTestResult-eu-core"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "text": "Laboratory",
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "kB-Calciumjon, fri",
+          "coding": [
+            {
+              "code": "FLX00450",
+              "display": "kB-Calciumjon, fri"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:62163571-9ce2-5951-bbe4-81c0bc923b07"
+        },
+        "performer": [
+          {
+            "reference": "urn:uuid:e7b50cd9-5e2e-576d-8609-dd4a45ca7025"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>kB-Calciumjon, fri: Provtagn fel mmol/L</p></div>"
+        },
+        "effectiveDateTime": "2024-10-22",
+        "valueString": "Provtagn fel",
+        "referenceRange": [
+          {
+            "text": "1,02-1,31"
+          }
+        ],
+        "id": "36331202-fbf6-5de5-bbad-fd84d4c419cc"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:d32bc919-306f-51c5-8d94-5b322339c093",
+      "resource": {
+        "resourceType": "Observation",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medicalTestResult-eu-core"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "text": "Laboratory",
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "kB-sO2",
+          "coding": [
+            {
+              "code": "NPU10197",
+              "system": "http://npu-terminology.org",
+              "display": "kB-sO2"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:62163571-9ce2-5951-bbe4-81c0bc923b07"
+        },
+        "performer": [
+          {
+            "reference": "urn:uuid:e7b50cd9-5e2e-576d-8609-dd4a45ca7025"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>kB-sO2: Provtagn fel %</p></div>"
+        },
+        "effectiveDateTime": "2024-10-22",
+        "valueString": "Provtagn fel",
+        "referenceRange": [
+          {
+            "text": ">95"
+          }
+        ],
+        "id": "d32bc919-306f-51c5-8d94-5b322339c093"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e885c142-f060-5b14-b30c-90bf2e98442c",
+      "resource": {
+        "resourceType": "Observation",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medicalTestResult-eu-core"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "text": "Laboratory",
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "kB-MetHb",
+          "coding": [
+            {
+              "code": "FLX00344",
+              "display": "kB-MetHb"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:62163571-9ce2-5951-bbe4-81c0bc923b07"
+        },
+        "performer": [
+          {
+            "reference": "urn:uuid:e7b50cd9-5e2e-576d-8609-dd4a45ca7025"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>kB-MetHb: Provtagn fel %</p></div>"
+        },
+        "effectiveDateTime": "2024-10-22",
+        "valueString": "Provtagn fel",
+        "referenceRange": [
+          {
+            "text": "<1,5"
+          }
+        ],
+        "id": "e885c142-f060-5b14-b30c-90bf2e98442c"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:b0b449b1-806e-598a-8088-0680caa24c75",
+      "resource": {
+        "resourceType": "Observation",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medicalTestResult-eu-core"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "text": "Laboratory",
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "kB-COHb",
+          "coding": [
+            {
+              "code": "FLX00109",
+              "display": "kB-COHb"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:62163571-9ce2-5951-bbe4-81c0bc923b07"
+        },
+        "performer": [
+          {
+            "reference": "urn:uuid:e7b50cd9-5e2e-576d-8609-dd4a45ca7025"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>kB-COHb: Provtagn fel %</p></div>"
+        },
+        "effectiveDateTime": "2024-10-22",
+        "valueString": "Provtagn fel",
+        "referenceRange": [
+          {
+            "text": "<2,0"
+          }
+        ],
+        "id": "b0b449b1-806e-598a-8088-0680caa24c75"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:9e31f9cb-395f-559e-a1c5-4a121f5b7c90",
+      "resource": {
+        "resourceType": "Observation",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medicalTestResult-eu-core"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "text": "Laboratory",
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "kB-Natrium",
+          "coding": [
+            {
+              "code": "FLX00809",
+              "display": "kB-Natrium"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:62163571-9ce2-5951-bbe4-81c0bc923b07"
+        },
+        "performer": [
+          {
+            "reference": "urn:uuid:e7b50cd9-5e2e-576d-8609-dd4a45ca7025"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>kB-Natrium: Provtagn fel mmol/L</p></div>"
+        },
+        "effectiveDateTime": "2024-10-22",
+        "valueString": "Provtagn fel",
+        "referenceRange": [
+          {
+            "text": "137-145"
+          }
+        ],
+        "id": "9e31f9cb-395f-559e-a1c5-4a121f5b7c90"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:45fbdbe4-28e3-5e75-b589-a011e10e212a",
+      "resource": {
+        "resourceType": "Observation",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medicalTestResult-eu-core"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "text": "Laboratory",
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "kB-Kalium",
+          "coding": [
+            {
+              "code": "FLX00810",
+              "display": "kB-Kalium"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:62163571-9ce2-5951-bbe4-81c0bc923b07"
+        },
+        "performer": [
+          {
+            "reference": "urn:uuid:e7b50cd9-5e2e-576d-8609-dd4a45ca7025"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>kB-Kalium: Provtagn fel mmol/L</p></div>"
+        },
+        "effectiveDateTime": "2024-10-22",
+        "valueString": "Provtagn fel",
+        "referenceRange": [
+          {
+            "text": "3,5-4,6"
+          }
+        ],
+        "id": "45fbdbe4-28e3-5e75-b589-a011e10e212a"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:2c7135f8-2735-5dc7-9452-4c89824eb70c",
+      "resource": {
+        "resourceType": "Observation",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medicalTestResult-eu-core"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "text": "Laboratory",
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "vB-pH",
+          "coding": [
+            {
+              "code": "NPU03995",
+              "system": "http://npu-terminology.org",
+              "display": "vB-pH"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:62163571-9ce2-5951-bbe4-81c0bc923b07"
+        },
+        "performer": [
+          {
+            "reference": "urn:uuid:e7b50cd9-5e2e-576d-8609-dd4a45ca7025"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>vB-pH: 7,40 </p></div>"
+        },
+        "effectiveDateTime": "2024-10-22",
+        "valueQuantity": {
+          "value": 7.4
+        },
+        "referenceRange": [
+          {
+            "text": "7,32-7,43"
+          }
+        ],
+        "id": "2c7135f8-2735-5dc7-9452-4c89824eb70c"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:dd1373d0-8e14-50a1-92e4-0e84a0411b8e",
+      "resource": {
+        "resourceType": "Observation",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medicalTestResult-eu-core"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "text": "Laboratory",
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "vB-pCO2",
+          "coding": [
+            {
+              "code": "NPU10029",
+              "system": "http://npu-terminology.org",
+              "display": "vB-pCO2"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:62163571-9ce2-5951-bbe4-81c0bc923b07"
+        },
+        "performer": [
+          {
+            "reference": "urn:uuid:e7b50cd9-5e2e-576d-8609-dd4a45ca7025"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>vB-pCO2: 6,4 kPa</p></div>"
+        },
+        "effectiveDateTime": "2024-10-22",
+        "valueQuantity": {
+          "value": 6.4,
+          "unit": "kPa"
+        },
+        "referenceRange": [
+          {
+            "text": "5,6-7,0"
+          }
+        ],
+        "id": "dd1373d0-8e14-50a1-92e4-0e84a0411b8e"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cee4bda1-ef65-5322-a6bd-e7948e5c0d45",
+      "resource": {
+        "resourceType": "Observation",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medicalTestResult-eu-core"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "text": "Laboratory",
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "vB-BaseExess(st)",
+          "coding": [
+            {
+              "code": "NPU12521",
+              "system": "http://npu-terminology.org",
+              "display": "vB-BaseExess(st)"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:62163571-9ce2-5951-bbe4-81c0bc923b07"
+        },
+        "performer": [
+          {
+            "reference": "urn:uuid:e7b50cd9-5e2e-576d-8609-dd4a45ca7025"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>vB-BaseExess(st): 4 mmol/L</p></div>"
+        },
+        "effectiveDateTime": "2024-10-22",
+        "valueQuantity": {
+          "value": 4.0,
+          "unit": "mmol/L"
+        },
+        "referenceRange": [
+          {
+            "text": "-3-3"
+          }
+        ],
+        "id": "cee4bda1-ef65-5322-a6bd-e7948e5c0d45"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:aac5508b-367e-5e59-b9d9-b2d824ac6b02",
+      "resource": {
+        "resourceType": "Observation",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medicalTestResult-eu-core"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "text": "Laboratory",
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "vB-St.bikarbonat",
+          "coding": [
+            {
+              "code": "FLX00360",
+              "display": "vB-St.bikarbonat"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:62163571-9ce2-5951-bbe4-81c0bc923b07"
+        },
+        "performer": [
+          {
+            "reference": "urn:uuid:e7b50cd9-5e2e-576d-8609-dd4a45ca7025"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>vB-St.bikarbonat: 27 mmol/L</p></div>"
+        },
+        "effectiveDateTime": "2024-10-22",
+        "valueQuantity": {
+          "value": 27.0,
+          "unit": "mmol/L"
+        },
+        "referenceRange": [
+          {
+            "text": "22-27"
+          }
+        ],
+        "id": "aac5508b-367e-5e59-b9d9-b2d824ac6b02"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:7e44d5d6-4e03-552d-9f53-3e293885f174",
+      "resource": {
+        "resourceType": "Observation",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medicalTestResult-eu-core"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "text": "Laboratory",
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "vB-Natrium",
+          "coding": [
+            {
+              "code": "FLX00811",
+              "display": "vB-Natrium"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:62163571-9ce2-5951-bbe4-81c0bc923b07"
+        },
+        "performer": [
+          {
+            "reference": "urn:uuid:e7b50cd9-5e2e-576d-8609-dd4a45ca7025"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>vB-Natrium: 139 mmol/L</p></div>"
+        },
+        "effectiveDateTime": "2024-10-22",
+        "valueQuantity": {
+          "value": 139.0,
+          "unit": "mmol/L"
+        },
+        "referenceRange": [
+          {
+            "text": "137-145"
+          }
+        ],
+        "id": "7e44d5d6-4e03-552d-9f53-3e293885f174"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:884501d8-7b2e-5838-b8a8-bddcb5557848",
+      "resource": {
+        "resourceType": "Observation",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medicalTestResult-eu-core"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "text": "Laboratory",
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "vB-Kalium",
+          "coding": [
+            {
+              "code": "FLX00812",
+              "display": "vB-Kalium"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:62163571-9ce2-5951-bbe4-81c0bc923b07"
+        },
+        "performer": [
+          {
+            "reference": "urn:uuid:e7b50cd9-5e2e-576d-8609-dd4a45ca7025"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>vB-Kalium: 4,4 mmol/L</p></div>"
+        },
+        "effectiveDateTime": "2024-10-22",
+        "valueQuantity": {
+          "value": 4.4,
+          "unit": "mmol/L"
+        },
+        "referenceRange": [
+          {
+            "text": "3,5-4,6"
+          }
+        ],
+        "id": "884501d8-7b2e-5838-b8a8-bddcb5557848"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:09f23314-b5ff-5f05-aa2a-b230ebb345e1",
+      "resource": {
+        "resourceType": "Observation",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medicalTestResult-eu-core"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "text": "Laboratory",
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "vB-MetHb",
+          "coding": [
+            {
+              "code": "FLX00289",
+              "display": "vB-MetHb"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:62163571-9ce2-5951-bbe4-81c0bc923b07"
+        },
+        "performer": [
+          {
+            "reference": "urn:uuid:e7b50cd9-5e2e-576d-8609-dd4a45ca7025"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>vB-MetHb: 1,2 %</p></div>"
+        },
+        "effectiveDateTime": "2024-10-22",
+        "valueQuantity": {
+          "value": 1.2,
+          "unit": "%"
+        },
+        "referenceRange": [
+          {
+            "text": "<1,5"
+          }
+        ],
+        "id": "09f23314-b5ff-5f05-aa2a-b230ebb345e1"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:632e4afa-e3cd-5aa8-a274-cc955cc873a9",
+      "resource": {
+        "resourceType": "Observation",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medicalTestResult-eu-core"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "text": "Laboratory",
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "vB-COHb",
+          "coding": [
+            {
+              "code": "FLX00288",
+              "display": "vB-COHb"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:62163571-9ce2-5951-bbe4-81c0bc923b07"
+        },
+        "performer": [
+          {
+            "reference": "urn:uuid:e7b50cd9-5e2e-576d-8609-dd4a45ca7025"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>vB-COHb: 1,1 %</p></div>"
+        },
+        "effectiveDateTime": "2024-10-22",
+        "valueQuantity": {
+          "value": 1.1,
+          "unit": "%"
+        },
+        "referenceRange": [
+          {
+            "text": "<2,0"
+          }
+        ],
+        "id": "632e4afa-e3cd-5aa8-a274-cc955cc873a9"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:8b68591c-c3b3-5931-bcf2-87b1ef4131a0",
+      "resource": {
+        "resourceType": "Observation",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medicalTestResult-eu-core"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "text": "Laboratory",
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "vB-Hemoglobin",
+          "coding": [
+            {
+              "code": "FLX00285",
+              "display": "vB-Hemoglobin"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:62163571-9ce2-5951-bbe4-81c0bc923b07"
+        },
+        "performer": [
+          {
+            "reference": "urn:uuid:e7b50cd9-5e2e-576d-8609-dd4a45ca7025"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>vB-Hemoglobin: 135 g/L</p></div>"
+        },
+        "effectiveDateTime": "2024-10-22",
+        "valueQuantity": {
+          "value": 135.0,
+          "unit": "g/L"
+        },
+        "referenceRange": [
+          {
+            "text": "134-170"
+          }
+        ],
+        "id": "8b68591c-c3b3-5931-bcf2-87b1ef4131a0"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:3f8a06ae-fb8f-524c-b3de-b22d8a9e2b48",
+      "resource": {
+        "resourceType": "Observation",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medicalTestResult-eu-core"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "text": "Laboratory",
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "vB-Klorid",
+          "coding": [
+            {
+              "code": "FLX01791",
+              "display": "vB-Klorid"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:62163571-9ce2-5951-bbe4-81c0bc923b07"
+        },
+        "performer": [
+          {
+            "reference": "urn:uuid:e7b50cd9-5e2e-576d-8609-dd4a45ca7025"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>vB-Klorid: 103 mmol/L</p></div>"
+        },
+        "effectiveDateTime": "2024-10-22",
+        "valueQuantity": {
+          "value": 103.0,
+          "unit": "mmol/L"
+        },
+        "referenceRange": [
+          {
+            "text": "98-107"
+          }
+        ],
+        "id": "3f8a06ae-fb8f-524c-b3de-b22d8a9e2b48"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:f594e658-80e7-520b-8900-a4105d16bee5",
+      "resource": {
+        "resourceType": "Observation",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medicalTestResult-eu-core"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "text": "Laboratory",
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "vB-Calciumjon, fri",
+          "coding": [
+            {
+              "code": "FLX01741",
+              "display": "vB-Calciumjon, fri"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:62163571-9ce2-5951-bbe4-81c0bc923b07"
+        },
+        "performer": [
+          {
+            "reference": "urn:uuid:e7b50cd9-5e2e-576d-8609-dd4a45ca7025"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>vB-Calciumjon, fri: 1,24 mmol/L</p></div>"
+        },
+        "effectiveDateTime": "2024-10-22",
+        "valueQuantity": {
+          "value": 1.24,
+          "unit": "mmol/L"
+        },
+        "referenceRange": [
+          {
+            "text": "1,08-1,32"
+          }
+        ],
+        "id": "f594e658-80e7-520b-8900-a4105d16bee5"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:528e31be-5a84-5969-9174-89d449330f11",
+      "resource": {
+        "resourceType": "Procedure",
+        "status": "completed",
+        "code": {
+          "text": "Laparoskopisk appendektomi",
+          "coding": [
+            {
+              "code": "JEA01",
+              "system": "http://hl7.se/fhir/ig/base/CodeSystem/sct-kvå",
+              "display": "Laparoskopisk appendektomi"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:62163571-9ce2-5951-bbe4-81c0bc923b07"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Laparoskopisk appendektomi</p></div>"
+        },
+        "performedDateTime": "2024-09-27",
+        "id": "528e31be-5a84-5969-9174-89d449330f11"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:846d27ca-1f05-55e2-8e88-92d0f5a5faae",
+      "resource": {
+        "resourceType": "Procedure",
+        "status": "completed",
+        "code": {
+          "text": "SA101 Generell anestesi och sedering. Induktion: Intravenös utan relaxation. Luftvägskontroll med: Spontanandning med tillägg av oxygen. Huvudsakligt underhåll av narkos/sedering: Ingen. Huvudsakligt underhåll av analgesi: Intravenöst."
+        },
+        "subject": {
+          "reference": "urn:uuid:62163571-9ce2-5951-bbe4-81c0bc923b07"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>SA101 Generell anestesi och sedering. Induktion: Intravenös utan relaxation. Luftvägskontroll med: Spontanandning med tillägg av oxygen. Huvudsakligt underhåll av narkos/sedering: Ingen. Huvudsakligt underhåll av analgesi: Intravenöst.</p></div>"
+        },
+        "performedDateTime": "2024-09-27",
+        "id": "846d27ca-1f05-55e2-8e88-92d0f5a5faae"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1619 @@
+{
+    "resourceType": "Bundle",
+    "id": "91f5f702-a14a-48a2-8e0a-d7dd045dcb81",
+    "meta": {
+        "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/bundle-eu-eps"
+        ]
+    },
+    "language": "de-CH",
+    "identifier": {
+        "system": "urn:ietf:rfc:3986",
+        "value": "urn:uuid:91f5f702-a14a-48a2-8e0a-d7dd045dcb81"
+    },
+    "type": "document",
+    "timestamp": "2026-11-20T09:28:47+01:00",
+    "entry": [
+        {
+            "fullUrl": "urn:uuid:06cb0fb3-9a1d-4644-815e-f6d13b8faa18",
+            "resource": {
+                "resourceType": "Composition",
+                "id": "06cb0fb3-9a1d-4644-815e-f6d13b8faa18",
+                "meta": {
+                    "profile": [
+                        "http://hl7.eu/fhir/eps/StructureDefinition/composition-eu-eps"
+                    ]
+                },
+                "language": "de-CH",
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Patientenzusammenfassung – Sandra Zimmermann</p><p>Dr. med. Ursula Frei, Hausarztpraxis Luzern Weber, 2025-04-15</p></div>"
+                },
+                "identifier": {
+                    "system": "urn:ietf:rfc:3986",
+                    "value": "urn:uuid:06efd367-4287-4b71-979b-67162636a269"
+                },
+                "status": "final",
+                "type": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "60591-5",
+                            "display": "Patient summary Document"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:571aa876-6c30-4511-b2b9-437a28df6ec4"
+                },
+                "date": "2025-04-15T17:18:00+02:00",
+                "author": [
+                    {
+                        "reference": "urn:uuid:4a15544d-c5e7-4e8a-ba57-8a8ea9488d99"
+                    }
+                ],
+                "title": "Patientenzusammenfassung – Sandra Zimmermann",
+                "confidentiality": "N",
+                "custodian": {
+                    "reference": "urn:uuid:759cde66-bacf-43d0-8b1f-9163ce9ff57f"
+                },
+                "relatesTo": [
+                    {
+                        "code": "transforms",
+                        "targetIdentifier": {
+                            "system": "urn:ietf:rfc:3986",
+                            "value": "urn:uuid:f4188f3f-8a14-4e62-a95b-4715c333e861"
+                        }
+                    }
+                ],
+                "event": [
+                    {
+                        "code": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://terminology.hl7.org/CodeSystem/v3-ActClass",
+                                        "code": "PCPR",
+                                        "display": "care provision"
+                                    }
+                                ]
+                            }
+                        ],
+                        "period": {
+                            "end": "2025-04-15T17:18:00+02:00"
+                        }
+                    }
+                ],
+                "section": [
+                    {
+                        "title": "Medikation",
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "http://loinc.org",
+                                    "code": "10160-0",
+                                    "display": "History of Medication use Narrative"
+                                }
+                            ]
+                        },
+                        "text": {
+                            "status": "generated",
+                            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Pantoprazol 40 mg magensaftresistente Tabletten: 1 morgens</li><li>METFORMIN axapharm Filmtabl 500 mg (Blister 50 Stk): 1 morgens + abends</li><li>TRIATEC Tabl 2.5 mg 20 Stk: 1 morgens</li><li>Salbutamol Dosieraerosol 100 Mikrogramm/Hub: 2 Hübe bei Bedarf</li></ul></div>"
+                        },
+                        "entry": [
+                            {
+                                "reference": "urn:uuid:508ebad7-b7c9-4acf-a059-a0ee9132b63e"
+                            },
+                            {
+                                "reference": "urn:uuid:43cf2fde-2493-4b83-b577-50a9a491f0b2"
+                            },
+                            {
+                                "reference": "urn:uuid:382567b8-5cab-4c97-a63f-1c97956269f0"
+                            },
+                            {
+                                "reference": "urn:uuid:a0a04dc4-2720-4bdf-9c11-f735dc713d96"
+                            },
+                            {
+                                "reference": "urn:uuid:19cdbe2a-e1e3-4981-aece-c40ec0f6b4a9"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Allergien und Intoleranzen",
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "http://loinc.org",
+                                    "code": "48765-2",
+                                    "display": "Allergies and adverse reactions Document"
+                                }
+                            ]
+                        },
+                        "text": {
+                            "status": "generated",
+                            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Nicht erhoben</li></ul></div>"
+                        },
+                        "emptyReason": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/list-empty-reason",
+                                    "code": "notasked",
+                                    "display": "Not Asked"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "title": "Aktuelle Probleme",
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "http://loinc.org",
+                                    "code": "11450-4",
+                                    "display": "Problem list - Reported"
+                                }
+                            ]
+                        },
+                        "text": {
+                            "status": "generated",
+                            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Gastroösophageale Refluxkrankheit (seit 2016)</li><li>Diabetes mellitus Typ 2 (seit 2023)</li><li>Essentielle Hypertonie (seit 2023)</li><li>Asthma bronchiale (seit 1997)</li></ul></div>"
+                        },
+                        "entry": [
+                            {
+                                "reference": "urn:uuid:fd5166e6-451b-4cf3-a123-fdf77656af72"
+                            },
+                            {
+                                "reference": "urn:uuid:8e944239-b02b-41c4-a3d7-0628ece66fa2"
+                            },
+                            {
+                                "reference": "urn:uuid:d7c524a5-5304-417f-af42-e12f3838b326"
+                            },
+                            {
+                                "reference": "urn:uuid:3aa2e4f9-0e51-430d-86a7-ee39c4b032cc"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Impfungen",
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "http://loinc.org",
+                                    "code": "11369-6",
+                                    "display": "History of Immunization Narrative"
+                                }
+                            ]
+                        },
+                        "text": {
+                            "status": "generated",
+                            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Grippeimpfstoff (2021-12-24)</li></ul></div>"
+                        },
+                        "entry": [
+                            {
+                                "reference": "urn:uuid:877409a9-77d2-4e02-bf01-cf99988c24c9"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Resultate",
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "http://loinc.org",
+                                    "code": "30954-2",
+                                    "display": "Relevant diagnostic tests/laboratory data Narrative"
+                                }
+                            ]
+                        },
+                        "text": {
+                            "status": "generated",
+                            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>HbA1c: 5.8 %</li></ul></div>"
+                        },
+                        "entry": [
+                            {
+                                "reference": "urn:uuid:c30ff46e-8026-495f-b8cd-a88b436d76e2"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Vitalzeichen",
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "http://loinc.org",
+                                    "code": "8716-3",
+                                    "display": "Vital signs"
+                                }
+                            ]
+                        },
+                        "text": {
+                            "status": "generated",
+                            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>BD 145/65 mmHg</li><li>Körpergrösse: 169 cm</li><li>Körpergewicht: 88.0 kg</li></ul></div>"
+                        },
+                        "entry": [
+                            {
+                                "reference": "urn:uuid:ae849217-1d53-434b-b881-39b9ae270da7"
+                            },
+                            {
+                                "reference": "urn:uuid:1c8eaee9-5715-4d6f-a416-1293c4c2e2e3"
+                            },
+                            {
+                                "reference": "urn:uuid:74273ca3-287d-46ca-af4c-c69a4b22d308"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Sozialanamnese",
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "http://loinc.org",
+                                    "code": "29762-2",
+                                    "display": "Social history Narrative"
+                                }
+                            ]
+                        },
+                        "text": {
+                            "status": "generated",
+                            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Nie geraucht</li></ul></div>"
+                        },
+                        "entry": [
+                            {
+                                "reference": "urn:uuid:d777a477-4c66-40a8-a013-ac6ededa4e16"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Behandlungsverlauf",
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "http://loinc.org",
+                                    "code": "47519-4",
+                                    "display": "History of Procedures Document"
+                                }
+                            ]
+                        },
+                        "text": {
+                            "status": "generated",
+                            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Das Quelldokument enthält keine Angaben.</p></div>"
+                        },
+                        "emptyReason": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/list-empty-reason",
+                                    "code": "unavailable",
+                                    "display": "Unavailable"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "title": "Medizinische Geräte",
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "http://loinc.org",
+                                    "code": "46264-8",
+                                    "display": "History of medical device use"
+                                }
+                            ]
+                        },
+                        "text": {
+                            "status": "generated",
+                            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Das Quelldokument enthält keine Angaben.</p></div>"
+                        },
+                        "emptyReason": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/list-empty-reason",
+                                    "code": "unavailable",
+                                    "display": "Unavailable"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:571aa876-6c30-4511-b2b9-437a28df6ec4",
+            "resource": {
+                "resourceType": "Patient",
+                "id": "571aa876-6c30-4511-b2b9-437a28df6ec4",
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Sandra Zimmermann</li><li>1989-01-03 (female)</li><li>6003 Luzern</li></ul></div>"
+                },
+                "identifier": [
+                    {
+                        "type": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                                    "code": "MR",
+                                    "display": "Medical record number"
+                                }
+                            ]
+                        },
+                        "system": "urn:oid:2.999.756.1.990",
+                        "value": "10872248"
+                    }
+                ],
+                "name": [
+                    {
+                        "use": "official",
+                        "family": "Zimmermann",
+                        "given": [
+                            "Sandra"
+                        ]
+                    }
+                ],
+                "telecom": [
+                    {
+                        "system": "phone",
+                        "value": "+41 79 000 67 85",
+                        "use": "mobile"
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1989-01-03",
+                "address": [
+                    {
+                        "use": "home",
+                        "line": [
+                            "Hauptstrasse 104"
+                        ],
+                        "city": "Luzern",
+                        "postalCode": "6003",
+                        "country": "CH"
+                    }
+                ],
+                "communication": [
+                    {
+                        "language": {
+                            "coding": [
+                                {
+                                    "system": "urn:ietf:bcp:47",
+                                    "code": "de-CH"
+                                }
+                            ]
+                        },
+                        "preferred": true
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:759cde66-bacf-43d0-8b1f-9163ce9ff57f",
+            "resource": {
+                "resourceType": "Organization",
+                "id": "759cde66-bacf-43d0-8b1f-9163ce9ff57f",
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Hausarztpraxis Luzern Weber</li></ul></div>"
+                },
+                "identifier": [
+                    {
+                        "system": "urn:oid:2.51.1.3",
+                        "value": "7601999351161"
+                    }
+                ],
+                "name": "Hausarztpraxis Luzern Weber",
+                "telecom": [
+                    {
+                        "system": "phone",
+                        "value": "+41 33 000 55 54",
+                        "use": "work"
+                    }
+                ],
+                "address": [
+                    {
+                        "line": [
+                            "Seestrasse 17"
+                        ],
+                        "city": "Luzern",
+                        "postalCode": "6003",
+                        "country": "CH"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:0bbb2599-11ce-4dd2-b45e-d1f03139d32c",
+            "resource": {
+                "resourceType": "Practitioner",
+                "id": "0bbb2599-11ce-4dd2-b45e-d1f03139d32c",
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Dr. med. Ursula Frei</li></ul></div>"
+                },
+                "identifier": [
+                    {
+                        "system": "urn:oid:2.51.1.3",
+                        "value": "7601999849590"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "Frei",
+                        "given": [
+                            "Ursula"
+                        ],
+                        "prefix": [
+                            "Dr. med."
+                        ]
+                    }
+                ],
+                "gender": "female"
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:4a15544d-c5e7-4e8a-ba57-8a8ea9488d99",
+            "resource": {
+                "resourceType": "PractitionerRole",
+                "id": "4a15544d-c5e7-4e8a-ba57-8a8ea9488d99",
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Dr. med. Ursula Frei</li></ul></div>"
+                },
+                "practitioner": {
+                    "reference": "urn:uuid:0bbb2599-11ce-4dd2-b45e-d1f03139d32c"
+                },
+                "organization": {
+                    "reference": "urn:uuid:759cde66-bacf-43d0-8b1f-9163ce9ff57f"
+                },
+                "code": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://snomed.info/sct",
+                                "code": "309343006",
+                                "display": "Physician"
+                            }
+                        ]
+                    }
+                ],
+                "specialty": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:2.16.756.5.30.1.127.3.5",
+                                "code": "1040",
+                                "display": "General medical practitioner"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:fd5166e6-451b-4cf3-a123-fdf77656af72",
+            "resource": {
+                "resourceType": "Condition",
+                "id": "fd5166e6-451b-4cf3-a123-fdf77656af72",
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Gastroesophageal reflux disease</li></ul></div>"
+                },
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active",
+                            "display": "Active"
+                        }
+                    ]
+                },
+                "verificationStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+                            "code": "confirmed",
+                            "display": "Confirmed"
+                        }
+                    ]
+                },
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                                "code": "problem-list-item",
+                                "display": "Problem List Item"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "235595009",
+                            "display": "Gastroesophageal reflux disease"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:571aa876-6c30-4511-b2b9-437a28df6ec4"
+                },
+                "onsetDateTime": "2016-07-23",
+                "recordedDate": "2016-07-23"
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:8e944239-b02b-41c4-a3d7-0628ece66fa2",
+            "resource": {
+                "resourceType": "Condition",
+                "id": "8e944239-b02b-41c4-a3d7-0628ece66fa2",
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Type 2 diabetes mellitus</li></ul></div>"
+                },
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active",
+                            "display": "Active"
+                        }
+                    ]
+                },
+                "verificationStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+                            "code": "confirmed",
+                            "display": "Confirmed"
+                        }
+                    ]
+                },
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                                "code": "problem-list-item",
+                                "display": "Problem List Item"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "44054006",
+                            "display": "Type 2 diabetes mellitus"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:571aa876-6c30-4511-b2b9-437a28df6ec4"
+                },
+                "onsetDateTime": "2023-09-14",
+                "recordedDate": "2023-09-14"
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:d7c524a5-5304-417f-af42-e12f3838b326",
+            "resource": {
+                "resourceType": "Condition",
+                "id": "d7c524a5-5304-417f-af42-e12f3838b326",
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Essential hypertension</li></ul></div>"
+                },
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active",
+                            "display": "Active"
+                        }
+                    ]
+                },
+                "verificationStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+                            "code": "confirmed",
+                            "display": "Confirmed"
+                        }
+                    ]
+                },
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                                "code": "problem-list-item",
+                                "display": "Problem List Item"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "59621000",
+                            "display": "Essential hypertension"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:571aa876-6c30-4511-b2b9-437a28df6ec4"
+                },
+                "onsetDateTime": "2023-12-29",
+                "recordedDate": "2023-12-29"
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:3aa2e4f9-0e51-430d-86a7-ee39c4b032cc",
+            "resource": {
+                "resourceType": "Condition",
+                "id": "3aa2e4f9-0e51-430d-86a7-ee39c4b032cc",
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Asthma</li></ul></div>"
+                },
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active",
+                            "display": "Active"
+                        }
+                    ]
+                },
+                "verificationStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+                            "code": "confirmed",
+                            "display": "Confirmed"
+                        }
+                    ]
+                },
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                                "code": "problem-list-item",
+                                "display": "Problem List Item"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "195967001",
+                            "display": "Asthma"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:571aa876-6c30-4511-b2b9-437a28df6ec4"
+                },
+                "onsetDateTime": "1997-06-01",
+                "recordedDate": "1997-06-01"
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:f16287e4-e9c3-49e0-b602-f8ac10f1bc81",
+            "resource": {
+                "resourceType": "Medication",
+                "id": "f16287e4-e9c3-49e0-b602-f8ac10f1bc81",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://www.whocc.no/atc",
+                            "code": "A02BC02",
+                            "display": "pantoprazole"
+                        }
+                    ],
+                    "text": "Pantoprazol 40 mg magensaftresistente Tabletten"
+                },
+                "form": {
+                    "text": "Magensaftresistente Tablette"
+                },
+                "amount": {
+                    "numerator": {
+                        "value": 30,
+                        "unit": "Tablet (unit of presentation)",
+                        "system": "http://snomed.info/sct",
+                        "code": "732936001"
+                    },
+                    "denominator": {
+                        "value": 1,
+                        "unit": "Package - unit of product usage (qualifier value)",
+                        "system": "http://snomed.info/sct",
+                        "code": "1681000175101"
+                    }
+                },
+                "ingredient": [
+                    {
+                        "itemCodeableConcept": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "395821003",
+                                    "display": "Pantoprazole (substance)"
+                                }
+                            ],
+                            "text": "Pantoprazole"
+                        },
+                        "isActive": true,
+                        "strength": {
+                            "numerator": {
+                                "value": 40,
+                                "unit": "mg",
+                                "system": "http://unitsofmeasure.org",
+                                "code": "mg"
+                            },
+                            "denominator": {
+                                "value": 1,
+                                "unit": "Tablet (unit of presentation)",
+                                "system": "http://snomed.info/sct",
+                                "code": "732936001"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:508ebad7-b7c9-4acf-a059-a0ee9132b63e",
+            "resource": {
+                "resourceType": "MedicationStatement",
+                "id": "508ebad7-b7c9-4acf-a059-a0ee9132b63e",
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Pantoprazol 40 mg magensaftresistente Tabletten</li><li>1 morgens</li></ul></div>"
+                },
+                "status": "active",
+                "medicationReference": {
+                    "reference": "urn:uuid:f16287e4-e9c3-49e0-b602-f8ac10f1bc81"
+                },
+                "subject": {
+                    "reference": "urn:uuid:571aa876-6c30-4511-b2b9-437a28df6ec4"
+                },
+                "effectivePeriod": {
+                    "start": "2016-07-23"
+                },
+                "dosage": [
+                    {
+                        "text": "1 morgens",
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2016-07-23"
+                                },
+                                "when": [
+                                    "MORN"
+                                ]
+                            }
+                        },
+                        "doseAndRate": [
+                            {
+                                "doseQuantity": {
+                                    "value": 1,
+                                    "unit": "Tablet (unit of presentation)",
+                                    "system": "http://snomed.info/sct",
+                                    "code": "732936001"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:43cf2fde-2493-4b83-b577-50a9a491f0b2",
+            "resource": {
+                "resourceType": "MedicationStatement",
+                "id": "43cf2fde-2493-4b83-b577-50a9a491f0b2",
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>METFORMIN axapharm Filmtabl 500 mg (Blister 50 Stk)</li><li>1 morgens + abends</li></ul></div>"
+                },
+                "contained": [
+                    {
+                        "resourceType": "Medication",
+                        "id": "med",
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "https://www.gs1.org/gtin",
+                                    "code": "7680696890012",
+                                    "display": "METFORMIN axapharm Filmtabl 500 mg (Blister 50 Stk)"
+                                },
+                                {
+                                    "system": "http://www.whocc.no/atc",
+                                    "code": "A10BA02",
+                                    "display": "metformin"
+                                }
+                            ],
+                            "text": "METFORMIN axapharm Filmtabl 500 mg (Blister 50 Stk)"
+                        },
+                        "form": {
+                            "coding": [
+                                {
+                                    "system": "http://standardterms.edqm.eu",
+                                    "code": "10219000",
+                                    "display": "Tablet"
+                                }
+                            ],
+                            "text": "Tablet"
+                        },
+                        "amount": {
+                            "numerator": {
+                                "value": 50,
+                                "unit": "Tablet (unit of presentation)",
+                                "system": "http://snomed.info/sct",
+                                "code": "732936001"
+                            },
+                            "denominator": {
+                                "value": 1,
+                                "unit": "Package - unit of product usage (qualifier value)",
+                                "system": "http://snomed.info/sct",
+                                "code": "1681000175101"
+                            }
+                        },
+                        "ingredient": [
+                            {
+                                "itemCodeableConcept": {
+                                    "coding": [
+                                        {
+                                            "system": "http://snomed.info/sct",
+                                            "code": "109083009",
+                                            "display": "Metformin hydrochloride (substance)"
+                                        }
+                                    ],
+                                    "text": "Metformin hydrochloride"
+                                },
+                                "isActive": true,
+                                "strength": {
+                                    "numerator": {
+                                        "value": 500,
+                                        "unit": "mg",
+                                        "system": "http://unitsofmeasure.org",
+                                        "code": "mg"
+                                    },
+                                    "denominator": {
+                                        "value": 1,
+                                        "unit": "Tablet (unit of presentation)",
+                                        "system": "http://snomed.info/sct",
+                                        "code": "732936001"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "status": "active",
+                "medicationReference": {
+                    "reference": "#med"
+                },
+                "subject": {
+                    "reference": "urn:uuid:571aa876-6c30-4511-b2b9-437a28df6ec4"
+                },
+                "effectivePeriod": {
+                    "start": "2023-09-14"
+                },
+                "dosage": [
+                    {
+                        "text": "1 morgens + abends",
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2023-09-14"
+                                },
+                                "when": [
+                                    "MORN",
+                                    "EVE"
+                                ]
+                            }
+                        },
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "http://standardterms.edqm.eu",
+                                    "code": "20053000",
+                                    "display": "Oral use"
+                                }
+                            ],
+                            "text": "zum Einnehmen"
+                        },
+                        "doseAndRate": [
+                            {
+                                "doseQuantity": {
+                                    "value": 1,
+                                    "unit": "Tablet (unit of presentation)",
+                                    "system": "http://snomed.info/sct",
+                                    "code": "732936001"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:e5d7b875-6dad-46c7-95a7-6d79bf3c4c06",
+            "resource": {
+                "resourceType": "Medication",
+                "id": "e5d7b875-6dad-46c7-95a7-6d79bf3c4c06",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "https://www.gs1.org/gtin",
+                            "code": "7680538751228",
+                            "display": "TRIATEC Tabl 2.5 mg 20 Stk"
+                        },
+                        {
+                            "system": "http://www.whocc.no/atc",
+                            "code": "C09AA05",
+                            "display": "ramipril"
+                        }
+                    ],
+                    "text": "TRIATEC Tabl 2.5 mg 20 Stk"
+                },
+                "form": {
+                    "coding": [
+                        {
+                            "system": "http://standardterms.edqm.eu",
+                            "code": "10219000",
+                            "display": "Tablet"
+                        }
+                    ],
+                    "text": "Tablet"
+                },
+                "amount": {
+                    "numerator": {
+                        "value": 20,
+                        "unit": "Tablet (unit of presentation)",
+                        "system": "http://snomed.info/sct",
+                        "code": "732936001"
+                    },
+                    "denominator": {
+                        "value": 1,
+                        "unit": "Package - unit of product usage (qualifier value)",
+                        "system": "http://snomed.info/sct",
+                        "code": "1681000175101"
+                    }
+                },
+                "ingredient": [
+                    {
+                        "itemCodeableConcept": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "386872004",
+                                    "display": "Ramipril (substance)"
+                                }
+                            ],
+                            "text": "Ramipril"
+                        },
+                        "isActive": true,
+                        "strength": {
+                            "numerator": {
+                                "value": 2.5,
+                                "unit": "mg",
+                                "system": "http://unitsofmeasure.org",
+                                "code": "mg"
+                            },
+                            "denominator": {
+                                "value": 1,
+                                "unit": "Tablet (unit of presentation)",
+                                "system": "http://snomed.info/sct",
+                                "code": "732936001"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:382567b8-5cab-4c97-a63f-1c97956269f0",
+            "resource": {
+                "resourceType": "MedicationStatement",
+                "id": "382567b8-5cab-4c97-a63f-1c97956269f0",
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>TRIATEC Tabl 2.5 mg 20 Stk</li><li>1 morgens</li></ul></div>"
+                },
+                "status": "active",
+                "medicationReference": {
+                    "reference": "urn:uuid:e5d7b875-6dad-46c7-95a7-6d79bf3c4c06"
+                },
+                "subject": {
+                    "reference": "urn:uuid:571aa876-6c30-4511-b2b9-437a28df6ec4"
+                },
+                "effectivePeriod": {
+                    "start": "2023-12-29"
+                },
+                "dosage": [
+                    {
+                        "text": "1 morgens",
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2023-12-29"
+                                },
+                                "when": [
+                                    "MORN"
+                                ]
+                            }
+                        },
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "http://standardterms.edqm.eu",
+                                    "code": "20053000",
+                                    "display": "Oral use"
+                                }
+                            ],
+                            "text": "zum Einnehmen"
+                        },
+                        "doseAndRate": [
+                            {
+                                "doseQuantity": {
+                                    "value": 1,
+                                    "unit": "Tablet (unit of presentation)",
+                                    "system": "http://snomed.info/sct",
+                                    "code": "732936001"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:0c0fd195-c17a-408a-9745-d6d87e570ddf",
+            "resource": {
+                "resourceType": "Medication",
+                "id": "0c0fd195-c17a-408a-9745-d6d87e570ddf",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://www.whocc.no/atc",
+                            "code": "R03AC02",
+                            "display": "salbutamol"
+                        }
+                    ],
+                    "text": "Salbutamol Dosieraerosol 100 Mikrogramm/Hub"
+                },
+                "form": {
+                    "text": "Dosieraerosol"
+                },
+                "amount": {
+                    "numerator": {
+                        "value": 200,
+                        "unit": "Actuation (unit of presentation)",
+                        "system": "http://snomed.info/sct",
+                        "code": "732981002"
+                    },
+                    "denominator": {
+                        "value": 1,
+                        "unit": "Package - unit of product usage (qualifier value)",
+                        "system": "http://snomed.info/sct",
+                        "code": "1681000175101"
+                    }
+                },
+                "ingredient": [
+                    {
+                        "itemCodeableConcept": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "372897005",
+                                    "display": "Albuterol (substance)"
+                                }
+                            ],
+                            "text": "Albuterol"
+                        },
+                        "isActive": true
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:a0a04dc4-2720-4bdf-9c11-f735dc713d96",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "a0a04dc4-2720-4bdf-9c11-f735dc713d96",
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Salbutamol Dosieraerosol 100 Mikrogramm/Hub</li><li>2 Hübe bei Bedarf</li></ul></div>"
+                },
+                "status": "active",
+                "intent": "order",
+                "medicationReference": {
+                    "reference": "urn:uuid:0c0fd195-c17a-408a-9745-d6d87e570ddf"
+                },
+                "subject": {
+                    "reference": "urn:uuid:571aa876-6c30-4511-b2b9-437a28df6ec4"
+                },
+                "authoredOn": "1997-06-01",
+                "requester": {
+                    "reference": "urn:uuid:4a15544d-c5e7-4e8a-ba57-8a8ea9488d99"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "2 Hübe bei Bedarf",
+                        "asNeededBoolean": true,
+                        "route": {
+                            "text": "zur Inhalation"
+                        },
+                        "doseAndRate": [
+                            {
+                                "doseQuantity": {
+                                    "value": 2,
+                                    "unit": "Actuation (unit of presentation)",
+                                    "system": "http://snomed.info/sct",
+                                    "code": "732981002"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:877409a9-77d2-4e02-bf01-cf99988c24c9",
+            "resource": {
+                "resourceType": "Immunization",
+                "id": "877409a9-77d2-4e02-bf01-cf99988c24c9",
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Grippeimpfstoff (2021-12-24)</li></ul></div>"
+                },
+                "status": "completed",
+                "vaccineCode": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "1181000221105",
+                            "display": "Influenza virus antigen only vaccine product"
+                        }
+                    ],
+                    "text": "Grippeimpfstoff"
+                },
+                "patient": {
+                    "reference": "urn:uuid:571aa876-6c30-4511-b2b9-437a28df6ec4"
+                },
+                "occurrenceDateTime": "2021-12-24",
+                "recorded": "2021-12-24",
+                "primarySource": true,
+                "lotNumber": "B7304",
+                "route": {
+                    "coding": [
+                        {
+                            "system": "http://standardterms.edqm.eu",
+                            "code": "20035000",
+                            "display": "Intramuscular use"
+                        }
+                    ]
+                },
+                "protocolApplied": [
+                    {
+                        "targetDisease": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://snomed.info/sct",
+                                        "code": "6142004",
+                                        "display": "Influenza"
+                                    }
+                                ]
+                            }
+                        ],
+                        "doseNumberPositiveInt": 2
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:ae849217-1d53-434b-b881-39b9ae270da7",
+            "resource": {
+                "resourceType": "Observation",
+                "id": "ae849217-1d53-434b-b881-39b9ae270da7",
+                "meta": {
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/bp"
+                    ]
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>BD 145/65 mmHg</li></ul></div>"
+                },
+                "status": "final",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                                "code": "vital-signs",
+                                "display": "Vital Signs"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "85354-9",
+                            "display": "Blood pressure panel"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:571aa876-6c30-4511-b2b9-437a28df6ec4"
+                },
+                "effectiveDateTime": "2025-04-15T17:18:00+02:00",
+                "component": [
+                    {
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "http://loinc.org",
+                                    "code": "8480-6",
+                                    "display": "Systolic blood pressure"
+                                }
+                            ]
+                        },
+                        "valueQuantity": {
+                            "value": 145,
+                            "unit": "mmHg",
+                            "system": "http://unitsofmeasure.org",
+                            "code": "mm[Hg]"
+                        }
+                    },
+                    {
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "http://loinc.org",
+                                    "code": "8462-4",
+                                    "display": "Diastolic blood pressure"
+                                }
+                            ]
+                        },
+                        "valueQuantity": {
+                            "value": 65,
+                            "unit": "mmHg",
+                            "system": "http://unitsofmeasure.org",
+                            "code": "mm[Hg]"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:1c8eaee9-5715-4d6f-a416-1293c4c2e2e3",
+            "resource": {
+                "resourceType": "Observation",
+                "id": "1c8eaee9-5715-4d6f-a416-1293c4c2e2e3",
+                "meta": {
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/bodyheight"
+                    ]
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Körpergrösse: 169 cm</li></ul></div>"
+                },
+                "status": "final",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                                "code": "vital-signs",
+                                "display": "Vital Signs"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "8302-2",
+                            "display": "Body height"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:571aa876-6c30-4511-b2b9-437a28df6ec4"
+                },
+                "effectiveDateTime": "2025-04-15T17:18:00+02:00",
+                "valueQuantity": {
+                    "value": 169,
+                    "unit": "cm",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "cm"
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:74273ca3-287d-46ca-af4c-c69a4b22d308",
+            "resource": {
+                "resourceType": "Observation",
+                "id": "74273ca3-287d-46ca-af4c-c69a4b22d308",
+                "meta": {
+                    "profile": [
+                        "http://hl7.org/fhir/StructureDefinition/bodyweight"
+                    ]
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Körpergewicht: 88.0 kg</li></ul></div>"
+                },
+                "status": "final",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                                "code": "vital-signs",
+                                "display": "Vital Signs"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "29463-7",
+                            "display": "Body weight"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:571aa876-6c30-4511-b2b9-437a28df6ec4"
+                },
+                "effectiveDateTime": "2025-04-15T17:18:00+02:00",
+                "valueQuantity": {
+                    "value": 88.0,
+                    "unit": "kg",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "kg"
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:c30ff46e-8026-495f-b8cd-a88b436d76e2",
+            "resource": {
+                "resourceType": "Observation",
+                "id": "c30ff46e-8026-495f-b8cd-a88b436d76e2",
+                "meta": {
+                    "profile": [
+                        "http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-results-laboratory-pathology-uv-ips"
+                    ]
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>HbA1c: 5.8 %</li></ul></div>"
+                },
+                "status": "final",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                                "code": "laboratory",
+                                "display": "Laboratory"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "4548-4",
+                            "display": "Hemoglobin A1c/Hemoglobin.total in Blood"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:571aa876-6c30-4511-b2b9-437a28df6ec4"
+                },
+                "effectiveDateTime": "2025-02-25T17:18:00+01:00",
+                "performer": [
+                    {
+                        "reference": "urn:uuid:759cde66-bacf-43d0-8b1f-9163ce9ff57f"
+                    }
+                ],
+                "valueQuantity": {
+                    "value": 5.8,
+                    "unit": "%",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "%"
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:d777a477-4c66-40a8-a013-ac6ededa4e16",
+            "resource": {
+                "resourceType": "Observation",
+                "id": "d777a477-4c66-40a8-a013-ac6ededa4e16",
+                "meta": {
+                    "profile": [
+                        "http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-tobaccouse-uv-ips"
+                    ]
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Nie geraucht</li></ul></div>"
+                },
+                "status": "final",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "72166-2",
+                            "display": "Tobacco smoking status"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:571aa876-6c30-4511-b2b9-437a28df6ec4"
+                },
+                "effectiveDateTime": "2025-04-15",
+                "valueCodeableConcept": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "LA18978-9",
+                            "display": "Never smoker"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:19cdbe2a-e1e3-4981-aece-c40ec0f6b4a9",
+            "resource": {
+                "resourceType": "MedicationStatement",
+                "id": "19cdbe2a-e1e3-4981-aece-c40ec0f6b4a9",
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Abgeleitet aus der Verordnung: ?</p></div>"
+                },
+                "status": "active",
+                "medicationReference": {
+                    "reference": "urn:uuid:0c0fd195-c17a-408a-9745-d6d87e570ddf"
+                },
+                "subject": {
+                    "reference": "urn:uuid:571aa876-6c30-4511-b2b9-437a28df6ec4"
+                },
+                "effectivePeriod": {
+                    "start": "1997-06-01"
+                },
+                "informationSource": {
+                    "reference": "urn:uuid:4a15544d-c5e7-4e8a-ba57-8a8ea9488d99"
+                },
+                "derivedFrom": [
+                    {
+                        "reference": "urn:uuid:a0a04dc4-2720-4bdf-9c11-f735dc713d96"
+                    }
+                ],
+                "dosage": [
+                    {
+                        "text": "2 Hübe bei Bedarf",
+                        "asNeededBoolean": true,
+                        "route": {
+                            "text": "zur Inhalation"
+                        },
+                        "doseAndRate": [
+                            {
+                                "doseQuantity": {
+                                    "value": 2,
+                                    "unit": "Actuation (unit of presentation)",
+                                    "system": "http://snomed.info/sct",
+                                    "code": "732981002"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:36575ebd-bdb7-4365-ace5-d5c6d767ed9b",
+            "resource": {
+                "resourceType": "Provenance",
+                "id": "36575ebd-bdb7-4365-ace5-d5c6d767ed9b",
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Converted from the CH IPS document urn:uuid:7d154385-52fb-443b-9954-6eb400257ad1 to an EPS document by epsofacto 0.1.0-SNAPSHOT on 2026-11-20T09:28:47+01:00.</p></div>"
+                },
+                "contained": [
+                    {
+                        "resourceType": "Device",
+                        "id": "converter",
+                        "deviceName": [
+                            {
+                                "name": "epsofacto",
+                                "type": "user-friendly-name"
+                            }
+                        ],
+                        "version": [
+                            {
+                                "value": "0.1.0-SNAPSHOT"
+                            }
+                        ]
+                    }
+                ],
+                "target": [
+                    {
+                        "reference": "urn:uuid:06cb0fb3-9a1d-4644-815e-f6d13b8faa18"
+                    }
+                ],
+                "recorded": "2026-11-20T09:28:47+01:00",
+                "activity": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/iso-21089-lifecycle",
+                            "code": "transform",
+                            "display": "Transform/Translate Record Lifecycle Event"
+                        }
+                    ]
+                },
+                "agent": [
+                    {
+                        "type": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/provenance-participant-type",
+                                    "code": "assembler",
+                                    "display": "Assembler"
+                                }
+                            ]
+                        },
+                        "who": {
+                            "reference": "#converter",
+                            "display": "epsofacto 0.1.0-SNAPSHOT"
+                        }
+                    },
+                    {
+                        "type": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/provenance-participant-type",
+                                    "code": "attester",
+                                    "display": "Attester"
+                                }
+                            ]
+                        },
+                        "who": {
+                            "reference": "urn:uuid:0bbb2599-11ce-4dd2-b45e-d1f03139d32c"
+                        }
+                    }
+                ],
+                "entity": [
+                    {
+                        "role": "source",
+                        "what": {
+                            "identifier": {
+                                "system": "urn:ietf:rfc:3986",
+                                "value": "urn:uuid:7d154385-52fb-443b-9954-6eb400257ad1"
+                            },
+                            "display": "Source CH IPS document"
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,1712 @@
+{
+  "resourceType": "Bundle",
+  "id": "nh2026-eps-bundle",
+  "meta": {
+    "profile": [
+      "http://hl7.eu/fhir/eps/StructureDefinition/bundle-eu-eps"
+    ]
+  },
+  "identifier": {
+    "system": "urn:ietf:rfc:9562",
+    "value": "166615c7-0536-4d24-b5d7-8d659a29ce3e"
+  },
+  "type": "document",
+  "timestamp": "2026-11-19T18:30:00Z",
+  "entry": [
+    {
+      "fullUrl": "http://clinfhir.com/fhir/Composition/cfsb1795109349878",
+      "resource": {
+        "resourceType": "Composition",
+        "id": "cfsb1795109349878",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/composition-eu-eps"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>European Patient Summary with MyHealth Passport – Andrea Andersson (2002-01-01). Author: primary care physician, Region Uppsala. 2026-11-19.</p></div>"
+        },
+        "identifier": {
+          "system": "urn:ietf:rfc:9562",
+          "value": "d2b6f1a8-4c3e-4f7a-9b21-6e0c5a7d8f14"
+        },
+        "status": "final",
+        "type": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "60591-5",
+              "display": "Patient summary Document"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/cfsb1795091993308",
+          "display": "Andrea Andersson"
+        },
+        "date": "2026-11-19T18:30:00Z",
+        "author": [
+          {
+            "reference": "PractitionerRole/cfsb1795095275348",
+            "display": "Primary care physician, Region Uppsala"
+          }
+        ],
+        "title": "European Patient Summary - Nordic Hackathon 2026 - T6",
+        "confidentiality": "N",
+        "custodian": {
+          "reference": "Organization/cfsb1795093292621",
+          "display": "Region Uppsala"
+        },
+        "section": [
+          {
+            "title": "Allergies and intolerances",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "48765-2",
+                  "display": "Allergies and adverse reactions Document"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><tr><th>Allergy</th><th>Type</th><th>Criticality</th><th>Status</th><th>Onset</th></tr><tr><td>Allergy to pollen</td><td>Environment</td><td>Low</td><td>Inactive</td><td>2012-01-01</td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "AllergyIntolerance/cfsb1795099784214"
+              }
+            ]
+          },
+          {
+            "title": "Problem list",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "11450-4",
+                  "display": "Problem list - Reported"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><tr><th>Condition</th><th>Onset</th><th>Status</th></tr><tr><td>Type 1 diabetes</td><td>2007-01-01</td><td>Active</td></tr><tr><td>ADHD</td><td>2023-01-01</td><td>Active</td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "Condition/cfsb1795093339820"
+              },
+              {
+                "reference": "Condition/cfsb1795093363270"
+              }
+            ]
+          },
+          {
+            "title": "History of past illness",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "11348-0",
+                  "display": "History of Past illness Narrative"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><tr><th>Condition</th><th>Period</th><th>Status</th></tr><tr><td>Depressive episode</td><td>2025-01-01 – 2025-10-01</td><td>Inactive</td></tr><tr><td>Hyperglycaemia, severe (ED Paris)</td><td>2026-11-01</td><td>Resolved</td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "Condition/cfsb1795094298486"
+              },
+              {
+                "reference": "Condition/cfsb1795106111483"
+              }
+            ]
+          },
+          {
+            "title": "Medication summary",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "10160-0",
+                  "display": "History of Medication use Narrative"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><tr><th>Medication</th><th>Since</th><th>Dosage</th><th>Reason</th></tr><tr><td>Insulin glargine 100 U/mL pen</td><td>2007-01-01</td><td>Once daily, dose to be verified</td><td>Type 1 diabetes</td></tr><tr><td>Methylphenidate 20 mg tablet</td><td>2023-01-01</td><td>Schedule to be verified</td><td>ADHD</td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "MedicationStatement/cfsb1795097027432"
+              },
+              {
+                "reference": "MedicationStatement/cfsb1795097062419"
+              }
+            ]
+          },
+          {
+            "title": "Results",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "30954-2",
+                  "display": "Relevant diagnostic tests/laboratory data note"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><tr><th>Test</th><th>Value</th><th>Date</th><th>Source</th></tr><tr><td>Blood glucose</td><td>10 mmol/L (abnormal)</td><td>2026-11-01</td><td>ED, Region Paris</td></tr><tr><td>Glucose (CGM)</td><td>14.2 mmol/L</td><td>2026-10-30</td><td>CGM sensor, patient-generated</td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "Observation/cfsb1795107490494"
+              },
+              {
+                "reference": "Observation/cfsb1795107848269"
+              }
+            ]
+          },
+          {
+            "title": "History of procedures",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "47519-4",
+                  "display": "History of Procedures Document"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>No known procedures</p></div>"
+            },
+            "emptyReason": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/list-empty-reason",
+                  "code": "nilknown",
+                  "display": "Nil Known"
+                }
+              ]
+            }
+          },
+          {
+            "title": "Medical devices",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "46264-8",
+                  "display": "History of medical device use"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><tr><th>Device</th><th>Since</th><th>Status</th></tr><tr><td>Continuous glucose monitoring system (Libero)</td><td>2024-01-01</td><td>Active</td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "DeviceUseStatement/andrea-cgm-use"
+              }
+            ]
+          },
+          {
+            "title": "Plan of care",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "18776-5",
+                  "display": "Plan of care note"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><tr><th>Plan</th><th>From</th><th>Responsible</th></tr><tr><td>Follow-up after emergency visit: insulin review, psychiatric follow-up, student health support</td><td>2026-11-02</td><td>ED Paris with Region Uppsala</td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "CarePlan/cfsb1795110353088"
+              }
+            ]
+          },
+          {
+            "title": "MyHealth Passport – written by Andrea",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "81338-6",
+                  "display": "Patient goals, preferences, and priorities for care experience"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Written by Andrea</b> (simulated patient input, 2026-11-15)</p><ul><li>What name would you like to be called? – Andrea</li><li>Is there anything important about your communication needs? – Swedish or English. When I am stressed, please speak calmly, give one step at a time and write instructions down.</li><li>Is there anything important about your care needs? – I have type 1 diabetes and use a CGM sensor. Please check my glucose and ketones early.</li><li>Do you have any emergency contact? Please write it below. – Anders Andersson, +46 10 101 010</li><li>Is there anything that you wish to keep personal? Please write it below. – Please share my mental health history only with the clinicians treating me.</li></ul></div>"
+            },
+            "entry": [
+              {
+                "reference": "QuestionnaireResponse/cfsb1795102360607"
+              }
+            ],
+            "author": [
+              {
+                "reference": "Patient/cfsb1795091993308",
+                "display": "Andrea Andersson"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "http://clinfhir.com/fhir/Patient/cfsb1795091993308",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "cfsb1795091993308",
+        "active": true,
+        "name": [
+          {
+            "text": "Andrea Andersson",
+            "given": [
+              "Andrea"
+            ],
+            "family": "Andersson",
+            "use": "official"
+          }
+        ],
+        "telecom": [
+          {
+            "system": "email",
+            "value": "andrea.andersson12345@stud.uu.se",
+            "use": "work"
+          }
+        ],
+        "gender": "female",
+        "birthDate": "2002-01-01",
+        "deceasedBoolean": false,
+        "address": [
+          {
+            "text": "Storgatan 01, Uppsala, SE 750 02",
+            "use": "home",
+            "type": "both",
+            "line": [
+              "Storgatan 01"
+            ],
+            "city": "Uppsala",
+            "country": "Sweden"
+          },
+          {
+            "text": "Rue de Rivoli 01, Paris, FR 750 01",
+            "use": "temp",
+            "type": "both",
+            "line": [
+              "Rue de Rivoli 01"
+            ],
+            "city": "Paris",
+            "country": "France"
+          }
+        ],
+        "maritalStatus": {
+          "coding": [
+            {
+              "code": "S",
+              "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+              "display": "Never Married"
+            }
+          ]
+        },
+        "contact": [
+          {
+            "relationship": [
+              {
+                "coding": [
+                  {
+                    "code": "C",
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0131",
+                    "display": "Emergency Contact"
+                  }
+                ]
+              },
+              {
+                "coding": [
+                  {
+                    "code": "N",
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0131",
+                    "display": "Next-of-Kin"
+                  }
+                ]
+              }
+            ],
+            "name": {
+              "text": "Anders Andersson",
+              "given": [
+                "Anders"
+              ],
+              "family": "Andersson",
+              "use": "official"
+            },
+            "telecom": [
+              {
+                "system": "phone",
+                "value": "+4610101010",
+                "use": "home"
+              }
+            ],
+            "address": {
+              "text": "Storgatan 01, Uppsala, SE 750 02",
+              "use": "home",
+              "type": "both",
+              "line": [
+                "Storgatan 01"
+              ],
+              "city": "Uppsala",
+              "country": "Sweden"
+            },
+            "gender": "male"
+          }
+        ],
+        "communication": [
+          {
+            "language": {
+              "coding": [
+                {
+                  "code": "sv-SE",
+                  "system": "urn:ietf:bcp:47",
+                  "display": "Swedish (Sweden)"
+                }
+              ]
+            },
+            "preferred": true
+          },
+          {
+            "language": {
+              "coding": [
+                {
+                  "code": "en",
+                  "system": "urn:ietf:bcp:47",
+                  "display": "English"
+                }
+              ]
+            },
+            "preferred": true
+          }
+        ],
+        "generalPractitioner": [
+          {
+            "reference": "Practitioner/cfsb1795093072193"
+          },
+          {
+            "reference": "Practitioner/cfsb1795093165193"
+          },
+          {
+            "reference": "Practitioner/cfsb1795093189078"
+          },
+          {
+            "reference": "Practitioner/cfsb1795103503452"
+          }
+        ],
+        "managingOrganization": {
+          "reference": "Organization/cfsb1795093292621"
+        },
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/patient-eu-eps"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "http://electronichealth.se/identifier/personnummer",
+            "value": "200201012384"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Andrea Andersson, female, born 2002-01-01. Home: Uppsala, Sweden. Temporary: Paris, France. Emergency contact: Anders Andersson +46 10 101 010. Languages: Swedish, English.</p></div>"
+        }
+      }
+    },
+    {
+      "fullUrl": "http://clinfhir.com/fhir/Practitioner/cfsb1795093072193",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "cfsb1795093072193",
+        "active": true,
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/practitioner-eu"
+          ]
+        },
+        "name": [
+          {
+            "family": "Lund",
+            "given": [
+              "Karin"
+            ],
+            "prefix": [
+              "Dr."
+            ]
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Dr. Karin Lund</p></div>"
+        }
+      }
+    },
+    {
+      "fullUrl": "http://clinfhir.com/fhir/Practitioner/cfsb1795093165193",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "cfsb1795093165193",
+        "active": true,
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/practitioner-eu"
+          ]
+        },
+        "name": [
+          {
+            "family": "Berg",
+            "given": [
+              "Erik"
+            ],
+            "prefix": [
+              "Dr."
+            ]
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Dr. Erik Berg</p></div>"
+        }
+      }
+    },
+    {
+      "fullUrl": "http://clinfhir.com/fhir/Practitioner/cfsb1795093189078",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "cfsb1795093189078",
+        "active": true,
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/practitioner-eu"
+          ]
+        },
+        "name": [
+          {
+            "family": "Nilsson",
+            "given": [
+              "Sara"
+            ],
+            "prefix": [
+              "Dr."
+            ]
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Dr. Sara Nilsson</p></div>"
+        }
+      }
+    },
+    {
+      "fullUrl": "http://clinfhir.com/fhir/Organization/cfsb1795093292621",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "cfsb1795093292621",
+        "active": true,
+        "type": [
+          {
+            "coding": [
+              {
+                "code": "prov",
+                "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+                "display": "Healthcare Provider"
+              }
+            ]
+          }
+        ],
+        "name": "Region Uppsala",
+        "address": [
+          {
+            "text": "Storgatan 27, Uppsala, SE 753 31",
+            "use": "work",
+            "type": "both",
+            "line": [
+              "Storgatan 27"
+            ],
+            "city": "Uppsala",
+            "country": "Sweden"
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+46186110000",
+            "use": "work"
+          }
+        ],
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/organization-eu"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Region Uppsala</p></div>"
+        }
+      }
+    },
+    {
+      "fullUrl": "http://clinfhir.com/fhir/Condition/cfsb1795093339820",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cfsb1795093339820",
+        "subject": {
+          "reference": "Patient/cfsb1795091993308"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active",
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "display": "Active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "code": "confirmed",
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "display": "Confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "46635009",
+              "system": "http://snomed.info/sct",
+              "display": "Type 1 diabetes"
+            }
+          ]
+        },
+        "onsetDateTime": "2007-01-01T13:28:17Z",
+        "recorder": {
+          "reference": "Practitioner/cfsb1795093165193"
+        },
+        "asserter": {
+          "reference": "Practitioner/cfsb1795093165193"
+        },
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/condition-eu-core"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Type 1 diabetes – active since 2007-01-01</p></div>"
+        }
+      }
+    },
+    {
+      "fullUrl": "http://clinfhir.com/fhir/Condition/cfsb1795093363270",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cfsb1795093363270",
+        "subject": {
+          "reference": "Patient/cfsb1795091993308"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active",
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "display": "Active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "code": "confirmed",
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "display": "Confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "406506008",
+              "system": "http://snomed.info/sct",
+              "display": "Attention deficit hyperactivity disorder"
+            }
+          ]
+        },
+        "onsetDateTime": "2023-01-01T13:28:17Z",
+        "recorder": {
+          "reference": "Practitioner/cfsb1795093189078"
+        },
+        "asserter": {
+          "reference": "Practitioner/cfsb1795093189078"
+        },
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/condition-eu-core"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Attention deficit hyperactivity disorder – active since 2023-01-01</p></div>"
+        }
+      }
+    },
+    {
+      "fullUrl": "http://clinfhir.com/fhir/Condition/cfsb1795094298486",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cfsb1795094298486",
+        "subject": {
+          "reference": "Patient/cfsb1795091993308"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "inactive",
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "display": "Inactive"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "code": "confirmed",
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "display": "Confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "871840004",
+              "system": "http://snomed.info/sct",
+              "display": "Depressive episode"
+            }
+          ]
+        },
+        "onsetDateTime": "2025-01-01T13:28:17Z",
+        "abatementDateTime": "2025-10-01T13:28:17Z",
+        "recorder": {
+          "reference": "Practitioner/cfsb1795093072193"
+        },
+        "asserter": {
+          "reference": "Practitioner/cfsb1795093072193"
+        },
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/condition-eu-core"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Depressive episode – 2025-01-01 to 2025-10-01, inactive</p></div>"
+        }
+      }
+    },
+    {
+      "fullUrl": "http://clinfhir.com/fhir/PractitionerRole/cfsb1795095275348",
+      "resource": {
+        "resourceType": "PractitionerRole",
+        "id": "cfsb1795095275348",
+        "active": true,
+        "practitioner": {
+          "reference": "Practitioner/cfsb1795093072193"
+        },
+        "organization": {
+          "reference": "Organization/cfsb1795093292621"
+        },
+        "code": [
+          {
+            "coding": [
+              {
+                "code": "446050000",
+                "system": "http://snomed.info/sct",
+                "display": "Primary care physician"
+              }
+            ]
+          }
+        ],
+        "specialty": [
+          {
+            "coding": [
+              {
+                "code": "408443003",
+                "system": "http://snomed.info/sct",
+                "display": "General medical practice"
+              }
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+467771234",
+            "use": "work"
+          }
+        ],
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/practitionerRole-eu"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Primary care physician, Region Uppsala</p></div>"
+        }
+      }
+    },
+    {
+      "fullUrl": "http://clinfhir.com/fhir/PractitionerRole/cfsb1795096049487",
+      "resource": {
+        "resourceType": "PractitionerRole",
+        "id": "cfsb1795096049487",
+        "active": true,
+        "practitioner": {
+          "reference": "Practitioner/cfsb1795093165193"
+        },
+        "organization": {
+          "reference": "Organization/cfsb1795093292621"
+        },
+        "code": [
+          {
+            "coding": [
+              {
+                "code": "61894003",
+                "system": "http://snomed.info/sct",
+                "display": "Endocrinologist"
+              }
+            ]
+          }
+        ],
+        "specialty": [
+          {
+            "coding": [
+              {
+                "code": "394583002",
+                "system": "http://snomed.info/sct",
+                "display": "Endocrinology"
+              }
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+468881234",
+            "use": "work"
+          }
+        ],
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/practitionerRole-eu"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Endocrinologist, Region Uppsala</p></div>"
+        }
+      }
+    },
+    {
+      "fullUrl": "http://clinfhir.com/fhir/PractitionerRole/cfsb1795096196193",
+      "resource": {
+        "resourceType": "PractitionerRole",
+        "id": "cfsb1795096196193",
+        "active": true,
+        "practitioner": {
+          "reference": "Practitioner/cfsb1795093189078"
+        },
+        "organization": {
+          "reference": "Organization/cfsb1795093292621"
+        },
+        "code": [
+          {
+            "coding": [
+              {
+                "code": "80584001",
+                "system": "http://snomed.info/sct",
+                "display": "Psychiatrist"
+              }
+            ]
+          }
+        ],
+        "specialty": [
+          {
+            "coding": [
+              {
+                "code": "394587001",
+                "system": "http://snomed.info/sct",
+                "display": "Psychiatry"
+              }
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+469991234",
+            "use": "work"
+          }
+        ],
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/practitionerRole-eu"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Psychiatrist, Region Uppsala</p></div>"
+        }
+      }
+    },
+    {
+      "fullUrl": "http://clinfhir.com/fhir/Medication/cfsb1795096340089",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "cfsb1795096340089",
+        "code": {
+          "coding": [
+            {
+              "code": "67866001",
+              "system": "http://snomed.info/sct",
+              "display": "Insulin"
+            },
+            {
+              "code": "847230",
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "display": "3 ML insulin glargine 100 UNT/ML Pen Injector"
+            }
+          ],
+          "text": "3 ML insulin glargine 100 UNT/ML Pen Injector"
+        },
+        "status": "active",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medication-eu-core"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>3 ML insulin glargine 100 UNT/ML Pen Injector</p></div>"
+        }
+      }
+    },
+    {
+      "fullUrl": "http://clinfhir.com/fhir/Medication/cfsb1795096354354",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "cfsb1795096354354",
+        "code": {
+          "coding": [
+            {
+              "code": "373337007",
+              "system": "http://snomed.info/sct",
+              "display": "Methylphenidate"
+            },
+            {
+              "code": "1091392",
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "display": "methylphenidate hydrochloride 20 MG Oral Tablet"
+            }
+          ],
+          "text": "methylphenidate hydrochloride 20 MG Oral Tablet"
+        },
+        "status": "active",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medication-eu-core"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>methylphenidate hydrochloride 20 MG Oral Tablet</p></div>"
+        }
+      }
+    },
+    {
+      "fullUrl": "http://clinfhir.com/fhir/MedicationStatement/cfsb1795097027432",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "cfsb1795097027432",
+        "subject": {
+          "reference": "Patient/cfsb1795091993308"
+        },
+        "status": "active",
+        "medicationReference": {
+          "reference": "Medication/cfsb1795096340089"
+        },
+        "category": {
+          "coding": [
+            {
+              "code": "outpatient",
+              "system": "http://terminology.hl7.org/CodeSystem/medication-statement-category",
+              "display": "Outpatient"
+            }
+          ]
+        },
+        "reasonReference": [
+          {
+            "reference": "Condition/cfsb1795093339820"
+          }
+        ],
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/MedicationStatement-eu-eps"
+          ]
+        },
+        "effectivePeriod": {
+          "start": "2007-01-01"
+        },
+        "dosage": [
+          {
+            "text": "Insulin glargine 100 U/mL pen, subcutaneous, once daily; dose per diabetes plan – to be verified"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Insulin glargine 100 U/mL pen – once daily, dose to be verified – for type 1 diabetes</p></div>"
+        }
+      }
+    },
+    {
+      "fullUrl": "http://clinfhir.com/fhir/MedicationStatement/cfsb1795097062419",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "cfsb1795097062419",
+        "subject": {
+          "reference": "Patient/cfsb1795091993308"
+        },
+        "status": "active",
+        "medicationReference": {
+          "reference": "Medication/cfsb1795096354354"
+        },
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/MedicationStatement-eu-eps"
+          ]
+        },
+        "effectivePeriod": {
+          "start": "2023-01-01"
+        },
+        "reasonReference": [
+          {
+            "reference": "Condition/cfsb1795093363270"
+          }
+        ],
+        "dosage": [
+          {
+            "text": "Methylphenidate 20 mg tablet, by mouth; schedule to be verified"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Methylphenidate 20 mg tablet – schedule to be verified – for ADHD</p></div>"
+        }
+      }
+    },
+    {
+      "fullUrl": "http://clinfhir.com/fhir/AllergyIntolerance/cfsb1795099784214",
+      "resource": {
+        "resourceType": "AllergyIntolerance",
+        "id": "cfsb1795099784214",
+        "patient": {
+          "reference": "Patient/cfsb1795091993308"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "inactive",
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+              "display": "Inactive"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "code": "confirmed",
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+              "display": "Confirmed"
+            }
+          ]
+        },
+        "type": "allergy",
+        "category": [
+          "environment"
+        ],
+        "criticality": "low",
+        "code": {
+          "coding": [
+            {
+              "code": "300910009",
+              "system": "http://snomed.info/sct",
+              "display": "Allergy to pollen"
+            }
+          ]
+        },
+        "onsetDateTime": "2012-01-01T13:28:17Z",
+        "recorder": {
+          "reference": "Practitioner/cfsb1795093072193"
+        },
+        "asserter": {
+          "reference": "Practitioner/cfsb1795093072193"
+        },
+        "lastOccurrence": "2026-04-01T13:28:17Z",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/allergyIntolerance-eu-core"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Allergy to pollen – environment, low criticality, inactive</p></div>"
+        }
+      }
+    },
+    {
+      "fullUrl": "http://clinfhir.com/fhir/QuestionnaireResponse/cfsb1795102360607",
+      "resource": {
+        "resourceType": "QuestionnaireResponse",
+        "id": "cfsb1795102360607",
+        "status": "completed",
+        "subject": {
+          "reference": "Patient/cfsb1795091993308"
+        },
+        "questionnaire": "urn:uuid:550e8400-e29b-41d4-a716-446655440000",
+        "author": {
+          "reference": "Patient/cfsb1795091993308"
+        },
+        "item": [
+          {
+            "linkId": "q1",
+            "text": "What name would you like to be called?",
+            "answer": [
+              {
+                "valueString": "Andrea"
+              }
+            ]
+          },
+          {
+            "linkId": "q2",
+            "text": "Is there anything important about your communication needs?",
+            "answer": [
+              {
+                "valueString": "Swedish or English. When I am stressed, please speak calmly, give one step at a time and write instructions down."
+              }
+            ]
+          },
+          {
+            "linkId": "q3",
+            "text": "Is there anything important about your care needs?",
+            "answer": [
+              {
+                "valueString": "I have type 1 diabetes and use a CGM sensor. Please check my glucose and ketones early."
+              }
+            ]
+          },
+          {
+            "linkId": "q4",
+            "text": "Do you have any emergency contact? Please write it below.",
+            "answer": [
+              {
+                "valueString": "Anders Andersson, +46 10 101 010"
+              }
+            ]
+          },
+          {
+            "linkId": "q5",
+            "text": "Is there anything that you wish to keep personal? Please write it below.",
+            "answer": [
+              {
+                "valueString": "Please share my mental health history only with the clinicians treating me."
+              }
+            ]
+          }
+        ],
+        "authored": "2026-11-15T10:00:00+01:00",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>MyHealth Passport answers written by Andrea (simulated patient input).</p></div>"
+        }
+      }
+    },
+    {
+      "fullUrl": "http://clinfhir.com/fhir/Organization/cfsb1795103377683",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "cfsb1795103377683",
+        "active": true,
+        "name": "Region Paris",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/organization-eu"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Region Paris</p></div>"
+        }
+      }
+    },
+    {
+      "fullUrl": "http://clinfhir.com/fhir/Practitioner/cfsb1795103503452",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "cfsb1795103503452",
+        "active": true,
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/practitioner-eu"
+          ]
+        },
+        "name": [
+          {
+            "family": "Martin",
+            "given": [
+              "Claire"
+            ],
+            "prefix": [
+              "Dr."
+            ]
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Dr. Claire Martin</p></div>"
+        }
+      }
+    },
+    {
+      "fullUrl": "http://clinfhir.com/fhir/PractitionerRole/cfsb1795103524756",
+      "resource": {
+        "resourceType": "PractitionerRole",
+        "id": "cfsb1795103524756",
+        "practitioner": {
+          "reference": "Practitioner/cfsb1795103503452"
+        },
+        "organization": {
+          "reference": "Organization/cfsb1795103377683"
+        },
+        "healthcareService": [
+          {
+            "reference": "HealthcareService/cfsb1795103880553"
+          }
+        ],
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/practitionerRole-eu"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Emergency physician, Region Paris</p></div>"
+        }
+      }
+    },
+    {
+      "fullUrl": "http://clinfhir.com/fhir/HealthcareService/cfsb1795103880553",
+      "resource": {
+        "resourceType": "HealthcareService",
+        "id": "cfsb1795103880553",
+        "providedBy": {
+          "reference": "Organization/cfsb1795103377683"
+        },
+        "active": true,
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "14",
+                "system": "http://terminology.hl7.org/CodeSystem/service-category",
+                "display": "Emergency Department"
+              }
+            ]
+          }
+        ],
+        "type": [
+          {
+            "coding": [
+              {
+                "code": "117",
+                "system": "http://terminology.hl7.org/CodeSystem/service-type",
+                "display": "Emergency Medical"
+              }
+            ]
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Emergency Department, Region Paris</p></div>"
+        }
+      }
+    },
+    {
+      "fullUrl": "http://clinfhir.com/fhir/Encounter/cfsb1795105661816",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "cfsb1795105661816",
+        "subject": {
+          "reference": "Patient/cfsb1795091993308"
+        },
+        "status": "finished",
+        "class": {
+          "code": "EMER",
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "display": "emergency"
+        },
+        "serviceType": {
+          "coding": [
+            {
+              "code": "117",
+              "system": "http://terminology.hl7.org/CodeSystem/service-type",
+              "display": "Emergency Medical"
+            }
+          ]
+        },
+        "reasonCode": [
+          {
+            "coding": [
+              {
+                "code": "80394007",
+                "system": "http://snomed.info/sct",
+                "display": "Hyperglycaemia"
+              }
+            ]
+          }
+        ],
+        "reasonReference": [
+          {
+            "reference": "Condition/cfsb1795106111483"
+          }
+        ],
+        "diagnosis": [
+          {
+            "condition": {
+              "reference": "Condition/cfsb1795106111483"
+            },
+            "use": {
+              "coding": [
+                {
+                  "code": "AD",
+                  "system": "http://terminology.hl7.org/CodeSystem/diagnosis-role",
+                  "display": "Admission diagnosis"
+                }
+              ]
+            }
+          }
+        ],
+        "serviceProvider": {
+          "reference": "Organization/cfsb1795103377683"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Emergency encounter, Region Paris, reason: hyperglycaemia</p></div>"
+        },
+        "period": {
+          "start": "2026-11-01T13:00:00Z",
+          "end": "2026-11-02T10:00:00Z"
+        }
+      }
+    },
+    {
+      "fullUrl": "http://clinfhir.com/fhir/Condition/cfsb1795106111483",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cfsb1795106111483",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "resolved",
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "display": "Resolved"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "code": "confirmed",
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "display": "Confirmed"
+            }
+          ]
+        },
+        "severity": {
+          "coding": [
+            {
+              "code": "24484000",
+              "system": "http://snomed.info/sct",
+              "display": "Severe"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "80394007",
+              "system": "http://snomed.info/sct",
+              "display": "Hyperglycaemia"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/cfsb1795091993308"
+        },
+        "onsetDateTime": "2026-11-01T13:28:17Z",
+        "recorder": {
+          "reference": "Practitioner/cfsb1795103503452"
+        },
+        "asserter": {
+          "reference": "Practitioner/cfsb1795103503452"
+        },
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/condition-eu-core"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Hyperglycaemia, severe – 2026-11-01, resolved (ED Paris)</p></div>"
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "problem-list-item",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "http://clinfhir.com/fhir/Observation/cfsb1795107490494",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "cfsb1795107490494",
+        "subject": {
+          "reference": "Patient/cfsb1795091993308"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "15074-8",
+              "display": "Glucose [Moles/volume] in Blood"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "encounter": {
+          "reference": "Encounter/cfsb1795105661816"
+        },
+        "performer": [
+          {
+            "reference": "Practitioner/cfsb1795103503452"
+          }
+        ],
+        "valueQuantity": {
+          "value": 10,
+          "unit": "mmol/L",
+          "system": "http://unitsofmeasure.org",
+          "code": "mmol/L"
+        },
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "code": "A",
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "display": "Abnormal"
+              }
+            ]
+          }
+        ],
+        "method": {
+          "coding": [
+            {
+              "code": "33747003",
+              "system": "http://snomed.info/sct",
+              "display": "Glucose measurement, blood"
+            }
+          ]
+        },
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medicalTestResult-eu-core"
+          ]
+        },
+        "effectiveDateTime": "2026-11-01T13:28:17Z",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Blood glucose 10 mmol/L (abnormal), 2026-11-01, Emergency Department Paris</p></div>"
+        }
+      }
+    },
+    {
+      "fullUrl": "http://clinfhir.com/fhir/Observation/cfsb1795107848269",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "cfsb1795107848269",
+        "subject": {
+          "reference": "Patient/cfsb1795091993308"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "15074-8",
+              "display": "Glucose [Moles/volume] in Blood"
+            }
+          ]
+        },
+        "method": {
+          "coding": [
+            {
+              "code": "359776002",
+              "system": "http://snomed.info/sct",
+              "display": "Glucose measurement by monitoring device"
+            }
+          ]
+        },
+        "device": {
+          "reference": "Device/cfsb1795108055342"
+        },
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medicalTestResult-eu-core"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "effectiveDateTime": "2026-10-30T08:00:00Z",
+        "valueQuantity": {
+          "value": 14.2,
+          "unit": "mmol/L",
+          "system": "http://unitsofmeasure.org",
+          "code": "mmol/L"
+        },
+        "performer": [
+          {
+            "reference": "Patient/cfsb1795091993308"
+          }
+        ],
+        "note": [
+          {
+            "text": "Patient-generated CGM reading (synthetic hackathon data)."
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Glucose 14.2 mmol/L, 2026-10-30, from CGM sensor (patient-generated)</p></div>"
+        }
+      }
+    },
+    {
+      "fullUrl": "http://clinfhir.com/fhir/Device/cfsb1795108055342",
+      "resource": {
+        "resourceType": "Device",
+        "id": "cfsb1795108055342",
+        "status": "active",
+        "statusReason": [
+          {
+            "coding": [
+              {
+                "code": "online",
+                "system": "http://terminology.hl7.org/CodeSystem/device-status-reason",
+                "display": "Online"
+              }
+            ]
+          }
+        ],
+        "deviceName": [
+          {
+            "name": "Libero",
+            "type": "manufacturer-name"
+          }
+        ],
+        "type": {
+          "coding": [
+            {
+              "code": "1239251000168108",
+              "system": "http://snomed.info/sct",
+              "display": "Continuous glucose monitoring system"
+            }
+          ]
+        },
+        "patient": {
+          "reference": "Patient/cfsb1795091993308"
+        },
+        "owner": {
+          "reference": "Organization/cfsb1795093292621"
+        },
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/device-eu-eps"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Continuous glucose monitoring system (Libero), active</p></div>"
+        }
+      }
+    },
+    {
+      "fullUrl": "http://clinfhir.com/fhir/CarePlan/cfsb1795110353088",
+      "resource": {
+        "resourceType": "CarePlan",
+        "id": "cfsb1795110353088",
+        "subject": {
+          "reference": "Patient/cfsb1795091993308"
+        },
+        "status": "active",
+        "intent": "plan",
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "734163000",
+                "system": "http://snomed.info/sct",
+                "display": "Care plan"
+              }
+            ]
+          }
+        ],
+        "encounter": {
+          "reference": "Encounter/cfsb1795105661816"
+        },
+        "author": {
+          "reference": "Practitioner/cfsb1795103503452"
+        },
+        "contributor": [
+          {
+            "reference": "Organization/cfsb1795103377683"
+          },
+          {
+            "reference": "Organization/cfsb1795093292621"
+          }
+        ],
+        "title": "Follow-up after emergency visit",
+        "description": "After discharge from the ED in Paris: insulin review with the Uppsala diabetes clinic, psychiatric follow-up, and local student health support in Paris.",
+        "period": {
+          "start": "2026-11-02"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Follow-up after emergency visit (from 2026-11-02): insulin review with Uppsala diabetes clinic, psychiatric follow-up, student health support in Paris. Author: ED Paris; contributors: Region Paris, Region Uppsala.</p></div>"
+        }
+      }
+    },
+    {
+      "fullUrl": "http://clinfhir.com/fhir/DeviceUseStatement/andrea-cgm-use",
+      "resource": {
+        "resourceType": "DeviceUseStatement",
+        "id": "andrea-cgm-use",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/deviceUseStatement-eu-eps"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Uses continuous glucose monitoring system since 2024-01-01</p></div>"
+        },
+        "status": "active",
+        "subject": {
+          "reference": "Patient/cfsb1795091993308"
+        },
+        "timingPeriod": {
+          "start": "2024-01-01"
+        },
+        "device": {
+          "reference": "Device/cfsb1795108055342"
+        }
+      }
+    }
+  ]
+}

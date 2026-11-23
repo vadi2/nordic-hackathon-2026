@@ -1,0 +1,1137 @@
+{
+    "resourceType": "Bundle",
+    "id": "8197d143-25d2-435d-858b-e1c042b6811a",
+    "meta": {
+        "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/bundle-eu-eps"
+        ]
+    },
+    "language": "it-CH",
+    "identifier": {
+        "system": "urn:ietf:rfc:3986",
+        "value": "urn:uuid:8197d143-25d2-435d-858b-e1c042b6811a"
+    },
+    "type": "document",
+    "timestamp": "2026-11-20T10:21:02+01:00",
+    "entry": [
+        {
+            "fullUrl": "http://test.fhir.ch/r4/Composition/cfa701cd-2631-400b-a6d7-94d30db95301",
+            "resource": {
+                "resourceType": "Composition",
+                "id": "cfa701cd-2631-400b-a6d7-94d30db95301",
+                "meta": {
+                    "profile": [
+                        "http://hl7.eu/fhir/eps/StructureDefinition/composition-eu-eps"
+                    ]
+                },
+                "language": "it-CH",
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Riassunto del paziente – Giulia Bianchi</p><p>Dr. med. Giulia Gianella, Ospedale Locarno, 2026-05-05</p></div>"
+                },
+                "identifier": {
+                    "system": "urn:ietf:rfc:3986",
+                    "value": "urn:uuid:610982de-7aa9-46fe-8b06-d4eae539f7e6"
+                },
+                "status": "final",
+                "type": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "60591-5",
+                            "display": "Patient summary Document"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "http://test.fhir.ch/r4/Patient/dc33e1f9-4c1f-45ab-b156-29eee893be3d"
+                },
+                "date": "2026-05-05T09:56:00+02:00",
+                "author": [
+                    {
+                        "reference": "http://test.fhir.ch/r4/PractitionerRole/b3f6fe0d-4860-4b32-b4fb-0eb949c13de7"
+                    }
+                ],
+                "title": "Riassunto del paziente – Giulia Bianchi",
+                "confidentiality": "N",
+                "custodian": {
+                    "reference": "http://test.fhir.ch/r4/Organization/3d67cde9-2834-44c0-94c8-b3b4a911d192"
+                },
+                "relatesTo": [
+                    {
+                        "code": "transforms",
+                        "targetIdentifier": {
+                            "system": "urn:ietf:rfc:3986",
+                            "value": "urn:uuid:2e76128b-4735-44f9-aa83-bf007135f221"
+                        }
+                    }
+                ],
+                "event": [
+                    {
+                        "code": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://terminology.hl7.org/CodeSystem/v3-ActClass",
+                                        "code": "PCPR",
+                                        "display": "care provision"
+                                    }
+                                ]
+                            }
+                        ],
+                        "period": {
+                            "end": "2026-05-05T09:56:00+02:00"
+                        }
+                    }
+                ],
+                "section": [
+                    {
+                        "title": "Medicazione",
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "http://loinc.org",
+                                    "code": "10160-0",
+                                    "display": "History of Medication use Narrative"
+                                }
+                            ]
+                        },
+                        "text": {
+                            "status": "generated",
+                            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>METFORMIN axapharm Filmtabl 500 mg (Blister 50 Stk): 1 al mattino + la sera</li><li>Allopurinol 300 mg Tabletten: 1 al mattino</li></ul></div>"
+                        },
+                        "entry": [
+                            {
+                                "reference": "http://test.fhir.ch/r4/MedicationRequest/670acc5c-b321-4f21-8dd8-eb85b04d3376"
+                            },
+                            {
+                                "reference": "http://test.fhir.ch/r4/MedicationStatement/bc0a6a5d-6e99-4e3e-a3b1-37fc0a3450fc"
+                            },
+                            {
+                                "reference": "urn:uuid:776522ed-2966-4967-9502-2afdbf4232b4"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Allergie e intolleranze",
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "http://loinc.org",
+                                    "code": "48765-2",
+                                    "display": "Allergies and adverse reactions Document"
+                                }
+                            ]
+                        },
+                        "text": {
+                            "status": "generated",
+                            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Non rilevato</li></ul></div>"
+                        },
+                        "emptyReason": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/list-empty-reason",
+                                    "code": "notasked",
+                                    "display": "Not Asked"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "title": "Problemi attuali",
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "http://loinc.org",
+                                    "code": "11450-4",
+                                    "display": "Problem list - Reported"
+                                }
+                            ]
+                        },
+                        "text": {
+                            "status": "generated",
+                            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Diabete mellito di tipo 2 (dal 2019)</li><li>Gotta (dal 2013)</li></ul></div>"
+                        },
+                        "entry": [
+                            {
+                                "reference": "http://test.fhir.ch/r4/Condition/0f44704f-1247-4a4e-a469-98e8d39e198b"
+                            },
+                            {
+                                "reference": "http://test.fhir.ch/r4/Condition/9854ce4e-4ebf-45c3-8ae9-b4a72a79ea68"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Vaccinazioni",
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "http://loinc.org",
+                                    "code": "11369-6",
+                                    "display": "History of Immunization Narrative"
+                                }
+                            ]
+                        },
+                        "text": {
+                            "status": "generated",
+                            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>MMR-II (2016-08-20)</li></ul></div>"
+                        },
+                        "entry": [
+                            {
+                                "reference": "http://test.fhir.ch/r4/Immunization/964db03f-9340-4fad-9c4a-d56bd6016237"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Risultati",
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "http://loinc.org",
+                                    "code": "30954-2",
+                                    "display": "Relevant diagnostic tests/laboratory data Narrative"
+                                }
+                            ]
+                        },
+                        "text": {
+                            "status": "generated",
+                            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>HbA1c: 9.5 %</li></ul></div>"
+                        },
+                        "entry": [
+                            {
+                                "reference": "http://test.fhir.ch/r4/Observation/0a4c9f7f-9384-4c2b-84fe-acaed248a9a7"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Anamnesi delle procedure",
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "http://loinc.org",
+                                    "code": "47519-4",
+                                    "display": "History of Procedures Document"
+                                }
+                            ]
+                        },
+                        "text": {
+                            "status": "generated",
+                            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Il documento di origine non contiene informazioni.</p></div>"
+                        },
+                        "emptyReason": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/list-empty-reason",
+                                    "code": "unavailable",
+                                    "display": "Unavailable"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "title": "Dispositivi medici",
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "http://loinc.org",
+                                    "code": "46264-8",
+                                    "display": "History of medical device use"
+                                }
+                            ]
+                        },
+                        "text": {
+                            "status": "generated",
+                            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Il documento di origine non contiene informazioni.</p></div>"
+                        },
+                        "emptyReason": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/list-empty-reason",
+                                    "code": "unavailable",
+                                    "display": "Unavailable"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "http://test.fhir.ch/r4/Patient/dc33e1f9-4c1f-45ab-b156-29eee893be3d",
+            "resource": {
+                "resourceType": "Patient",
+                "id": "dc33e1f9-4c1f-45ab-b156-29eee893be3d",
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Giulia Bianchi</li><li>1970-06-02 (female)</li><li>6600 Locarno</li></ul></div>"
+                },
+                "identifier": [
+                    {
+                        "type": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                                    "code": "MR",
+                                    "display": "Medical record number"
+                                }
+                            ]
+                        },
+                        "system": "urn:oid:2.999.756.1.909",
+                        "value": "93002706"
+                    }
+                ],
+                "name": [
+                    {
+                        "use": "official",
+                        "family": "Bianchi",
+                        "given": [
+                            "Giulia"
+                        ]
+                    }
+                ],
+                "telecom": [
+                    {
+                        "system": "phone",
+                        "value": "+41 79 000 81 63",
+                        "use": "mobile"
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1970-06-02",
+                "address": [
+                    {
+                        "use": "home",
+                        "line": [
+                            "Via Lugano 77"
+                        ],
+                        "city": "Locarno",
+                        "postalCode": "6600",
+                        "country": "CH"
+                    }
+                ],
+                "maritalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://fhir.ch/ig/ch-core/CodeSystem/ech-11-maritalstatus",
+                            "code": "6",
+                            "display": "in eingetragener Partnerschaft"
+                        }
+                    ]
+                },
+                "communication": [
+                    {
+                        "language": {
+                            "coding": [
+                                {
+                                    "system": "urn:ietf:bcp:47",
+                                    "code": "it-CH"
+                                }
+                            ]
+                        },
+                        "preferred": true
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "http://test.fhir.ch/r4/Organization/3d67cde9-2834-44c0-94c8-b3b4a911d192",
+            "resource": {
+                "resourceType": "Organization",
+                "id": "3d67cde9-2834-44c0-94c8-b3b4a911d192",
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Ospedale Locarno</li></ul></div>"
+                },
+                "identifier": [
+                    {
+                        "system": "urn:oid:2.51.1.3",
+                        "value": "7601999649909"
+                    }
+                ],
+                "name": "Ospedale Locarno",
+                "telecom": [
+                    {
+                        "system": "phone",
+                        "value": "+41 33 000 36 90",
+                        "use": "work"
+                    }
+                ],
+                "address": [
+                    {
+                        "line": [
+                            "Via Cantonale 17"
+                        ],
+                        "city": "Locarno",
+                        "postalCode": "6600",
+                        "country": "CH"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "http://test.fhir.ch/r4/Practitioner/3b4206c5-085b-45fb-8a8f-f810784c2f29",
+            "resource": {
+                "resourceType": "Practitioner",
+                "id": "3b4206c5-085b-45fb-8a8f-f810784c2f29",
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Dr. med. Giulia Gianella</li></ul></div>"
+                },
+                "identifier": [
+                    {
+                        "system": "urn:oid:2.51.1.3",
+                        "value": "7601999206799"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "Gianella",
+                        "given": [
+                            "Giulia"
+                        ],
+                        "prefix": [
+                            "Dr. med."
+                        ]
+                    }
+                ],
+                "gender": "female"
+            }
+        },
+        {
+            "fullUrl": "http://test.fhir.ch/r4/PractitionerRole/b3f6fe0d-4860-4b32-b4fb-0eb949c13de7",
+            "resource": {
+                "resourceType": "PractitionerRole",
+                "id": "b3f6fe0d-4860-4b32-b4fb-0eb949c13de7",
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Dr. med. Giulia Gianella</li></ul></div>"
+                },
+                "practitioner": {
+                    "reference": "http://test.fhir.ch/r4/Practitioner/3b4206c5-085b-45fb-8a8f-f810784c2f29"
+                },
+                "organization": {
+                    "reference": "http://test.fhir.ch/r4/Organization/3d67cde9-2834-44c0-94c8-b3b4a911d192"
+                },
+                "code": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://snomed.info/sct",
+                                "code": "309343006",
+                                "display": "Physician"
+                            }
+                        ]
+                    }
+                ],
+                "specialty": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:2.16.756.5.30.1.127.3.5",
+                                "code": "1040",
+                                "display": "General medical practitioner"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "http://test.fhir.ch/r4/Condition/0f44704f-1247-4a4e-a469-98e8d39e198b",
+            "resource": {
+                "resourceType": "Condition",
+                "id": "0f44704f-1247-4a4e-a469-98e8d39e198b",
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Type 2 diabetes mellitus</li></ul></div>"
+                },
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active",
+                            "display": "Active"
+                        }
+                    ]
+                },
+                "verificationStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+                            "code": "confirmed",
+                            "display": "Confirmed"
+                        }
+                    ]
+                },
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                                "code": "problem-list-item",
+                                "display": "Problem List Item"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "44054006",
+                            "display": "Type 2 diabetes mellitus"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "http://test.fhir.ch/r4/Patient/dc33e1f9-4c1f-45ab-b156-29eee893be3d"
+                },
+                "onsetDateTime": "2019-11-11",
+                "recordedDate": "2019-11-11"
+            }
+        },
+        {
+            "fullUrl": "http://test.fhir.ch/r4/Condition/9854ce4e-4ebf-45c3-8ae9-b4a72a79ea68",
+            "resource": {
+                "resourceType": "Condition",
+                "id": "9854ce4e-4ebf-45c3-8ae9-b4a72a79ea68",
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Gout</li></ul></div>"
+                },
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active",
+                            "display": "Active"
+                        }
+                    ]
+                },
+                "verificationStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+                            "code": "confirmed",
+                            "display": "Confirmed"
+                        }
+                    ]
+                },
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                                "code": "problem-list-item",
+                                "display": "Problem List Item"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "90560007",
+                            "display": "Gout"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "http://test.fhir.ch/r4/Patient/dc33e1f9-4c1f-45ab-b156-29eee893be3d"
+                },
+                "onsetDateTime": "2013-07-31",
+                "recordedDate": "2013-07-31"
+            }
+        },
+        {
+            "fullUrl": "http://test.fhir.ch/r4/MedicationRequest/670acc5c-b321-4f21-8dd8-eb85b04d3376",
+            "resource": {
+                "resourceType": "MedicationRequest",
+                "id": "670acc5c-b321-4f21-8dd8-eb85b04d3376",
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>METFORMIN axapharm Filmtabl 500 mg (Blister 50 Stk)</li><li>1 al mattino + la sera</li></ul></div>"
+                },
+                "contained": [
+                    {
+                        "resourceType": "Medication",
+                        "id": "med",
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "https://www.gs1.org/gtin",
+                                    "code": "7680696890012",
+                                    "display": "METFORMIN axapharm Filmtabl 500 mg (Blister 50 Stk)"
+                                }
+                            ],
+                            "text": "METFORMIN axapharm Filmtabl 500 mg (Blister 50 Stk)"
+                        },
+                        "form": {
+                            "coding": [
+                                {
+                                    "system": "http://standardterms.edqm.eu",
+                                    "code": "10219000",
+                                    "display": "Tablet"
+                                }
+                            ],
+                            "text": "Tablet"
+                        },
+                        "amount": {
+                            "numerator": {
+                                "value": 50,
+                                "unit": "Tablet (unit of presentation)",
+                                "system": "http://snomed.info/sct",
+                                "code": "732936001"
+                            },
+                            "denominator": {
+                                "value": 1,
+                                "unit": "Package - unit of product usage (qualifier value)",
+                                "system": "http://snomed.info/sct",
+                                "code": "1681000175101"
+                            }
+                        },
+                        "ingredient": [
+                            {
+                                "itemCodeableConcept": {
+                                    "coding": [
+                                        {
+                                            "system": "http://snomed.info/sct",
+                                            "code": "109083009",
+                                            "display": "Metformin hydrochloride (substance)"
+                                        }
+                                    ],
+                                    "text": "Metformin hydrochloride"
+                                },
+                                "isActive": true,
+                                "strength": {
+                                    "numerator": {
+                                        "value": 500,
+                                        "unit": "mg",
+                                        "system": "http://unitsofmeasure.org",
+                                        "code": "mg"
+                                    },
+                                    "denominator": {
+                                        "value": 1,
+                                        "unit": "Tablet (unit of presentation)",
+                                        "system": "http://snomed.info/sct",
+                                        "code": "732936001"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "status": "active",
+                "intent": "order",
+                "medicationReference": {
+                    "reference": "#med"
+                },
+                "subject": {
+                    "reference": "http://test.fhir.ch/r4/Patient/dc33e1f9-4c1f-45ab-b156-29eee893be3d"
+                },
+                "authoredOn": "2019-11-11",
+                "requester": {
+                    "reference": "http://test.fhir.ch/r4/PractitionerRole/b3f6fe0d-4860-4b32-b4fb-0eb949c13de7"
+                },
+                "dosageInstruction": [
+                    {
+                        "text": "1 al mattino + la sera",
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2019-11-11"
+                                },
+                                "when": [
+                                    "MORN",
+                                    "EVE"
+                                ]
+                            }
+                        },
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "http://standardterms.edqm.eu",
+                                    "code": "20053000",
+                                    "display": "Oral use"
+                                }
+                            ],
+                            "text": "per via orale"
+                        },
+                        "doseAndRate": [
+                            {
+                                "doseQuantity": {
+                                    "value": 1,
+                                    "unit": "Tablet (unit of presentation)",
+                                    "system": "http://snomed.info/sct",
+                                    "code": "732936001"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "http://test.fhir.ch/r4/Medication/9918ee46-1497-4658-b010-f7197e695d0d",
+            "resource": {
+                "resourceType": "Medication",
+                "id": "9918ee46-1497-4658-b010-f7197e695d0d",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://www.whocc.no/atc",
+                            "code": "M04AA01",
+                            "display": "allopurinol"
+                        }
+                    ],
+                    "text": "Allopurinol 300 mg Tabletten"
+                },
+                "form": {
+                    "coding": [
+                        {
+                            "system": "http://standardterms.edqm.eu",
+                            "code": "10219000",
+                            "display": "Tablet"
+                        }
+                    ],
+                    "text": "Tablet"
+                },
+                "amount": {
+                    "numerator": {
+                        "value": 30,
+                        "unit": "Tablet (unit of presentation)",
+                        "system": "http://snomed.info/sct",
+                        "code": "732936001"
+                    },
+                    "denominator": {
+                        "value": 1,
+                        "unit": "Package - unit of product usage (qualifier value)",
+                        "system": "http://snomed.info/sct",
+                        "code": "1681000175101"
+                    }
+                },
+                "ingredient": [
+                    {
+                        "itemCodeableConcept": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "387135004",
+                                    "display": "Allopurinol (substance)"
+                                }
+                            ],
+                            "text": "Allopurinol"
+                        },
+                        "isActive": true,
+                        "strength": {
+                            "numerator": {
+                                "value": 300,
+                                "unit": "mg",
+                                "system": "http://unitsofmeasure.org",
+                                "code": "mg"
+                            },
+                            "denominator": {
+                                "value": 1,
+                                "unit": "Tablet (unit of presentation)",
+                                "system": "http://snomed.info/sct",
+                                "code": "732936001"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "http://test.fhir.ch/r4/MedicationStatement/bc0a6a5d-6e99-4e3e-a3b1-37fc0a3450fc",
+            "resource": {
+                "resourceType": "MedicationStatement",
+                "id": "bc0a6a5d-6e99-4e3e-a3b1-37fc0a3450fc",
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Allopurinol 300 mg Tabletten</li><li>1 al mattino</li></ul></div>"
+                },
+                "status": "active",
+                "medicationReference": {
+                    "reference": "http://test.fhir.ch/r4/Medication/9918ee46-1497-4658-b010-f7197e695d0d"
+                },
+                "subject": {
+                    "reference": "http://test.fhir.ch/r4/Patient/dc33e1f9-4c1f-45ab-b156-29eee893be3d"
+                },
+                "effectivePeriod": {
+                    "start": "2013-07-31"
+                },
+                "dosage": [
+                    {
+                        "text": "1 al mattino",
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2013-07-31"
+                                },
+                                "when": [
+                                    "MORN"
+                                ]
+                            }
+                        },
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "http://standardterms.edqm.eu",
+                                    "code": "20053000",
+                                    "display": "Oral use"
+                                }
+                            ],
+                            "text": "per via orale"
+                        },
+                        "doseAndRate": [
+                            {
+                                "doseQuantity": {
+                                    "value": 1,
+                                    "unit": "Tablet (unit of presentation)",
+                                    "system": "http://snomed.info/sct",
+                                    "code": "732936001"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "http://test.fhir.ch/r4/Immunization/964db03f-9340-4fad-9c4a-d56bd6016237",
+            "resource": {
+                "resourceType": "Immunization",
+                "id": "964db03f-9340-4fad-9c4a-d56bd6016237",
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>MMR-II (2016-08-20)</li></ul></div>"
+                },
+                "status": "completed",
+                "vaccineCode": {
+                    "coding": [
+                        {
+                            "system": "http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs",
+                            "code": "268",
+                            "display": "MMR-II"
+                        },
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "871831003",
+                            "display": "Measles morbillivirus and Mumps orthorubulavirus and Rubella virus antigens only vaccine product"
+                        }
+                    ],
+                    "text": "MMR-II"
+                },
+                "patient": {
+                    "reference": "http://test.fhir.ch/r4/Patient/dc33e1f9-4c1f-45ab-b156-29eee893be3d"
+                },
+                "occurrenceDateTime": "2016-08-20",
+                "recorded": "2016-08-20",
+                "primarySource": true,
+                "lotNumber": "B4750",
+                "route": {
+                    "coding": [
+                        {
+                            "system": "http://standardterms.edqm.eu",
+                            "code": "20035000",
+                            "display": "Intramuscular use"
+                        }
+                    ]
+                },
+                "protocolApplied": [
+                    {
+                        "targetDisease": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://snomed.info/sct",
+                                        "code": "14189004",
+                                        "display": "Measles"
+                                    }
+                                ]
+                            },
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://snomed.info/sct",
+                                        "code": "36989005",
+                                        "display": "Mumps"
+                                    }
+                                ]
+                            },
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://snomed.info/sct",
+                                        "code": "36653000",
+                                        "display": "Rubella"
+                                    }
+                                ]
+                            }
+                        ],
+                        "doseNumberPositiveInt": 3
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "http://test.fhir.ch/r4/Observation/0a4c9f7f-9384-4c2b-84fe-acaed248a9a7",
+            "resource": {
+                "resourceType": "Observation",
+                "id": "0a4c9f7f-9384-4c2b-84fe-acaed248a9a7",
+                "meta": {
+                    "profile": [
+                        "http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-results-laboratory-pathology-uv-ips"
+                    ]
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>HbA1c: 9.5 %</li></ul></div>"
+                },
+                "status": "final",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                                "code": "laboratory",
+                                "display": "Laboratory"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "4548-4",
+                            "display": "Hemoglobin A1c/Hemoglobin.total in Blood"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "http://test.fhir.ch/r4/Patient/dc33e1f9-4c1f-45ab-b156-29eee893be3d"
+                },
+                "effectiveDateTime": "2026-03-20T09:56:00+01:00",
+                "performer": [
+                    {
+                        "reference": "http://test.fhir.ch/r4/Organization/3d67cde9-2834-44c0-94c8-b3b4a911d192"
+                    }
+                ],
+                "valueQuantity": {
+                    "value": 9.5,
+                    "unit": "%",
+                    "system": "http://unitsofmeasure.org",
+                    "code": "%"
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:776522ed-2966-4967-9502-2afdbf4232b4",
+            "resource": {
+                "resourceType": "MedicationStatement",
+                "id": "776522ed-2966-4967-9502-2afdbf4232b4",
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Derivato dalla prescrizione: METFORMIN axapharm Filmtabl 500 mg (Blister 50 Stk)</p></div>"
+                },
+                "contained": [
+                    {
+                        "resourceType": "Medication",
+                        "id": "med",
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "https://www.gs1.org/gtin",
+                                    "code": "7680696890012",
+                                    "display": "METFORMIN axapharm Filmtabl 500 mg (Blister 50 Stk)"
+                                }
+                            ],
+                            "text": "METFORMIN axapharm Filmtabl 500 mg (Blister 50 Stk)"
+                        },
+                        "form": {
+                            "coding": [
+                                {
+                                    "system": "http://standardterms.edqm.eu",
+                                    "code": "10219000",
+                                    "display": "Tablet"
+                                }
+                            ],
+                            "text": "Tablet"
+                        },
+                        "amount": {
+                            "numerator": {
+                                "value": 50,
+                                "unit": "Tablet (unit of presentation)",
+                                "system": "http://snomed.info/sct",
+                                "code": "732936001"
+                            },
+                            "denominator": {
+                                "value": 1,
+                                "unit": "Package - unit of product usage (qualifier value)",
+                                "system": "http://snomed.info/sct",
+                                "code": "1681000175101"
+                            }
+                        },
+                        "ingredient": [
+                            {
+                                "itemCodeableConcept": {
+                                    "coding": [
+                                        {
+                                            "system": "http://snomed.info/sct",
+                                            "code": "109083009",
+                                            "display": "Metformin hydrochloride (substance)"
+                                        }
+                                    ],
+                                    "text": "Metformin hydrochloride"
+                                },
+                                "isActive": true,
+                                "strength": {
+                                    "numerator": {
+                                        "value": 500,
+                                        "unit": "mg",
+                                        "system": "http://unitsofmeasure.org",
+                                        "code": "mg"
+                                    },
+                                    "denominator": {
+                                        "value": 1,
+                                        "unit": "Tablet (unit of presentation)",
+                                        "system": "http://snomed.info/sct",
+                                        "code": "732936001"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "status": "active",
+                "medicationReference": {
+                    "reference": "#med"
+                },
+                "subject": {
+                    "reference": "http://test.fhir.ch/r4/Patient/dc33e1f9-4c1f-45ab-b156-29eee893be3d"
+                },
+                "effectivePeriod": {
+                    "start": "2019-11-11"
+                },
+                "informationSource": {
+                    "reference": "http://test.fhir.ch/r4/PractitionerRole/b3f6fe0d-4860-4b32-b4fb-0eb949c13de7"
+                },
+                "derivedFrom": [
+                    {
+                        "reference": "http://test.fhir.ch/r4/MedicationRequest/670acc5c-b321-4f21-8dd8-eb85b04d3376"
+                    }
+                ],
+                "dosage": [
+                    {
+                        "text": "1 al mattino + la sera",
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2019-11-11"
+                                },
+                                "when": [
+                                    "MORN",
+                                    "EVE"
+                                ]
+                            }
+                        },
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "http://standardterms.edqm.eu",
+                                    "code": "20053000",
+                                    "display": "Oral use"
+                                }
+                            ],
+                            "text": "per via orale"
+                        },
+                        "doseAndRate": [
+                            {
+                                "doseQuantity": {
+                                    "value": 1,
+                                    "unit": "Tablet (unit of presentation)",
+                                    "system": "http://snomed.info/sct",
+                                    "code": "732936001"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:2af7e401-4b94-42f4-a766-3211c9efb180",
+            "resource": {
+                "resourceType": "Provenance",
+                "id": "2af7e401-4b94-42f4-a766-3211c9efb180",
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Converted from the CH IPS document urn:uuid:7de1bdfe-d072-4b5c-a281-40446f962882 to an EPS document by epsofacto 0.1.0-SNAPSHOT on 2026-11-20T10:21:02+01:00.</p></div>"
+                },
+                "contained": [
+                    {
+                        "resourceType": "Device",
+                        "id": "converter",
+                        "deviceName": [
+                            {
+                                "name": "epsofacto",
+                                "type": "user-friendly-name"
+                            }
+                        ],
+                        "version": [
+                            {
+                                "value": "0.1.0-SNAPSHOT"
+                            }
+                        ]
+                    }
+                ],
+                "target": [
+                    {
+                        "reference": "http://test.fhir.ch/r4/Composition/cfa701cd-2631-400b-a6d7-94d30db95301"
+                    }
+                ],
+                "recorded": "2026-11-20T10:21:02+01:00",
+                "activity": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/iso-21089-lifecycle",
+                            "code": "transform",
+                            "display": "Transform/Translate Record Lifecycle Event"
+                        }
+                    ]
+                },
+                "agent": [
+                    {
+                        "type": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/provenance-participant-type",
+                                    "code": "assembler",
+                                    "display": "Assembler"
+                                }
+                            ]
+                        },
+                        "who": {
+                            "reference": "#converter",
+                            "display": "epsofacto 0.1.0-SNAPSHOT"
+                        }
+                    }
+                ],
+                "entity": [
+                    {
+                        "role": "source",
+                        "what": {
+                            "identifier": {
+                                "system": "urn:ietf:rfc:3986",
+                                "value": "urn:uuid:7de1bdfe-d072-4b5c-a281-40446f962882"
+                            },
+                            "display": "Source CH IPS document"
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

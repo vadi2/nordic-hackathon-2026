@@ -1,0 +1,171 @@
+{
+  "patient_id": "195401171334",
+  "medications": [
+    {
+      "name": "Trombyl",
+      "atc": "B01AC06",
+      "strength": 75,
+      "strength_unit": "mg",
+      "form": "Tablett",
+      "start": "2024-11-14",
+      "end": null,
+      "reason_original": "förebyggande",
+      "instructions": [
+        "<1 tablett på morgonen förebyggande>"
+      ],
+      "source_document_id": "195401171334-39",
+      "source_path": "$.sources[1].records[0].drugs.drug[0]"
+    },
+    {
+      "name": "Salures",
+      "atc": "C03AA01",
+      "strength": 5,
+      "strength_unit": "mg",
+      "form": "Tablett",
+      "start": "2024-11-12",
+      "end": null,
+      "reason_original": "för blodtrycket",
+      "instructions": [
+        "<1 tablett på morgonen för blodtrycket>"
+      ],
+      "source_document_id": "195401171334-33",
+      "source_path": "$.sources[1].records[1].drugs.drug[0]"
+    }
+  ],
+  "conditions": [
+    {
+      "source_path": "$.sources[2].records[0].keywords[17].values[0]",
+      "source_document_id": "195401171334-43",
+      "code": "I633",
+      "display": "Cerebral infarkt orsakad av trombos i cerebrala artärer",
+      "date": "2025-11-18"
+    },
+    {
+      "source_path": "$.sources[2].records[0].keywords[17].values[1]",
+      "source_document_id": "195401171334-43",
+      "code": "I109",
+      "display": "Essentiell hypertoni",
+      "date": "2025-11-18"
+    },
+    {
+      "source_path": "$.sources[2].records[2].keywords[2].values[0]",
+      "source_document_id": "195401171334-37",
+      "code": "I633",
+      "display": "Cerebral infarkt orsakad av trombos i cerebrala artärer",
+      "date": "2022-11-19"
+    },
+    {
+      "source_path": "$.sources[2].records[2].keywords[2].values[1]",
+      "source_document_id": "195401171334-37",
+      "code": "I109",
+      "display": "Essentiell hypertoni",
+      "date": "2022-11-19"
+    },
+    {
+      "source_path": "$.sources[2].records[5].keywords[1].values[0]",
+      "source_document_id": "195401171334-28",
+      "code": "I109",
+      "display": "Essentiell hypertoni",
+      "date": "2020-11-12"
+    }
+  ],
+  "laboratory": [],
+  "procedures": [],
+  "vitals": [
+    {
+      "source_path": "$.sources[2].records[4].keywords[18].values[0]",
+      "source_document_id": "195401171334-34",
+      "name": "Blodtryck systoliskt - övre",
+      "value": 189.0,
+      "date": "2022-11-12",
+      "unit_source": "mmHg"
+    },
+    {
+      "source_path": "$.sources[2].records[4].keywords[19].values[0]",
+      "source_document_id": "195401171334-34",
+      "name": "Blodtryck diastoliskt - nedre",
+      "value": 100.0,
+      "date": "2022-11-12",
+      "unit_source": "mmHg"
+    },
+    {
+      "source_path": "$.sources[2].records[4].keywords[20].values[0]",
+      "source_document_id": "195401171334-34",
+      "name": "Pulsfrekvens",
+      "value": 96.0,
+      "date": "2022-11-12",
+      "unit_source": "slag/min"
+    },
+    {
+      "source_path": "$.sources[2].records[4].keywords[23].values[0]",
+      "source_document_id": "195401171334-34",
+      "name": "Vikt",
+      "value": 86.0,
+      "date": "2022-11-12",
+      "unit_source": "kg"
+    },
+    {
+      "source_path": "$.sources[2].records[5].keywords[20].values[0]",
+      "source_document_id": "195401171334-28",
+      "name": "Blodtryck systoliskt - övre",
+      "value": 180.0,
+      "date": "2020-11-12",
+      "unit_source": "mmHg"
+    },
+    {
+      "source_path": "$.sources[2].records[5].keywords[21].values[0]",
+      "source_document_id": "195401171334-28",
+      "name": "Blodtryck diastoliskt - nedre",
+      "value": 95.0,
+      "date": "2020-11-12",
+      "unit_source": "mmHg"
+    },
+    {
+      "source_path": "$.sources[2].records[5].keywords[22].values[0]",
+      "source_document_id": "195401171334-28",
+      "name": "Pulsfrekvens",
+      "value": 60.0,
+      "date": "2020-11-12",
+      "unit_source": "slag/min"
+    }
+  ],
+  "plans": [
+    {
+      "source_path": "$.sources[2].records[0].keywords[16].values[0]",
+      "source_document_id": "195401171334-43",
+      "name": "Åtgärd/planering",
+      "text": "Förnyar recept för blodtryckssänkande läkemedel. Skickar remiss för CT hjärna och EKG för årlig kontroll.",
+      "date": "2025-11-18"
+    },
+    {
+      "source_path": "$.sources[2].records[1].keywords[17].values[0]",
+      "source_document_id": "195401171334-38",
+      "name": "Åtgärd/planering",
+      "text": "Fortsätter med BT lm",
+      "date": "2023-11-14"
+    }
+  ],
+  "unknown_sources": [
+    {
+      "source_index": 0,
+      "record_type": "aktiviteter",
+      "kind": "unmapped"
+    }
+  ],
+  "review": [],
+  "provenance": [
+    {
+      "kind": "medication",
+      "source_path": "$.sources[1].records[0].drugs.drug[0]"
+    },
+    {
+      "kind": "medication",
+      "source_path": "$.sources[1].records[1].drugs.drug[0]"
+    }
+  ],
+  "source_summary": {
+    "aktiviteter": 1,
+    "medlist": 1,
+    "vardokument": 1
+  }
+}

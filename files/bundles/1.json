@@ -1,0 +1,3307 @@
+{
+  "resourceType": "Bundle",
+  "id": "52b4fdf9-40df-4a0c-99ba-6ceaa69a1d48",
+  "meta": {
+    "profile": [
+      "http://hl7.eu/fhir/eps/StructureDefinition/bundle-eu-eps"
+    ]
+  },
+  "identifier": {
+    "system": "urn:ietf:rfc:3986",
+    "value": "urn:uuid:52b4fdf9-40df-4a0c-99ba-6ceaa69a1d48"
+  },
+  "type": "document",
+  "timestamp": "2026-11-17T15:05:15+01:00",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:5e86c1b7-501f-5c65-be6a-905fedf98431",
+      "resource": {
+        "resourceType": "Composition",
+        "id": "5e86c1b7-501f-5c65-be6a-905fedf98431",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/composition-eu-eps"
+          ]
+        },
+        "identifier": {
+          "system": "urn:ietf:rfc:3986",
+          "value": "urn:uuid:5e86c1b7-501f-5c65-be6a-905fedf98431"
+        },
+        "status": "final",
+        "type": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "60591-5",
+              "display": "Patient summary Document"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:caf1fdf3-6f1d-5026-8aa6-8fabc937a889"
+        },
+        "date": "2026-11-17T15:05:15+01:00",
+        "author": [
+          {
+            "reference": "urn:uuid:718ab3e1-6eaa-5454-832e-e0c1d02aa8da"
+          }
+        ],
+        "title": "Patient Summary",
+        "custodian": {
+          "reference": "urn:uuid:b33a8fae-9f7a-567c-94c4-005ad9c46455"
+        },
+        "section": [
+          {
+            "title": "Allergies and intolerances",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "48765-2",
+                  "display": "Allergies and adverse reactions Document"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><thead><tr><th>Entry</th><th>Date</th><th>Details</th></tr></thead><tbody><tr><td>Birch pollen</td><td>1988-04-02</td><td>Clinical status: Active; Criticality: low; Reactions: Rhinoconjunctivitis</td></tr><tr><td>Penicillin</td><td>1972-06-18</td><td>Clinical status: Active; Criticality: high; Reactions: Anaphylaxis</td></tr></tbody></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:9475652c-64bd-5ca4-bfde-4126a713988d"
+              },
+              {
+                "reference": "urn:uuid:ab2bf8bf-1ae6-591e-be23-0f7251b709c9"
+              }
+            ]
+          },
+          {
+            "title": "Problem list",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "11450-4",
+                  "display": "Problem list - Reported"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><thead><tr><th>Entry</th><th>Date</th><th>Details</th></tr></thead><tbody><tr><td>Venous leg ulcer, right lower leg</td><td>2023-05-19</td><td>Certainty: Confirmed; Hard-to-heal ulcer; compression therapy and dressing changes twice a week by the home care team.</td></tr><tr><td>Prostate cancer, locally advanced</td><td>2020-08-11</td><td>Certainty: Confirmed; Treated with bicalutamide monotherapy since September 2020.</td></tr><tr><td>Left hemiparesis</td><td>2019-02-03</td><td>Certainty: Confirmed; Residual left-sided weakness after the stroke in 2019; walks with a rollator.</td></tr><tr><td>Stroke</td><td>2019-02-03</td><td>Certainty: Confirmed; Previous stroke in February 2019 with residual left-sided weakness.</td></tr><tr><td>Chronic heart failure</td><td>2018-04-12</td><td>Certainty: Confirmed; Treated with metoprolol, ramipril and furosemide.</td></tr><tr><td>Atrial fibrillation</td><td>2017-09-22</td><td>Certainty: Confirmed; Anticoagulated with apixaban.</td></tr><tr><td>Stable angina</td><td>2015-11-05</td><td>Certainty: Confirmed</td></tr><tr><td>Pulmonary emphysema</td><td>2011-03-17</td><td>Certainty: Confirmed; Treated with tiotropium.</td></tr><tr><td>Type 2 diabetes mellitus</td><td>2004-06-30</td><td>Certainty: Confirmed; Treated with metformin and basal insulin.</td></tr><tr><td>Essential hypertension</td><td>1998-10-02</td><td>Certainty: Confirmed</td></tr></tbody></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:4b40a532-aedc-5765-952a-a55097586aa9"
+              },
+              {
+                "reference": "urn:uuid:ae365704-da69-533e-a415-a6e69df2a7ea"
+              },
+              {
+                "reference": "urn:uuid:8c24abb7-1d63-5fcf-b756-56096e5ce394"
+              },
+              {
+                "reference": "urn:uuid:03f44df1-7924-5bb4-97e3-8f479a3acbd1"
+              },
+              {
+                "reference": "urn:uuid:874e5890-31a6-5696-9656-d371afa9147a"
+              },
+              {
+                "reference": "urn:uuid:96045cf0-5b62-55c5-bd8c-5d59c812a6ab"
+              },
+              {
+                "reference": "urn:uuid:63b0d704-b0d5-5eb2-b4bf-e890cffa32b4"
+              },
+              {
+                "reference": "urn:uuid:6040f3aa-c121-5587-a407-6a39c5fc185d"
+              },
+              {
+                "reference": "urn:uuid:ba857d6c-848b-50fc-a62c-aa34fcc733c6"
+              },
+              {
+                "reference": "urn:uuid:63daa4a2-2105-5cf1-9bd9-158e5399847f"
+              }
+            ]
+          },
+          {
+            "title": "History of past illness",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "11348-0",
+                  "display": "History of Past illness note"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><thead><tr><th>Entry</th><th>Date</th><th>Details</th></tr></thead><tbody><tr><td>Acute urinary retention</td><td>2020-10-29</td><td>Clinical status: Resolved; Certainty: Confirmed; Resolution date: 2020-11-26; Indwelling catheter until the transurethral resection of the prostate on 26 November 2020.</td></tr><tr><td>Community-acquired pneumonia</td><td>2016-01-14</td><td>Clinical status: Resolved; Certainty: Confirmed; Resolution date: 2016-02-04; Treated with oral antibiotics at home; the chest X-ray at follow-up was clear.</td></tr><tr><td>Deep vein thrombosis, right leg</td><td>2012-01-20</td><td>Clinical status: Resolved; Certainty: Confirmed; Resolution date: 2012-07-20; Treated with warfarin for six months. Post-thrombotic changes remain in the right leg.</td></tr></tbody></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:af66ec27-0cea-588c-8ba6-ee34ab274a70"
+              },
+              {
+                "reference": "urn:uuid:3cd89deb-9a85-538e-a70c-c198e71146ee"
+              },
+              {
+                "reference": "urn:uuid:52aab82c-4e41-565d-b3f6-7ab0c3de5234"
+              }
+            ]
+          },
+          {
+            "title": "Medication summary",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "10160-0",
+                  "display": "History of Medication use Narrative"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><thead><tr><th>Entry</th><th>Date</th><th>Details</th></tr></thead><tbody><tr><td>Bicalutamide 150 mg tablet</td><td>2026-06-12</td><td>Status: active; Dosage: 1 tablet (150 mg) once daily, as monotherapy</td></tr><tr><td>Furosemide 40 mg tablet</td><td>2026-06-12</td><td>Status: active; Dosage: 1 tablet (40 mg) once daily in the morning</td></tr><tr><td>Ramipril 5 mg tablet</td><td>2026-06-12</td><td>Status: active; Dosage: 1 tablet (5 mg) once daily</td></tr><tr><td>Metoprolol 50 mg prolonged-release tablet</td><td>2026-06-12</td><td>Status: active; Dosage: 1 tablet (50 mg) once daily in the morning</td></tr><tr><td>Apixaban 5 mg tablet</td><td>2026-06-12</td><td>Status: active; Dosage: 1 tablet (5 mg) twice daily</td></tr><tr><td>Insulin glargine 100 units/mL solution for injection</td><td>2026-06-12</td><td>Status: active; Dosage: 22 units subcutaneously at bedtime</td></tr><tr><td>Atorvastatin 20 mg tablet</td><td>2026-06-12</td><td>Status: active; Dosage: 1 tablet (20 mg) once daily in the evening</td></tr><tr><td>Glyceryl trinitrate 0.4 mg sublingual spray</td><td>2026-06-12</td><td>Status: active; Dosage: 1-2 doses under the tongue for chest pain, when needed</td></tr><tr><td>Tiotropium 18 micrograms inhalation powder</td><td>2026-06-12</td><td>Status: active; Dosage: 1 inhalation once daily</td></tr><tr><td>Metformin 500 mg tablet</td><td>2026-06-12</td><td>Status: active; Dosage: 1 tablet (500 mg) twice daily with meals</td></tr></tbody></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:88365b3e-ee37-5674-b19e-654c31be60b7"
+              },
+              {
+                "reference": "urn:uuid:78829058-549c-5ab1-8566-6bae7c09a452"
+              },
+              {
+                "reference": "urn:uuid:a925c697-7c98-54b7-9011-d23f013f1424"
+              },
+              {
+                "reference": "urn:uuid:9c47c4d1-5649-5158-b9c0-2b94ff2d6fe6"
+              },
+              {
+                "reference": "urn:uuid:48995069-09c7-54be-b2b5-8f2f64cf3dc0"
+              },
+              {
+                "reference": "urn:uuid:41c34589-9bce-5572-90fd-e49eed6e13f9"
+              },
+              {
+                "reference": "urn:uuid:a7768afa-e9a2-51c8-89a7-fb7778caf79e"
+              },
+              {
+                "reference": "urn:uuid:a0b71162-0e07-5279-8778-97d3c8b17c10"
+              },
+              {
+                "reference": "urn:uuid:1e28f8ac-3df4-5750-b745-b986c767bd79"
+              },
+              {
+                "reference": "urn:uuid:44b782a1-2ed9-5bf2-8b3f-d16346c9a588"
+              }
+            ]
+          },
+          {
+            "title": "History of procedures",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "47519-4",
+                  "display": "History of Procedures Document"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><thead><tr><th>Entry</th><th>Date</th><th>Details</th></tr></thead><tbody><tr><td>Transurethral resection of prostate (TURP)</td><td>2020-11-26</td><td></td></tr></tbody></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:06b24422-b1d0-547b-ba9f-7d7e1255f20b"
+              }
+            ]
+          },
+          {
+            "title": "Medical devices",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "46264-8",
+                  "display": "History of medical device use"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><thead><tr><th>Entry</th><th>Date</th><th>Details</th></tr></thead><tbody><tr><td>Rollator</td><td>2026-06-12</td><td>Status: active</td></tr></tbody></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:b289ce7e-5096-54c4-9a88-8560340ee2a9"
+              }
+            ]
+          },
+          {
+            "title": "Immunizations",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "11369-6",
+                  "display": "History of Immunization note"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><thead><tr><th>Entry</th><th>Date</th><th>Details</th></tr></thead><tbody><tr><td>COVID-19 vaccine</td><td>2025-10-09</td><td>Target disease: COVID-19</td></tr><tr><td>Influenza vaccine</td><td>2025-10-09</td><td>Target disease: Influenza</td></tr><tr><td>Pneumococcal vaccine</td><td>2021-11-04</td><td>Target disease: Pneumococcal disease</td></tr></tbody></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:5b4faf42-ec3d-56a5-be85-072f4359fe71"
+              },
+              {
+                "reference": "urn:uuid:32f4df22-e47f-524f-b550-66a33bb8f67e"
+              },
+              {
+                "reference": "urn:uuid:4b66d411-2779-5b06-8f45-7ba88daad672"
+              }
+            ]
+          },
+          {
+            "title": "Results",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "30954-2",
+                  "display": "Relevant diagnostic tests/laboratory data note"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><thead><tr><th>Entry</th><th>Date</th><th>Details</th></tr></thead><tbody><tr><td>NT-proBNP</td><td>2026-06-12</td><td>Result: 1840 ng/L; Interpretation: High</td></tr><tr><td>Potassium</td><td>2026-06-12</td><td>Result: 4.4 mmol/L; Interpretation: Normal</td></tr><tr><td>Hemoglobin</td><td>2026-06-12</td><td>Result: 112 g/L; Interpretation: Low</td></tr><tr><td>eGFR (CKD-EPI)</td><td>2026-06-12</td><td>Result: 46 mL/min/{1.73_m2}; Interpretation: Low</td></tr><tr><td>Creatinine</td><td>2026-06-12</td><td>Result: 118 umol/L; Interpretation: High</td></tr><tr><td>HbA1c (IFCC)</td><td>2026-06-12</td><td>Result: 58 mmol/mol; Interpretation: High</td></tr><tr><td>PSA</td><td>2026-05-04</td><td>Result: 12.4 ug/L; Interpretation: High</td></tr></tbody></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:a85a1f9b-4305-5a59-ae42-ca5828086d25"
+              },
+              {
+                "reference": "urn:uuid:82f0c0f9-9ae8-52c1-a353-a29cf5039df8"
+              },
+              {
+                "reference": "urn:uuid:df1e8e6a-c732-5eb5-ac18-848ba4473826"
+              },
+              {
+                "reference": "urn:uuid:c638654f-419e-5983-b13c-3053617c0922"
+              },
+              {
+                "reference": "urn:uuid:f3e93a3f-9437-5ab2-847e-a5b12d15f1ec"
+              },
+              {
+                "reference": "urn:uuid:6b180edd-2aa4-57d1-857c-64441b9fa62a"
+              },
+              {
+                "reference": "urn:uuid:cdf0cdcf-7d2f-5db7-ad44-c5109c9b3ba9"
+              }
+            ]
+          },
+          {
+            "title": "Vital signs",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "8716-3",
+                  "display": "Vital signs note"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><thead><tr><th>Entry</th><th>Date</th><th>Details</th></tr></thead><tbody><tr><td>Blood pressure</td><td>2026-06-12</td><td>Result: 138/78 mm[Hg]</td></tr><tr><td>Oxygen saturation (pulse oximetry)</td><td>2026-06-12</td><td>Result: 94 %</td></tr><tr><td>Heart rate</td><td>2026-06-12</td><td>Result: 72 /min</td></tr></tbody></table><p>1 stored record could not be expressed in this profile and is not included.</p></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:f113cab1-d84a-5f35-bcf4-9dcdb566da4f"
+              },
+              {
+                "reference": "urn:uuid:f9e0af25-6516-54af-9c22-69ce116c84b0"
+              },
+              {
+                "reference": "urn:uuid:e8b78403-6a67-52c3-8a27-c5cb31ed0084"
+              }
+            ]
+          },
+          {
+            "title": "Plan of care",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "18776-5",
+                  "display": "Plan of care note"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><thead><tr><th>Entry</th><th>Date</th><th>Details</th></tr></thead><tbody><tr><td>Planned follow-up visit at Kvarn\u00e4ngen health centre - annual check of heart failure and diabetes</td><td>2026-06-12</td><td>Status: active; Intent: plan; Activity: Appointment (scheduled, from 2026-09-15); Reasons: Chronic heart failure</td></tr><tr><td>Wound care of the venous leg ulcer, right lower leg - compression therapy and dressing change twice a week</td><td>2023-05-19</td><td>Status: active; Intent: plan; Activity: Appointment (in-progress); Reasons: Venous leg ulcer; Performed by the district nurse at home.</td></tr><tr><td>Home care, two visits daily - support with medication, personal care and meals</td><td>2019-06-01</td><td>Status: active; Intent: plan; Activity: Appointment (in-progress); Reasons: Left hemiparesis; Granted by the municipality's needs assessment unit. The contact person is named in the coordinated individual plan (SIP).</td></tr></tbody></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:08ae5518-c2cf-5d45-bc37-acff6980b36d"
+              },
+              {
+                "reference": "urn:uuid:ae217791-be9a-5768-83a4-1e35c2484e8b"
+              },
+              {
+                "reference": "urn:uuid:ea3217c8-587c-55bd-9a17-58515dcb17b8"
+              }
+            ]
+          },
+          {
+            "title": "Social history",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "29762-2",
+                  "display": "Social history note"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><thead><tr><th>Entry</th><th>Date</th><th>Details</th></tr></thead><tbody><tr><td>Alkohol, standardglas per dag</td><td>2026-06-12</td><td>Value: 1 standardglas/dag</td></tr><tr><td>R\u00f6kning</td><td>2026-06-12</td><td>Value: F\u00f6re detta r\u00f6kare</td></tr></tbody></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:35e7267e-189f-5c04-9e0c-f1a379b8d7df"
+              },
+              {
+                "reference": "urn:uuid:affce3b8-318f-5eb3-b38f-5a8023400f47"
+              }
+            ]
+          },
+          {
+            "title": "Patient story",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "81338-6",
+                  "display": "Patient Goals, preferences, and priorities for care experience"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><thead><tr><th>Entry</th><th>Date</th><th>Details</th></tr></thead><tbody><tr><td>Vad \u00e4r viktigt f\u00f6r mig</td><td>2026-06-12</td><td>Jag vill bo kvar hemma i Falkenberg s\u00e5 l\u00e4nge det n\u00e5gonsin g\u00e5r. Det viktigaste f\u00f6r mig \u00e4r att klara mig sj\u00e4lv med rollatorn, fast v\u00e4nster sida \u00e4r svag sedan stroken. Jag blir l\u00e4tt andf\u00e5dd, s\u00e5 stressa mig inte - ge mig tid. Hemtj\u00e4nsten tv\u00e5 g\u00e5nger om dagen fungerar bra. Jag vill forts\u00e4tta att h\u00e4lsa p\u00e5 min son i Danmark. Om n\u00e5got h\u00e4nder, ring honom.</td></tr></tbody></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:5f6462f8-6435-56be-91f2-d88d93b3c7f1"
+              }
+            ]
+          },
+          {
+            "title": "Alerts",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "104605-1"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><thead><tr><th>Entry</th><th>Date</th><th>Details</th></tr></thead><tbody><tr><td>Anticoagulant treatment - bleeding risk</td><td>2017-10-05</td><td>Status: active; Category: Drug; Priority: High priority; Apixaban for atrial fibrillation - check before any procedure or injection.</td></tr></tbody></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:2bdd6c90-505a-5a5c-8bfa-41243dd89592"
+              }
+            ]
+          },
+          {
+            "title": "Functional status",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "47420-5",
+                  "display": "Functional status assessment note"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><thead><tr><th>Entry</th><th>Date</th><th>Details</th></tr></thead><tbody><tr><td>Barthel ADL-index</td><td>2026-06-12</td><td>Value: 70 po\u00e4ng</td></tr></tbody></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:5dcb02e2-86b6-5e02-acf1-1faba0749061"
+              }
+            ]
+          },
+          {
+            "title": "Travel history",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "10182-4",
+                  "display": "History of Travel Narrative"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><thead><tr><th>Entry</th><th>Date</th><th>Details</th></tr></thead><tbody><tr><td>Danmark</td><td>2026-05-14</td><td>Visit: 2026-05-14 to 2026-05-24</td></tr></tbody></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:562480c5-a5ce-5af1-bf17-0454d4594155"
+              }
+            ]
+          },
+          {
+            "title": "Advance directives",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "42348-3",
+                  "display": "Advance healthcare directives"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><thead><tr><th>Entry</th><th>Date</th><th>Details</th></tr></thead><tbody><tr><td>Livstestamente</td><td>2026-06-12</td><td>Status: active; Policy: https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/patientlag-2014821_sfs-2014-821/; Description: Om jag drabbas av en ny stroke eller annan sv\u00e5r sjukdom och l\u00e4karna bed\u00f6mer att jag inte kan \u00e5terh\u00e4mta mig till ett liv d\u00e4r jag k\u00e4nner igen och kan prata med mina n\u00e4rmaste, vill jag inte att mitt liv f\u00f6rl\u00e4ngs med l\u00e5ngvarig respiratorbehandling eller sondmatning. Jag vill d\u00e5 f\u00e5 god lindring mot sm\u00e4rta, oro och andn\u00f6d, och helst v\u00e5rdas hemma i Falkenberg. Min son i Danmark ska kontaktas och f\u00e5 vara med n\u00e4r beslut om min v\u00e5rd fattas.; Comment: Arne har skrivit livstestamentet sj\u00e4lv och gick igenom det med distriktssk\u00f6terskan vid uppf\u00f6ljningsbes\u00f6ket. Det ers\u00e4tter livstestamentet fr\u00e5n 2019. Sonen har en kopia.</td></tr></tbody></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:67b4d6a3-91d3-5921-ac40-878811575879"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:caf1fdf3-6f1d-5026-8aa6-8fabc937a889",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "194302096997",
+        "active": true,
+        "identifier": [
+          {
+            "value": "194302096997",
+            "system": "http://electronichealth.se/identifier/personnummer"
+          }
+        ],
+        "name": [
+          {
+            "family": "Bergstr\u00f6m",
+            "given": [
+              "Arne",
+              "Gustav"
+            ],
+            "text": "Arne Gustav Bergstr\u00f6m",
+            "use": "official"
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1943-02-09",
+        "address": [
+          {
+            "city": "Falkenberg",
+            "country": "SE",
+            "type": "physical",
+            "use": "home"
+          }
+        ],
+        "communication": [
+          {
+            "language": {
+              "coding": [
+                {
+                  "system": "urn:ietf:bcp:47",
+                  "code": "sv"
+                }
+              ],
+              "text": "Swedish"
+            },
+            "preferred": true
+          }
+        ],
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/patient-eu-eps",
+            "http://hl7.se/fhir/ig/base/StructureDefinition/SEBasePatient"
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:718ab3e1-6eaa-5454-832e-e0c1d02aa8da",
+      "resource": {
+        "resourceType": "Device",
+        "id": "718ab3e1-6eaa-5454-832e-e0c1d02aa8da",
+        "identifier": [
+          {
+            "system": "http://medrave.com/fhir/identifier/platform",
+            "value": "medrave-cdr"
+          }
+        ],
+        "deviceName": [
+          {
+            "name": "Medrave CDR",
+            "type": "user-friendly-name"
+          }
+        ],
+        "version": [
+          {
+            "value": "1.0.0+ab029e61a64be29e7fa6a4e65c89220b7a3db16d"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:b33a8fae-9f7a-567c-94c4-005ad9c46455",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "b33a8fae-9f7a-567c-94c4-005ad9c46455",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/organization-eu-core",
+            "http://hl7.se/fhir/ig/base/StructureDefinition/SEBaseOrganization"
+          ]
+        },
+        "identifier": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "PRN"
+                }
+              ]
+            },
+            "system": "urn:oid:1.2.752.29.4.19",
+            "value": "SE2321000000-0001"
+          }
+        ],
+        "name": "Region Demo"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:9475652c-64bd-5ca4-bfde-4126a713988d",
+      "resource": {
+        "resourceType": "AllergyIntolerance",
+        "id": "1000000000004900000",
+        "patient": {
+          "reference": "urn:uuid:caf1fdf3-6f1d-5026-8aa6-8fabc937a889"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "256262001",
+              "display": "European white birch pollen"
+            }
+          ],
+          "text": "Birch pollen"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active",
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical"
+            }
+          ],
+          "text": "Active"
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "code": "confirmed",
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification"
+            }
+          ],
+          "text": "Confirmed"
+        },
+        "category": [
+          "environment"
+        ],
+        "criticality": "low",
+        "onsetDateTime": "1988-04-02T00:00:00+02:00",
+        "reaction": [
+          {
+            "manifestation": [
+              {
+                "coding": [
+                  {
+                    "system": "http://snomed.info/sct",
+                    "code": "878820003",
+                    "display": "Rhinoconjunctivitis"
+                  }
+                ],
+                "text": "Rhinoconjunctivitis"
+              }
+            ],
+            "severity": "mild"
+          }
+        ],
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/allergyIntolerance-eu-core"
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:ab2bf8bf-1ae6-591e-be23-0f7251b709c9",
+      "resource": {
+        "resourceType": "AllergyIntolerance",
+        "id": "1000000000004800000",
+        "patient": {
+          "reference": "urn:uuid:caf1fdf3-6f1d-5026-8aa6-8fabc937a889"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "764146007",
+              "display": "Penicillin"
+            }
+          ],
+          "text": "Penicillin"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active",
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical"
+            }
+          ],
+          "text": "Active"
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "code": "confirmed",
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification"
+            }
+          ],
+          "text": "Confirmed"
+        },
+        "category": [
+          "medication"
+        ],
+        "criticality": "high",
+        "onsetDateTime": "1972-06-18T00:00:00+02:00",
+        "note": [
+          {
+            "text": "Anaphylaxis after phenoxymethylpenicillin in 1972, treated in an emergency department. Avoid all beta-lactam antibiotics until an allergy work-up has been done."
+          }
+        ],
+        "reaction": [
+          {
+            "manifestation": [
+              {
+                "coding": [
+                  {
+                    "system": "http://snomed.info/sct",
+                    "code": "39579001",
+                    "display": "Anaphylaxis"
+                  }
+                ],
+                "text": "Anaphylaxis"
+              }
+            ],
+            "severity": "severe"
+          }
+        ],
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/allergyIntolerance-eu-core"
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:4b40a532-aedc-5765-952a-a55097586aa9",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "1000000000005900000",
+        "subject": {
+          "reference": "urn:uuid:caf1fdf3-6f1d-5026-8aa6-8fabc937a889"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "1237117000",
+              "display": "Venous ulcer of lower leg"
+            }
+          ],
+          "text": "Venous leg ulcer, right lower leg"
+        },
+        "onsetDateTime": "2023-05-19T00:00:00+02:00",
+        "recordedDate": "2023-05-19T00:00:00+02:00",
+        "note": [
+          {
+            "text": "Hard-to-heal ulcer; compression therapy and dressing changes twice a week by the home care team."
+          }
+        ],
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/condition-eu-core"
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:ae365704-da69-533e-a415-a6e69df2a7ea",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "1000000000005800000",
+        "subject": {
+          "reference": "urn:uuid:caf1fdf3-6f1d-5026-8aa6-8fabc937a889"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "399068003",
+              "display": "Malignant neoplasm of prostate"
+            }
+          ],
+          "text": "Prostate cancer, locally advanced"
+        },
+        "onsetDateTime": "2020-08-11T00:00:00+02:00",
+        "recordedDate": "2020-08-11T00:00:00+02:00",
+        "note": [
+          {
+            "text": "Treated with bicalutamide monotherapy since September 2020."
+          }
+        ],
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/condition-eu-core"
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:8c24abb7-1d63-5fcf-b756-56096e5ce394",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "1000000000005700000",
+        "subject": {
+          "reference": "urn:uuid:caf1fdf3-6f1d-5026-8aa6-8fabc937a889"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "278287000",
+              "display": "Left hemiparesis"
+            }
+          ],
+          "text": "Left hemiparesis"
+        },
+        "onsetDateTime": "2019-02-03T00:00:00+01:00",
+        "recordedDate": "2019-02-03T00:00:00+01:00",
+        "note": [
+          {
+            "text": "Residual left-sided weakness after the stroke in 2019; walks with a rollator."
+          }
+        ],
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/condition-eu-core"
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:03f44df1-7924-5bb4-97e3-8f479a3acbd1",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "1000000000005600000",
+        "subject": {
+          "reference": "urn:uuid:caf1fdf3-6f1d-5026-8aa6-8fabc937a889"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "230690007",
+              "display": "Cerebrovascular accident"
+            }
+          ],
+          "text": "Stroke"
+        },
+        "onsetDateTime": "2019-02-03T00:00:00+01:00",
+        "recordedDate": "2019-02-03T00:00:00+01:00",
+        "note": [
+          {
+            "text": "Previous stroke in February 2019 with residual left-sided weakness."
+          }
+        ],
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/condition-eu-core"
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:874e5890-31a6-5696-9656-d371afa9147a",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "1000000000005500000",
+        "subject": {
+          "reference": "urn:uuid:caf1fdf3-6f1d-5026-8aa6-8fabc937a889"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "88805009",
+              "display": "Chronic congestive heart failure"
+            }
+          ],
+          "text": "Chronic heart failure"
+        },
+        "onsetDateTime": "2018-04-12T00:00:00+02:00",
+        "recordedDate": "2018-04-12T00:00:00+02:00",
+        "note": [
+          {
+            "text": "Treated with metoprolol, ramipril and furosemide."
+          }
+        ],
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/condition-eu-core"
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:96045cf0-5b62-55c5-bd8c-5d59c812a6ab",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "1000000000005400000",
+        "subject": {
+          "reference": "urn:uuid:caf1fdf3-6f1d-5026-8aa6-8fabc937a889"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "49436004",
+              "display": "Atrial fibrillation"
+            }
+          ],
+          "text": "Atrial fibrillation"
+        },
+        "onsetDateTime": "2017-09-22T00:00:00+02:00",
+        "recordedDate": "2017-09-22T00:00:00+02:00",
+        "note": [
+          {
+            "text": "Anticoagulated with apixaban."
+          }
+        ],
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/condition-eu-core"
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:63b0d704-b0d5-5eb2-b4bf-e890cffa32b4",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "1000000000005300000",
+        "subject": {
+          "reference": "urn:uuid:caf1fdf3-6f1d-5026-8aa6-8fabc937a889"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "233819005",
+              "display": "Stable angina"
+            }
+          ],
+          "text": "Stable angina"
+        },
+        "onsetDateTime": "2015-11-05T00:00:00+01:00",
+        "recordedDate": "2015-11-05T00:00:00+01:00",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/condition-eu-core"
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:6040f3aa-c121-5587-a407-6a39c5fc185d",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "1000000000005200000",
+        "subject": {
+          "reference": "urn:uuid:caf1fdf3-6f1d-5026-8aa6-8fabc937a889"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "87433001",
+              "display": "Pulmonary emphysema"
+            }
+          ],
+          "text": "Pulmonary emphysema"
+        },
+        "onsetDateTime": "2011-03-17T00:00:00+01:00",
+        "recordedDate": "2011-03-17T00:00:00+01:00",
+        "note": [
+          {
+            "text": "Treated with tiotropium."
+          }
+        ],
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/condition-eu-core"
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:ba857d6c-848b-50fc-a62c-aa34fcc733c6",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "1000000000005100000",
+        "subject": {
+          "reference": "urn:uuid:caf1fdf3-6f1d-5026-8aa6-8fabc937a889"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "44054006",
+              "display": "Type 2 diabetes mellitus"
+            }
+          ],
+          "text": "Type 2 diabetes mellitus"
+        },
+        "onsetDateTime": "2004-06-30T00:00:00+02:00",
+        "recordedDate": "2004-06-30T00:00:00+02:00",
+        "note": [
+          {
+            "text": "Treated with metformin and basal insulin."
+          }
+        ],
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/condition-eu-core"
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:63daa4a2-2105-5cf1-9bd9-158e5399847f",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "1000000000005000000",
+        "subject": {
+          "reference": "urn:uuid:caf1fdf3-6f1d-5026-8aa6-8fabc937a889"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "59621000",
+              "display": "Essential hypertension"
+            }
+          ],
+          "text": "Essential hypertension"
+        },
+        "onsetDateTime": "1998-10-02T00:00:00+02:00",
+        "recordedDate": "1998-10-02T00:00:00+02:00",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/condition-eu-core"
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:af66ec27-0cea-588c-8ba6-ee34ab274a70",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "1000000000036200000",
+        "subject": {
+          "reference": "urn:uuid:caf1fdf3-6f1d-5026-8aa6-8fabc937a889"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "236648008",
+              "display": "Acute retention of urine"
+            }
+          ],
+          "text": "Acute urinary retention"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "resolved",
+              "display": "Resolved"
+            }
+          ],
+          "text": "Resolved"
+        },
+        "onsetDateTime": "2020-10-29T00:00:00+01:00",
+        "recordedDate": "2020-10-29T00:00:00+01:00",
+        "abatementDateTime": "2020-11-26T00:00:00+01:00",
+        "note": [
+          {
+            "text": "Indwelling catheter until the transurethral resection of the prostate on 26 November 2020."
+          }
+        ],
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/condition-eu-core"
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:3cd89deb-9a85-538e-a70c-c198e71146ee",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "1000000000036100000",
+        "subject": {
+          "reference": "urn:uuid:caf1fdf3-6f1d-5026-8aa6-8fabc937a889"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "385093006",
+              "display": "Community acquired pneumonia"
+            }
+          ],
+          "text": "Community-acquired pneumonia"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "resolved",
+              "display": "Resolved"
+            }
+          ],
+          "text": "Resolved"
+        },
+        "onsetDateTime": "2016-01-14T00:00:00+01:00",
+        "recordedDate": "2016-01-14T00:00:00+01:00",
+        "abatementDateTime": "2016-02-04T00:00:00+01:00",
+        "note": [
+          {
+            "text": "Treated with oral antibiotics at home; the chest X-ray at follow-up was clear."
+          }
+        ],
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/condition-eu-core"
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:52aab82c-4e41-565d-b3f6-7ab0c3de5234",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "1000000000036000000",
+        "subject": {
+          "reference": "urn:uuid:caf1fdf3-6f1d-5026-8aa6-8fabc937a889"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "128053003",
+              "display": "Deep venous thrombosis"
+            }
+          ],
+          "text": "Deep vein thrombosis, right leg"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "resolved",
+              "display": "Resolved"
+            }
+          ],
+          "text": "Resolved"
+        },
+        "onsetDateTime": "2012-01-20T00:00:00+01:00",
+        "recordedDate": "2012-01-20T00:00:00+01:00",
+        "abatementDateTime": "2012-07-20T00:00:00+02:00",
+        "note": [
+          {
+            "text": "Treated with warfarin for six months. Post-thrombotic changes remain in the right leg."
+          }
+        ],
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/condition-eu-core"
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:88365b3e-ee37-5674-b19e-654c31be60b7",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "1000000000006800000",
+        "status": "active",
+        "intent": "order",
+        "subject": {
+          "reference": "urn:uuid:caf1fdf3-6f1d-5026-8aa6-8fabc937a889"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "L02BB03",
+              "display": "bicalutamide"
+            }
+          ],
+          "text": "Bicalutamide 150 mg tablet"
+        },
+        "authoredOn": "2026-06-12T10:30:00+02:00",
+        "groupIdentifier": {
+          "system": "http://medrave.com/fhir/identifier/demo-prescription",
+          "value": "ARNE-RX-20260612"
+        },
+        "reasonCode": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "399068003"
+              }
+            ],
+            "text": "Prostate cancer"
+          }
+        ],
+        "dosageInstruction": [
+          {
+            "text": "1 tablet (150 mg) once daily, as monotherapy",
+            "timing": {
+              "repeat": {
+                "frequency": 1,
+                "period": 1,
+                "periodUnit": "d"
+              }
+            },
+            "route": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "26643006"
+                }
+              ],
+              "text": "Oral"
+            },
+            "doseAndRate": [
+              {
+                "doseQuantity": {
+                  "value": 1.0,
+                  "unit": "tablet"
+                }
+              }
+            ]
+          }
+        ],
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationRequest.effectiveDosePeriod",
+            "valuePeriod": {
+              "start": "2020-09-14T00:00:00+02:00"
+            }
+          }
+        ],
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medicationRequest-eu-core"
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:78829058-549c-5ab1-8566-6bae7c09a452",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "1000000000006300000",
+        "status": "active",
+        "intent": "order",
+        "subject": {
+          "reference": "urn:uuid:caf1fdf3-6f1d-5026-8aa6-8fabc937a889"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "C03CA01",
+              "display": "furosemide"
+            }
+          ],
+          "text": "Furosemide 40 mg tablet"
+        },
+        "authoredOn": "2026-06-12T10:30:00+02:00",
+        "groupIdentifier": {
+          "system": "http://medrave.com/fhir/identifier/demo-prescription",
+          "value": "ARNE-RX-20260612"
+        },
+        "reasonCode": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "88805009"
+              }
+            ],
+            "text": "Chronic heart failure"
+          }
+        ],
+        "dosageInstruction": [
+          {
+            "text": "1 tablet (40 mg) once daily in the morning",
+            "timing": {
+              "repeat": {
+                "frequency": 1,
+                "period": 1,
+                "periodUnit": "d"
+              }
+            },
+            "route": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "26643006"
+                }
+              ],
+              "text": "Oral"
+            },
+            "doseAndRate": [
+              {
+                "doseQuantity": {
+                  "value": 1.0,
+                  "unit": "tablet"
+                }
+              }
+            ]
+          }
+        ],
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationRequest.effectiveDosePeriod",
+            "valuePeriod": {
+              "start": "2018-04-20T00:00:00+02:00"
+            }
+          }
+        ],
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medicationRequest-eu-core"
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a925c697-7c98-54b7-9011-d23f013f1424",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "1000000000006200000",
+        "status": "active",
+        "intent": "order",
+        "subject": {
+          "reference": "urn:uuid:caf1fdf3-6f1d-5026-8aa6-8fabc937a889"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "C09AA05",
+              "display": "ramipril"
+            }
+          ],
+          "text": "Ramipril 5 mg tablet"
+        },
+        "authoredOn": "2026-06-12T10:30:00+02:00",
+        "groupIdentifier": {
+          "system": "http://medrave.com/fhir/identifier/demo-prescription",
+          "value": "ARNE-RX-20260612"
+        },
+        "reasonCode": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "88805009"
+              }
+            ],
+            "text": "Chronic heart failure"
+          }
+        ],
+        "dosageInstruction": [
+          {
+            "text": "1 tablet (5 mg) once daily",
+            "timing": {
+              "repeat": {
+                "frequency": 1,
+                "period": 1,
+                "periodUnit": "d"
+              }
+            },
+            "route": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "26643006"
+                }
+              ],
+              "text": "Oral"
+            },
+            "doseAndRate": [
+              {
+                "doseQuantity": {
+                  "value": 1.0,
+                  "unit": "tablet"
+                }
+              }
+            ]
+          }
+        ],
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationRequest.effectiveDosePeriod",
+            "valuePeriod": {
+              "start": "2018-04-20T00:00:00+02:00"
+            }
+          }
+        ],
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medicationRequest-eu-core"
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:9c47c4d1-5649-5158-b9c0-2b94ff2d6fe6",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "1000000000006100000",
+        "status": "active",
+        "intent": "order",
+        "subject": {
+          "reference": "urn:uuid:caf1fdf3-6f1d-5026-8aa6-8fabc937a889"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "C07AB02",
+              "display": "metoprolol"
+            }
+          ],
+          "text": "Metoprolol 50 mg prolonged-release tablet"
+        },
+        "authoredOn": "2026-06-12T10:30:00+02:00",
+        "groupIdentifier": {
+          "system": "http://medrave.com/fhir/identifier/demo-prescription",
+          "value": "ARNE-RX-20260612"
+        },
+        "reasonCode": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "88805009"
+              }
+            ],
+            "text": "Chronic heart failure"
+          }
+        ],
+        "dosageInstruction": [
+          {
+            "text": "1 tablet (50 mg) once daily in the morning",
+            "timing": {
+              "repeat": {
+                "frequency": 1,
+                "period": 1,
+                "periodUnit": "d"
+              }
+            },
+            "route": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "26643006"
+                }
+              ],
+              "text": "Oral"
+            },
+            "doseAndRate": [
+              {
+                "doseQuantity": {
+                  "value": 1.0,
+                  "unit": "tablet"
+                }
+              }
+            ]
+          }
+        ],
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationRequest.effectiveDosePeriod",
+            "valuePeriod": {
+              "start": "2018-04-20T00:00:00+02:00"
+            }
+          }
+        ],
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medicationRequest-eu-core"
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:48995069-09c7-54be-b2b5-8f2f64cf3dc0",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "1000000000006000000",
+        "status": "active",
+        "intent": "order",
+        "subject": {
+          "reference": "urn:uuid:caf1fdf3-6f1d-5026-8aa6-8fabc937a889"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "B01AF02",
+              "display": "apixaban"
+            }
+          ],
+          "text": "Apixaban 5 mg tablet"
+        },
+        "authoredOn": "2026-06-12T10:30:00+02:00",
+        "groupIdentifier": {
+          "system": "http://medrave.com/fhir/identifier/demo-prescription",
+          "value": "ARNE-RX-20260612"
+        },
+        "reasonCode": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "49436004"
+              }
+            ],
+            "text": "Atrial fibrillation"
+          }
+        ],
+        "dosageInstruction": [
+          {
+            "text": "1 tablet (5 mg) twice daily",
+            "timing": {
+              "repeat": {
+                "frequency": 2,
+                "period": 1,
+                "periodUnit": "d"
+              }
+            },
+            "route": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "26643006"
+                }
+              ],
+              "text": "Oral"
+            },
+            "doseAndRate": [
+              {
+                "doseQuantity": {
+                  "value": 1.0,
+                  "unit": "tablet"
+                }
+              }
+            ]
+          }
+        ],
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationRequest.effectiveDosePeriod",
+            "valuePeriod": {
+              "start": "2017-10-05T00:00:00+02:00"
+            }
+          }
+        ],
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medicationRequest-eu-core"
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:41c34589-9bce-5572-90fd-e49eed6e13f9",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "1000000000006400000",
+        "status": "active",
+        "intent": "order",
+        "subject": {
+          "reference": "urn:uuid:caf1fdf3-6f1d-5026-8aa6-8fabc937a889"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "A10AE04",
+              "display": "insulin glargine"
+            }
+          ],
+          "text": "Insulin glargine 100 units/mL solution for injection"
+        },
+        "authoredOn": "2026-06-12T10:30:00+02:00",
+        "groupIdentifier": {
+          "system": "http://medrave.com/fhir/identifier/demo-prescription",
+          "value": "ARNE-RX-20260612"
+        },
+        "reasonCode": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "44054006"
+              }
+            ],
+            "text": "Type 2 diabetes mellitus"
+          }
+        ],
+        "dosageInstruction": [
+          {
+            "text": "22 units subcutaneously at bedtime",
+            "timing": {
+              "repeat": {
+                "frequency": 1,
+                "period": 1,
+                "periodUnit": "d"
+              }
+            },
+            "route": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "34206005"
+                }
+              ],
+              "text": "Subcutaneous"
+            },
+            "doseAndRate": [
+              {
+                "doseQuantity": {
+                  "value": 22.0,
+                  "unit": "U"
+                }
+              }
+            ]
+          }
+        ],
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationRequest.effectiveDosePeriod",
+            "valuePeriod": {
+              "start": "2016-02-08T00:00:00+01:00"
+            }
+          }
+        ],
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medicationRequest-eu-core"
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a7768afa-e9a2-51c8-89a7-fb7778caf79e",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "1000000000006900000",
+        "status": "active",
+        "intent": "order",
+        "subject": {
+          "reference": "urn:uuid:caf1fdf3-6f1d-5026-8aa6-8fabc937a889"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "C10AA05",
+              "display": "atorvastatin"
+            }
+          ],
+          "text": "Atorvastatin 20 mg tablet"
+        },
+        "authoredOn": "2026-06-12T10:30:00+02:00",
+        "groupIdentifier": {
+          "system": "http://medrave.com/fhir/identifier/demo-prescription",
+          "value": "ARNE-RX-20260612"
+        },
+        "reasonCode": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "233819005"
+              }
+            ],
+            "text": "Stable angina"
+          }
+        ],
+        "dosageInstruction": [
+          {
+            "text": "1 tablet (20 mg) once daily in the evening",
+            "timing": {
+              "repeat": {
+                "frequency": 1,
+                "period": 1,
+                "periodUnit": "d"
+              }
+            },
+            "route": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "26643006"
+                }
+              ],
+              "text": "Oral"
+            },
+            "doseAndRate": [
+              {
+                "doseQuantity": {
+                  "value": 1.0,
+                  "unit": "tablet"
+                }
+              }
+            ]
+          }
+        ],
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationRequest.effectiveDosePeriod",
+            "valuePeriod": {
+              "start": "2015-11-10T00:00:00+01:00"
+            }
+          }
+        ],
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medicationRequest-eu-core"
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a0b71162-0e07-5279-8778-97d3c8b17c10",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "1000000000006600000",
+        "status": "active",
+        "intent": "order",
+        "subject": {
+          "reference": "urn:uuid:caf1fdf3-6f1d-5026-8aa6-8fabc937a889"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "C01DA02",
+              "display": "glyceryl trinitrate"
+            }
+          ],
+          "text": "Glyceryl trinitrate 0.4 mg sublingual spray"
+        },
+        "authoredOn": "2026-06-12T10:30:00+02:00",
+        "groupIdentifier": {
+          "system": "http://medrave.com/fhir/identifier/demo-prescription",
+          "value": "ARNE-RX-20260612"
+        },
+        "reasonCode": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "233819005"
+              }
+            ],
+            "text": "Stable angina"
+          }
+        ],
+        "dosageInstruction": [
+          {
+            "text": "1-2 doses under the tongue for chest pain, when needed",
+            "asNeededCodeableConcept": {
+              "text": "Chest pain"
+            },
+            "route": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "37839007"
+                }
+              ],
+              "text": "Sublingual"
+            },
+            "doseAndRate": [
+              {
+                "doseRange": {
+                  "low": {
+                    "value": 1.0,
+                    "unit": "dose"
+                  },
+                  "high": {
+                    "value": 2.0,
+                    "unit": "dose"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationRequest.effectiveDosePeriod",
+            "valuePeriod": {
+              "start": "2015-11-10T00:00:00+01:00"
+            }
+          }
+        ],
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medicationRequest-eu-core"
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:1e28f8ac-3df4-5750-b745-b986c767bd79",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "1000000000006700000",
+        "status": "active",
+        "intent": "order",
+        "subject": {
+          "reference": "urn:uuid:caf1fdf3-6f1d-5026-8aa6-8fabc937a889"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "R03BB04",
+              "display": "tiotropium bromide"
+            }
+          ],
+          "text": "Tiotropium 18 micrograms inhalation powder"
+        },
+        "authoredOn": "2026-06-12T10:30:00+02:00",
+        "groupIdentifier": {
+          "system": "http://medrave.com/fhir/identifier/demo-prescription",
+          "value": "ARNE-RX-20260612"
+        },
+        "reasonCode": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "87433001"
+              }
+            ],
+            "text": "Pulmonary emphysema"
+          }
+        ],
+        "dosageInstruction": [
+          {
+            "text": "1 inhalation once daily",
+            "timing": {
+              "repeat": {
+                "frequency": 1,
+                "period": 1,
+                "periodUnit": "d"
+              }
+            },
+            "route": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "447694001"
+                }
+              ],
+              "text": "Respiratory tract"
+            },
+            "doseAndRate": [
+              {
+                "doseQuantity": {
+                  "value": 1.0,
+                  "unit": "inhalation"
+                }
+              }
+            ]
+          }
+        ],
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationRequest.effectiveDosePeriod",
+            "valuePeriod": {
+              "start": "2011-04-05T00:00:00+02:00"
+            }
+          }
+        ],
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medicationRequest-eu-core"
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:44b782a1-2ed9-5bf2-8b3f-d16346c9a588",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "1000000000006500000",
+        "status": "active",
+        "intent": "order",
+        "subject": {
+          "reference": "urn:uuid:caf1fdf3-6f1d-5026-8aa6-8fabc937a889"
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "A10BA02",
+              "display": "metformin"
+            }
+          ],
+          "text": "Metformin 500 mg tablet"
+        },
+        "authoredOn": "2026-06-12T10:30:00+02:00",
+        "groupIdentifier": {
+          "system": "http://medrave.com/fhir/identifier/demo-prescription",
+          "value": "ARNE-RX-20260612"
+        },
+        "reasonCode": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "44054006"
+              }
+            ],
+            "text": "Type 2 diabetes mellitus"
+          }
+        ],
+        "dosageInstruction": [
+          {
+            "text": "1 tablet (500 mg) twice daily with meals",
+            "timing": {
+              "repeat": {
+                "frequency": 2,
+                "period": 1,
+                "periodUnit": "d"
+              }
+            },
+            "route": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "26643006"
+                }
+              ],
+              "text": "Oral"
+            },
+            "doseAndRate": [
+              {
+                "doseQuantity": {
+                  "value": 1.0,
+                  "unit": "tablet"
+                }
+              }
+            ]
+          }
+        ],
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationRequest.effectiveDosePeriod",
+            "valuePeriod": {
+              "start": "2004-07-15T00:00:00+02:00"
+            }
+          }
+        ],
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medicationRequest-eu-core"
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:06b24422-b1d0-547b-ba9f-7d7e1255f20b",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "1000000000007000000",
+        "status": "completed",
+        "subject": {
+          "reference": "urn:uuid:caf1fdf3-6f1d-5026-8aa6-8fabc937a889"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "90199006",
+              "display": "Transurethral prostatectomy"
+            }
+          ],
+          "text": "Transurethral resection of prostate (TURP)"
+        },
+        "performedDateTime": "2020-11-26T00:00:00+01:00",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/procedure-eu-eps"
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:b289ce7e-5096-54c4-9a88-8560340ee2a9",
+      "resource": {
+        "resourceType": "DeviceUseStatement",
+        "id": "1000000000040700000",
+        "contained": [
+          {
+            "resourceType": "Device",
+            "id": "device",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "1255320005",
+                  "extension": [
+                    {
+                      "url": "http://hl7.org/fhir/StructureDefinition/coding-purpose",
+                      "valueCoding": {
+                        "system": "http://hl7.org/fhir/coding-purpose",
+                        "code": "post-coded"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "text": "Rollator"
+            },
+            "meta": {
+              "profile": [
+                "http://hl7.eu/fhir/eps/StructureDefinition/device-eu-eps"
+              ]
+            }
+          }
+        ],
+        "status": "active",
+        "subject": {
+          "reference": "urn:uuid:caf1fdf3-6f1d-5026-8aa6-8fabc937a889"
+        },
+        "timingDateTime": "2026-06-12T10:50:00+02:00",
+        "recordedOn": "2026-06-12T10:50:00+02:00",
+        "device": {
+          "reference": "#device"
+        },
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/deviceUseStatement-eu-eps"
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:5b4faf42-ec3d-56a5-be85-072f4359fe71",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "1000000000007300000",
+        "patient": {
+          "reference": "urn:uuid:caf1fdf3-6f1d-5026-8aa6-8fabc937a889"
+        },
+        "vaccineCode": {
+          "coding": [
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "J07BN04",
+              "display": "covid-19, protein subunit"
+            }
+          ],
+          "text": "COVID-19 vaccine"
+        },
+        "occurrenceDateTime": "2025-10-09T00:00:00+02:00",
+        "status": "completed",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/immunization-eu-core"
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:32f4df22-e47f-524f-b550-66a33bb8f67e",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "1000000000007200000",
+        "patient": {
+          "reference": "urn:uuid:caf1fdf3-6f1d-5026-8aa6-8fabc937a889"
+        },
+        "vaccineCode": {
+          "coding": [
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "J07BB02",
+              "display": "influenza, inactivated, split virus or surface antigen"
+            }
+          ],
+          "text": "Influenza vaccine"
+        },
+        "occurrenceDateTime": "2025-10-09T00:00:00+02:00",
+        "status": "completed",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/immunization-eu-core"
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:4b66d411-2779-5b06-8f45-7ba88daad672",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "1000000000007100000",
+        "patient": {
+          "reference": "urn:uuid:caf1fdf3-6f1d-5026-8aa6-8fabc937a889"
+        },
+        "vaccineCode": {
+          "coding": [
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "J07AL01",
+              "display": "pneumococcus, purified polysaccharides antigen"
+            }
+          ],
+          "text": "Pneumococcal vaccine"
+        },
+        "occurrenceDateTime": "2021-11-04T00:00:00+01:00",
+        "status": "completed",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/immunization-eu-core"
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a85a1f9b-4305-5a59-ae42-ca5828086d25",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "1000000000007900000",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medicalTestResult-eu-core"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "urn:uuid:caf1fdf3-6f1d-5026-8aa6-8fabc937a889"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "33762-6",
+              "display": "Natriuretic peptide.B prohormone N-Terminal [Mass/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "NT-proBNP"
+        },
+        "identifier": [
+          {
+            "system": "http://medrave.com/fhir/identifier/lab-panel",
+            "value": "ARNE-LAB-20260612"
+          }
+        ],
+        "effectiveDateTime": "2026-06-12T00:00:00+02:00",
+        "valueQuantity": {
+          "value": 1840.0,
+          "unit": "ng/L"
+        },
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "code": "H"
+              }
+            ],
+            "text": "High"
+          }
+        ],
+        "referenceRange": [
+          {
+            "high": {
+              "value": 300.0
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:82f0c0f9-9ae8-52c1-a353-a29cf5039df8",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "1000000000007800000",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medicalTestResult-eu-core"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "urn:uuid:caf1fdf3-6f1d-5026-8aa6-8fabc937a889"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2823-3",
+              "display": "Potassium [Moles/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Potassium"
+        },
+        "identifier": [
+          {
+            "system": "http://medrave.com/fhir/identifier/lab-panel",
+            "value": "ARNE-LAB-20260612"
+          }
+        ],
+        "effectiveDateTime": "2026-06-12T00:00:00+02:00",
+        "valueQuantity": {
+          "value": 4.4,
+          "unit": "mmol/L"
+        },
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "code": "N"
+              }
+            ],
+            "text": "Normal"
+          }
+        ],
+        "referenceRange": [
+          {
+            "low": {
+              "value": 3.5
+            },
+            "high": {
+              "value": 4.6
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:df1e8e6a-c732-5eb5-ac18-848ba4473826",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "1000000000007700000",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medicalTestResult-eu-core"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "urn:uuid:caf1fdf3-6f1d-5026-8aa6-8fabc937a889"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "718-7",
+              "display": "Hemoglobin [Mass/volume] in Blood"
+            }
+          ],
+          "text": "Hemoglobin"
+        },
+        "identifier": [
+          {
+            "system": "http://medrave.com/fhir/identifier/lab-panel",
+            "value": "ARNE-LAB-20260612"
+          }
+        ],
+        "effectiveDateTime": "2026-06-12T00:00:00+02:00",
+        "valueQuantity": {
+          "value": 112.0,
+          "unit": "g/L"
+        },
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "code": "L"
+              }
+            ],
+            "text": "Low"
+          }
+        ],
+        "referenceRange": [
+          {
+            "low": {
+              "value": 134.0
+            },
+            "high": {
+              "value": 170.0
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:c638654f-419e-5983-b13c-3053617c0922",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "1000000000007600000",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medicalTestResult-eu-core"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "urn:uuid:caf1fdf3-6f1d-5026-8aa6-8fabc937a889"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "62238-1",
+              "display": "Glomerular filtration rate [Volume Rate/Area] in Serum, Plasma or Blood by Creatinine-based formula (CKD-EPI)/1.73 sq M"
+            }
+          ],
+          "text": "eGFR (CKD-EPI)"
+        },
+        "identifier": [
+          {
+            "system": "http://medrave.com/fhir/identifier/lab-panel",
+            "value": "ARNE-LAB-20260612"
+          }
+        ],
+        "effectiveDateTime": "2026-06-12T00:00:00+02:00",
+        "valueQuantity": {
+          "value": 46.0,
+          "unit": "mL/min/{1.73_m2}"
+        },
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "code": "L"
+              }
+            ],
+            "text": "Low"
+          }
+        ],
+        "referenceRange": [
+          {
+            "low": {
+              "value": 60.0
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:f3e93a3f-9437-5ab2-847e-a5b12d15f1ec",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "1000000000007500000",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medicalTestResult-eu-core"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "urn:uuid:caf1fdf3-6f1d-5026-8aa6-8fabc937a889"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "14682-9",
+              "display": "Creatinine [Moles/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Creatinine"
+        },
+        "identifier": [
+          {
+            "system": "http://medrave.com/fhir/identifier/lab-panel",
+            "value": "ARNE-LAB-20260612"
+          }
+        ],
+        "effectiveDateTime": "2026-06-12T00:00:00+02:00",
+        "valueQuantity": {
+          "value": 118.0,
+          "unit": "umol/L"
+        },
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "code": "H"
+              }
+            ],
+            "text": "High"
+          }
+        ],
+        "referenceRange": [
+          {
+            "low": {
+              "value": 60.0
+            },
+            "high": {
+              "value": 105.0
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:6b180edd-2aa4-57d1-857c-64441b9fa62a",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "1000000000007400000",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medicalTestResult-eu-core"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "urn:uuid:caf1fdf3-6f1d-5026-8aa6-8fabc937a889"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "59261-8",
+              "display": "Hemoglobin A1c/Hemoglobin.total in Blood by IFCC protocol"
+            }
+          ],
+          "text": "HbA1c (IFCC)"
+        },
+        "identifier": [
+          {
+            "system": "http://medrave.com/fhir/identifier/lab-panel",
+            "value": "ARNE-LAB-20260612"
+          }
+        ],
+        "effectiveDateTime": "2026-06-12T00:00:00+02:00",
+        "valueQuantity": {
+          "value": 58.0,
+          "unit": "mmol/mol"
+        },
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "code": "H"
+              }
+            ],
+            "text": "High"
+          }
+        ],
+        "referenceRange": [
+          {
+            "low": {
+              "value": 27.0
+            },
+            "high": {
+              "value": 42.0
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cdf0cdcf-7d2f-5db7-ad44-c5109c9b3ba9",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "1000000000008000000",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medicalTestResult-eu-core"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "urn:uuid:caf1fdf3-6f1d-5026-8aa6-8fabc937a889"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2857-1",
+              "display": "Prostate specific Ag [Mass/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "PSA"
+        },
+        "identifier": [
+          {
+            "system": "http://medrave.com/fhir/identifier/lab-panel",
+            "value": "ARNE-LAB-20260504"
+          }
+        ],
+        "effectiveDateTime": "2026-05-04T00:00:00+02:00",
+        "valueQuantity": {
+          "value": 12.4,
+          "unit": "ug/L"
+        },
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "code": "H"
+              }
+            ],
+            "text": "High"
+          }
+        ],
+        "referenceRange": [
+          {
+            "high": {
+              "value": 4.0
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:f113cab1-d84a-5f35-bcf4-9dcdb566da4f",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "1000000000042400000",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/bp"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "urn:uuid:caf1fdf3-6f1d-5026-8aa6-8fabc937a889"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "85354-9",
+              "display": "Blood pressure panel with all children optional"
+            }
+          ],
+          "text": "Blood pressure"
+        },
+        "effectiveDateTime": "2026-06-12T00:00:00+02:00",
+        "component": [
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "8480-6",
+                  "display": "Systolic blood pressure"
+                }
+              ],
+              "text": "Systolic blood pressure"
+            },
+            "valueQuantity": {
+              "value": 138.0,
+              "unit": "mm[Hg]",
+              "system": "http://unitsofmeasure.org",
+              "code": "mm[Hg]"
+            }
+          },
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "8462-4",
+                  "display": "Diastolic blood pressure"
+                }
+              ],
+              "text": "Diastolic blood pressure"
+            },
+            "valueQuantity": {
+              "value": 78.0,
+              "unit": "mm[Hg]",
+              "system": "http://unitsofmeasure.org",
+              "code": "mm[Hg]"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:f9e0af25-6516-54af-9c22-69ce116c84b0",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "1000000000008500000",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "urn:uuid:caf1fdf3-6f1d-5026-8aa6-8fabc937a889"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "59408-5",
+              "display": "Oxygen saturation in Arterial blood by Pulse oximetry"
+            },
+            {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/coding-purpose",
+                  "valueCoding": {
+                    "system": "http://hl7.org/fhir/coding-purpose",
+                    "code": "translated"
+                  }
+                }
+              ],
+              "system": "http://loinc.org",
+              "code": "2708-6",
+              "display": "Oxygen saturation in Arterial blood"
+            }
+          ],
+          "text": "Oxygen saturation (pulse oximetry)"
+        },
+        "effectiveDateTime": "2026-06-12T00:00:00+02:00",
+        "valueQuantity": {
+          "value": 94.0,
+          "unit": "%",
+          "system": "http://unitsofmeasure.org",
+          "code": "%"
+        },
+        "bodySite": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "7569003",
+              "display": "Finger structure"
+            }
+          ],
+          "text": "Finger"
+        },
+        "method": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "252465000",
+              "display": "Pulse oximetry"
+            }
+          ],
+          "text": "Pulse oximetry"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e8b78403-6a67-52c3-8a27-c5cb31ed0084",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "1000000000008300000",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "urn:uuid:caf1fdf3-6f1d-5026-8aa6-8fabc937a889"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8867-4",
+              "display": "Heart rate"
+            }
+          ],
+          "text": "Heart rate"
+        },
+        "effectiveDateTime": "2026-06-12T00:00:00+02:00",
+        "valueQuantity": {
+          "value": 72.0,
+          "unit": "/min",
+          "system": "http://unitsofmeasure.org",
+          "code": "/min"
+        },
+        "bodySite": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "45631007",
+              "display": "Structure of radial artery"
+            }
+          ],
+          "text": "Radial artery"
+        },
+        "method": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "113011001",
+              "display": "Palpation"
+            }
+          ],
+          "text": "Palpation"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:08ae5518-c2cf-5d45-bc37-acff6980b36d",
+      "resource": {
+        "resourceType": "CarePlan",
+        "id": "1000000000035700000",
+        "status": "active",
+        "intent": "plan",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "734163000",
+                "display": "Care plan"
+              }
+            ],
+            "text": "Care plan"
+          }
+        ],
+        "title": "Planned follow-up visit at Kvarn\u00e4ngen health centre - annual check of heart failure and diabetes",
+        "subject": {
+          "reference": "urn:uuid:caf1fdf3-6f1d-5026-8aa6-8fabc937a889"
+        },
+        "period": {
+          "start": "2026-06-12T00:00:00+02:00"
+        },
+        "activity": [
+          {
+            "detail": {
+              "kind": "Appointment",
+              "reasonCode": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://snomed.info/sct",
+                      "code": "88805009",
+                      "display": "Chronic congestive heart failure"
+                    }
+                  ],
+                  "text": "Chronic heart failure"
+                }
+              ],
+              "status": "scheduled",
+              "scheduledPeriod": {
+                "start": "2026-09-15T00:00:00+02:00"
+              },
+              "description": "Planned follow-up visit at Kvarn\u00e4ngen health centre - annual check of heart failure and diabetes"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:ae217791-be9a-5768-83a4-1e35c2484e8b",
+      "resource": {
+        "resourceType": "CarePlan",
+        "id": "1000000000035900000",
+        "status": "active",
+        "intent": "plan",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "734163000",
+                "display": "Care plan"
+              }
+            ],
+            "text": "Care plan"
+          }
+        ],
+        "title": "Wound care of the venous leg ulcer, right lower leg - compression therapy and dressing change twice a week",
+        "subject": {
+          "reference": "urn:uuid:caf1fdf3-6f1d-5026-8aa6-8fabc937a889"
+        },
+        "period": {
+          "start": "2023-05-19T00:00:00+02:00"
+        },
+        "activity": [
+          {
+            "detail": {
+              "kind": "Appointment",
+              "reasonCode": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://snomed.info/sct",
+                      "code": "1237117000",
+                      "display": "Venous ulcer of lower leg"
+                    }
+                  ],
+                  "text": "Venous leg ulcer"
+                }
+              ],
+              "status": "in-progress",
+              "description": "Wound care of the venous leg ulcer, right lower leg - compression therapy and dressing change twice a week"
+            }
+          }
+        ],
+        "note": [
+          {
+            "text": "Performed by the district nurse at home."
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:ea3217c8-587c-55bd-9a17-58515dcb17b8",
+      "resource": {
+        "resourceType": "CarePlan",
+        "id": "1000000000035800000",
+        "status": "active",
+        "intent": "plan",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "734163000",
+                "display": "Care plan"
+              }
+            ],
+            "text": "Care plan"
+          }
+        ],
+        "title": "Home care, two visits daily - support with medication, personal care and meals",
+        "subject": {
+          "reference": "urn:uuid:caf1fdf3-6f1d-5026-8aa6-8fabc937a889"
+        },
+        "period": {
+          "start": "2019-06-01T00:00:00+02:00"
+        },
+        "activity": [
+          {
+            "detail": {
+              "kind": "Appointment",
+              "reasonCode": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://snomed.info/sct",
+                      "code": "278287000",
+                      "display": "Left hemiparesis"
+                    }
+                  ],
+                  "text": "Left hemiparesis"
+                }
+              ],
+              "status": "in-progress",
+              "description": "Home care, two visits daily - support with medication, personal care and meals"
+            }
+          }
+        ],
+        "note": [
+          {
+            "text": "Granted by the municipality's needs assessment unit. The contact person is named in the coordinated individual plan (SIP)."
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:35e7267e-189f-5c04-9e0c-f1a379b8d7df",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "1000000000036400000",
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:caf1fdf3-6f1d-5026-8aa6-8fabc937a889"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "74013-4",
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/coding-purpose",
+                  "valueCoding": {
+                    "system": "http://hl7.org/fhir/coding-purpose",
+                    "code": "post-coded"
+                  }
+                }
+              ]
+            }
+          ],
+          "text": "Alkohol, standardglas per dag"
+        },
+        "valueQuantity": {
+          "value": 1.0,
+          "unit": "standardglas/dag"
+        },
+        "effectiveInstant": "2026-06-12T10:40:00+02:00"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:affce3b8-318f-5eb3-b38f-5a8023400f47",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "1000000000036300000",
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:caf1fdf3-6f1d-5026-8aa6-8fabc937a889"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "72166-2",
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/coding-purpose",
+                  "valueCoding": {
+                    "system": "http://hl7.org/fhir/coding-purpose",
+                    "code": "post-coded"
+                  }
+                }
+              ]
+            }
+          ],
+          "text": "R\u00f6kning"
+        },
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "8517006",
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/coding-purpose",
+                  "valueCoding": {
+                    "system": "http://hl7.org/fhir/coding-purpose",
+                    "code": "post-coded"
+                  }
+                }
+              ]
+            }
+          ],
+          "text": "F\u00f6re detta r\u00f6kare"
+        },
+        "effectiveInstant": "2026-06-12T10:40:00+02:00"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:5f6462f8-6435-56be-91f2-d88d93b3c7f1",
+      "resource": {
+        "resourceType": "DocumentReference",
+        "id": "1000000000036800000",
+        "status": "current",
+        "subject": {
+          "reference": "urn:uuid:caf1fdf3-6f1d-5026-8aa6-8fabc937a889"
+        },
+        "date": "2026-06-12T10:30:00+02:00",
+        "content": [
+          {
+            "attachment": {
+              "contentType": "text/plain",
+              "data": "SmFnIHZpbGwgYm8ga3ZhciBoZW1tYSBpIEZhbGtlbmJlcmcgc8OlIGzDpG5nZSBkZXQgbsOlZ29uc2luIGfDpXIuIERldCB2aWt0aWdhc3RlIGbDtnIgbWlnIMOkciBhdHQga2xhcmEgbWlnIHNqw6RsdiBtZWQgcm9sbGF0b3JuLCBmYXN0IHbDpG5zdGVyIHNpZGEgw6RyIHN2YWcgc2VkYW4gc3Ryb2tlbi4gSmFnIGJsaXIgbMOkdHQgYW5kZsOlZGQsIHPDpSBzdHJlc3NhIG1pZyBpbnRlIC0gZ2UgbWlnIHRpZC4gSGVtdGrDpG5zdGVuIHR2w6UgZ8OlbmdlciBvbSBkYWdlbiBmdW5nZXJhciBicmEuIEphZyB2aWxsIGZvcnRzw6R0dGEgYXR0IGjDpGxzYSBww6UgbWluIHNvbiBpIERhbm1hcmsuIE9tIG7DpWdvdCBow6RuZGVyLCByaW5nIGhvbm9tLg==",
+              "language": "sv"
+            }
+          }
+        ],
+        "type": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "81338-6",
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/coding-purpose",
+                  "valueCoding": {
+                    "system": "http://hl7.org/fhir/coding-purpose",
+                    "code": "post-coded"
+                  }
+                }
+              ]
+            }
+          ],
+          "text": "Vad \u00e4r viktigt f\u00f6r mig"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:2bdd6c90-505a-5a5c-8bfa-41243dd89592",
+      "resource": {
+        "resourceType": "Flag",
+        "id": "1000000000041900000",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/flag-detail",
+            "valueReference": {
+              "reference": "urn:uuid:48995069-09c7-54be-b2b5-8f2f64cf3dc0",
+              "display": "Apixaban 5 mg tablet"
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/flag-priority",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/flag-priority-code",
+                  "code": "PH",
+                  "display": "High priority"
+                }
+              ],
+              "text": "High priority"
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/note",
+            "valueAnnotation": {
+              "authorString": "Erik Holm",
+              "time": "2026-06-12T10:30:00+02:00",
+              "text": "Apixaban for atrial fibrillation - check before any procedure or injection."
+            }
+          }
+        ],
+        "status": "active",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/flag-category",
+                "code": "drug",
+                "display": "Drug"
+              }
+            ],
+            "text": "Drug"
+          }
+        ],
+        "code": {
+          "text": "Anticoagulant treatment - bleeding risk"
+        },
+        "subject": {
+          "reference": "urn:uuid:caf1fdf3-6f1d-5026-8aa6-8fabc937a889"
+        },
+        "period": {
+          "start": "2017-10-05T00:00:00+02:00"
+        },
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/flag-patient-eu-core"
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:5dcb02e2-86b6-5e02-acf1-1faba0749061",
+      "resource": {
+        "resourceType": "ClinicalImpression",
+        "id": "1000000000037000000",
+        "status": "completed",
+        "subject": {
+          "reference": "urn:uuid:caf1fdf3-6f1d-5026-8aa6-8fabc937a889"
+        },
+        "effectiveDateTime": "2026-06-12T10:50:00+02:00",
+        "finding": [
+          {
+            "itemReference": {
+              "reference": "urn:uuid:e794a556-b683-5d07-a22a-854e96e2d4ee"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e794a556-b683-5d07-a22a-854e96e2d4ee",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "1000000000037000000",
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:caf1fdf3-6f1d-5026-8aa6-8fabc937a889"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "96761-2",
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/coding-purpose",
+                  "valueCoding": {
+                    "system": "http://hl7.org/fhir/coding-purpose",
+                    "code": "post-coded"
+                  }
+                }
+              ]
+            }
+          ],
+          "text": "Barthel ADL-index"
+        },
+        "valueQuantity": {
+          "value": 70.0,
+          "unit": "po\u00e4ng"
+        },
+        "effectiveInstant": "2026-06-12T10:50:00+02:00"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:562480c5-a5ce-5af1-bf17-0454d4594155",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "1000000000040400000",
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:caf1fdf3-6f1d-5026-8aa6-8fabc937a889"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "94651-7",
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/coding-purpose",
+                  "valueCoding": {
+                    "system": "http://hl7.org/fhir/coding-purpose",
+                    "code": "post-coded"
+                  }
+                }
+              ]
+            }
+          ],
+          "text": "Utlandsvistelse senaste 6 m\u00e5nader"
+        },
+        "effectivePeriod": {
+          "start": "2026-05-14T00:00:00+02:00",
+          "end": "2026-05-24T00:00:00+02:00"
+        },
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "urn:iso:std:iso:3166",
+              "code": "DK",
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/coding-purpose",
+                  "valueCoding": {
+                    "system": "http://hl7.org/fhir/coding-purpose",
+                    "code": "post-coded"
+                  }
+                }
+              ]
+            }
+          ],
+          "text": "Danmark"
+        },
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/observation-travel-eu-eps"
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:67b4d6a3-91d3-5921-ac40-878811575879",
+      "resource": {
+        "resourceType": "Consent",
+        "id": "1000000000042000000",
+        "status": "active",
+        "scope": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/consentscope",
+              "code": "adr"
+            }
+          ]
+        },
+        "category": [
+          {
+            "text": "Livstestamente"
+          }
+        ],
+        "patient": {
+          "reference": "urn:uuid:caf1fdf3-6f1d-5026-8aa6-8fabc937a889"
+        },
+        "dateTime": "2026-06-12T11:00:00+02:00",
+        "policy": [
+          {
+            "uri": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/patientlag-2014821_sfs-2014-821/"
+          }
+        ],
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/consent-eu-eps"
+          ]
+        }
+      }
+    }
+  ]
+}

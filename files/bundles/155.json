@@ -1,0 +1,633 @@
+{
+  "resourceType": "Bundle",
+  "id": "424bf47b-89b9-5bb8-95d8-dfb633a67205",
+  "language": "en",
+  "identifier": {
+    "system": "urn:ietf:rfc:3986",
+    "value": "urn:uuid:93b3a07f-bdf0-569a-ac41-4f89153927b4"
+  },
+  "type": "collection",
+  "timestamp": "2026-09-20T14:10:00+00:00",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:2531d8c2-b9df-5377-9748-b415b5d96b5e",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "2531d8c2-b9df-5377-9748-b415b5d96b5e",
+        "meta": {
+          "tag": [
+            {
+              "system": "https://platform24.com/fhir/CodeSystem/data-origin",
+              "code": "p24-hackathon-synthetic",
+              "display": "Synthetic test patient (Platform24, Nordic EHDS hackathon)"
+            }
+          ],
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/patient-eu-core"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "https://platform24.com/fhir/identifier/hackathon-persona",
+            "value": "p24-hackathon-arne-knee"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "use": "official",
+            "text": "Arvid P24-Hackathon",
+            "family": "P24-Hackathon",
+            "given": [
+              "Arvid"
+            ]
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1946-03-14"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:2c77aa8b-a1b9-57f2-9854-48f93fdafae5",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "2c77aa8b-a1b9-57f2-9854-48f93fdafae5",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/organization-eu-core"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "https://platform24.com/fhir/identifier/hackathon-organization",
+            "value": "p24-hackathon-health-centre"
+          }
+        ],
+        "name": "Platform24 demo health centre (synthetic, P24-Hackathon)",
+        "address": [
+          {
+            "city": "Göteborg",
+            "country": "SE"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:aad6c517-5cd6-5021-b25b-c9e390c54416",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "aad6c517-5cd6-5021-b25b-c9e390c54416",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/practitioner-eu-core"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "https://platform24.com/fhir/identifier/hackathon-practitioner",
+            "value": "p24-hackathon-general-practitioner"
+          }
+        ],
+        "name": [
+          {
+            "use": "official",
+            "text": "Gunnar P24-Hackathon, general practitioner (synthetic)",
+            "family": "P24-Hackathon",
+            "given": [
+              "Gunnar"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:36ef9e54-2839-5b13-ba86-80b86ddc8856",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "36ef9e54-2839-5b13-ba86-80b86ddc8856",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/organization-eu-core"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "https://platform24.com/fhir/identifier/hackathon-organization",
+            "value": "p24-hackathon-pharmacy"
+          }
+        ],
+        "name": "Demo pharmacy (synthetic, P24-Hackathon)",
+        "address": [
+          {
+            "city": "Göteborg",
+            "country": "SE"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:bd4a0831-3f42-5c8c-b021-b74cd8319333",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "bd4a0831-3f42-5c8c-b021-b74cd8319333",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/mpd/StructureDefinition/Medication-eu-mpd"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "A10AE04",
+              "display": "insulin glargine"
+            }
+          ],
+          "text": "Insulin glargine 100 units/mL, solution for injection in pre-filled pen"
+        },
+        "form": {
+          "coding": [
+            {
+              "system": "http://standardterms.edqm.eu",
+              "code": "11201000",
+              "display": "Solution for injection"
+            }
+          ],
+          "text": "Solution for injection"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:2ca42ae9-933c-54ca-8919-fa74f40e96f9",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "2ca42ae9-933c-54ca-8919-fa74f40e96f9",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/mpd/StructureDefinition/MedicationRequest-eu-mpd"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:uuid:4eecd3e5-acf2-5d71-8f70-4ee9c58350e0"
+          }
+        ],
+        "status": "active",
+        "intent": "order",
+        "medicationReference": {
+          "reference": "urn:uuid:bd4a0831-3f42-5c8c-b021-b74cd8319333",
+          "display": "Insulin glargine 100 units/mL, solution for injection in pre-filled pen"
+        },
+        "subject": {
+          "reference": "urn:uuid:2531d8c2-b9df-5377-9748-b415b5d96b5e"
+        },
+        "authoredOn": "2026-08-21T09:30:00+00:00",
+        "requester": {
+          "reference": "urn:uuid:aad6c517-5cd6-5021-b25b-c9e390c54416",
+          "display": "Gunnar P24-Hackathon, general practitioner (synthetic)"
+        },
+        "performer": {
+          "reference": "urn:uuid:2c77aa8b-a1b9-57f2-9854-48f93fdafae5",
+          "display": "Platform24 demo health centre (synthetic, P24-Hackathon)"
+        },
+        "reasonCode": [
+          {
+            "text": "Type 2 diabetes mellitus"
+          }
+        ],
+        "note": [
+          {
+            "text": "Synthetic prescription for an invented person."
+          }
+        ],
+        "dosageInstruction": [
+          {
+            "text": "22 units under the skin once daily in the evening"
+          }
+        ],
+        "dispenseRequest": {
+          "validityPeriod": {
+            "start": "2026-08-21",
+            "end": "2027-08-21"
+          },
+          "numberOfRepeatsAllowed": 3,
+          "expectedSupplyDuration": {
+            "value": 90,
+            "unit": "days",
+            "system": "http://unitsofmeasure.org",
+            "code": "d"
+          }
+        },
+        "substitution": {
+          "allowedBoolean": true
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:19e11468-9063-50e4-b317-47c74d08248a",
+      "resource": {
+        "resourceType": "MedicationDispense",
+        "id": "19e11468-9063-50e4-b317-47c74d08248a",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/mpd/StructureDefinition/MedicationDispense-eu-mpd"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationDispense.recorded",
+            "valueDateTime": "2026-09-20T14:10:00+00:00"
+          }
+        ],
+        "identifier": [
+          {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:uuid:50cb4f08-1c0c-5268-b241-55477c8099a9"
+          }
+        ],
+        "status": "completed",
+        "medicationReference": {
+          "reference": "urn:uuid:bd4a0831-3f42-5c8c-b021-b74cd8319333",
+          "display": "Insulin glargine 100 units/mL, solution for injection in pre-filled pen"
+        },
+        "subject": {
+          "reference": "urn:uuid:2531d8c2-b9df-5377-9748-b415b5d96b5e"
+        },
+        "performer": [
+          {
+            "actor": {
+              "reference": "urn:uuid:36ef9e54-2839-5b13-ba86-80b86ddc8856",
+              "display": "Demo pharmacy (synthetic, P24-Hackathon)"
+            }
+          }
+        ],
+        "authorizingPrescription": [
+          {
+            "reference": "urn:uuid:2ca42ae9-933c-54ca-8919-fa74f40e96f9"
+          }
+        ],
+        "quantity": {
+          "value": 2,
+          "unit": "package"
+        },
+        "daysSupply": {
+          "value": 90,
+          "unit": "days",
+          "system": "http://unitsofmeasure.org",
+          "code": "d"
+        },
+        "whenHandedOver": "2026-09-20T14:10:00+00:00",
+        "note": [
+          {
+            "text": "2 packages of 5 pre-filled pens (3 mL each). Synthetic dispense for an invented person."
+          }
+        ],
+        "dosageInstruction": [
+          {
+            "text": "22 units under the skin once daily in the evening"
+          }
+        ],
+        "substitution": {
+          "wasSubstituted": false
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:f666b434-2ca2-54fc-bc85-7d30ebd88aec",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "f666b434-2ca2-54fc-bc85-7d30ebd88aec",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/mpd/StructureDefinition/Medication-eu-mpd"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "C09AA02",
+              "display": "enalapril"
+            }
+          ],
+          "text": "Enalapril 10 mg tablet"
+        },
+        "form": {
+          "coding": [
+            {
+              "system": "http://standardterms.edqm.eu",
+              "code": "10219000",
+              "display": "Tablet"
+            }
+          ],
+          "text": "Tablet"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:c5b14caa-429d-59ec-9b1a-07acc539e97f",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "c5b14caa-429d-59ec-9b1a-07acc539e97f",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/mpd/StructureDefinition/MedicationRequest-eu-mpd"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:uuid:ca4dd6c9-291d-5e36-8376-7b66d38d8df8"
+          }
+        ],
+        "status": "active",
+        "intent": "order",
+        "medicationReference": {
+          "reference": "urn:uuid:f666b434-2ca2-54fc-bc85-7d30ebd88aec",
+          "display": "Enalapril 10 mg tablet"
+        },
+        "subject": {
+          "reference": "urn:uuid:2531d8c2-b9df-5377-9748-b415b5d96b5e"
+        },
+        "authoredOn": "2026-08-21T09:30:00+00:00",
+        "requester": {
+          "reference": "urn:uuid:aad6c517-5cd6-5021-b25b-c9e390c54416",
+          "display": "Gunnar P24-Hackathon, general practitioner (synthetic)"
+        },
+        "performer": {
+          "reference": "urn:uuid:2c77aa8b-a1b9-57f2-9854-48f93fdafae5",
+          "display": "Platform24 demo health centre (synthetic, P24-Hackathon)"
+        },
+        "reasonCode": [
+          {
+            "text": "Hypertension"
+          }
+        ],
+        "note": [
+          {
+            "text": "Synthetic prescription for an invented person."
+          }
+        ],
+        "dosageInstruction": [
+          {
+            "text": "1 tablet by mouth once daily in the morning"
+          }
+        ],
+        "dispenseRequest": {
+          "validityPeriod": {
+            "start": "2026-08-21",
+            "end": "2027-08-21"
+          },
+          "numberOfRepeatsAllowed": 3,
+          "expectedSupplyDuration": {
+            "value": 100,
+            "unit": "days",
+            "system": "http://unitsofmeasure.org",
+            "code": "d"
+          }
+        },
+        "substitution": {
+          "allowedBoolean": true
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:6c5df7a3-639a-55af-9249-a0cc59524712",
+      "resource": {
+        "resourceType": "MedicationDispense",
+        "id": "6c5df7a3-639a-55af-9249-a0cc59524712",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/mpd/StructureDefinition/MedicationDispense-eu-mpd"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationDispense.recorded",
+            "valueDateTime": "2026-09-20T14:10:00+00:00"
+          }
+        ],
+        "identifier": [
+          {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:uuid:533f4e13-106b-5052-a95b-42e88039d532"
+          }
+        ],
+        "status": "completed",
+        "medicationReference": {
+          "reference": "urn:uuid:f666b434-2ca2-54fc-bc85-7d30ebd88aec",
+          "display": "Enalapril 10 mg tablet"
+        },
+        "subject": {
+          "reference": "urn:uuid:2531d8c2-b9df-5377-9748-b415b5d96b5e"
+        },
+        "performer": [
+          {
+            "actor": {
+              "reference": "urn:uuid:36ef9e54-2839-5b13-ba86-80b86ddc8856",
+              "display": "Demo pharmacy (synthetic, P24-Hackathon)"
+            }
+          }
+        ],
+        "authorizingPrescription": [
+          {
+            "reference": "urn:uuid:c5b14caa-429d-59ec-9b1a-07acc539e97f"
+          }
+        ],
+        "quantity": {
+          "value": 1,
+          "unit": "package"
+        },
+        "daysSupply": {
+          "value": 100,
+          "unit": "days",
+          "system": "http://unitsofmeasure.org",
+          "code": "d"
+        },
+        "whenHandedOver": "2026-09-20T14:10:00+00:00",
+        "note": [
+          {
+            "text": "1 package of 100 tablets. Synthetic dispense for an invented person."
+          }
+        ],
+        "dosageInstruction": [
+          {
+            "text": "1 tablet by mouth once daily in the morning"
+          }
+        ],
+        "substitution": {
+          "wasSubstituted": false
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:3dd4d888-fcdd-5b42-999b-7d1d000c9f7c",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "3dd4d888-fcdd-5b42-999b-7d1d000c9f7c",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/mpd/StructureDefinition/Medication-eu-mpd"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "B01AF02",
+              "display": "apixaban"
+            }
+          ],
+          "text": "Apixaban 5 mg film-coated tablet"
+        },
+        "form": {
+          "coding": [
+            {
+              "system": "http://standardterms.edqm.eu",
+              "code": "10221000",
+              "display": "Film-coated tablet"
+            }
+          ],
+          "text": "Film-coated tablet"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:800085ad-3f85-5c82-8553-2b0fa6d61123",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "800085ad-3f85-5c82-8553-2b0fa6d61123",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/mpd/StructureDefinition/MedicationRequest-eu-mpd"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:uuid:13e5f816-1840-5ed9-824e-a4b230e68d2a"
+          }
+        ],
+        "status": "active",
+        "intent": "order",
+        "medicationReference": {
+          "reference": "urn:uuid:3dd4d888-fcdd-5b42-999b-7d1d000c9f7c",
+          "display": "Apixaban 5 mg film-coated tablet"
+        },
+        "subject": {
+          "reference": "urn:uuid:2531d8c2-b9df-5377-9748-b415b5d96b5e"
+        },
+        "authoredOn": "2026-08-21T09:30:00+00:00",
+        "requester": {
+          "reference": "urn:uuid:aad6c517-5cd6-5021-b25b-c9e390c54416",
+          "display": "Gunnar P24-Hackathon, general practitioner (synthetic)"
+        },
+        "performer": {
+          "reference": "urn:uuid:2c77aa8b-a1b9-57f2-9854-48f93fdafae5",
+          "display": "Platform24 demo health centre (synthetic, P24-Hackathon)"
+        },
+        "reasonCode": [
+          {
+            "text": "Stroke prevention after an earlier stroke"
+          }
+        ],
+        "note": [
+          {
+            "text": "Synthetic prescription for an invented person."
+          }
+        ],
+        "dosageInstruction": [
+          {
+            "text": "1 tablet by mouth twice daily"
+          }
+        ],
+        "dispenseRequest": {
+          "validityPeriod": {
+            "start": "2026-08-21",
+            "end": "2027-08-21"
+          },
+          "numberOfRepeatsAllowed": 3,
+          "expectedSupplyDuration": {
+            "value": 84,
+            "unit": "days",
+            "system": "http://unitsofmeasure.org",
+            "code": "d"
+          }
+        },
+        "substitution": {
+          "allowedBoolean": true
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:30b490eb-7b9c-5f66-b735-b73684a47fa0",
+      "resource": {
+        "resourceType": "MedicationDispense",
+        "id": "30b490eb-7b9c-5f66-b735-b73684a47fa0",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/mpd/StructureDefinition/MedicationDispense-eu-mpd"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationDispense.recorded",
+            "valueDateTime": "2026-09-20T14:10:00+00:00"
+          }
+        ],
+        "identifier": [
+          {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:uuid:83d9174b-799b-5e68-acba-b06c6fed1291"
+          }
+        ],
+        "status": "completed",
+        "medicationReference": {
+          "reference": "urn:uuid:3dd4d888-fcdd-5b42-999b-7d1d000c9f7c",
+          "display": "Apixaban 5 mg film-coated tablet"
+        },
+        "subject": {
+          "reference": "urn:uuid:2531d8c2-b9df-5377-9748-b415b5d96b5e"
+        },
+        "performer": [
+          {
+            "actor": {
+              "reference": "urn:uuid:36ef9e54-2839-5b13-ba86-80b86ddc8856",
+              "display": "Demo pharmacy (synthetic, P24-Hackathon)"
+            }
+          }
+        ],
+        "authorizingPrescription": [
+          {
+            "reference": "urn:uuid:800085ad-3f85-5c82-8553-2b0fa6d61123"
+          }
+        ],
+        "quantity": {
+          "value": 1,
+          "unit": "package"
+        },
+        "daysSupply": {
+          "value": 84,
+          "unit": "days",
+          "system": "http://unitsofmeasure.org",
+          "code": "d"
+        },
+        "whenHandedOver": "2026-09-20T14:10:00+00:00",
+        "note": [
+          {
+            "text": "1 package of 168 tablets. Synthetic dispense for an invented person."
+          }
+        ],
+        "dosageInstruction": [
+          {
+            "text": "1 tablet by mouth twice daily"
+          }
+        ],
+        "substitution": {
+          "wasSubstituted": false
+        }
+      }
+    }
+  ]
+}

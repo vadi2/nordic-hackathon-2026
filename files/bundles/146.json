@@ -1,0 +1,785 @@
+{
+    "resourceType": "Bundle",
+    "id": "db8c1db1-c8f9-44a8-8f56-e547e8c93e95",
+    "meta": {
+        "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/bundle-eu-eps"
+        ]
+    },
+    "language": "de-CH",
+    "identifier": {
+        "system": "urn:ietf:rfc:3986",
+        "value": "urn:uuid:db8c1db1-c8f9-44a8-8f56-e547e8c93e95"
+    },
+    "type": "document",
+    "timestamp": "2026-11-20T10:21:15+01:00",
+    "entry": [
+        {
+            "fullUrl": "urn:uuid:0964fbbf-8cd3-41b0-82b0-1cfdd045dd1c",
+            "resource": {
+                "resourceType": "Composition",
+                "id": "0964fbbf-8cd3-41b0-82b0-1cfdd045dd1c",
+                "meta": {
+                    "profile": [
+                        "http://hl7.eu/fhir/eps/StructureDefinition/composition-eu-eps"
+                    ]
+                },
+                "language": "de-CH",
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Patientenzusammenfassung – Hans Brunner</p><p>Dr. med. Claudia Huber, Spital Basel, 2025-04-18</p></div>"
+                },
+                "identifier": {
+                    "system": "urn:ietf:rfc:3986",
+                    "value": "urn:uuid:2bdbace6-8130-44a8-b2b0-faf48111f4c2"
+                },
+                "status": "final",
+                "type": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "60591-5",
+                            "display": "Patient summary Document"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:7f9d3e64-c1a6-423b-9f64-eeed5c9d927d"
+                },
+                "date": "2025-04-18T10:44:00+02:00",
+                "author": [
+                    {
+                        "reference": "urn:uuid:1e1242e3-f272-42b6-b621-72ed1d0bc9bd"
+                    }
+                ],
+                "title": "Patientenzusammenfassung – Hans Brunner",
+                "confidentiality": "N",
+                "attester": [
+                    {
+                        "mode": "legal",
+                        "time": "2025-04-18T10:44:00+02:00",
+                        "party": {
+                            "reference": "urn:uuid:e9b5c5cf-d766-4cda-be04-90593985fb62"
+                        }
+                    }
+                ],
+                "custodian": {
+                    "reference": "urn:uuid:a14923c2-f920-464c-8763-fcd01f15c7b6"
+                },
+                "relatesTo": [
+                    {
+                        "code": "transforms",
+                        "targetIdentifier": {
+                            "system": "urn:ietf:rfc:3986",
+                            "value": "urn:uuid:b28f41de-fb14-4bc3-b04b-8590de9e3757"
+                        }
+                    }
+                ],
+                "event": [
+                    {
+                        "code": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://terminology.hl7.org/CodeSystem/v3-ActClass",
+                                        "code": "PCPR",
+                                        "display": "care provision"
+                                    }
+                                ]
+                            }
+                        ],
+                        "period": {
+                            "end": "2025-04-18T10:44:00+02:00"
+                        }
+                    }
+                ],
+                "section": [
+                    {
+                        "title": "Medikation",
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "http://loinc.org",
+                                    "code": "10160-0",
+                                    "display": "History of Medication use Narrative"
+                                }
+                            ]
+                        },
+                        "text": {
+                            "status": "generated",
+                            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Atorvastatin 20 mg Filmtabletten: 1 abends</li></ul></div>"
+                        },
+                        "entry": [
+                            {
+                                "reference": "urn:uuid:ef2ae713-5702-4049-aa39-aaa6dabac50d"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Allergien und Intoleranzen",
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "http://loinc.org",
+                                    "code": "48765-2",
+                                    "display": "Allergies and adverse reactions Document"
+                                }
+                            ]
+                        },
+                        "text": {
+                            "status": "generated",
+                            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Keine bekannten Allergien</li></ul></div>"
+                        },
+                        "entry": [
+                            {
+                                "reference": "urn:uuid:dd30de89-22f2-45f2-a11b-868dbf0d073d"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Aktuelle Probleme",
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "http://loinc.org",
+                                    "code": "11450-4",
+                                    "display": "Problem list - Reported"
+                                }
+                            ]
+                        },
+                        "text": {
+                            "status": "generated",
+                            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Hyperlipidämie (seit 2011)</li></ul></div>"
+                        },
+                        "entry": [
+                            {
+                                "reference": "urn:uuid:ebff8d15-30cb-4755-a232-b17a25074181"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Impfungen",
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "http://loinc.org",
+                                    "code": "11369-6",
+                                    "display": "History of Immunization Narrative"
+                                }
+                            ]
+                        },
+                        "text": {
+                            "status": "generated",
+                            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Boostrix (2018-06-22)</li></ul></div>"
+                        },
+                        "entry": [
+                            {
+                                "reference": "urn:uuid:585a0afa-7bfd-4c12-89e0-6ab37250ee18"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Behandlungsverlauf",
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "http://loinc.org",
+                                    "code": "47519-4",
+                                    "display": "History of Procedures Document"
+                                }
+                            ]
+                        },
+                        "text": {
+                            "status": "generated",
+                            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Das Quelldokument enthält keine Angaben.</p></div>"
+                        },
+                        "emptyReason": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/list-empty-reason",
+                                    "code": "unavailable",
+                                    "display": "Unavailable"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "title": "Medizinische Geräte",
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "http://loinc.org",
+                                    "code": "46264-8",
+                                    "display": "History of medical device use"
+                                }
+                            ]
+                        },
+                        "text": {
+                            "status": "generated",
+                            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Das Quelldokument enthält keine Angaben.</p></div>"
+                        },
+                        "emptyReason": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/list-empty-reason",
+                                    "code": "unavailable",
+                                    "display": "Unavailable"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:7f9d3e64-c1a6-423b-9f64-eeed5c9d927d",
+            "resource": {
+                "resourceType": "Patient",
+                "id": "7f9d3e64-c1a6-423b-9f64-eeed5c9d927d",
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Hans Brunner</li><li>1962-10-11 (male)</li><li>4051 Basel</li></ul></div>"
+                },
+                "identifier": [
+                    {
+                        "type": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                                    "code": "MR",
+                                    "display": "Medical record number"
+                                }
+                            ]
+                        },
+                        "system": "urn:oid:2.999.756.1.990",
+                        "value": "82825679"
+                    }
+                ],
+                "name": [
+                    {
+                        "use": "official",
+                        "family": "Brunner",
+                        "given": [
+                            "Hans"
+                        ]
+                    }
+                ],
+                "telecom": [
+                    {
+                        "system": "phone",
+                        "value": "+41 79 000 61 75",
+                        "use": "mobile"
+                    }
+                ],
+                "gender": "male",
+                "birthDate": "1962-10-11",
+                "address": [
+                    {
+                        "use": "home",
+                        "line": [
+                            "Bahnhofstrasse 85"
+                        ],
+                        "city": "Basel",
+                        "postalCode": "4051",
+                        "country": "CH"
+                    }
+                ],
+                "maritalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://fhir.ch/ig/ch-core/CodeSystem/ech-11-maritalstatus",
+                            "code": "1",
+                            "display": "ledig"
+                        }
+                    ]
+                },
+                "communication": [
+                    {
+                        "language": {
+                            "coding": [
+                                {
+                                    "system": "urn:ietf:bcp:47",
+                                    "code": "de-CH"
+                                }
+                            ]
+                        },
+                        "preferred": true
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:a14923c2-f920-464c-8763-fcd01f15c7b6",
+            "resource": {
+                "resourceType": "Organization",
+                "id": "a14923c2-f920-464c-8763-fcd01f15c7b6",
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Spital Basel</li></ul></div>"
+                },
+                "identifier": [
+                    {
+                        "system": "urn:oid:2.51.1.3",
+                        "value": "7601999703489"
+                    }
+                ],
+                "name": "Spital Basel",
+                "telecom": [
+                    {
+                        "system": "phone",
+                        "value": "+41 37 000 46 66",
+                        "use": "work"
+                    }
+                ],
+                "address": [
+                    {
+                        "line": [
+                            "Gartenweg 32"
+                        ],
+                        "city": "Basel",
+                        "postalCode": "4051",
+                        "country": "CH"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:e9b5c5cf-d766-4cda-be04-90593985fb62",
+            "resource": {
+                "resourceType": "Practitioner",
+                "id": "e9b5c5cf-d766-4cda-be04-90593985fb62",
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Dr. med. Claudia Huber</li></ul></div>"
+                },
+                "identifier": [
+                    {
+                        "system": "urn:oid:2.51.1.3",
+                        "value": "7601999808610"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "Huber",
+                        "given": [
+                            "Claudia"
+                        ],
+                        "prefix": [
+                            "Dr. med."
+                        ]
+                    }
+                ],
+                "gender": "female"
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:1e1242e3-f272-42b6-b621-72ed1d0bc9bd",
+            "resource": {
+                "resourceType": "PractitionerRole",
+                "id": "1e1242e3-f272-42b6-b621-72ed1d0bc9bd",
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Dr. med. Claudia Huber</li></ul></div>"
+                },
+                "practitioner": {
+                    "reference": "urn:uuid:e9b5c5cf-d766-4cda-be04-90593985fb62"
+                },
+                "organization": {
+                    "reference": "urn:uuid:a14923c2-f920-464c-8763-fcd01f15c7b6"
+                },
+                "code": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://snomed.info/sct",
+                                "code": "309343006",
+                                "display": "Physician"
+                            }
+                        ]
+                    }
+                ],
+                "specialty": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:2.16.756.5.30.1.127.3.5",
+                                "code": "1040",
+                                "display": "General medical practitioner"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:ebff8d15-30cb-4755-a232-b17a25074181",
+            "resource": {
+                "resourceType": "Condition",
+                "id": "ebff8d15-30cb-4755-a232-b17a25074181",
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Hyperlipidemia</li></ul></div>"
+                },
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active",
+                            "display": "Active"
+                        }
+                    ]
+                },
+                "verificationStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+                            "code": "confirmed",
+                            "display": "Confirmed"
+                        }
+                    ]
+                },
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                                "code": "problem-list-item",
+                                "display": "Problem List Item"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "55822004",
+                            "display": "Hyperlipidemia"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:7f9d3e64-c1a6-423b-9f64-eeed5c9d927d"
+                },
+                "onsetDateTime": "2011-08-29",
+                "recordedDate": "2011-08-29"
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:dd30de89-22f2-45f2-a11b-868dbf0d073d",
+            "resource": {
+                "resourceType": "AllergyIntolerance",
+                "id": "dd30de89-22f2-45f2-a11b-868dbf0d073d",
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Keine bekannten Allergien</li></ul></div>"
+                },
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+                            "code": "active",
+                            "display": "Active"
+                        }
+                    ]
+                },
+                "verificationStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+                            "code": "confirmed",
+                            "display": "Confirmed"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "716186003",
+                            "display": "No known allergy (situation)"
+                        }
+                    ]
+                },
+                "patient": {
+                    "reference": "urn:uuid:7f9d3e64-c1a6-423b-9f64-eeed5c9d927d"
+                },
+                "recordedDate": "2025-04-18"
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:ef2ae713-5702-4049-aa39-aaa6dabac50d",
+            "resource": {
+                "resourceType": "MedicationStatement",
+                "id": "ef2ae713-5702-4049-aa39-aaa6dabac50d",
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Atorvastatin 20 mg Filmtabletten</li><li>1 abends</li></ul></div>"
+                },
+                "contained": [
+                    {
+                        "resourceType": "Medication",
+                        "id": "med",
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "http://www.whocc.no/atc",
+                                    "code": "C10AA05",
+                                    "display": "atorvastatin"
+                                }
+                            ],
+                            "text": "Atorvastatin 20 mg Filmtabletten"
+                        },
+                        "form": {
+                            "coding": [
+                                {
+                                    "system": "http://standardterms.edqm.eu",
+                                    "code": "10221000",
+                                    "display": "Film-coated tablet"
+                                }
+                            ],
+                            "text": "Film-coated tablet"
+                        },
+                        "amount": {
+                            "numerator": {
+                                "value": 30,
+                                "unit": "Tablet (unit of presentation)",
+                                "system": "http://snomed.info/sct",
+                                "code": "732936001"
+                            },
+                            "denominator": {
+                                "value": 1,
+                                "unit": "Package - unit of product usage (qualifier value)",
+                                "system": "http://snomed.info/sct",
+                                "code": "1681000175101"
+                            }
+                        },
+                        "ingredient": [
+                            {
+                                "itemCodeableConcept": {
+                                    "coding": [
+                                        {
+                                            "system": "http://snomed.info/sct",
+                                            "code": "373444002",
+                                            "display": "Atorvastatin (substance)"
+                                        }
+                                    ],
+                                    "text": "Atorvastatin"
+                                },
+                                "isActive": true,
+                                "strength": {
+                                    "numerator": {
+                                        "value": 20,
+                                        "unit": "mg",
+                                        "system": "http://unitsofmeasure.org",
+                                        "code": "mg"
+                                    },
+                                    "denominator": {
+                                        "value": 1,
+                                        "unit": "Tablet (unit of presentation)",
+                                        "system": "http://snomed.info/sct",
+                                        "code": "732936001"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "status": "active",
+                "medicationReference": {
+                    "reference": "#med"
+                },
+                "subject": {
+                    "reference": "urn:uuid:7f9d3e64-c1a6-423b-9f64-eeed5c9d927d"
+                },
+                "effectivePeriod": {
+                    "start": "2011-08-29"
+                },
+                "dosage": [
+                    {
+                        "text": "1 abends",
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2011-08-29"
+                                },
+                                "when": [
+                                    "EVE"
+                                ]
+                            }
+                        },
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "http://standardterms.edqm.eu",
+                                    "code": "20053000",
+                                    "display": "Oral use"
+                                }
+                            ],
+                            "text": "zum Einnehmen"
+                        },
+                        "doseAndRate": [
+                            {
+                                "doseQuantity": {
+                                    "value": 1,
+                                    "unit": "Tablet (unit of presentation)",
+                                    "system": "http://snomed.info/sct",
+                                    "code": "732936001"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:585a0afa-7bfd-4c12-89e0-6ab37250ee18",
+            "resource": {
+                "resourceType": "Immunization",
+                "id": "585a0afa-7bfd-4c12-89e0-6ab37250ee18",
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Boostrix (2018-06-22)</li></ul></div>"
+                },
+                "status": "completed",
+                "vaccineCode": {
+                    "coding": [
+                        {
+                            "system": "http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs",
+                            "code": "637",
+                            "display": "Boostrix"
+                        },
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "871875004",
+                            "display": "Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae antigens only vaccine product"
+                        }
+                    ],
+                    "text": "Boostrix"
+                },
+                "patient": {
+                    "reference": "urn:uuid:7f9d3e64-c1a6-423b-9f64-eeed5c9d927d"
+                },
+                "occurrenceDateTime": "2018-06-22",
+                "recorded": "2018-06-22",
+                "primarySource": true,
+                "lotNumber": "E9022",
+                "route": {
+                    "coding": [
+                        {
+                            "system": "http://standardterms.edqm.eu",
+                            "code": "20035000",
+                            "display": "Intramuscular use"
+                        }
+                    ]
+                },
+                "protocolApplied": [
+                    {
+                        "targetDisease": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://snomed.info/sct",
+                                        "code": "397430003",
+                                        "display": "Diphtheria caused by Corynebacterium diphtheriae"
+                                    }
+                                ]
+                            },
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://snomed.info/sct",
+                                        "code": "76902006",
+                                        "display": "Tetanus"
+                                    }
+                                ]
+                            },
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://snomed.info/sct",
+                                        "code": "27836007",
+                                        "display": "Pertussis"
+                                    }
+                                ]
+                            }
+                        ],
+                        "doseNumberPositiveInt": 1
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:3828f200-b457-49cf-a2b6-77e0a92fc449",
+            "resource": {
+                "resourceType": "Provenance",
+                "id": "3828f200-b457-49cf-a2b6-77e0a92fc449",
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Converted from the CH IPS document urn:uuid:0b2c782a-6928-4e92-868a-152fdb23aa8c to an EPS document by epsofacto 0.1.0-SNAPSHOT on 2026-11-20T10:21:15+01:00.</p></div>"
+                },
+                "contained": [
+                    {
+                        "resourceType": "Device",
+                        "id": "converter",
+                        "deviceName": [
+                            {
+                                "name": "epsofacto",
+                                "type": "user-friendly-name"
+                            }
+                        ],
+                        "version": [
+                            {
+                                "value": "0.1.0-SNAPSHOT"
+                            }
+                        ]
+                    }
+                ],
+                "target": [
+                    {
+                        "reference": "urn:uuid:0964fbbf-8cd3-41b0-82b0-1cfdd045dd1c"
+                    }
+                ],
+                "recorded": "2026-11-20T10:21:15+01:00",
+                "activity": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/iso-21089-lifecycle",
+                            "code": "transform",
+                            "display": "Transform/Translate Record Lifecycle Event"
+                        }
+                    ]
+                },
+                "agent": [
+                    {
+                        "type": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/provenance-participant-type",
+                                    "code": "assembler",
+                                    "display": "Assembler"
+                                }
+                            ]
+                        },
+                        "who": {
+                            "reference": "#converter",
+                            "display": "epsofacto 0.1.0-SNAPSHOT"
+                        }
+                    }
+                ],
+                "entity": [
+                    {
+                        "role": "source",
+                        "what": {
+                            "identifier": {
+                                "system": "urn:ietf:rfc:3986",
+                                "value": "urn:uuid:0b2c782a-6928-4e92-868a-152fdb23aa8c"
+                            },
+                            "display": "Source CH IPS document"
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

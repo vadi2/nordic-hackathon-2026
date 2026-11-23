@@ -1,0 +1,786 @@
+{
+  "resourceType": "Bundle",
+  "id": "349dd212-4ef4-474c-a3e4-375ea1c55cb0",
+  "meta": {
+    "profile": [
+      "http://hl7.eu/fhir/eps/StructureDefinition/bundle-eu-eps"
+    ]
+  },
+  "identifier": {
+    "system": "urn:ietf:rfc:3986",
+    "value": "urn:uuid:349dd212-4ef4-474c-a3e4-375ea1c55cb0"
+  },
+  "type": "document",
+  "timestamp": "2026-11-19T13:55:23Z",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:f6b91564-944a-403d-b3b3-3e5877a199fa",
+      "resource": {
+        "resourceType": "Composition",
+        "id": "f6b91564-944a-403d-b3b3-3e5877a199fa",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/composition-eu-eps"
+          ]
+        },
+        "identifier": {
+          "system": "urn:ietf:rfc:3986",
+          "value": "urn:uuid:349dd212-4ef4-474c-a3e4-375ea1c55cb0"
+        },
+        "status": "preliminary",
+        "type": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "60591-5",
+              "display": "Patient summary Document"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:e8cce27e-b9fc-44c7-8c92-3294df67c9bc"
+        },
+        "date": "2026-11-19T13:55:23Z",
+        "author": [
+          {
+            "reference": "urn:uuid:df1d7098-6f38-41a5-b4ea-7b11ab3d389d"
+          }
+        ],
+        "title": "Patient Summary - unreviewed automated draft",
+        "language": "en",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Unreviewed draft. Not for clinical use or patient-care decisions.</p></div>"
+        },
+        "section": [
+          {
+            "title": "Allergies and intolerances",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "48765-2",
+                  "display": "Allergies and intolerances"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>No clinically verified source mapping available in this draft.</p></div>"
+            },
+            "emptyReason": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/list-empty-reason",
+                  "code": "unavailable",
+                  "display": "Unavailable"
+                }
+              ]
+            }
+          },
+          {
+            "title": "Problem list",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "11450-4",
+                  "display": "Problem list"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>No clinically verified source mapping available in this draft.</p></div>"
+            },
+            "emptyReason": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/list-empty-reason",
+                  "code": "unavailable",
+                  "display": "Unavailable"
+                }
+              ]
+            }
+          },
+          {
+            "title": "Medication summary",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "10160-0",
+                  "display": "Medication summary"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Unreviewed AI-proposed source facts. Do not use for clinical decisions.</p></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:aaa8ff57-34d3-4ed8-87eb-ba034d48773b"
+              }
+            ]
+          },
+          {
+            "title": "History of procedures",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "47519-4",
+                  "display": "History of procedures"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>No clinically verified source mapping available in this draft.</p></div>"
+            },
+            "emptyReason": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/list-empty-reason",
+                  "code": "unavailable",
+                  "display": "Unavailable"
+                }
+              ]
+            }
+          },
+          {
+            "title": "Medical devices and implants",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "46264-8",
+                  "display": "Medical devices and implants"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>No clinically verified source mapping available in this draft.</p></div>"
+            },
+            "emptyReason": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/list-empty-reason",
+                  "code": "unavailable",
+                  "display": "Unavailable"
+                }
+              ]
+            }
+          },
+          {
+            "title": "Social history",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "29762-2",
+                  "display": "Social history"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Unreviewed AI-proposed source facts. Do not use for clinical decisions.</p></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:9e713006-ca60-42df-b8ca-6faaa69baccd"
+              },
+              {
+                "reference": "urn:uuid:31e89828-7508-473c-92f3-837ebea7445c"
+              },
+              {
+                "reference": "urn:uuid:4faa9773-63b5-4906-b07b-87f61b9b1630"
+              }
+            ]
+          },
+          {
+            "title": "Vital signs",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "8716-3",
+                  "display": "Vital signs"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Unreviewed AI-proposed source facts. Do not use for clinical decisions.</p></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:c7ebf95b-0770-4839-8952-52abbed7ee5f"
+              },
+              {
+                "reference": "urn:uuid:54da389e-bc25-4222-8548-488c3806f35c"
+              },
+              {
+                "reference": "urn:uuid:06496204-2614-4e07-9654-a12265af5658"
+              },
+              {
+                "reference": "urn:uuid:ce7b26fb-238a-49e2-a5ac-5de1c6138ae6"
+              },
+              {
+                "reference": "urn:uuid:b52a16e5-49af-4efe-b67d-76c60230b6c2"
+              },
+              {
+                "reference": "urn:uuid:6a03c22c-3967-403f-a259-e0857518118b"
+              },
+              {
+                "reference": "urn:uuid:125186f3-a979-40c9-873b-8963aaa7235b"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e8cce27e-b9fc-44c7-8c92-3294df67c9bc",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "e8cce27e-b9fc-44c7-8c92-3294df67c9bc",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/patient-eu-eps"
+          ]
+        },
+        "name": [
+          {
+            "_text": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+                  "valueCode": "unknown"
+                }
+              ]
+            }
+          }
+        ],
+        "_birthDate": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+              "valueCode": "unknown"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:df1d7098-6f38-41a5-b4ea-7b11ab3d389d",
+      "resource": {
+        "resourceType": "Device",
+        "id": "df1d7098-6f38-41a5-b4ea-7b11ab3d389d",
+        "deviceName": [
+          {
+            "name": "EPS Transformer - unreviewed draft generator",
+            "type": "user-friendly-name"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:aaa8ff57-34d3-4ed8-87eb-ba034d48773b",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "aaa8ff57-34d3-4ed8-87eb-ba034d48773b",
+        "status": "unknown",
+        "medicationCodeableConcept": {
+          "text": "Acetylsalicylsyra"
+        },
+        "subject": {
+          "reference": "urn:uuid:e8cce27e-b9fc-44c7-8c92-3294df67c9bc"
+        },
+        "_effectiveDateTime": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+              "valueCode": "unknown"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:9e713006-ca60-42df-b8ca-6faaa69baccd",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "9e713006-ca60-42df-b8ca-6faaa69baccd",
+        "status": "unknown",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "social-history",
+                "display": "social-history"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "urn:uuid:e8cce27e-b9fc-44c7-8c92-3294df67c9bc"
+        },
+        "code": {
+          "text": "Alkohol"
+        },
+        "valueQuantity": {
+          "value": 1,
+          "unit": "stdglas/v"
+        },
+        "effectiveDateTime": "2025-11-18"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:31e89828-7508-473c-92f3-837ebea7445c",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "31e89828-7508-473c-92f3-837ebea7445c",
+        "status": "unknown",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "social-history",
+                "display": "social-history"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "urn:uuid:e8cce27e-b9fc-44c7-8c92-3294df67c9bc"
+        },
+        "code": {
+          "text": "Alkohol"
+        },
+        "valueQuantity": {
+          "value": 4,
+          "unit": "stdglas/v"
+        },
+        "effectiveDateTime": "2022-11-12"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:c7ebf95b-0770-4839-8952-52abbed7ee5f",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "c7ebf95b-0770-4839-8952-52abbed7ee5f",
+        "status": "unknown",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "vital-signs"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "urn:uuid:e8cce27e-b9fc-44c7-8c92-3294df67c9bc"
+        },
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "85354-9",
+              "display": "Blood pressure panel"
+            }
+          ]
+        },
+        "component": [
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "8480-6",
+                  "display": "Systolic blood pressure"
+                }
+              ]
+            },
+            "valueQuantity": {
+              "value": 189,
+              "unit": "mmHg",
+              "system": "http://unitsofmeasure.org",
+              "code": "mm[Hg]"
+            }
+          },
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "8462-4",
+                  "display": "Diastolic blood pressure"
+                }
+              ]
+            },
+            "valueQuantity": {
+              "value": 100,
+              "unit": "mmHg",
+              "system": "http://unitsofmeasure.org",
+              "code": "mm[Hg]"
+            }
+          }
+        ],
+        "effectivePeriod": {
+          "start": "2022-11-12",
+          "end": "2022-11-12"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:54da389e-bc25-4222-8548-488c3806f35c",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "54da389e-bc25-4222-8548-488c3806f35c",
+        "status": "unknown",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "vital-signs"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "urn:uuid:e8cce27e-b9fc-44c7-8c92-3294df67c9bc"
+        },
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8867-4",
+              "display": "Heart rate"
+            }
+          ]
+        },
+        "valueQuantity": {
+          "value": 96,
+          "unit": "slag/min",
+          "system": "http://unitsofmeasure.org",
+          "code": "/min"
+        },
+        "effectivePeriod": {
+          "start": "2022-11-12",
+          "end": "2022-11-12"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:06496204-2614-4e07-9654-a12265af5658",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "06496204-2614-4e07-9654-a12265af5658",
+        "status": "unknown",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "vital-signs"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "urn:uuid:e8cce27e-b9fc-44c7-8c92-3294df67c9bc"
+        },
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "9279-1",
+              "display": "Respiratory rate"
+            }
+          ]
+        },
+        "valueQuantity": {
+          "value": 16,
+          "unit": "andetag/min.",
+          "system": "http://unitsofmeasure.org",
+          "code": "/min"
+        },
+        "effectivePeriod": {
+          "start": "2022-11-12",
+          "end": "2022-11-12"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:ce7b26fb-238a-49e2-a5ac-5de1c6138ae6",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "ce7b26fb-238a-49e2-a5ac-5de1c6138ae6",
+        "status": "unknown",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "vital-signs"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "urn:uuid:e8cce27e-b9fc-44c7-8c92-3294df67c9bc"
+        },
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8302-2",
+              "display": "Body height"
+            }
+          ]
+        },
+        "valueQuantity": {
+          "value": 187,
+          "unit": "cm",
+          "system": "http://unitsofmeasure.org",
+          "code": "cm"
+        },
+        "effectivePeriod": {
+          "start": "2022-11-12",
+          "end": "2022-11-12"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:b52a16e5-49af-4efe-b67d-76c60230b6c2",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "b52a16e5-49af-4efe-b67d-76c60230b6c2",
+        "status": "unknown",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "vital-signs"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "urn:uuid:e8cce27e-b9fc-44c7-8c92-3294df67c9bc"
+        },
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "29463-7",
+              "display": "Body weight"
+            }
+          ]
+        },
+        "valueQuantity": {
+          "value": 86,
+          "unit": "kg",
+          "system": "http://unitsofmeasure.org",
+          "code": "kg"
+        },
+        "effectivePeriod": {
+          "start": "2022-11-12",
+          "end": "2022-11-12"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:4faa9773-63b5-4906-b07b-87f61b9b1630",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4faa9773-63b5-4906-b07b-87f61b9b1630",
+        "status": "unknown",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "social-history",
+                "display": "social-history"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "urn:uuid:e8cce27e-b9fc-44c7-8c92-3294df67c9bc"
+        },
+        "code": {
+          "text": "Alkohol"
+        },
+        "valueQuantity": {
+          "value": 5,
+          "unit": "stdglas/v"
+        },
+        "effectiveDateTime": "2020-11-12"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:6a03c22c-3967-403f-a259-e0857518118b",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "6a03c22c-3967-403f-a259-e0857518118b",
+        "status": "unknown",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "vital-signs"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "urn:uuid:e8cce27e-b9fc-44c7-8c92-3294df67c9bc"
+        },
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "85354-9",
+              "display": "Blood pressure panel"
+            }
+          ]
+        },
+        "component": [
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "8480-6",
+                  "display": "Systolic blood pressure"
+                }
+              ]
+            },
+            "valueQuantity": {
+              "value": 180,
+              "unit": "mmHg",
+              "system": "http://unitsofmeasure.org",
+              "code": "mm[Hg]"
+            }
+          },
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "8462-4",
+                  "display": "Diastolic blood pressure"
+                }
+              ]
+            },
+            "valueQuantity": {
+              "value": 95,
+              "unit": "mmHg",
+              "system": "http://unitsofmeasure.org",
+              "code": "mm[Hg]"
+            }
+          }
+        ],
+        "effectivePeriod": {
+          "start": "2020-11-12",
+          "end": "2020-11-12"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:125186f3-a979-40c9-873b-8963aaa7235b",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "125186f3-a979-40c9-873b-8963aaa7235b",
+        "status": "unknown",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "vital-signs"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "urn:uuid:e8cce27e-b9fc-44c7-8c92-3294df67c9bc"
+        },
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8867-4",
+              "display": "Heart rate"
+            }
+          ]
+        },
+        "valueQuantity": {
+          "value": 60,
+          "unit": "slag/min",
+          "system": "http://unitsofmeasure.org",
+          "code": "/min"
+        },
+        "effectivePeriod": {
+          "start": "2020-11-12",
+          "end": "2020-11-12"
+        }
+      }
+    }
+  ]
+}

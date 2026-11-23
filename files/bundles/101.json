@@ -1,0 +1,1900 @@
+{
+  "resourceType": "Bundle",
+  "id": "0cf6b027-15cc-4051-bc59-ef06edd12bb8",
+  "meta": {
+    "profile": [
+      "http://hl7.eu/fhir/eps/StructureDefinition/bundle-eu-eps"
+    ]
+  },
+  "identifier": {
+    "system": "https://saga.helixhealth.is/fhir/eps",
+    "value": "0cf6b027-15cc-4051-bc59-ef06edd12bb8"
+  },
+  "type": "document",
+  "timestamp": "2026-11-18T21:30:10.4051362+00:00",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:6fbcf1ad-67ca-4f5a-8652-801fc939cc34",
+      "resource": {
+        "resourceType": "Composition",
+        "id": "saga-eps-saga-3798603",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/composition-eu-eps"
+          ]
+        },
+        "language": "en",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\"><h1>Patient Summary</h1><p>For Jón Jónsson.</p></div>"
+        },
+        "identifier": {
+          "system": "https://saga.helixhealth.is/fhir/eps",
+          "value": "da1a44a2-9225-485c-b9f9-119ba2e1d3f9"
+        },
+        "status": "preliminary",
+        "type": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "60591-5",
+              "display": "Patient summary Document"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:abfd4009-4445-4044-872e-4b254d7a4497"
+        },
+        "date": "2026-11-18T21:30:10Z",
+        "author": [
+          {
+            "reference": "urn:uuid:8ceae145-601e-4af0-88b8-59dffb424abf"
+          }
+        ],
+        "title": "Patient Summary",
+        "section": [
+          {
+            "title": "Alerts",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "104605-1",
+                  "display": "Alerts"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\"><h2>Alerts</h2><ul><li>Smitgát - MÓSA/MRSA - Kom frá sjúkrahúsi á Spáni með Mosa smit. Er í einangrun.</li><li>Smitgát - Karbapenemasi - some description</li><li>Smitgát - Annað - test 1</li><li>Greiningar - Bráð lifrarbólga e</li><li>Greiningar - Insúlínháð sykursýki með dái</li><li>Greiningar - Hjartavöðvakvilli með ofþenslu</li><li>Greiningar - Venjulegur breytilegur ónæmisbrestur með ríkjandi röskunum á ónæmisstýrandi t-eitilfrumum</li><li>Greiningar - Langvinn veirulifrarbólga c</li><li>Greiningar - Digeorgesheilkenni</li><li>Greiningar - Arfgengur skortur á 8. þætti</li><li>Greiningar - Arfgengur skortur á 9. þætti</li><li>Greiningar - Bráð lifrarbólga b án deltaveiru með lifrardái</li></ul></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:d6c40bf4-8c22-4f60-9589-22f97a7f6971"
+              },
+              {
+                "reference": "urn:uuid:65a26ab8-061b-48f2-bcbb-898d704de2ab"
+              },
+              {
+                "reference": "urn:uuid:8542a961-c9f4-4572-b69d-7444602d2885"
+              },
+              {
+                "reference": "urn:uuid:999bf8cf-ba3a-406a-94b4-001c323af94e"
+              },
+              {
+                "reference": "urn:uuid:75e6edf6-cfbc-4b75-94e8-08c33616f77c"
+              },
+              {
+                "reference": "urn:uuid:080d6949-d953-4de8-9d02-e24886eb9691"
+              },
+              {
+                "reference": "urn:uuid:d0668f4b-1247-4690-8a3d-7e4a106a6dcb"
+              },
+              {
+                "reference": "urn:uuid:02c9e2bb-989f-4a15-a474-c226945713b5"
+              },
+              {
+                "reference": "urn:uuid:8cad1e84-e209-418a-b6b2-9506e79cce29"
+              },
+              {
+                "reference": "urn:uuid:6a9d3ea4-b15f-4412-b1e8-cb2a93a31925"
+              },
+              {
+                "reference": "urn:uuid:653379ce-5ccb-4a6d-b88f-9c21c583e31a"
+              },
+              {
+                "reference": "urn:uuid:4e5e3149-6954-4cd8-ae25-38b99d7b291d"
+              }
+            ]
+          },
+          {
+            "title": "Advance Directives",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "42348-3",
+                  "display": "Advance Directives"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\"><h2>Advance Directives</h2><ul><li>Lífslokameðferð (LLM)</li></ul></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:80423888-e186-45ba-a4ae-7eec71e8ad43"
+              }
+            ]
+          },
+          {
+            "title": "Allergies and Intolerances",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "48765-2",
+                  "display": "Allergies and Intolerances"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\"><h2>Allergies and Intolerances</h2><ul><li>Contalgin</li><li>Siprox</li><li>Glúten</li><li>Latex</li><li>Allergy to vegetable</li><li>Joð</li><li>Trjáhnetur</li></ul></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:1f797295-ebf8-4b2e-81c8-2f36af10b157"
+              },
+              {
+                "reference": "urn:uuid:9dbf2b77-e89f-4b5c-9a8f-045da4f6c89a"
+              },
+              {
+                "reference": "urn:uuid:360ad80c-821d-4d4a-a78b-9895b0aa4393"
+              },
+              {
+                "reference": "urn:uuid:eaefae9f-9f6b-4c80-9686-316c982f3009"
+              },
+              {
+                "reference": "urn:uuid:807624ae-907c-4b6e-9de0-a8f539be1b7c"
+              },
+              {
+                "reference": "urn:uuid:ae5c2956-f25c-440e-b06f-8c2cad33be30"
+              },
+              {
+                "reference": "urn:uuid:ceb23af2-6254-4851-983b-66e0719c4656"
+              }
+            ]
+          },
+          {
+            "title": "Problem List",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "11450-4",
+                  "display": "Problem List"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\"><h2>Problem List</h2><ul><li>E14.9</li></ul></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:1785493f-93ba-4d5b-ad73-ccf98ffcf26d"
+              }
+            ]
+          },
+          {
+            "title": "Medication Summary",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "10160-0",
+                  "display": "Medication Summary"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\"><h2>Medication Summary</h2><ul><li>Semaglutide </li><li>Búprenorfín</li><li>Infliximab</li><li>Enalapríl</li><li>Allópúrinol</li><li>Sertralín</li></ul></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:d98b8467-d99d-4f6d-a4aa-6bd2928a16e5"
+              },
+              {
+                "reference": "urn:uuid:4489f99e-b34c-4c4a-84c9-7d70381feef6"
+              },
+              {
+                "reference": "urn:uuid:8c49d3b0-ef97-4023-a677-7061d8317146"
+              },
+              {
+                "reference": "urn:uuid:23b3d049-59da-4c0f-8edf-d5c38690a462"
+              },
+              {
+                "reference": "urn:uuid:39545ea1-0550-4796-a243-2825533a190b"
+              },
+              {
+                "reference": "urn:uuid:8c92f4d0-fb0a-4d1f-bf67-0281dd060063"
+              }
+            ]
+          },
+          {
+            "title": "History of Procedures",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "47519-4",
+                  "display": "History of Procedures"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\"><h2>History of Procedures</h2><ul><li>(none recorded — not captured in Saga)</li></ul></div>"
+            },
+            "emptyReason": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/list-empty-reason",
+                  "code": "nilknown",
+                  "display": "Nil Known"
+                }
+              ]
+            }
+          },
+          {
+            "title": "History of Medical Device Use",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "46264-8",
+                  "display": "History of Medical Device Use"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\"><h2>History of Medical Device Use</h2><ul><li>(none recorded — not captured in Saga)</li></ul></div>"
+            },
+            "emptyReason": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/list-empty-reason",
+                  "code": "nilknown",
+                  "display": "Nil Known"
+                }
+              ]
+            }
+          },
+          {
+            "title": "Immunizations",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "11369-6",
+                  "display": "Immunizations"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\"><h2>Immunizations</h2><ul><li>Pandemrix (2026-10-07)</li><li>Gardasil 9 (2024-06-25)</li><li>Fsme-immun vuxen (2024-06-25)</li><li>Prepandrix (2024-04-26)</li><li>Influenza, purified antigen (2024-04-26)</li><li>Vaxigriptetra (2024-04-26)</li><li>Bcg-imovax® berklar / tuberculosis, live atten (2024-04-24)</li><li>Influenza, purified antigen (2024-04-24)</li><li>Vaxigriptetra (2024-04-24)</li><li>Influvactetra (2024-04-24)</li><li>Influvactetra (2024-04-24)</li></ul></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:d5e17735-deb9-4ff3-ab14-1438d4bbb40d"
+              },
+              {
+                "reference": "urn:uuid:44bd6807-86bc-4a8f-867a-930b663b3094"
+              },
+              {
+                "reference": "urn:uuid:cac91ba1-e2cc-4f59-87d1-0ea788128b30"
+              },
+              {
+                "reference": "urn:uuid:8a4b44a5-89d8-48ce-af20-7e93456c0fe3"
+              },
+              {
+                "reference": "urn:uuid:3a4bd1a8-f5a0-4aea-8d67-146f315197c5"
+              },
+              {
+                "reference": "urn:uuid:fe9f98da-a147-41bb-8842-d783f446c147"
+              },
+              {
+                "reference": "urn:uuid:799e0f35-84c2-4aa6-90f0-c3aef438a0d4"
+              },
+              {
+                "reference": "urn:uuid:b31f149d-48f3-4d52-b796-e46ab64c8d48"
+              },
+              {
+                "reference": "urn:uuid:718a3bb0-cdb2-4cdd-af0c-c4785ddd5739"
+              },
+              {
+                "reference": "urn:uuid:0864b7fa-371f-45a0-b859-7bec986a114c"
+              },
+              {
+                "reference": "urn:uuid:22cc0520-d9a5-41f6-b8f5-3315658e0060"
+              }
+            ]
+          },
+          {
+            "title": "Clinician note",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "51848-0",
+                  "display": "Clinician note"
+                }
+              ]
+            },
+            "text": {
+              "status": "additional",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\"><p>This is some note</p></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:b5d0fb24-d1ae-405c-bc02-d67d1200ee49"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:abfd4009-4445-4044-872e-4b254d7a4497",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "saga-3798603",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/patient-eu-eps"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\"><table><tbody><tr><th>Name</th><td>Jón Jónsson</td></tr><tr><th>Born</th><td>1930-01-01</td></tr><tr><th>Kennitala</th><td>0101303019</td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "https://landlaeknir.is/fhir/sid/kennitala",
+            "value": "0101303019"
+          }
+        ],
+        "name": [
+          {
+            "text": "Jón Jónsson"
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1930-01-01"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:8ceae145-601e-4af0-88b8-59dffb424abf",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "saga-org",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/organization-eu-core"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\"><p>Saga</p></div>"
+        },
+        "name": "Saga"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:b5d0fb24-d1ae-405c-bc02-d67d1200ee49",
+      "resource": {
+        "resourceType": "ClinicalImpression",
+        "id": "saga-eps-note",
+        "text": {
+          "status": "additional",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\"><p>This is some note</p></div>"
+        },
+        "status": "completed",
+        "subject": {
+          "reference": "urn:uuid:abfd4009-4445-4044-872e-4b254d7a4497"
+        },
+        "date": "2026-11-18T21:30:10Z",
+        "summary": "This is some note"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:d6c40bf4-8c22-4f60-9589-22f97a7f6971",
+      "resource": {
+        "resourceType": "Flag",
+        "id": "saga-alert-0",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\"><p>Smitgát - MÓSA/MRSA - Kom frá sjúkrahúsi á Spáni með Mosa smit. Er í einangrun.</p></div>"
+        },
+        "status": "active",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/flag-category",
+                "code": "clinical"
+              }
+            ],
+            "text": "Clinical"
+          }
+        ],
+        "code": {
+          "text": "Smitgát - MÓSA/MRSA - Kom frá sjúkrahúsi á Spáni með Mosa smit. Er í einangrun."
+        },
+        "subject": {
+          "reference": "urn:uuid:abfd4009-4445-4044-872e-4b254d7a4497"
+        },
+        "period": {
+          "start": "2024-04-03"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:65a26ab8-061b-48f2-bcbb-898d704de2ab",
+      "resource": {
+        "resourceType": "Flag",
+        "id": "saga-alert-1",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\"><p>Smitgát - Karbapenemasi - some description</p></div>"
+        },
+        "status": "active",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/flag-category",
+                "code": "clinical"
+              }
+            ],
+            "text": "Clinical"
+          }
+        ],
+        "code": {
+          "text": "Smitgát - Karbapenemasi - some description"
+        },
+        "subject": {
+          "reference": "urn:uuid:abfd4009-4445-4044-872e-4b254d7a4497"
+        },
+        "period": {
+          "start": "2023-07-06"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:8542a961-c9f4-4572-b69d-7444602d2885",
+      "resource": {
+        "resourceType": "Flag",
+        "id": "saga-alert-2",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\"><p>Smitgát - Annað - test 1</p></div>"
+        },
+        "status": "active",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/flag-category",
+                "code": "clinical"
+              }
+            ],
+            "text": "Clinical"
+          }
+        ],
+        "code": {
+          "text": "Smitgát - Annað - test 1"
+        },
+        "subject": {
+          "reference": "urn:uuid:abfd4009-4445-4044-872e-4b254d7a4497"
+        },
+        "period": {
+          "start": "2023-07-06"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:999bf8cf-ba3a-406a-94b4-001c323af94e",
+      "resource": {
+        "resourceType": "Flag",
+        "id": "saga-alert-3",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\"><p>Greiningar - Bráð lifrarbólga e</p></div>"
+        },
+        "status": "active",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/flag-category",
+                "code": "clinical"
+              }
+            ],
+            "text": "Clinical"
+          }
+        ],
+        "code": {
+          "text": "Greiningar - Bráð lifrarbólga e"
+        },
+        "subject": {
+          "reference": "urn:uuid:abfd4009-4445-4044-872e-4b254d7a4497"
+        },
+        "period": {
+          "start": "2024-12-05"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:75e6edf6-cfbc-4b75-94e8-08c33616f77c",
+      "resource": {
+        "resourceType": "Flag",
+        "id": "saga-alert-4",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\"><p>Greiningar - Insúlínháð sykursýki með dái</p></div>"
+        },
+        "status": "active",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/flag-category",
+                "code": "clinical"
+              }
+            ],
+            "text": "Clinical"
+          }
+        ],
+        "code": {
+          "text": "Greiningar - Insúlínháð sykursýki með dái"
+        },
+        "subject": {
+          "reference": "urn:uuid:abfd4009-4445-4044-872e-4b254d7a4497"
+        },
+        "period": {
+          "start": "2022-11-21"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:080d6949-d953-4de8-9d02-e24886eb9691",
+      "resource": {
+        "resourceType": "Flag",
+        "id": "saga-alert-5",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\"><p>Greiningar - Hjartavöðvakvilli með ofþenslu</p></div>"
+        },
+        "status": "active",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/flag-category",
+                "code": "clinical"
+              }
+            ],
+            "text": "Clinical"
+          }
+        ],
+        "code": {
+          "text": "Greiningar - Hjartavöðvakvilli með ofþenslu"
+        },
+        "subject": {
+          "reference": "urn:uuid:abfd4009-4445-4044-872e-4b254d7a4497"
+        },
+        "period": {
+          "start": "2024-12-05"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:d0668f4b-1247-4690-8a3d-7e4a106a6dcb",
+      "resource": {
+        "resourceType": "Flag",
+        "id": "saga-alert-6",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\"><p>Greiningar - Venjulegur breytilegur ónæmisbrestur með ríkjandi röskunum á ónæmisstýrandi t-eitilfrumum</p></div>"
+        },
+        "status": "active",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/flag-category",
+                "code": "clinical"
+              }
+            ],
+            "text": "Clinical"
+          }
+        ],
+        "code": {
+          "text": "Greiningar - Venjulegur breytilegur ónæmisbrestur með ríkjandi röskunum á ónæmisstýrandi t-eitilfrumum"
+        },
+        "subject": {
+          "reference": "urn:uuid:abfd4009-4445-4044-872e-4b254d7a4497"
+        },
+        "period": {
+          "start": "2024-12-05"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:02c9e2bb-989f-4a15-a474-c226945713b5",
+      "resource": {
+        "resourceType": "Flag",
+        "id": "saga-alert-7",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\"><p>Greiningar - Langvinn veirulifrarbólga c</p></div>"
+        },
+        "status": "active",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/flag-category",
+                "code": "clinical"
+              }
+            ],
+            "text": "Clinical"
+          }
+        ],
+        "code": {
+          "text": "Greiningar - Langvinn veirulifrarbólga c"
+        },
+        "subject": {
+          "reference": "urn:uuid:abfd4009-4445-4044-872e-4b254d7a4497"
+        },
+        "period": {
+          "start": "2024-12-05"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:8cad1e84-e209-418a-b6b2-9506e79cce29",
+      "resource": {
+        "resourceType": "Flag",
+        "id": "saga-alert-8",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\"><p>Greiningar - Digeorgesheilkenni</p></div>"
+        },
+        "status": "active",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/flag-category",
+                "code": "clinical"
+              }
+            ],
+            "text": "Clinical"
+          }
+        ],
+        "code": {
+          "text": "Greiningar - Digeorgesheilkenni"
+        },
+        "subject": {
+          "reference": "urn:uuid:abfd4009-4445-4044-872e-4b254d7a4497"
+        },
+        "period": {
+          "start": "2024-12-05"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:6a9d3ea4-b15f-4412-b1e8-cb2a93a31925",
+      "resource": {
+        "resourceType": "Flag",
+        "id": "saga-alert-9",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\"><p>Greiningar - Arfgengur skortur á 8. þætti</p></div>"
+        },
+        "status": "active",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/flag-category",
+                "code": "clinical"
+              }
+            ],
+            "text": "Clinical"
+          }
+        ],
+        "code": {
+          "text": "Greiningar - Arfgengur skortur á 8. þætti"
+        },
+        "subject": {
+          "reference": "urn:uuid:abfd4009-4445-4044-872e-4b254d7a4497"
+        },
+        "period": {
+          "start": "2024-12-05"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:653379ce-5ccb-4a6d-b88f-9c21c583e31a",
+      "resource": {
+        "resourceType": "Flag",
+        "id": "saga-alert-10",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\"><p>Greiningar - Arfgengur skortur á 9. þætti</p></div>"
+        },
+        "status": "active",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/flag-category",
+                "code": "clinical"
+              }
+            ],
+            "text": "Clinical"
+          }
+        ],
+        "code": {
+          "text": "Greiningar - Arfgengur skortur á 9. þætti"
+        },
+        "subject": {
+          "reference": "urn:uuid:abfd4009-4445-4044-872e-4b254d7a4497"
+        },
+        "period": {
+          "start": "2024-12-05"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:4e5e3149-6954-4cd8-ae25-38b99d7b291d",
+      "resource": {
+        "resourceType": "Flag",
+        "id": "saga-alert-11",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\"><p>Greiningar - Bráð lifrarbólga b án deltaveiru með lifrardái</p></div>"
+        },
+        "status": "active",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/flag-category",
+                "code": "clinical"
+              }
+            ],
+            "text": "Clinical"
+          }
+        ],
+        "code": {
+          "text": "Greiningar - Bráð lifrarbólga b án deltaveiru með lifrardái"
+        },
+        "subject": {
+          "reference": "urn:uuid:abfd4009-4445-4044-872e-4b254d7a4497"
+        },
+        "period": {
+          "start": "2024-12-05"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:80423888-e186-45ba-a4ae-7eec71e8ad43",
+      "resource": {
+        "resourceType": "Consent",
+        "id": "saga-advance-directive-3897",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/consent-eu-eps"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\"><p>Lífslokameðferð (LLM) (03.04.2024, Anna Sigurðardóttir)</p></div>"
+        },
+        "status": "active",
+        "scope": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/consentscope",
+              "code": "adr"
+            }
+          ],
+          "text": "Advanced Care Directive"
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/consentcategorycodes",
+                "code": "acd"
+              }
+            ],
+            "text": "Advance Directive"
+          }
+        ],
+        "patient": {
+          "reference": "urn:uuid:abfd4009-4445-4044-872e-4b254d7a4497"
+        },
+        "dateTime": "2024-04-03",
+        "policyRule": {
+          "text": "Treatment level registered in Saga"
+        },
+        "provision": {
+          "type": "permit",
+          "code": [
+            {
+              "text": "Lífslokameðferð (LLM)"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:1f797295-ebf8-4b2e-81c8-2f36af10b157",
+      "resource": {
+        "resourceType": "AllergyIntolerance",
+        "id": "saga-allergy-620225-601157",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/allergyIntolerance-eu-core"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\"><p>Contalgin (Óþol)</p></div>"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+              "code": "active"
+            }
+          ],
+          "text": "Active"
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+              "code": "confirmed"
+            }
+          ],
+          "text": "Confirmed"
+        },
+        "category": [
+          "medication"
+        ],
+        "criticality": "unable-to-assess",
+        "code": {
+          "coding": [
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "N02AA01"
+            }
+          ],
+          "text": "Contalgin"
+        },
+        "patient": {
+          "reference": "urn:uuid:abfd4009-4445-4044-872e-4b254d7a4497"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:9dbf2b77-e89f-4b5c-9a8f-045da4f6c89a",
+      "resource": {
+        "resourceType": "AllergyIntolerance",
+        "id": "saga-allergy-621049-601038",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/allergyIntolerance-eu-core"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\"><p>Siprox (Bráðaofnæmi)</p></div>"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+              "code": "active"
+            }
+          ],
+          "text": "Active"
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+              "code": "confirmed"
+            }
+          ],
+          "text": "Confirmed"
+        },
+        "category": [
+          "medication"
+        ],
+        "criticality": "low",
+        "code": {
+          "coding": [
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "J01MA02"
+            }
+          ],
+          "text": "Siprox"
+        },
+        "patient": {
+          "reference": "urn:uuid:abfd4009-4445-4044-872e-4b254d7a4497"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:360ad80c-821d-4d4a-a78b-9895b0aa4393",
+      "resource": {
+        "resourceType": "AllergyIntolerance",
+        "id": "saga-cave-allergy-0",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/allergyIntolerance-eu-core"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\"><p>Glúten (Bráðaofnæmi)</p></div>"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+              "code": "active"
+            }
+          ],
+          "text": "Active"
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+              "code": "confirmed"
+            }
+          ],
+          "text": "Confirmed"
+        },
+        "type": "allergy",
+        "category": [
+          "food"
+        ],
+        "criticality": "high",
+        "code": {
+          "text": "Glúten"
+        },
+        "patient": {
+          "reference": "urn:uuid:abfd4009-4445-4044-872e-4b254d7a4497"
+        },
+        "recordedDate": "2024-04-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:eaefae9f-9f6b-4c80-9686-316c982f3009",
+      "resource": {
+        "resourceType": "AllergyIntolerance",
+        "id": "saga-cave-allergy-1",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/allergyIntolerance-eu-core"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\"><p>Latex (Ofnæmi)</p></div>"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+              "code": "active"
+            }
+          ],
+          "text": "Active"
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+              "code": "confirmed"
+            }
+          ],
+          "text": "Confirmed"
+        },
+        "type": "allergy",
+        "category": [
+          "environment"
+        ],
+        "criticality": "unable-to-assess",
+        "code": {
+          "text": "Latex"
+        },
+        "patient": {
+          "reference": "urn:uuid:abfd4009-4445-4044-872e-4b254d7a4497"
+        },
+        "recordedDate": "2025-08-14",
+        "note": [
+          {
+            "text": "Rannsakað en ætti ekki að vera alvarlegt."
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:807624ae-907c-4b6e-9de0-a8f539be1b7c",
+      "resource": {
+        "resourceType": "AllergyIntolerance",
+        "id": "saga-cave-allergy-2",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/allergyIntolerance-eu-core"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\"><p>Allergy to vegetable (Ofnæmi)</p></div>"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+              "code": "active"
+            }
+          ],
+          "text": "Active"
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+              "code": "confirmed"
+            }
+          ],
+          "text": "Confirmed"
+        },
+        "type": "allergy",
+        "category": [
+          "food"
+        ],
+        "criticality": "unable-to-assess",
+        "code": {
+          "text": "Allergy to vegetable"
+        },
+        "patient": {
+          "reference": "urn:uuid:abfd4009-4445-4044-872e-4b254d7a4497"
+        },
+        "recordedDate": "2025-08-14",
+        "note": [
+          {
+            "text": "Ekki ves ... búið að rannsaka"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:ae5c2956-f25c-440e-b06f-8c2cad33be30",
+      "resource": {
+        "resourceType": "AllergyIntolerance",
+        "id": "saga-cave-allergy-3",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/allergyIntolerance-eu-core"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\"><p>Joð (Óþol)</p></div>"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+              "code": "active"
+            }
+          ],
+          "text": "Active"
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+              "code": "confirmed"
+            }
+          ],
+          "text": "Confirmed"
+        },
+        "type": "intolerance",
+        "category": [
+          "environment"
+        ],
+        "criticality": "unable-to-assess",
+        "code": {
+          "text": "Joð"
+        },
+        "patient": {
+          "reference": "urn:uuid:abfd4009-4445-4044-872e-4b254d7a4497"
+        },
+        "recordedDate": "2022-12-30",
+        "note": [
+          {
+            "text": "Allergium severius iodium"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:ceb23af2-6254-4851-983b-66e0719c4656",
+      "resource": {
+        "resourceType": "AllergyIntolerance",
+        "id": "saga-cave-allergy-4",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/allergyIntolerance-eu-core"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\"><p>Trjáhnetur (Óþol)</p></div>"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+              "code": "active"
+            }
+          ],
+          "text": "Active"
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+              "code": "confirmed"
+            }
+          ],
+          "text": "Confirmed"
+        },
+        "type": "intolerance",
+        "category": [
+          "food"
+        ],
+        "criticality": "unable-to-assess",
+        "code": {
+          "text": "Trjáhnetur"
+        },
+        "patient": {
+          "reference": "urn:uuid:abfd4009-4445-4044-872e-4b254d7a4497"
+        },
+        "recordedDate": "2026-11-11"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:1785493f-93ba-4d5b-ad73-ccf98ffcf26d",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "saga-problem-1",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/condition-eu-core"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\"><p>Problem 1: Unspecified diabetes mellitus - Without complications (active)</p></div>"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active",
+              "display": "Active"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "problem-list-item",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://landlaeknir.is/fhir/CodeSystem/icd-10-is",
+              "code": "E14.9"
+            }
+          ],
+          "text": "Unspecified diabetes mellitus - Without complications"
+        },
+        "subject": {
+          "reference": "urn:uuid:abfd4009-4445-4044-872e-4b254d7a4497"
+        },
+        "recordedDate": "2026-11-18T20:41:07+00:00"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:d98b8467-d99d-4f6d-a4aa-6bd2928a16e5",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "saga-medcard-850ca5573e2d44552e3608dd6706376c",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/MedicationStatement-eu-eps"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\"><p>Wegovy 2.4 mg stl [A10BJ06] — 1 skammtur einu sinni í viku, um morgun hhhhhhhhhhh</p></div>"
+        },
+        "status": "active",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "A10BJ06",
+              "display": "Semaglutide "
+            }
+          ],
+          "text": "Wegovy 2.4 mg stl"
+        },
+        "subject": {
+          "reference": "urn:uuid:abfd4009-4445-4044-872e-4b254d7a4497"
+        },
+        "effectivePeriod": {
+          "start": "2025-03-19"
+        },
+        "reasonCode": [
+          {
+            "text": "Sykursýki"
+          }
+        ],
+        "dosage": [
+          {
+            "text": "1 skammtur einu sinni í viku, um morgun hhhhhhhhhhh"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:4489f99e-b34c-4c4a-84c9-7d70381feef6",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "saga-medcard-be1e3d4cba9d49962e4008dd6706376c",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/MedicationStatement-eu-eps"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\"><p>Norspan 20 mcg/klst forðapl [N02AE01] — 1 plástur einu sinni í viku, um morgun</p></div>"
+        },
+        "status": "active",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "N02AE01",
+              "display": "Búprenorfín"
+            }
+          ],
+          "text": "Norspan 20 mcg/klst forðapl"
+        },
+        "subject": {
+          "reference": "urn:uuid:abfd4009-4445-4044-872e-4b254d7a4497"
+        },
+        "effectivePeriod": {
+          "start": "2025-03-22"
+        },
+        "reasonCode": [
+          {
+            "text": "Slæmum verkjum"
+          }
+        ],
+        "dosage": [
+          {
+            "text": "1 plástur einu sinni í viku, um morgun"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:8c49d3b0-ef97-4023-a677-7061d8317146",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "saga-medcard-664b002820fd49d97d5808de153941ac",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/MedicationStatement-eu-eps"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\"><p>Remicade 100 mg irs [L04AB02] — LHS 4 vikna fresti, breyting</p></div>"
+        },
+        "status": "active",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "L04AB02",
+              "display": "Infliximab"
+            }
+          ],
+          "text": "Remicade 100 mg irs"
+        },
+        "subject": {
+          "reference": "urn:uuid:abfd4009-4445-4044-872e-4b254d7a4497"
+        },
+        "effectivePeriod": {
+          "start": "2025-10-27"
+        },
+        "reasonCode": [
+          {
+            "text": "Liðagikt"
+          }
+        ],
+        "dosage": [
+          {
+            "text": "LHS 4 vikna fresti, breyting"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:23b3d049-59da-4c0f-8edf-d5c38690a462",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "saga-medcard-254db7fc4e074fb2daba08de36b4677e",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/MedicationStatement-eu-eps"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\"><p>Daren 5 mg töflur [C09AA02] — 1 tafla 2 sinnum á dag</p></div>"
+        },
+        "status": "active",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "C09AA02",
+              "display": "Enalapríl"
+            }
+          ],
+          "text": "Daren 5 mg töflur"
+        },
+        "subject": {
+          "reference": "urn:uuid:abfd4009-4445-4044-872e-4b254d7a4497"
+        },
+        "effectivePeriod": {
+          "start": "2025-12-08"
+        },
+        "reasonCode": [
+          {
+            "text": "Háþrýsting"
+          }
+        ],
+        "dosage": [
+          {
+            "text": "1 tafla 2 sinnum á dag"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:39545ea1-0550-4796-a243-2825533a190b",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "saga-medcard-b1d5aa58919344d1ee6808de8337a8fa",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/MedicationStatement-eu-eps"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\"><p>Allopurinol Alvogen 100 mg töflur [M04AA01] — 1 tafla 2 sinnum á dag</p></div>"
+        },
+        "status": "active",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "M04AA01",
+              "display": "Allópúrinol"
+            }
+          ],
+          "text": "Allopurinol Alvogen 100 mg töflur"
+        },
+        "subject": {
+          "reference": "urn:uuid:abfd4009-4445-4044-872e-4b254d7a4497"
+        },
+        "effectivePeriod": {
+          "start": "2026-03-16"
+        },
+        "reasonCode": [
+          {
+            "text": "Þvagsýrugigt - afskráð lyf"
+          }
+        ],
+        "dosage": [
+          {
+            "text": "1 tafla 2 sinnum á dag"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:8c92f4d0-fb0a-4d1f-bf67-0281dd060063",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "saga-medcard-73741724862443b414f908df0dc20293",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/MedicationStatement-eu-eps"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\"><p>Sertralin Wh 50 mg filmhtfl [N06AB06] — 1 tafla 1 sinni á dag</p></div>"
+        },
+        "status": "active",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "N06AB06",
+              "display": "Sertralín"
+            }
+          ],
+          "text": "Sertralin Wh 50 mg filmhtfl"
+        },
+        "subject": {
+          "reference": "urn:uuid:abfd4009-4445-4044-872e-4b254d7a4497"
+        },
+        "effectivePeriod": {
+          "start": "2026-09-08"
+        },
+        "reasonCode": [
+          {
+            "text": "geðvanda"
+          }
+        ],
+        "dosage": [
+          {
+            "text": "1 tafla 1 sinni á dag"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:d5e17735-deb9-4ff3-ab14-1438d4bbb40d",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "saga-immunization-0",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/immunization-eu-core"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\"><p>Pandemrix (07.10.2026, Heilbrigðisstofnun Gullu (DEV))</p></div>"
+        },
+        "status": "completed",
+        "vaccineCode": {
+          "coding": [
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "J07BB02"
+            }
+          ],
+          "text": "Pandemrix"
+        },
+        "patient": {
+          "reference": "urn:uuid:abfd4009-4445-4044-872e-4b254d7a4497"
+        },
+        "occurrenceDateTime": "2026-10-07",
+        "primarySource": true,
+        "note": [
+          {
+            "text": "Heilbrigðisstofnun Gullu (DEV)"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:44bd6807-86bc-4a8f-867a-930b663b3094",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "saga-immunization-1",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/immunization-eu-core"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\"><p>Gardasil 9 (25.06.2024, Saga_skema - TMS (STAGE))</p></div>"
+        },
+        "status": "completed",
+        "vaccineCode": {
+          "coding": [
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "J07BM03"
+            }
+          ],
+          "text": "Gardasil 9"
+        },
+        "patient": {
+          "reference": "urn:uuid:abfd4009-4445-4044-872e-4b254d7a4497"
+        },
+        "occurrenceDateTime": "2024-06-25",
+        "primarySource": true,
+        "note": [
+          {
+            "text": "Saga_skema - TMS (STAGE)"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cac91ba1-e2cc-4f59-87d1-0ea788128b30",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "saga-immunization-2",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/immunization-eu-core"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\"><p>Fsme-immun vuxen (25.06.2024, Jóna Jónsdóttir)</p></div>"
+        },
+        "status": "completed",
+        "vaccineCode": {
+          "coding": [
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "J07BA01"
+            }
+          ],
+          "text": "Fsme-immun vuxen"
+        },
+        "patient": {
+          "reference": "urn:uuid:abfd4009-4445-4044-872e-4b254d7a4497"
+        },
+        "occurrenceDateTime": "2024-06-25",
+        "primarySource": false,
+        "note": [
+          {
+            "text": "Jóna Jónsdóttir"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:8a4b44a5-89d8-48ce-af20-7e93456c0fe3",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "saga-immunization-3",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/immunization-eu-core"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\"><p>Prepandrix (26.04.2024, Jóna Jónsdóttir)</p></div>"
+        },
+        "status": "completed",
+        "vaccineCode": {
+          "coding": [
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "J07BB02"
+            }
+          ],
+          "text": "Prepandrix"
+        },
+        "patient": {
+          "reference": "urn:uuid:abfd4009-4445-4044-872e-4b254d7a4497"
+        },
+        "occurrenceDateTime": "2024-04-26",
+        "primarySource": false,
+        "note": [
+          {
+            "text": "Jóna Jónsdóttir"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:3a4bd1a8-f5a0-4aea-8d67-146f315197c5",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "saga-immunization-4",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/immunization-eu-core"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\"><p>Influenza, purified antigen (26.04.2024, Jóna Jónsdóttir)</p></div>"
+        },
+        "status": "completed",
+        "vaccineCode": {
+          "coding": [
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "J07BB02"
+            }
+          ],
+          "text": "Influenza, purified antigen"
+        },
+        "patient": {
+          "reference": "urn:uuid:abfd4009-4445-4044-872e-4b254d7a4497"
+        },
+        "occurrenceDateTime": "2024-04-26",
+        "primarySource": false,
+        "note": [
+          {
+            "text": "Jóna Jónsdóttir"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:fe9f98da-a147-41bb-8842-d783f446c147",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "saga-immunization-5",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/immunization-eu-core"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\"><p>Vaxigriptetra (26.04.2024, Jóna Jónsdóttir)</p></div>"
+        },
+        "status": "completed",
+        "vaccineCode": {
+          "coding": [
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "J07BB02"
+            }
+          ],
+          "text": "Vaxigriptetra"
+        },
+        "patient": {
+          "reference": "urn:uuid:abfd4009-4445-4044-872e-4b254d7a4497"
+        },
+        "occurrenceDateTime": "2024-04-26",
+        "primarySource": false,
+        "note": [
+          {
+            "text": "Jóna Jónsdóttir"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:799e0f35-84c2-4aa6-90f0-c3aef438a0d4",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "saga-immunization-6",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/immunization-eu-core"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\"><p>Bcg-imovax® berklar / tuberculosis, live atten (24.04.2024, Jóna Jónsdóttir)</p></div>"
+        },
+        "status": "completed",
+        "vaccineCode": {
+          "coding": [
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "J07AN01"
+            }
+          ],
+          "text": "Bcg-imovax® berklar / tuberculosis, live atten"
+        },
+        "patient": {
+          "reference": "urn:uuid:abfd4009-4445-4044-872e-4b254d7a4497"
+        },
+        "occurrenceDateTime": "2024-04-24",
+        "primarySource": false,
+        "note": [
+          {
+            "text": "Jóna Jónsdóttir"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:b31f149d-48f3-4d52-b796-e46ab64c8d48",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "saga-immunization-7",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/immunization-eu-core"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\"><p>Influenza, purified antigen (24.04.2024, Jóna Jónsdóttir)</p></div>"
+        },
+        "status": "completed",
+        "vaccineCode": {
+          "coding": [
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "J07BB02"
+            }
+          ],
+          "text": "Influenza, purified antigen"
+        },
+        "patient": {
+          "reference": "urn:uuid:abfd4009-4445-4044-872e-4b254d7a4497"
+        },
+        "occurrenceDateTime": "2024-04-24",
+        "primarySource": false,
+        "note": [
+          {
+            "text": "Jóna Jónsdóttir"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:718a3bb0-cdb2-4cdd-af0c-c4785ddd5739",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "saga-immunization-8",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/immunization-eu-core"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\"><p>Vaxigriptetra (24.04.2024, Jóna Jónsdóttir)</p></div>"
+        },
+        "status": "completed",
+        "vaccineCode": {
+          "coding": [
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "J07BB02"
+            }
+          ],
+          "text": "Vaxigriptetra"
+        },
+        "patient": {
+          "reference": "urn:uuid:abfd4009-4445-4044-872e-4b254d7a4497"
+        },
+        "occurrenceDateTime": "2024-04-24",
+        "primarySource": false,
+        "note": [
+          {
+            "text": "Jóna Jónsdóttir"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:0864b7fa-371f-45a0-b859-7bec986a114c",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "saga-immunization-9",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/immunization-eu-core"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\"><p>Influvactetra (24.04.2024, Jóna Jónsdóttir)</p></div>"
+        },
+        "status": "completed",
+        "vaccineCode": {
+          "coding": [
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "J07BB02"
+            }
+          ],
+          "text": "Influvactetra"
+        },
+        "patient": {
+          "reference": "urn:uuid:abfd4009-4445-4044-872e-4b254d7a4497"
+        },
+        "occurrenceDateTime": "2024-04-24",
+        "primarySource": false,
+        "note": [
+          {
+            "text": "Jóna Jónsdóttir"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:22cc0520-d9a5-41f6-b8f5-3315658e0060",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "saga-immunization-10",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/immunization-eu-core"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\"><p>Influvactetra (24.04.2024, Jóna Jónsdóttir)</p></div>"
+        },
+        "status": "completed",
+        "vaccineCode": {
+          "coding": [
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "J07BB02"
+            }
+          ],
+          "text": "Influvactetra"
+        },
+        "patient": {
+          "reference": "urn:uuid:abfd4009-4445-4044-872e-4b254d7a4497"
+        },
+        "occurrenceDateTime": "2024-04-24",
+        "primarySource": false,
+        "note": [
+          {
+            "text": "Jóna Jónsdóttir"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,174 @@
+{
+  "sourceFile": "normalized_source/patients/patient_195906113187/patient_195906113187.json",
+  "outputFile": "output/patient_195906113187.json",
+  "unsupportedSourceTypes": [
+    "aktiviteter2",
+    "norton",
+    "vatskeb",
+    "vitala",
+    "vitala2"
+  ],
+  "numericLabResultsWithoutSourceUnits": [],
+  "supportedSourceTypes": [
+    "aktiviteter2",
+    "kemlab",
+    "kemlab2",
+    "kemlab3",
+    "medlist2",
+    "norton",
+    "vardokument2",
+    "vatskeb",
+    "vitala",
+    "vitala2"
+  ],
+  "resourceCounts": {
+    "Composition": 1,
+    "Patient": 1,
+    "Condition": 3,
+    "Medication": 7,
+    "MedicationStatement": 7,
+    "Observation": 3,
+    "Procedure": 1,
+    "Organization": 1
+  },
+  "sections": {
+    "Allergies and intolerances": {
+      "entries": 0,
+      "narrativeItems": 0
+    },
+    "Problem list": {
+      "entries": 3,
+      "narrativeItems": 3
+    },
+    "Medication list": {
+      "entries": 7,
+      "narrativeItems": 7
+    },
+    "Immunizations": {
+      "entries": 0,
+      "narrativeItems": 0
+    },
+    "Relevant diagnostic tests and laboratory data": {
+      "entries": 3,
+      "narrativeItems": 10
+    },
+    "Medical devices": {
+      "entries": 0,
+      "narrativeItems": 1
+    },
+    "Plan of care": {
+      "entries": 0,
+      "narrativeItems": 5
+    },
+    "History of procedures": {
+      "entries": 1,
+      "narrativeItems": 1
+    }
+  },
+  "mappingProvenance": [
+    {
+      "fhirReference": "urn:uuid:0b130db8-1a85-5dc8-bc2e-7cc6b4887730",
+      "sourcePath": "$.sources[6].records[1].keywords[5].values[0]"
+    },
+    {
+      "fhirReference": "urn:uuid:c77a7189-bf5c-57cc-9624-2e71331ab631",
+      "sourcePath": "$.sources[6].records[2].keywords[2].values[0]"
+    },
+    {
+      "fhirReference": "urn:uuid:71b2a9c0-4a5a-5c89-9668-3965e34d5797",
+      "sourcePath": "$.sources[6].records[5].keywords[16].values[0]"
+    },
+    {
+      "fhirReference": "urn:uuid:689d302a-ce6a-5462-8ac9-4fb6b2222a06",
+      "sourcePath": "$.sources[4].records[0].drugs.drug[0]"
+    },
+    {
+      "fhirReference": "urn:uuid:d39ea9ae-2683-520a-b4df-f9d187e2aca2",
+      "sourcePath": "$.sources[4].records[0]"
+    },
+    {
+      "fhirReference": "urn:uuid:17418362-d6e1-5da0-86b8-d797ed079952",
+      "sourcePath": "$.sources[4].records[1].drugs.drug[0]"
+    },
+    {
+      "fhirReference": "urn:uuid:0e11f868-7a4e-573a-bf41-12f5d40a532b",
+      "sourcePath": "$.sources[4].records[1]"
+    },
+    {
+      "fhirReference": "urn:uuid:8257f72e-0430-5aef-b8b0-79201338d4f0",
+      "sourcePath": "$.sources[4].records[2].drugs.drug[0]"
+    },
+    {
+      "fhirReference": "urn:uuid:9963df25-cae7-5668-8ac2-b4c366413c1c",
+      "sourcePath": "$.sources[4].records[2]"
+    },
+    {
+      "fhirReference": "urn:uuid:9d3a4c70-6c9d-5baf-85ce-fea2d8729428",
+      "sourcePath": "$.sources[4].records[3].drugs.drug[0]"
+    },
+    {
+      "fhirReference": "urn:uuid:00c8e69a-eaa4-5c57-92d4-b9de8709b3c6",
+      "sourcePath": "$.sources[4].records[3]"
+    },
+    {
+      "fhirReference": "urn:uuid:26411fcb-e1b2-5f5c-8ede-1c27218f05b5",
+      "sourcePath": "$.sources[4].records[4].drugs.drug[0]"
+    },
+    {
+      "fhirReference": "urn:uuid:83e71190-217d-526a-8075-dea51c5fa703",
+      "sourcePath": "$.sources[4].records[4]"
+    },
+    {
+      "fhirReference": "urn:uuid:66a24cad-58c7-5753-9e2a-d35e55536e18",
+      "sourcePath": "$.sources[4].records[5].drugs.drug[0]"
+    },
+    {
+      "fhirReference": "urn:uuid:848deebc-ff0f-5ba6-a388-e581c0114d75",
+      "sourcePath": "$.sources[4].records[5]"
+    },
+    {
+      "fhirReference": "urn:uuid:da0cc2ce-8a1d-5b34-b546-3ad49e7917c3",
+      "sourcePath": "$.sources[4].records[6].drugs.drug[0]"
+    },
+    {
+      "fhirReference": "urn:uuid:9c07f9eb-e4d6-50f3-922a-d04abec46922",
+      "sourcePath": "$.sources[4].records[6]"
+    },
+    {
+      "fhirReference": "urn:uuid:790a55a2-43e5-56eb-95dc-158287d89cb8",
+      "sourcePath": "$.sources[1].sourceData.samples[0].analyses[0]"
+    },
+    {
+      "fhirReference": "urn:uuid:bed2fbce-317f-56dc-b910-d4376e244198",
+      "sourcePath": "$.sources[2].sourceData.samples[0].analyses[0]"
+    },
+    {
+      "fhirReference": "urn:uuid:a96ed0de-2ad9-5f99-975c-672d61486961",
+      "sourcePath": "$.sources[3].sourceData.samples[0].analyses[0]"
+    },
+    {
+      "fhirReference": "urn:uuid:2e9844e1-4778-5368-ba91-4eede4078a2f",
+      "sourcePath": "$.sources[6].records[2].keywords[5].values[0]"
+    },
+    {
+      "fhirReference": "urn:uuid:4ffc122a-e9f2-5bef-a8f7-bb718e95872c",
+      "sourcePath": "$.sources[*].sourceData.attestation.patient"
+    },
+    {
+      "fhirReference": "urn:uuid:3cdea639-92c1-5d18-bc62-06b42a1f2922",
+      "sourcePath": "$.sources[*].sourceData.attestation.careUnit"
+    }
+  ],
+  "limitations": [
+    "Supports known source record types, not arbitrary patient JSON schemas.",
+    "Official EU EPS FHIR profile and terminology validation not performed.",
+    "Condition, NPU, and KVÅ system URIs require confirmation against the target terminology packages.",
+    "Patient personnummer URI follows Swedish FHIR guidance but may cause validator resolution warnings.",
+    "No clinical fact invented for missing sections.",
+    "Date/time without timezone interpreted as Europe/Stockholm.",
+    "Historical medication episodes preserved separately; active status not inferred.",
+    "Pacemaker implantation preserved as Procedure and narrative; no DeviceUseStatement is created without a supported status.",
+    "FHIR IPS Bundle slice ambiguity may still require package-specific validator investigation.",
+    "Source administrative metadata is not losslessly included in the output."
+  ]
+}

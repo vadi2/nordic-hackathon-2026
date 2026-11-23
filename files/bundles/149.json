@@ -1,0 +1,1108 @@
+{
+  "resourceType": "Bundle",
+  "id": "3d6143e6-c603-5792-8bc6-d3982846b1f9",
+  "meta": {
+    "profile": [
+      "http://hl7.eu/fhir/eps/StructureDefinition/bundle-eu-eps"
+    ]
+  },
+  "type": "document",
+  "language": "sv",
+  "identifier": {
+    "system": "urn:ietf:rfc:3986",
+    "value": "urn:uuid:46ef53c9-9f80-5293-a3a3-e90f683b18b5"
+  },
+  "timestamp": "2026-11-20T10:29:40+01:00",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:7fcfd561-5695-56f3-ad34-7e2d63372325",
+      "resource": {
+        "resourceType": "Composition",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/composition-eu-eps"
+          ]
+        },
+        "status": "preliminary",
+        "identifier": {
+          "system": "urn:ietf:rfc:3986",
+          "value": "urn:uuid:46ef53c9-9f80-5293-a3a3-e90f683b18b5"
+        },
+        "type": {
+          "text": "Patient summary Document",
+          "coding": [
+            {
+              "code": "60591-5",
+              "system": "http://loinc.org",
+              "display": "Patient summary Document"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:2a7dafdd-f557-5e24-8037-91994b88fbf2"
+        },
+        "date": "2026-11-20T10:29:40+01:00",
+        "author": [
+          {
+            "reference": "urn:uuid:0aeec1ce-84a3-589c-a416-e2387301fc15"
+          }
+        ],
+        "custodian": {
+          "reference": "urn:uuid:0aeec1ce-84a3-589c-a416-e2387301fc15"
+        },
+        "title": "European Patient Summary (source-derived candidate)",
+        "section": [
+          {
+            "title": "Allergies and intolerances",
+            "code": {
+              "text": "48765-2",
+              "coding": [
+                {
+                  "code": "48765-2",
+                  "system": "http://loinc.org"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Not documented in supplied source records.</p></div>"
+            },
+            "emptyReason": {
+              "text": "Unavailable",
+              "coding": [
+                {
+                  "code": "unavailable",
+                  "system": "http://terminology.hl7.org/CodeSystem/list-empty-reason",
+                  "display": "Unavailable"
+                }
+              ]
+            }
+          },
+          {
+            "title": "Problem list",
+            "code": {
+              "text": "11450-4",
+              "coding": [
+                {
+                  "code": "11450-4",
+                  "system": "http://loinc.org"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>I489 Förmaksflimmer och förmaksfladder, ospecificerat</li><li>I495 Sick sinus syndrome</li><li>I109 Essentiell hypertoni</li></ul></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:7b41d533-131b-55eb-b143-8e37a4db9303"
+              },
+              {
+                "reference": "urn:uuid:739ef6a0-0381-50f8-a897-b3fe1f2d010c"
+              },
+              {
+                "reference": "urn:uuid:46613987-a424-5aac-bba6-f8117506f78b"
+              }
+            ]
+          },
+          {
+            "title": "Medication list",
+            "code": {
+              "text": "10160-0",
+              "coding": [
+                {
+                  "code": "10160-0",
+                  "system": "http://loinc.org"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Waran 2.5 mg Tablett; &lt;1 tablett Pacemaker&gt;; &lt;1 tablett på morgonen Pacemaker&gt;</li><li>Waran 2.5 mg Tablett; &lt;enligt separat behandlingsschema FF&gt;</li><li>Waran 2.5 mg Tablett; &lt;2 tabletter på morgonen Pacemaker&gt;</li><li>Fragmin 5000 IE Injektionsvätska, lösning i förfylld spruta; &lt;1 injektionsvätska, lösning i förfylld spruta vid behov blodförtunnande. Max 2 st per dygn&gt;</li><li>Salures 2.5 mg Tablett; &lt;1 tablett på morgonen för blodtrycket&gt;</li><li>Fragmin 2500 IE Injektionsvätska, lösning i förfylld spruta; &lt;0.6 ml injektionsvätska, lösning i förfylld spruta på morgonen&gt;</li><li>Aspirin 500 mg Tablett; &lt;1 tablett på morgonen&gt;</li></ul></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:3b57e5b0-3e5d-597c-b0db-5ffb04bec3ec"
+              },
+              {
+                "reference": "urn:uuid:af80978c-e81c-54c4-9c4c-f5b336781269"
+              },
+              {
+                "reference": "urn:uuid:321e0ef1-efb8-57a3-9123-2ea338235e3d"
+              },
+              {
+                "reference": "urn:uuid:db63a990-8546-51b6-8af0-bb163fc96012"
+              },
+              {
+                "reference": "urn:uuid:ef71eb02-20b7-56b8-b37a-4271a03d89ef"
+              },
+              {
+                "reference": "urn:uuid:a0088371-2e97-539f-b2ed-605d26f25a1a"
+              },
+              {
+                "reference": "urn:uuid:b4c14210-60cd-5897-9f7c-521988a3722e"
+              }
+            ]
+          },
+          {
+            "title": "Immunizations",
+            "code": {
+              "text": "11369-6",
+              "coding": [
+                {
+                  "code": "11369-6",
+                  "system": "http://loinc.org"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Not documented in supplied source records.</p></div>"
+            },
+            "emptyReason": {
+              "text": "Unavailable",
+              "coding": [
+                {
+                  "code": "unavailable",
+                  "system": "http://terminology.hl7.org/CodeSystem/list-empty-reason",
+                  "display": "Unavailable"
+                }
+              ]
+            }
+          },
+          {
+            "title": "Relevant diagnostic tests and laboratory data",
+            "code": {
+              "text": "30954-2",
+              "coding": [
+                {
+                  "code": "30954-2",
+                  "system": "http://loinc.org"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>P-PK(INR): 2,5 INR</li><li>P-PK(INR): 2,8 INR</li><li>P-PK(INR): 2,0 INR</li><li>Vikt: 75.0 kg</li><li>Vikt: 75.0 kg</li><li>Vikt: 73.0 kg</li><li>Pulsfrekvens: 69.0 beats/min</li><li>Vikt: 76.0 kg</li><li>Blood pressure: 123.0/77.0 mmHg</li><li>Blood pressure: 127.0/82.0 mmHg</li></ul></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:3309daad-4144-5659-81af-d277ea8ad75d"
+              },
+              {
+                "reference": "urn:uuid:f1c5f94b-0a72-56bb-b70b-1454c1ae711e"
+              },
+              {
+                "reference": "urn:uuid:f03328b7-15a5-59b6-b893-e417683f3b08"
+              }
+            ]
+          },
+          {
+            "title": "Medical devices",
+            "code": {
+              "text": "46264-8",
+              "coding": [
+                {
+                  "code": "46264-8",
+                  "system": "http://loinc.org"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Pacemaker implantation documented; current device-use status not established</li></ul></div>"
+            },
+            "emptyReason": {
+              "text": "Unavailable",
+              "coding": [
+                {
+                  "code": "unavailable",
+                  "system": "http://terminology.hl7.org/CodeSystem/list-empty-reason",
+                  "display": "Unavailable"
+                }
+              ]
+            }
+          },
+          {
+            "title": "Plan of care",
+            "code": {
+              "text": "18776-5",
+              "coding": [
+                {
+                  "code": "18776-5",
+                  "system": "http://loinc.org"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Åtgärd tobak: Rådgivande samtal med tillägg av läkemedel</li><li>Åtgärd matvanor: Erbjudits</li><li>Rekommenderade åtgärder vid lågt PK-INR: Uppföljning</li><li>Postoperativ planering: En lungröntgen ska göras postoperativt för att utesluta pneumothorax. Inför hemgång skall pacemakern kontrolleras och finjusteras. Patienten får även instruktion av fysioterapeut om lämpliga armrörelser under de första 3-4 veckorna då läkning pågår.</li><li>Åtgärd/planering: Åter om 3 månader</li></ul></div>"
+            },
+            "emptyReason": {
+              "text": "Unavailable",
+              "coding": [
+                {
+                  "code": "unavailable",
+                  "system": "http://terminology.hl7.org/CodeSystem/list-empty-reason",
+                  "display": "Unavailable"
+                }
+              ]
+            }
+          },
+          {
+            "title": "History of procedures",
+            "code": {
+              "text": "47519-4",
+              "coding": [
+                {
+                  "code": "47519-4",
+                  "system": "http://loinc.org"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Inläggande av transvenös pacemaker</li></ul></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:6d2ef817-c131-59d5-9baf-ced6adf5e96f"
+              }
+            ]
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Automatically mapped candidate; requires clinical review and official EU EPS validation.</p></div>"
+        },
+        "id": "7fcfd561-5695-56f3-ad34-7e2d63372325"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:2a7dafdd-f557-5e24-8037-91994b88fbf2",
+      "resource": {
+        "resourceType": "Patient",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/patient-eu-eps"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "http://electronichealth.se/identifier/personnummer",
+            "value": "195906113187"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Patient summary; patient identifier recorded in source.</p></div>"
+        },
+        "name": [
+          {
+            "text": "Name not provided in source",
+            "extension": [
+              {
+                "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+                "valueCode": "unknown"
+              }
+            ]
+          }
+        ],
+        "birthDate": "1959-06-11",
+        "id": "2a7dafdd-f557-5e24-8037-91994b88fbf2"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:0aeec1ce-84a3-589c-a416-e2387301fc15",
+      "resource": {
+        "resourceType": "Organization",
+        "name": "Source healthcare organization (not identified)",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Source healthcare organization not identified</p></div>"
+        },
+        "id": "0aeec1ce-84a3-589c-a416-e2387301fc15"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:7b41d533-131b-55eb-b143-8e37a4db9303",
+      "resource": {
+        "resourceType": "Condition",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/condition-eu-core"
+          ]
+        },
+        "code": {
+          "text": "Förmaksflimmer och förmaksfladder, ospecificerat",
+          "coding": [
+            {
+              "code": "I489",
+              "system": "https://terminologitjansten.inera.se/inera-kodverksforvaltning/kodverk/icd-10-se",
+              "display": "Förmaksflimmer och förmaksfladder, ospecificerat"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:2a7dafdd-f557-5e24-8037-91994b88fbf2"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Förmaksflimmer och förmaksfladder, ospecificerat</p></div>"
+        },
+        "recordedDate": "2024-08-29",
+        "id": "7b41d533-131b-55eb-b143-8e37a4db9303"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:739ef6a0-0381-50f8-a897-b3fe1f2d010c",
+      "resource": {
+        "resourceType": "Condition",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/condition-eu-core"
+          ]
+        },
+        "code": {
+          "text": "Sick sinus syndrome",
+          "coding": [
+            {
+              "code": "I495",
+              "system": "https://terminologitjansten.inera.se/inera-kodverksforvaltning/kodverk/icd-10-se",
+              "display": "Sick sinus syndrome"
+            },
+            {
+              "system": "http://snomed.info/sct",
+              "code": "36083008",
+              "display": "Sick sinus syndrome"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:2a7dafdd-f557-5e24-8037-91994b88fbf2"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Sick sinus syndrome</p></div>"
+        },
+        "recordedDate": "2023-11-13",
+        "id": "739ef6a0-0381-50f8-a897-b3fe1f2d010c"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:46613987-a424-5aac-bba6-f8117506f78b",
+      "resource": {
+        "resourceType": "Condition",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/condition-eu-core"
+          ]
+        },
+        "code": {
+          "text": "Essentiell hypertoni",
+          "coding": [
+            {
+              "code": "I109",
+              "system": "https://terminologitjansten.inera.se/inera-kodverksforvaltning/kodverk/icd-10-se",
+              "display": "Essentiell hypertoni"
+            },
+            {
+              "system": "http://snomed.info/sct",
+              "code": "59621000",
+              "display": "Essential hypertension"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:2a7dafdd-f557-5e24-8037-91994b88fbf2"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Essentiell hypertoni</p></div>"
+        },
+        "recordedDate": "2022-10-11",
+        "id": "46613987-a424-5aac-bba6-f8117506f78b"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:b628a7f8-f913-5444-b1ef-b39c45ff7e66",
+      "resource": {
+        "resourceType": "Medication",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medication-eu-core"
+          ]
+        },
+        "code": {
+          "text": "Waran 2.5 mg Tablett",
+          "coding": [
+            {
+              "code": "B01AA03",
+              "system": "http://www.whocc.no/atc",
+              "display": "Waran 2.5 mg Tablett"
+            }
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Waran 2.5 mg Tablett</p></div>"
+        },
+        "id": "b628a7f8-f913-5444-b1ef-b39c45ff7e66"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:3b57e5b0-3e5d-597c-b0db-5ffb04bec3ec",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/MedicationStatement-eu-eps"
+          ]
+        },
+        "status": "completed",
+        "subject": {
+          "reference": "urn:uuid:2a7dafdd-f557-5e24-8037-91994b88fbf2"
+        },
+        "medicationReference": {
+          "reference": "urn:uuid:b628a7f8-f913-5444-b1ef-b39c45ff7e66",
+          "display": "Waran 2.5 mg Tablett"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Waran 2.5 mg Tablett</p></div>"
+        },
+        "dosage": [
+          {
+            "text": "<1 tablett Pacemaker>; <1 tablett på morgonen Pacemaker>"
+          }
+        ],
+        "effectivePeriod": {
+          "start": "2023-12-01",
+          "end": "2024-11-19"
+        },
+        "reasonCode": [
+          {
+            "text": "Pacemaker"
+          }
+        ],
+        "identifier": [
+          {
+            "value": "195906113187-44"
+          }
+        ],
+        "id": "3b57e5b0-3e5d-597c-b0db-5ffb04bec3ec"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e1ac1713-5fdb-5a10-83ad-55c6fde1e7c9",
+      "resource": {
+        "resourceType": "Medication",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medication-eu-core"
+          ]
+        },
+        "code": {
+          "text": "Waran 2.5 mg Tablett",
+          "coding": [
+            {
+              "code": "B01AA03",
+              "system": "http://www.whocc.no/atc",
+              "display": "Waran 2.5 mg Tablett"
+            }
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Waran 2.5 mg Tablett</p></div>"
+        },
+        "id": "e1ac1713-5fdb-5a10-83ad-55c6fde1e7c9"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:af80978c-e81c-54c4-9c4c-f5b336781269",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/MedicationStatement-eu-eps"
+          ]
+        },
+        "status": "completed",
+        "subject": {
+          "reference": "urn:uuid:2a7dafdd-f557-5e24-8037-91994b88fbf2"
+        },
+        "medicationReference": {
+          "reference": "urn:uuid:e1ac1713-5fdb-5a10-83ad-55c6fde1e7c9",
+          "display": "Waran 2.5 mg Tablett"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Waran 2.5 mg Tablett</p></div>"
+        },
+        "dosage": [
+          {
+            "text": "<enligt separat behandlingsschema FF>"
+          }
+        ],
+        "effectivePeriod": {
+          "start": "2024-11-21",
+          "end": "2024-11-21"
+        },
+        "reasonCode": [
+          {
+            "text": "FF"
+          }
+        ],
+        "identifier": [
+          {
+            "value": "195906113187-62"
+          }
+        ],
+        "id": "af80978c-e81c-54c4-9c4c-f5b336781269"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:f798c783-4369-51d3-a078-f855c474be95",
+      "resource": {
+        "resourceType": "Medication",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medication-eu-core"
+          ]
+        },
+        "code": {
+          "text": "Waran 2.5 mg Tablett",
+          "coding": [
+            {
+              "code": "B01AA03",
+              "system": "http://www.whocc.no/atc",
+              "display": "Waran 2.5 mg Tablett"
+            }
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Waran 2.5 mg Tablett</p></div>"
+        },
+        "id": "f798c783-4369-51d3-a078-f855c474be95"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:321e0ef1-efb8-57a3-9123-2ea338235e3d",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/MedicationStatement-eu-eps"
+          ]
+        },
+        "status": "completed",
+        "subject": {
+          "reference": "urn:uuid:2a7dafdd-f557-5e24-8037-91994b88fbf2"
+        },
+        "medicationReference": {
+          "reference": "urn:uuid:f798c783-4369-51d3-a078-f855c474be95",
+          "display": "Waran 2.5 mg Tablett"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Waran 2.5 mg Tablett</p></div>"
+        },
+        "dosage": [
+          {
+            "text": "<2 tabletter på morgonen Pacemaker>"
+          }
+        ],
+        "effectivePeriod": {
+          "start": "2024-08-29",
+          "end": "2024-09-09"
+        },
+        "reasonCode": [
+          {
+            "text": "Pacemaker"
+          }
+        ],
+        "identifier": [
+          {
+            "value": "195906113187-33"
+          }
+        ],
+        "id": "321e0ef1-efb8-57a3-9123-2ea338235e3d"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:9a5baeb5-4bf3-5ce1-807e-fe4efb1f31ab",
+      "resource": {
+        "resourceType": "Medication",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medication-eu-core"
+          ]
+        },
+        "code": {
+          "text": "Fragmin 5000 IE Injektionsvätska, lösning i förfylld spruta",
+          "coding": [
+            {
+              "code": "B01AB04",
+              "system": "http://www.whocc.no/atc",
+              "display": "Fragmin 5000 IE Injektionsvätska, lösning i förfylld spruta"
+            }
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Fragmin 5000 IE Injektionsvätska, lösning i förfylld spruta</p></div>"
+        },
+        "id": "9a5baeb5-4bf3-5ce1-807e-fe4efb1f31ab"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:db63a990-8546-51b6-8af0-bb163fc96012",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/MedicationStatement-eu-eps"
+          ]
+        },
+        "status": "completed",
+        "subject": {
+          "reference": "urn:uuid:2a7dafdd-f557-5e24-8037-91994b88fbf2"
+        },
+        "medicationReference": {
+          "reference": "urn:uuid:9a5baeb5-4bf3-5ce1-807e-fe4efb1f31ab",
+          "display": "Fragmin 5000 IE Injektionsvätska, lösning i förfylld spruta"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Fragmin 5000 IE Injektionsvätska, lösning i förfylld spruta</p></div>"
+        },
+        "dosage": [
+          {
+            "text": "<1 injektionsvätska, lösning i förfylld spruta vid behov blodförtunnande. Max 2 st per dygn>"
+          }
+        ],
+        "effectivePeriod": {
+          "start": "2024-11-11",
+          "end": "2025-01-10"
+        },
+        "reasonCode": [
+          {
+            "text": "blodförtunnande"
+          }
+        ],
+        "identifier": [
+          {
+            "value": "195906113187-54"
+          }
+        ],
+        "id": "db63a990-8546-51b6-8af0-bb163fc96012"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cea65ff0-a8c0-5f2a-8780-4eb3ce3cde0e",
+      "resource": {
+        "resourceType": "Medication",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medication-eu-core"
+          ]
+        },
+        "code": {
+          "text": "Salures 2.5 mg Tablett",
+          "coding": [
+            {
+              "code": "C03AA01",
+              "system": "http://www.whocc.no/atc",
+              "display": "Salures 2.5 mg Tablett"
+            }
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Salures 2.5 mg Tablett</p></div>"
+        },
+        "id": "cea65ff0-a8c0-5f2a-8780-4eb3ce3cde0e"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:ef71eb02-20b7-56b8-b37a-4271a03d89ef",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/MedicationStatement-eu-eps"
+          ]
+        },
+        "status": "completed",
+        "subject": {
+          "reference": "urn:uuid:2a7dafdd-f557-5e24-8037-91994b88fbf2"
+        },
+        "medicationReference": {
+          "reference": "urn:uuid:cea65ff0-a8c0-5f2a-8780-4eb3ce3cde0e",
+          "display": "Salures 2.5 mg Tablett"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Salures 2.5 mg Tablett</p></div>"
+        },
+        "dosage": [
+          {
+            "text": "<1 tablett på morgonen för blodtrycket>"
+          }
+        ],
+        "effectivePeriod": {
+          "start": "2024-11-11",
+          "end": "2024-11-11"
+        },
+        "reasonCode": [
+          {
+            "text": "för blodtrycket"
+          }
+        ],
+        "identifier": [
+          {
+            "value": "195906113187-53"
+          }
+        ],
+        "id": "ef71eb02-20b7-56b8-b37a-4271a03d89ef"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:734fa6ce-3cf7-503b-a0e0-d139fae1a99f",
+      "resource": {
+        "resourceType": "Medication",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medication-eu-core"
+          ]
+        },
+        "code": {
+          "text": "Fragmin 2500 IE Injektionsvätska, lösning i förfylld spruta",
+          "coding": [
+            {
+              "code": "B01AB04",
+              "system": "http://www.whocc.no/atc",
+              "display": "Fragmin 2500 IE Injektionsvätska, lösning i förfylld spruta"
+            }
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Fragmin 2500 IE Injektionsvätska, lösning i förfylld spruta</p></div>"
+        },
+        "id": "734fa6ce-3cf7-503b-a0e0-d139fae1a99f"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a0088371-2e97-539f-b2ed-605d26f25a1a",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/MedicationStatement-eu-eps"
+          ]
+        },
+        "status": "completed",
+        "subject": {
+          "reference": "urn:uuid:2a7dafdd-f557-5e24-8037-91994b88fbf2"
+        },
+        "medicationReference": {
+          "reference": "urn:uuid:734fa6ce-3cf7-503b-a0e0-d139fae1a99f",
+          "display": "Fragmin 2500 IE Injektionsvätska, lösning i förfylld spruta"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Fragmin 2500 IE Injektionsvätska, lösning i förfylld spruta</p></div>"
+        },
+        "dosage": [
+          {
+            "text": "<0.6 ml injektionsvätska, lösning i förfylld spruta på morgonen>"
+          }
+        ],
+        "effectivePeriod": {
+          "start": "2024-09-09",
+          "end": "2024-09-16"
+        },
+        "reasonCode": [
+          {
+            "text": "2024-11-06T17:42:15"
+          }
+        ],
+        "identifier": [
+          {
+            "value": "195906113187-49"
+          }
+        ],
+        "id": "a0088371-2e97-539f-b2ed-605d26f25a1a"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:4f957f45-9aba-573d-a721-6efdf8f426ba",
+      "resource": {
+        "resourceType": "Medication",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medication-eu-core"
+          ]
+        },
+        "code": {
+          "text": "Aspirin 500 mg Tablett",
+          "coding": [
+            {
+              "code": "N02BA01",
+              "system": "http://www.whocc.no/atc",
+              "display": "Aspirin 500 mg Tablett"
+            }
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Aspirin 500 mg Tablett</p></div>"
+        },
+        "id": "4f957f45-9aba-573d-a721-6efdf8f426ba"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:b4c14210-60cd-5897-9f7c-521988a3722e",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/MedicationStatement-eu-eps"
+          ]
+        },
+        "status": "completed",
+        "subject": {
+          "reference": "urn:uuid:2a7dafdd-f557-5e24-8037-91994b88fbf2"
+        },
+        "medicationReference": {
+          "reference": "urn:uuid:4f957f45-9aba-573d-a721-6efdf8f426ba",
+          "display": "Aspirin 500 mg Tablett"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Aspirin 500 mg Tablett</p></div>"
+        },
+        "dosage": [
+          {
+            "text": "<1 tablett på morgonen>"
+          }
+        ],
+        "effectivePeriod": {
+          "start": "2024-08-29",
+          "end": "2024-09-28"
+        },
+        "reasonCode": [
+          {
+            "text": "2024-08-29T15:01:51"
+          }
+        ],
+        "identifier": [
+          {
+            "value": "195906113187-34"
+          }
+        ],
+        "id": "b4c14210-60cd-5897-9f7c-521988a3722e"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:3309daad-4144-5659-81af-d277ea8ad75d",
+      "resource": {
+        "resourceType": "Observation",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medicalTestResult-eu-core"
+          ]
+        },
+        "status": "preliminary",
+        "category": [
+          {
+            "text": "Laboratory",
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "P-PK(INR)",
+          "coding": [
+            {
+              "code": "NPU01685",
+              "system": "http://npu-terminology.org",
+              "display": "P-PK(INR)"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:2a7dafdd-f557-5e24-8037-91994b88fbf2"
+        },
+        "performer": [
+          {
+            "reference": "urn:uuid:0aeec1ce-84a3-589c-a416-e2387301fc15"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>P-PK(INR): 2,5 INR</p></div>"
+        },
+        "effectiveDateTime": "2024-08-29",
+        "valueQuantity": {
+          "value": 2.5,
+          "unit": "INR"
+        },
+        "referenceRange": [
+          {
+            "text": "<1,3"
+          }
+        ],
+        "id": "3309daad-4144-5659-81af-d277ea8ad75d"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:f1c5f94b-0a72-56bb-b70b-1454c1ae711e",
+      "resource": {
+        "resourceType": "Observation",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medicalTestResult-eu-core"
+          ]
+        },
+        "status": "preliminary",
+        "category": [
+          {
+            "text": "Laboratory",
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "P-PK(INR)",
+          "coding": [
+            {
+              "code": "NPU01685",
+              "system": "http://npu-terminology.org",
+              "display": "P-PK(INR)"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:2a7dafdd-f557-5e24-8037-91994b88fbf2"
+        },
+        "performer": [
+          {
+            "reference": "urn:uuid:0aeec1ce-84a3-589c-a416-e2387301fc15"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>P-PK(INR): 2,8 INR</p></div>"
+        },
+        "effectiveDateTime": "2024-08-29",
+        "valueQuantity": {
+          "value": 2.8,
+          "unit": "INR"
+        },
+        "referenceRange": [
+          {
+            "text": "<1,3"
+          }
+        ],
+        "id": "f1c5f94b-0a72-56bb-b70b-1454c1ae711e"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:f03328b7-15a5-59b6-b893-e417683f3b08",
+      "resource": {
+        "resourceType": "Observation",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medicalTestResult-eu-core"
+          ]
+        },
+        "status": "preliminary",
+        "category": [
+          {
+            "text": "Laboratory",
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "text": "P-PK(INR)",
+          "coding": [
+            {
+              "code": "NPU01685",
+              "system": "http://npu-terminology.org",
+              "display": "P-PK(INR)"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:2a7dafdd-f557-5e24-8037-91994b88fbf2"
+        },
+        "performer": [
+          {
+            "reference": "urn:uuid:0aeec1ce-84a3-589c-a416-e2387301fc15"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>P-PK(INR): 2,0 INR</p></div>"
+        },
+        "effectiveDateTime": "2024-08-29",
+        "valueQuantity": {
+          "value": 2.0,
+          "unit": "INR"
+        },
+        "referenceRange": [
+          {
+            "text": "<1,3"
+          }
+        ],
+        "id": "f03328b7-15a5-59b6-b893-e417683f3b08"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:6d2ef817-c131-59d5-9baf-ced6adf5e96f",
+      "resource": {
+        "resourceType": "Procedure",
+        "status": "completed",
+        "code": {
+          "text": "Inläggande av transvenös pacemaker",
+          "coding": [
+            {
+              "code": "ZXG40",
+              "system": "http://hl7.se/fhir/ig/base/CodeSystem/sct-kvå",
+              "display": "Inläggande av transvenös pacemaker"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:2a7dafdd-f557-5e24-8037-91994b88fbf2"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Inläggande av transvenös pacemaker</p></div>"
+        },
+        "performedDateTime": "2023-11-10",
+        "id": "6d2ef817-c131-59d5-9baf-ced6adf5e96f"
+      }
+    }
+  ]
+}

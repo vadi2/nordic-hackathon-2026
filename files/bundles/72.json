@@ -1,0 +1,415 @@
+{
+  "resourceType": "Bundle",
+  "id": "905e7683-270d-404a-adf2-74fde313faa0",
+  "meta": {
+    "profile": [
+      "http://hl7.eu/fhir/eps/StructureDefinition/bundle-eu-eps"
+    ]
+  },
+  "identifier": {
+    "system": "urn:ietf:rfc:3986",
+    "value": "urn:uuid:905e7683-270d-404a-adf2-74fde313faa0"
+  },
+  "type": "document",
+  "timestamp": "2026-11-19T12:56:31Z",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:97d78789-7ede-4a9c-9b08-0c7c8da1b29d",
+      "resource": {
+        "resourceType": "Composition",
+        "id": "97d78789-7ede-4a9c-9b08-0c7c8da1b29d",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/composition-eu-eps"
+          ]
+        },
+        "status": "preliminary",
+        "type": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "60591-5",
+              "display": "Patient summary Document"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:d297b87a-b787-4b39-9ff7-0d8f95da1c73"
+        },
+        "date": "2026-11-19T12:56:31Z",
+        "author": [
+          {
+            "reference": "urn:uuid:0247fbdc-fc0c-49fa-a38c-536a9bcd75d5"
+          }
+        ],
+        "title": "Patient Summary - unreviewed automated draft",
+        "language": "en",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Unreviewed draft. Not for clinical use or patient-care decisions.</p></div>"
+        },
+        "section": [
+          {
+            "title": "Allergies and intolerances",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "48765-2",
+                  "display": "Allergies and intolerances"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>No clinically verified source mapping available in this draft.</p></div>"
+            },
+            "emptyReason": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/list-empty-reason",
+                  "code": "unavailable",
+                  "display": "Unavailable"
+                }
+              ]
+            }
+          },
+          {
+            "title": "Problem list",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "11450-4",
+                  "display": "Problem list"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>No clinically verified source mapping available in this draft.</p></div>"
+            },
+            "emptyReason": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/list-empty-reason",
+                  "code": "unavailable",
+                  "display": "Unavailable"
+                }
+              ]
+            }
+          },
+          {
+            "title": "Medication summary",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "10160-0",
+                  "display": "Medication summary"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Unreviewed AI-proposed source facts. Do not use for clinical decisions.</p></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:e54ea1de-54f2-47cf-b8c2-911ca3f5d34e"
+              }
+            ]
+          },
+          {
+            "title": "Relevant diagnostic tests and laboratory data",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "30954-2",
+                  "display": "Relevant diagnostic tests and laboratory data"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Unreviewed AI-proposed source facts. Do not use for clinical decisions.</p></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:479218c5-a704-4ad2-8c90-2eead159acae"
+              },
+              {
+                "reference": "urn:uuid:7a3bab2d-fdcc-4cd5-90d0-7ead23faafee"
+              },
+              {
+                "reference": "urn:uuid:b0dfaa12-f868-4479-a6c0-837e8a02b230"
+              },
+              {
+                "reference": "urn:uuid:fa11ed65-276b-4ef8-9c42-de2413fe30fa"
+              },
+              {
+                "reference": "urn:uuid:f282fe17-57d8-41d0-8306-a02d8d8e8223"
+              },
+              {
+                "reference": "urn:uuid:e33baf58-6f9c-40e8-87a3-229568f2e924"
+              },
+              {
+                "reference": "urn:uuid:3a50a0d3-292d-475b-9114-1d08abecc16f"
+              },
+              {
+                "reference": "urn:uuid:713c48ee-cc5b-4c86-a738-8775f7a9f269"
+              },
+              {
+                "reference": "urn:uuid:0d44d294-a1a1-40b0-94db-6d8c52a33861"
+              },
+              {
+                "reference": "urn:uuid:64eb88e9-fb3a-490f-be1c-cf180b54857f"
+              },
+              {
+                "reference": "urn:uuid:0b3ab0bb-6807-44fa-b10d-7c39bc2c3db2"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:d297b87a-b787-4b39-9ff7-0d8f95da1c73",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "d297b87a-b787-4b39-9ff7-0d8f95da1c73",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/patient-eu-eps"
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:0247fbdc-fc0c-49fa-a38c-536a9bcd75d5",
+      "resource": {
+        "resourceType": "Device",
+        "id": "0247fbdc-fc0c-49fa-a38c-536a9bcd75d5",
+        "deviceName": [
+          {
+            "name": "EPS Transformer - unreviewed draft generator",
+            "type": "user-friendly-name"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e54ea1de-54f2-47cf-b8c2-911ca3f5d34e",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "e54ea1de-54f2-47cf-b8c2-911ca3f5d34e",
+        "status": "unknown",
+        "medicationCodeableConcept": {
+          "text": "Acetylsalicylsyra"
+        },
+        "subject": {
+          "reference": "urn:uuid:d297b87a-b787-4b39-9ff7-0d8f95da1c73"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:479218c5-a704-4ad2-8c90-2eead159acae",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "479218c5-a704-4ad2-8c90-2eead159acae",
+        "status": "unknown",
+        "code": {
+          "text": "Alkohol"
+        },
+        "subject": {
+          "reference": "urn:uuid:d297b87a-b787-4b39-9ff7-0d8f95da1c73"
+        },
+        "valueQuantity": {
+          "value": 1,
+          "unit": "stdglas/v"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:7a3bab2d-fdcc-4cd5-90d0-7ead23faafee",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "7a3bab2d-fdcc-4cd5-90d0-7ead23faafee",
+        "status": "unknown",
+        "code": {
+          "text": "Alkohol"
+        },
+        "subject": {
+          "reference": "urn:uuid:d297b87a-b787-4b39-9ff7-0d8f95da1c73"
+        },
+        "valueQuantity": {
+          "value": 4,
+          "unit": "stdglas/v"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:b0dfaa12-f868-4479-a6c0-837e8a02b230",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "b0dfaa12-f868-4479-a6c0-837e8a02b230",
+        "status": "unknown",
+        "code": {
+          "text": "Blodtryck systoliskt - övre"
+        },
+        "subject": {
+          "reference": "urn:uuid:d297b87a-b787-4b39-9ff7-0d8f95da1c73"
+        },
+        "valueQuantity": {
+          "value": 189,
+          "unit": "mmHg"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:fa11ed65-276b-4ef8-9c42-de2413fe30fa",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "fa11ed65-276b-4ef8-9c42-de2413fe30fa",
+        "status": "unknown",
+        "code": {
+          "text": "Blodtryck diastoliskt - nedre"
+        },
+        "subject": {
+          "reference": "urn:uuid:d297b87a-b787-4b39-9ff7-0d8f95da1c73"
+        },
+        "valueQuantity": {
+          "value": 100,
+          "unit": "mmHg"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:f282fe17-57d8-41d0-8306-a02d8d8e8223",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "f282fe17-57d8-41d0-8306-a02d8d8e8223",
+        "status": "unknown",
+        "code": {
+          "text": "Pulsfrekvens"
+        },
+        "subject": {
+          "reference": "urn:uuid:d297b87a-b787-4b39-9ff7-0d8f95da1c73"
+        },
+        "valueQuantity": {
+          "value": 96,
+          "unit": "slag/min"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e33baf58-6f9c-40e8-87a3-229568f2e924",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "e33baf58-6f9c-40e8-87a3-229568f2e924",
+        "status": "unknown",
+        "code": {
+          "text": "Andningsfrekvens"
+        },
+        "subject": {
+          "reference": "urn:uuid:d297b87a-b787-4b39-9ff7-0d8f95da1c73"
+        },
+        "valueQuantity": {
+          "value": 16,
+          "unit": "andetag/min."
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:3a50a0d3-292d-475b-9114-1d08abecc16f",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "3a50a0d3-292d-475b-9114-1d08abecc16f",
+        "status": "unknown",
+        "code": {
+          "text": "Längd"
+        },
+        "subject": {
+          "reference": "urn:uuid:d297b87a-b787-4b39-9ff7-0d8f95da1c73"
+        },
+        "valueQuantity": {
+          "value": 187,
+          "unit": "cm"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:713c48ee-cc5b-4c86-a738-8775f7a9f269",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "713c48ee-cc5b-4c86-a738-8775f7a9f269",
+        "status": "unknown",
+        "code": {
+          "text": "Vikt"
+        },
+        "subject": {
+          "reference": "urn:uuid:d297b87a-b787-4b39-9ff7-0d8f95da1c73"
+        },
+        "valueQuantity": {
+          "value": 86,
+          "unit": "kg"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:0d44d294-a1a1-40b0-94db-6d8c52a33861",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "0d44d294-a1a1-40b0-94db-6d8c52a33861",
+        "status": "unknown",
+        "code": {
+          "text": "Blodtryck systoliskt - övre"
+        },
+        "subject": {
+          "reference": "urn:uuid:d297b87a-b787-4b39-9ff7-0d8f95da1c73"
+        },
+        "valueQuantity": {
+          "value": 180,
+          "unit": "mmHg"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:64eb88e9-fb3a-490f-be1c-cf180b54857f",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "64eb88e9-fb3a-490f-be1c-cf180b54857f",
+        "status": "unknown",
+        "code": {
+          "text": "Blodtryck diastoliskt - nedre"
+        },
+        "subject": {
+          "reference": "urn:uuid:d297b87a-b787-4b39-9ff7-0d8f95da1c73"
+        },
+        "valueQuantity": {
+          "value": 95,
+          "unit": "mmHg"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:0b3ab0bb-6807-44fa-b10d-7c39bc2c3db2",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "0b3ab0bb-6807-44fa-b10d-7c39bc2c3db2",
+        "status": "unknown",
+        "code": {
+          "text": "Pulsfrekvens"
+        },
+        "subject": {
+          "reference": "urn:uuid:d297b87a-b787-4b39-9ff7-0d8f95da1c73"
+        },
+        "valueQuantity": {
+          "value": 60,
+          "unit": "slag/min"
+        }
+      }
+    }
+  ]
+}

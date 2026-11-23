@@ -1,0 +1,606 @@
+{
+  "resourceType": "Bundle",
+  "id": "9606461c-76fd-51e0-92ef-ea9e72ab9782",
+  "meta": {
+    "profile": [
+      "http://hl7.eu/fhir/imaging/StructureDefinition/BundleReportEuImaging"
+    ]
+  },
+  "language": "en",
+  "identifier": {
+    "system": "urn:ietf:rfc:3986",
+    "value": "urn:uuid:dafcf6e4-1b79-54c6-b5d1-d9ffec0a4172"
+  },
+  "type": "document",
+  "timestamp": "2026-11-15T15:05:00+00:00",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:aea6dcb1-8990-5fe1-855d-caa51141a246",
+      "resource": {
+        "resourceType": "Composition",
+        "id": "aea6dcb1-8990-5fe1-855d-caa51141a246",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/imaging/StructureDefinition/CompositionEuImaging"
+          ]
+        },
+        "language": "en",
+        "text": {
+          "status": "generated",
+          "div": "<div xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"><p>Imaging report (synthetic): X-ray of the left knee for Arvid P24-Hackathon, issued by Department of Radiology, Landspitali University Hospital, Reykjavik (simulated for the P24-Hackathon demo).</p><p>Displaced transverse fracture of the left patella with bleeding into the joint. Orthopaedic assessment for surgical fixation is recommended. Synthetic report for an invented person.</p></div>"
+        },
+        "extension": [
+          {
+            "url": "http://hl7.eu/fhir/extensions/StructureDefinition/composition-diagnosticReportReference",
+            "valueReference": {
+              "reference": "urn:uuid:7f35e9f1-1297-5f08-8ab6-b3655f60ec58"
+            }
+          }
+        ],
+        "identifier": {
+          "system": "urn:ietf:rfc:3986",
+          "value": "urn:uuid:63c60c8d-5fb3-583a-bdbc-5123b0baa300"
+        },
+        "status": "final",
+        "type": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "36710-2",
+              "display": "XR Knee - left AP and Lateral"
+            }
+          ],
+          "text": "X-ray of the left knee, two views"
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "85430-7",
+                "display": "Diagnostic imaging report - example sections and entries"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "http://hl7.eu/fhir/health-data-api/CodeSystem/eehrxf-document-priority-category-cs",
+                "code": "Medical-Imaging",
+                "display": "medical imaging studies and related imaging reports"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "urn:uuid:da4ff4d2-13fa-55d4-ae9f-65bed81f696b"
+        },
+        "date": "2026-11-15T15:05:00+00:00",
+        "author": [
+          {
+            "reference": "urn:uuid:61edb577-706e-594a-a1e4-765ebdfc8db0",
+            "display": "Ragnar P24-Hackathon, radiologist (synthetic)"
+          },
+          {
+            "reference": "urn:uuid:a9d61344-e79b-5f33-9753-246da0a9c323",
+            "display": "Department of Radiology, Landspitali University Hospital, Reykjavik (simulated for the P24-Hackathon demo)"
+          }
+        ],
+        "title": "Imaging report (synthetic): X-ray of the left knee",
+        "confidentiality": "N",
+        "attester": [
+          {
+            "mode": "legal",
+            "time": "2026-11-15T15:05:00+00:00",
+            "party": {
+              "reference": "urn:uuid:61edb577-706e-594a-a1e4-765ebdfc8db0",
+              "display": "Ragnar P24-Hackathon, radiologist (synthetic)"
+            }
+          }
+        ],
+        "custodian": {
+          "reference": "urn:uuid:a9d61344-e79b-5f33-9753-246da0a9c323",
+          "display": "Department of Radiology, Landspitali University Hospital, Reykjavik (simulated for the P24-Hackathon demo)"
+        },
+        "section": [
+          {
+            "title": "Imaging study",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "18726-0",
+                  "display": "Radiology studies (set)"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"><table><thead><tr><th>Examination</th><th>Date</th><th>Modality</th><th>Body site</th><th>Performed by</th></tr></thead><tbody><tr><td>X-ray of the left knee, two views</td><td>2026-11-15</td><td>DX (Digital Radiography)</td><td>Left knee</td><td>Department of Radiology, Landspitali University Hospital, Reykjavik (simulated for the P24-Hackathon demo)</td></tr></tbody></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:a63cb71c-55ab-55ed-938c-05dad5b0b008"
+              }
+            ]
+          },
+          {
+            "extension": [
+              {
+                "url": "http://hl7.org/fhir/StructureDefinition/note",
+                "valueAnnotation": {
+                  "text": "Requested by the emergency department: an elderly man fell on ice, with pain, swelling and inability to extend the left knee. Question: fracture?"
+                }
+              }
+            ],
+            "title": "Order",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "55115-0",
+                  "display": "Requested imaging studies information Document"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"><p>Requested by the emergency department: an elderly man fell on ice, with pain, swelling and inability to extend the left knee. Question: fracture?</p></div>"
+            }
+          },
+          {
+            "extension": [
+              {
+                "url": "http://hl7.org/fhir/StructureDefinition/note",
+                "valueAnnotation": {
+                  "text": "On an oral anticoagulant, insulin-treated diabetes and hypertension; left-sided weakness after an earlier stroke. No earlier knee surgery. Known from the patient's Swedish patient summary."
+                }
+              }
+            ],
+            "title": "History",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "11329-0",
+                  "display": "History general Narrative - Reported"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"><p>On an oral anticoagulant, insulin-treated diabetes and hypertension; left-sided weakness after an earlier stroke. No earlier knee surgery. Known from the patient's Swedish patient summary.</p></div>"
+            }
+          },
+          {
+            "extension": [
+              {
+                "url": "http://hl7.org/fhir/StructureDefinition/note",
+                "valueAnnotation": {
+                  "text": "Anteroposterior and lateral projections of the left knee, taken supine in the emergency department. No contrast medium. Image quality adequate."
+                }
+              }
+            ],
+            "title": "Procedure",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "55111-9",
+                  "display": "Current imaging procedure descriptions Document"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"><p>Anteroposterior and lateral projections of the left knee, taken supine in the emergency department. No contrast medium. Image quality adequate.</p></div>"
+            }
+          },
+          {
+            "title": "Findings",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "59776-5",
+                  "display": "Procedure findings Narrative"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"><table><thead><tr><th>Finding</th><th>Description</th></tr></thead><tbody><tr><td>Closed fracture of patella</td><td>Transverse fracture through the middle third of the left patella, with the fragments 8 mm apart and a step in the joint surface.</td></tr><tr><td>Knee joint effusion</td><td>Moderate joint effusion with a fat-fluid level, consistent with bleeding into the joint. No fracture of the femur, tibia or fibula. Mild degenerative changes.</td></tr></tbody></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:a3f013c3-09a0-5aad-a527-ad228fd72565"
+              },
+              {
+                "reference": "urn:uuid:7b79efa1-e5b6-52ff-b29b-1d9944309e82"
+              }
+            ]
+          },
+          {
+            "extension": [
+              {
+                "url": "http://hl7.org/fhir/StructureDefinition/note",
+                "valueAnnotation": {
+                  "text": "Displaced transverse fracture of the left patella with bleeding into the joint. Orthopaedic assessment for surgical fixation is recommended. Synthetic report for an invented person."
+                }
+              }
+            ],
+            "title": "Impression",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "19005-8",
+                  "display": "Radiology Imaging study [Impression] (narrative)"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"><p>Displaced transverse fracture of the left patella with bleeding into the joint. Orthopaedic assessment for surgical fixation is recommended. Synthetic report for an invented person.</p></div>"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:da4ff4d2-13fa-55d4-ae9f-65bed81f696b",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "da4ff4d2-13fa-55d4-ae9f-65bed81f696b",
+        "meta": {
+          "tag": [
+            {
+              "system": "https://platform24.com/fhir/CodeSystem/data-origin",
+              "code": "p24-hackathon-synthetic",
+              "display": "Synthetic test patient (Platform24, Nordic EHDS hackathon)"
+            }
+          ],
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/patient-eu-core"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "https://platform24.com/fhir/identifier/hackathon-persona",
+            "value": "p24-hackathon-arne-knee"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "use": "official",
+            "text": "Arvid P24-Hackathon",
+            "family": "P24-Hackathon",
+            "given": [
+              "Arvid"
+            ]
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1946-03-14"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a9d61344-e79b-5f33-9753-246da0a9c323",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "a9d61344-e79b-5f33-9753-246da0a9c323",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/organization-eu-core"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "https://platform24.com/fhir/identifier/hackathon-organization",
+            "value": "p24-hackathon-radiology-reykjavik"
+          }
+        ],
+        "name": "Department of Radiology, Landspitali University Hospital, Reykjavik (simulated for the P24-Hackathon demo)",
+        "address": [
+          {
+            "city": "Reykjavik",
+            "country": "IS"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:61edb577-706e-594a-a1e4-765ebdfc8db0",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "61edb577-706e-594a-a1e4-765ebdfc8db0",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/practitioner-eu-core"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "https://platform24.com/fhir/identifier/hackathon-practitioner",
+            "value": "p24-hackathon-radiologist"
+          }
+        ],
+        "name": [
+          {
+            "use": "official",
+            "text": "Ragnar P24-Hackathon, radiologist (synthetic)",
+            "family": "P24-Hackathon",
+            "given": [
+              "Ragnar"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a63cb71c-55ab-55ed-938c-05dad5b0b008",
+      "resource": {
+        "resourceType": "ImagingStudy",
+        "id": "a63cb71c-55ab-55ed-938c-05dad5b0b008",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/imaging/StructureDefinition/ImagingStudyEuImaging"
+          ]
+        },
+        "identifier": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://dicom.nema.org/resources/ontology/DCM",
+                  "code": "110180",
+                  "display": "Study Instance UID"
+                }
+              ]
+            },
+            "system": "urn:dicom:uid",
+            "value": "urn:oid:2.25.230802770053732864639890931173614314077"
+          }
+        ],
+        "status": "available",
+        "modality": [
+          {
+            "system": "http://dicom.nema.org/resources/ontology/DCM",
+            "code": "DX",
+            "display": "Digital Radiography"
+          }
+        ],
+        "subject": {
+          "reference": "urn:uuid:da4ff4d2-13fa-55d4-ae9f-65bed81f696b"
+        },
+        "started": "2026-11-15T14:35:00+00:00",
+        "numberOfSeries": 1,
+        "numberOfInstances": 2,
+        "description": "X-ray of the left knee, two views",
+        "series": [
+          {
+            "uid": "2.25.230802770053732864639890931173614314077.1",
+            "number": 1,
+            "modality": {
+              "system": "http://dicom.nema.org/resources/ontology/DCM",
+              "code": "DX",
+              "display": "Digital Radiography"
+            },
+            "description": "AP and lateral",
+            "numberOfInstances": 2,
+            "bodySite": {
+              "system": "http://snomed.info/sct",
+              "code": "82169009",
+              "display": "Structure of left knee region"
+            },
+            "started": "2026-11-15T14:35:00+00:00"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a3f013c3-09a0-5aad-a527-ad228fd72565",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "a3f013c3-09a0-5aad-a527-ad228fd72565",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/imaging/StructureDefinition/ObservationFindingEuImaging"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "imaging",
+                "display": "Imaging"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "80756009",
+              "display": "Closed fracture of patella"
+            }
+          ],
+          "text": "Closed fracture of patella"
+        },
+        "subject": {
+          "reference": "urn:uuid:da4ff4d2-13fa-55d4-ae9f-65bed81f696b"
+        },
+        "effectiveDateTime": "2026-11-15T14:35:00+00:00",
+        "performer": [
+          {
+            "reference": "urn:uuid:61edb577-706e-594a-a1e4-765ebdfc8db0",
+            "display": "Ragnar P24-Hackathon, radiologist (synthetic)"
+          }
+        ],
+        "valueString": "Transverse fracture through the middle third of the left patella, with the fragments 8 mm apart and a step in the joint surface.",
+        "bodySite": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "82169009",
+              "display": "Structure of left knee region"
+            }
+          ],
+          "text": "Left knee"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:7b79efa1-e5b6-52ff-b29b-1d9944309e82",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "7b79efa1-e5b6-52ff-b29b-1d9944309e82",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/imaging/StructureDefinition/ObservationFindingEuImaging"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "imaging",
+                "display": "Imaging"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "202381003",
+              "display": "Knee joint effusion"
+            }
+          ],
+          "text": "Knee joint effusion"
+        },
+        "subject": {
+          "reference": "urn:uuid:da4ff4d2-13fa-55d4-ae9f-65bed81f696b"
+        },
+        "effectiveDateTime": "2026-11-15T14:35:00+00:00",
+        "performer": [
+          {
+            "reference": "urn:uuid:61edb577-706e-594a-a1e4-765ebdfc8db0",
+            "display": "Ragnar P24-Hackathon, radiologist (synthetic)"
+          }
+        ],
+        "valueString": "Moderate joint effusion with a fat-fluid level, consistent with bleeding into the joint. No fracture of the femur, tibia or fibula. Mild degenerative changes.",
+        "bodySite": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "82169009",
+              "display": "Structure of left knee region"
+            }
+          ],
+          "text": "Left knee"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:7f35e9f1-1297-5f08-8ab6-b3655f60ec58",
+      "resource": {
+        "resourceType": "DiagnosticReport",
+        "id": "7f35e9f1-1297-5f08-8ab6-b3655f60ec58",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/imaging/StructureDefinition/DiagnosticReportEuImaging"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-DiagnosticReport.composition",
+            "valueReference": {
+              "reference": "urn:uuid:aea6dcb1-8990-5fe1-855d-caa51141a246"
+            }
+          }
+        ],
+        "identifier": [
+          {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:uuid:7a68802b-be7a-5057-aa93-225bfdd5f654"
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "85430-7",
+                "display": "Diagnostic imaging report - example sections and entries"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "http://hl7.eu/fhir/health-data-api/CodeSystem/eehrxf-document-priority-category-cs",
+                "code": "Medical-Imaging",
+                "display": "medical imaging studies and related imaging reports"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "74016001",
+              "display": "Radiologic examination of knee"
+            },
+            {
+              "system": "http://loinc.org",
+              "code": "36710-2",
+              "display": "XR Knee - left AP and Lateral"
+            }
+          ],
+          "text": "X-ray of the left knee, two views"
+        },
+        "subject": {
+          "reference": "urn:uuid:da4ff4d2-13fa-55d4-ae9f-65bed81f696b"
+        },
+        "effectiveDateTime": "2026-11-15T14:35:00+00:00",
+        "issued": "2026-11-15T15:05:00+00:00",
+        "performer": [
+          {
+            "reference": "urn:uuid:a9d61344-e79b-5f33-9753-246da0a9c323",
+            "display": "Department of Radiology, Landspitali University Hospital, Reykjavik (simulated for the P24-Hackathon demo)"
+          }
+        ],
+        "resultsInterpreter": [
+          {
+            "reference": "urn:uuid:61edb577-706e-594a-a1e4-765ebdfc8db0",
+            "display": "Ragnar P24-Hackathon, radiologist (synthetic)"
+          }
+        ],
+        "imagingStudy": [
+          {
+            "reference": "urn:uuid:a63cb71c-55ab-55ed-938c-05dad5b0b008"
+          }
+        ],
+        "result": [
+          {
+            "reference": "urn:uuid:a3f013c3-09a0-5aad-a527-ad228fd72565"
+          },
+          {
+            "reference": "urn:uuid:7b79efa1-e5b6-52ff-b29b-1d9944309e82"
+          }
+        ],
+        "conclusion": "Displaced transverse fracture of the left patella with bleeding into the joint. Orthopaedic assessment for surgical fixation is recommended. Synthetic report for an invented person."
+      }
+    }
+  ]
+}

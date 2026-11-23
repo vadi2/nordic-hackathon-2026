@@ -1,0 +1,76 @@
+{
+  "status": "candidate_not_officially_validated",
+  "mapping_version": "0.1.0",
+  "eps_package_required_for_official_validation": "hl7.fhir.eu.eps#1.0.0-ballot",
+  "source_records": {
+    "aktiviteter4": 1,
+    "batch4": 1,
+    "vardokument4": 1,
+    "vitala10": 1,
+    "vitala11": 1
+  },
+  "ehds_coverage_counts": {
+    "medicationSummary.medicationUse": 0,
+    "problemList.problem": 6,
+    "observationResults.result": 21,
+    "procedures.procedure": 0,
+    "planOfCare": 0
+  },
+  "ehds_reference_urls": {
+    "logical_model_url": "https://www.xt-ehr.eu/fhir/models/en/StructureDefinition-EHDSPatientSummary.html",
+    "model_map_url": "https://hl7.eu/fhir/eps/map-ehdspatientsummary.html"
+  },
+  "ignored_sources": [
+    {
+      "source_index": 0,
+      "record_type": "aktiviteter4",
+      "kind": "unmapped"
+    },
+    {
+      "source_index": 1,
+      "record_type": "batch4",
+      "kind": "unmapped"
+    },
+    {
+      "source_index": 3,
+      "record_type": "vitala10",
+      "kind": "unmapped"
+    },
+    {
+      "source_index": 4,
+      "record_type": "vitala11",
+      "kind": "unmapped"
+    }
+  ],
+  "clinical_review": [],
+  "fhir": {
+    "resource_counts": {
+      "Composition": 1,
+      "Patient": 1,
+      "Organization": 1,
+      "Condition": 6
+    },
+    "resource_source_paths": {
+      "urn:uuid:0a62d732-87bd-5d06-b4a1-297959ba9eb4": "$.patientId",
+      "urn:uuid:8e41b6f2-5ac2-5cfd-9fb5-c2001164dda8": "$.sources[2].records[2].keywords[28].values[0]",
+      "urn:uuid:a1a67886-68d3-5b05-a2ea-8e946fef92b9": "$.sources[2].records[3].keywords[11].values[0]",
+      "urn:uuid:37fe109c-3273-5ffd-b5e3-9756703bafdf": "$.sources[2].records[4].keywords[11].values[0]",
+      "urn:uuid:1a87b672-5f15-5f21-8f86-92a97ad8953a": "$.sources[2].records[5].keywords[11].values[0]",
+      "urn:uuid:9ff59272-4fdc-5960-a835-f9cdafa25526": "$.sources[2].records[6].keywords[11].values[0]",
+      "urn:uuid:3eb4099c-5df1-55c2-82a6-527f29ef66a6": "$.sources[2].records[7].keywords[11].values[0]"
+    },
+    "vitals_as_narrative": true
+  },
+  "eps_package_inspection": {},
+  "snomed": {
+    "enabled": false,
+    "results": [],
+    "verified_mappings": {},
+    "note": "No approved SNOMED mappings configured; source codes retained unchanged."
+  },
+  "notes": [
+    "EHDS model mappings are curated, not executed automatically from web pages.",
+    "Only explicitly reviewed SNOMED mappings are checked; no diagnosis is inferred.",
+    "Run the official HL7 validator independently."
+  ]
+}

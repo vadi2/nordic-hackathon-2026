@@ -1,0 +1,763 @@
+{
+    "resourceType": "Bundle",
+    "id": "bdc0785e-3f5f-4d46-a6d2-18989be13a01",
+    "meta": {
+        "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/bundle-eu-eps"
+        ]
+    },
+    "language": "de-CH",
+    "identifier": {
+        "system": "urn:ietf:rfc:3986",
+        "value": "urn:uuid:bdc0785e-3f5f-4d46-a6d2-18989be13a01"
+    },
+    "type": "document",
+    "timestamp": "2026-11-20T10:16:33+01:00",
+    "entry": [
+        {
+            "fullUrl": "http://test.fhir.ch/r4/Composition/42c18a62-ef48-48d5-90fd-9d3f85d51695",
+            "resource": {
+                "resourceType": "Composition",
+                "id": "42c18a62-ef48-48d5-90fd-9d3f85d51695",
+                "meta": {
+                    "profile": [
+                        "http://hl7.eu/fhir/eps/StructureDefinition/composition-eu-eps"
+                    ]
+                },
+                "language": "de-CH",
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Patientenzusammenfassung – Claudia Steiner</p><p>Dr. med. Ursula Gerber, Hausarztpraxis Basel Bühler, 2026-08-07</p></div>"
+                },
+                "identifier": {
+                    "system": "urn:ietf:rfc:3986",
+                    "value": "urn:uuid:8d72deb0-9225-4051-a99e-bb2418fe3092"
+                },
+                "status": "final",
+                "type": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "60591-5",
+                            "display": "Patient summary Document"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "http://test.fhir.ch/r4/Patient/89a2688b-12c1-46e0-9998-5f15ff002d4d"
+                },
+                "date": "2026-08-07T12:12:00+02:00",
+                "author": [
+                    {
+                        "reference": "http://test.fhir.ch/r4/PractitionerRole/341ef40b-57c7-40aa-b7b5-6ea735ebd32d"
+                    }
+                ],
+                "title": "Patientenzusammenfassung – Claudia Steiner",
+                "confidentiality": "N",
+                "custodian": {
+                    "reference": "http://test.fhir.ch/r4/Organization/9c96e9ec-4d71-4366-b41b-31438b10550c"
+                },
+                "relatesTo": [
+                    {
+                        "code": "transforms",
+                        "targetIdentifier": {
+                            "system": "urn:ietf:rfc:3986",
+                            "value": "urn:uuid:6808593f-dfed-4c43-a256-a6dc8f5486b7"
+                        }
+                    }
+                ],
+                "event": [
+                    {
+                        "code": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://terminology.hl7.org/CodeSystem/v3-ActClass",
+                                        "code": "PCPR",
+                                        "display": "care provision"
+                                    }
+                                ]
+                            }
+                        ],
+                        "period": {
+                            "end": "2026-08-07T12:12:00+02:00"
+                        }
+                    }
+                ],
+                "section": [
+                    {
+                        "title": "Medikation",
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "http://loinc.org",
+                                    "code": "10160-0",
+                                    "display": "History of Medication use Narrative"
+                                }
+                            ]
+                        },
+                        "text": {
+                            "status": "generated",
+                            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Rivaroxaban 20 mg Filmtabletten: 1 abends</li></ul></div>"
+                        },
+                        "entry": [
+                            {
+                                "reference": "http://test.fhir.ch/r4/MedicationStatement/6e068097-25e9-4977-8d72-48e2951f58d0"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Allergien und Intoleranzen",
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "http://loinc.org",
+                                    "code": "48765-2",
+                                    "display": "Allergies and adverse reactions Document"
+                                }
+                            ]
+                        },
+                        "text": {
+                            "status": "generated",
+                            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Keine bekannten Allergien</li></ul></div>"
+                        },
+                        "entry": [
+                            {
+                                "reference": "http://test.fhir.ch/r4/AllergyIntolerance/f1eedba3-1343-4e61-9ca3-c4480279b6a6"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Aktuelle Probleme",
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "http://loinc.org",
+                                    "code": "11450-4",
+                                    "display": "Problem list - Reported"
+                                }
+                            ]
+                        },
+                        "text": {
+                            "status": "generated",
+                            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Vorhofflimmern (seit 2014)</li></ul></div>"
+                        },
+                        "entry": [
+                            {
+                                "reference": "http://test.fhir.ch/r4/Condition/b4a69f3c-8d3a-4d99-b11c-21c9bdc14f1f"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Frühere Eingriffe",
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "http://loinc.org",
+                                    "code": "47519-4",
+                                    "display": "History of Procedures Document"
+                                }
+                            ]
+                        },
+                        "text": {
+                            "status": "generated",
+                            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Hüft-Totalprothese (2024)</li></ul></div>"
+                        },
+                        "entry": [
+                            {
+                                "reference": "http://test.fhir.ch/r4/Procedure/5d59cd2a-4eea-44e7-8ab5-4bde20a04502"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Medizinprodukte",
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "http://loinc.org",
+                                    "code": "46264-8",
+                                    "display": "History of medical device use"
+                                }
+                            ]
+                        },
+                        "text": {
+                            "status": "generated",
+                            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Hüftprothese (seit 2024)</li></ul></div>"
+                        },
+                        "entry": [
+                            {
+                                "reference": "http://test.fhir.ch/r4/DeviceUseStatement/5b9962c6-e61f-4cc0-8a36-8ce7dc570131"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "http://test.fhir.ch/r4/Patient/89a2688b-12c1-46e0-9998-5f15ff002d4d",
+            "resource": {
+                "resourceType": "Patient",
+                "id": "89a2688b-12c1-46e0-9998-5f15ff002d4d",
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Claudia Steiner</li><li>1947-11-11 (female)</li><li>4051 Basel</li></ul></div>"
+                },
+                "identifier": [
+                    {
+                        "type": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                                    "code": "MR",
+                                    "display": "Medical record number"
+                                }
+                            ]
+                        },
+                        "system": "urn:oid:2.999.756.1.423",
+                        "value": "19736572"
+                    }
+                ],
+                "name": [
+                    {
+                        "use": "official",
+                        "family": "Steiner",
+                        "given": [
+                            "Claudia"
+                        ]
+                    }
+                ],
+                "telecom": [
+                    {
+                        "system": "phone",
+                        "value": "+41 79 000 60 26",
+                        "use": "mobile"
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1947-11-11",
+                "address": [
+                    {
+                        "use": "home",
+                        "line": [
+                            "Gartenweg 83"
+                        ],
+                        "city": "Basel",
+                        "postalCode": "4051",
+                        "country": "CH"
+                    }
+                ],
+                "maritalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://fhir.ch/ig/ch-core/CodeSystem/ech-11-maritalstatus",
+                            "code": "6",
+                            "display": "in eingetragener Partnerschaft"
+                        },
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+                            "code": "T",
+                            "display": "Domestic partner"
+                        }
+                    ]
+                },
+                "communication": [
+                    {
+                        "language": {
+                            "coding": [
+                                {
+                                    "system": "urn:ietf:bcp:47",
+                                    "code": "de-CH"
+                                }
+                            ]
+                        },
+                        "preferred": true
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "http://test.fhir.ch/r4/Organization/9c96e9ec-4d71-4366-b41b-31438b10550c",
+            "resource": {
+                "resourceType": "Organization",
+                "id": "9c96e9ec-4d71-4366-b41b-31438b10550c",
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Hausarztpraxis Basel Bühler</li></ul></div>"
+                },
+                "identifier": [
+                    {
+                        "system": "urn:oid:2.51.1.3",
+                        "value": "7601999425138"
+                    }
+                ],
+                "name": "Hausarztpraxis Basel Bühler",
+                "telecom": [
+                    {
+                        "system": "phone",
+                        "value": "+41 68 000 46 30",
+                        "use": "work"
+                    }
+                ],
+                "address": [
+                    {
+                        "line": [
+                            "Kirchweg 54"
+                        ],
+                        "city": "Basel",
+                        "postalCode": "4051",
+                        "country": "CH"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "http://test.fhir.ch/r4/Practitioner/9ad620ab-4821-4ddb-85b8-9cd927cb6f2a",
+            "resource": {
+                "resourceType": "Practitioner",
+                "id": "9ad620ab-4821-4ddb-85b8-9cd927cb6f2a",
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Dr. med. Ursula Gerber</li></ul></div>"
+                },
+                "identifier": [
+                    {
+                        "system": "urn:oid:2.51.1.3",
+                        "value": "7601999241189"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "Gerber",
+                        "given": [
+                            "Ursula"
+                        ],
+                        "prefix": [
+                            "Dr. med."
+                        ]
+                    }
+                ],
+                "gender": "female"
+            }
+        },
+        {
+            "fullUrl": "http://test.fhir.ch/r4/PractitionerRole/341ef40b-57c7-40aa-b7b5-6ea735ebd32d",
+            "resource": {
+                "resourceType": "PractitionerRole",
+                "id": "341ef40b-57c7-40aa-b7b5-6ea735ebd32d",
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Dr. med. Ursula Gerber</li></ul></div>"
+                },
+                "practitioner": {
+                    "reference": "http://test.fhir.ch/r4/Practitioner/9ad620ab-4821-4ddb-85b8-9cd927cb6f2a"
+                },
+                "organization": {
+                    "reference": "http://test.fhir.ch/r4/Organization/9c96e9ec-4d71-4366-b41b-31438b10550c"
+                },
+                "code": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://snomed.info/sct",
+                                "code": "309343006",
+                                "display": "Physician"
+                            }
+                        ]
+                    }
+                ],
+                "specialty": [
+                    {
+                        "coding": [
+                            {
+                                "system": "urn:oid:2.16.756.5.30.1.127.3.5",
+                                "code": "1040",
+                                "display": "General medical practitioner"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "http://test.fhir.ch/r4/Condition/b4a69f3c-8d3a-4d99-b11c-21c9bdc14f1f",
+            "resource": {
+                "resourceType": "Condition",
+                "id": "b4a69f3c-8d3a-4d99-b11c-21c9bdc14f1f",
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Atrial fibrillation</li></ul></div>"
+                },
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active",
+                            "display": "Active"
+                        }
+                    ]
+                },
+                "verificationStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+                            "code": "confirmed",
+                            "display": "Confirmed"
+                        }
+                    ]
+                },
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                                "code": "problem-list-item",
+                                "display": "Problem List Item"
+                            }
+                        ]
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "49436004",
+                            "display": "Atrial fibrillation"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "http://test.fhir.ch/r4/Patient/89a2688b-12c1-46e0-9998-5f15ff002d4d"
+                },
+                "onsetDateTime": "2014-10-15",
+                "recordedDate": "2014-10-15"
+            }
+        },
+        {
+            "fullUrl": "http://test.fhir.ch/r4/AllergyIntolerance/f1eedba3-1343-4e61-9ca3-c4480279b6a6",
+            "resource": {
+                "resourceType": "AllergyIntolerance",
+                "id": "f1eedba3-1343-4e61-9ca3-c4480279b6a6",
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Keine bekannten Allergien</li></ul></div>"
+                },
+                "clinicalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+                            "code": "active",
+                            "display": "Active"
+                        }
+                    ]
+                },
+                "verificationStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+                            "code": "confirmed",
+                            "display": "Confirmed"
+                        }
+                    ]
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "716186003",
+                            "display": "No known allergy (situation)"
+                        }
+                    ]
+                },
+                "patient": {
+                    "reference": "http://test.fhir.ch/r4/Patient/89a2688b-12c1-46e0-9998-5f15ff002d4d"
+                },
+                "recordedDate": "2026-08-07"
+            }
+        },
+        {
+            "fullUrl": "http://test.fhir.ch/r4/Medication/5e84f058-d5a8-44eb-8939-23de8babce3b",
+            "resource": {
+                "resourceType": "Medication",
+                "id": "5e84f058-d5a8-44eb-8939-23de8babce3b",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://www.whocc.no/atc",
+                            "code": "B01AF01",
+                            "display": "rivaroxaban"
+                        }
+                    ],
+                    "text": "Rivaroxaban 20 mg Filmtabletten"
+                },
+                "form": {
+                    "coding": [
+                        {
+                            "system": "http://standardterms.edqm.eu",
+                            "code": "10221000",
+                            "display": "Film-coated tablet"
+                        }
+                    ],
+                    "text": "Film-coated tablet"
+                },
+                "amount": {
+                    "numerator": {
+                        "value": 28,
+                        "unit": "Tablet (unit of presentation)",
+                        "system": "http://snomed.info/sct",
+                        "code": "732936001"
+                    },
+                    "denominator": {
+                        "value": 1,
+                        "unit": "Package - unit of product usage (qualifier value)",
+                        "system": "http://snomed.info/sct",
+                        "code": "1681000175101"
+                    }
+                },
+                "ingredient": [
+                    {
+                        "itemCodeableConcept": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "442031002",
+                                    "display": "Rivaroxaban (substance)"
+                                }
+                            ],
+                            "text": "Rivaroxaban"
+                        },
+                        "isActive": true,
+                        "strength": {
+                            "numerator": {
+                                "value": 20,
+                                "unit": "mg",
+                                "system": "http://unitsofmeasure.org",
+                                "code": "mg"
+                            },
+                            "denominator": {
+                                "value": 1,
+                                "unit": "Tablet (unit of presentation)",
+                                "system": "http://snomed.info/sct",
+                                "code": "732936001"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "http://test.fhir.ch/r4/MedicationStatement/6e068097-25e9-4977-8d72-48e2951f58d0",
+            "resource": {
+                "resourceType": "MedicationStatement",
+                "id": "6e068097-25e9-4977-8d72-48e2951f58d0",
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Rivaroxaban 20 mg Filmtabletten</li><li>1 abends</li></ul></div>"
+                },
+                "status": "active",
+                "medicationReference": {
+                    "reference": "http://test.fhir.ch/r4/Medication/5e84f058-d5a8-44eb-8939-23de8babce3b"
+                },
+                "subject": {
+                    "reference": "http://test.fhir.ch/r4/Patient/89a2688b-12c1-46e0-9998-5f15ff002d4d"
+                },
+                "effectivePeriod": {
+                    "start": "2014-10-15"
+                },
+                "dosage": [
+                    {
+                        "text": "1 abends",
+                        "timing": {
+                            "repeat": {
+                                "boundsPeriod": {
+                                    "start": "2014-10-15"
+                                },
+                                "when": [
+                                    "EVE"
+                                ]
+                            }
+                        },
+                        "route": {
+                            "coding": [
+                                {
+                                    "system": "http://standardterms.edqm.eu",
+                                    "code": "20053000",
+                                    "display": "Oral use"
+                                }
+                            ],
+                            "text": "zum Einnehmen"
+                        },
+                        "doseAndRate": [
+                            {
+                                "doseQuantity": {
+                                    "value": 1,
+                                    "unit": "Tablet (unit of presentation)",
+                                    "system": "http://snomed.info/sct",
+                                    "code": "732936001"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "http://test.fhir.ch/r4/Procedure/5d59cd2a-4eea-44e7-8ab5-4bde20a04502",
+            "resource": {
+                "resourceType": "Procedure",
+                "id": "5d59cd2a-4eea-44e7-8ab5-4bde20a04502",
+                "meta": {
+                    "profile": [
+                        "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+                    ]
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Hüft-Totalprothese (2024-12-20)</li></ul></div>"
+                },
+                "status": "completed",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "52734007",
+                            "display": "Total replacement of hip"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "http://test.fhir.ch/r4/Patient/89a2688b-12c1-46e0-9998-5f15ff002d4d"
+                },
+                "performedDateTime": "2024-12-20"
+            }
+        },
+        {
+            "fullUrl": "http://test.fhir.ch/r4/Device/f8e1daa7-cbce-4bde-aede-db07e623a689",
+            "resource": {
+                "resourceType": "Device",
+                "id": "f8e1daa7-cbce-4bde-aede-db07e623a689",
+                "meta": {
+                    "profile": [
+                        "http://hl7.org/fhir/uv/ips/StructureDefinition/Device-uv-ips"
+                    ]
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Hüftprothese</li></ul></div>"
+                },
+                "type": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "304120007",
+                            "display": "Total hip replacement prosthesis"
+                        }
+                    ]
+                },
+                "patient": {
+                    "reference": "http://test.fhir.ch/r4/Patient/89a2688b-12c1-46e0-9998-5f15ff002d4d"
+                }
+            }
+        },
+        {
+            "fullUrl": "http://test.fhir.ch/r4/DeviceUseStatement/5b9962c6-e61f-4cc0-8a36-8ce7dc570131",
+            "resource": {
+                "resourceType": "DeviceUseStatement",
+                "id": "5b9962c6-e61f-4cc0-8a36-8ce7dc570131",
+                "meta": {
+                    "profile": [
+                        "http://hl7.org/fhir/uv/ips/StructureDefinition/DeviceUseStatement-uv-ips"
+                    ]
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Hüftprothese (seit 2024)</li></ul></div>"
+                },
+                "status": "active",
+                "subject": {
+                    "reference": "http://test.fhir.ch/r4/Patient/89a2688b-12c1-46e0-9998-5f15ff002d4d"
+                },
+                "derivedFrom": [
+                    {
+                        "reference": "http://test.fhir.ch/r4/Procedure/5d59cd2a-4eea-44e7-8ab5-4bde20a04502"
+                    }
+                ],
+                "timingDateTime": "2024-12-20",
+                "device": {
+                    "reference": "http://test.fhir.ch/r4/Device/f8e1daa7-cbce-4bde-aede-db07e623a689"
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:10473e44-4e1a-41aa-95bb-5794ffefe097",
+            "resource": {
+                "resourceType": "Provenance",
+                "id": "10473e44-4e1a-41aa-95bb-5794ffefe097",
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Converted from the CH IPS document urn:uuid:ee0caeb5-ecfe-4b99-a790-cebdbfddc3d9 to an EPS document by epsofacto 0.1.0-SNAPSHOT on 2026-11-20T10:16:33+01:00.</p></div>"
+                },
+                "contained": [
+                    {
+                        "resourceType": "Device",
+                        "id": "converter",
+                        "deviceName": [
+                            {
+                                "name": "epsofacto",
+                                "type": "user-friendly-name"
+                            }
+                        ],
+                        "version": [
+                            {
+                                "value": "0.1.0-SNAPSHOT"
+                            }
+                        ]
+                    }
+                ],
+                "target": [
+                    {
+                        "reference": "http://test.fhir.ch/r4/Composition/42c18a62-ef48-48d5-90fd-9d3f85d51695"
+                    }
+                ],
+                "recorded": "2026-11-20T10:16:33+01:00",
+                "activity": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/iso-21089-lifecycle",
+                            "code": "transform",
+                            "display": "Transform/Translate Record Lifecycle Event"
+                        }
+                    ]
+                },
+                "agent": [
+                    {
+                        "type": {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/provenance-participant-type",
+                                    "code": "assembler",
+                                    "display": "Assembler"
+                                }
+                            ]
+                        },
+                        "who": {
+                            "reference": "#converter",
+                            "display": "epsofacto 0.1.0-SNAPSHOT"
+                        }
+                    }
+                ],
+                "entity": [
+                    {
+                        "role": "source",
+                        "what": {
+                            "identifier": {
+                                "system": "urn:ietf:rfc:3986",
+                                "value": "urn:uuid:ee0caeb5-ecfe-4b99-a790-cebdbfddc3d9"
+                            },
+                            "display": "Source CH IPS document"
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

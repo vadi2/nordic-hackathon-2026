@@ -1,0 +1,2049 @@
+{
+  "resourceType": "Bundle",
+  "id": "770a4108-3709-46c0-9fcb-56e16d5a91c7",
+  "meta": {
+    "profile": [
+      "http://hl7.eu/fhir/hdr/StructureDefinition/bundle-eu-hdr"
+    ]
+  },
+  "language": "en",
+  "identifier": {
+    "system": "urn:ietf:rfc:3986",
+    "value": "urn:uuid:770a4108-3709-46c0-9fcb-56e16d5a91c7"
+  },
+  "type": "document",
+  "timestamp": "2026-11-18T21:05:38+01:00",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:758ca410-32f3-596f-85fd-da493506c33f",
+      "resource": {
+        "resourceType": "Composition",
+        "id": "758ca410-32f3-596f-85fd-da493506c33f",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/hdr/StructureDefinition/composition-eu-hdr"
+          ]
+        },
+        "identifier": {
+          "system": "urn:ietf:rfc:3986",
+          "value": "urn:uuid:758ca410-32f3-596f-85fd-da493506c33f"
+        },
+        "status": "final",
+        "type": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "34105-7",
+              "display": "Hospital Discharge summary"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:caf1fdf3-6f1d-5026-8aa6-8fabc937a889"
+        },
+        "encounter": {
+          "reference": "urn:uuid:ce14ae03-be1a-5103-b9b9-891bc4a3e825"
+        },
+        "date": "2026-11-18T21:05:38+01:00",
+        "author": [
+          {
+            "reference": "urn:uuid:718ab3e1-6eaa-5454-832e-e0c1d02aa8da"
+          }
+        ],
+        "title": "Hospital discharge report",
+        "custodian": {
+          "reference": "urn:uuid:b33a8fae-9f7a-567c-94c4-005ad9c46455"
+        },
+        "section": [
+          {
+            "title": "Discharge summary",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "18842-5",
+                  "display": "Discharge summary"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Discharge summary</b> 2026-11-16</p><p>Admitted through the emergency department on 9 November 2026 after a fall while visiting his son in Copenhagen. X-ray showed a fracture of the neck of the femur.</p><p>His Swedish patient summary was received before surgery. Because of his penicillin allergy another antibiotic was given, his anticoagulant treatment was taken into account and bleeding prepared for, and the anaesthesia was adapted to his heart failure and emphysema.</p><p>Operated on 10 November 2026. The course after the operation was without complications.</p><p>Discharged on 16 November 2026 in a stable condition. His regular medication - insulin, blood-pressure medication and anticoagulant - continues. Recommended after discharge: rehabilitation of the hip and follow-up by his health centre in Sweden.</p></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:4b552e17-5f6a-5fcd-89ed-a2f3fb1b6492"
+              }
+            ]
+          },
+          {
+            "title": "Alerts",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "104605-1"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><thead><tr><th>Entry</th><th>Date</th><th>Details</th></tr></thead><tbody><tr><td>Anticoagulant treatment - bleeding risk</td><td>2017-10-05</td><td>Status: active; Category: Drug; Priority: High priority; Apixaban for atrial fibrillation - check before any procedure or injection.</td></tr></tbody></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:2bdd6c90-505a-5a5c-8bfa-41243dd89592"
+              }
+            ]
+          },
+          {
+            "title": "Allergies and intolerances",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "48765-2",
+                  "display": "Allergies and adverse reactions Document"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><thead><tr><th>Entry</th><th>Date</th><th>Details</th></tr></thead><tbody><tr><td>Birch pollen</td><td>1988-04-02</td><td>Clinical status: Active; Criticality: low; Reactions: Rhinoconjunctivitis</td></tr><tr><td>Penicillin</td><td>1972-06-18</td><td>Clinical status: Active; Criticality: high; Reactions: Anaphylaxis</td></tr></tbody></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:9475652c-64bd-5ca4-bfde-4126a713988d"
+              },
+              {
+                "reference": "urn:uuid:ab2bf8bf-1ae6-591e-be23-0f7251b709c9"
+              }
+            ]
+          },
+          {
+            "title": "Diagnostic summary",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "11535-2",
+                  "display": "Hospital discharge diagnosis note"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><thead><tr><th>Entry</th><th>Date</th><th>Details</th></tr></thead><tbody><tr><td>Fracture of neck of femur</td><td>2026-11-09</td><td>Certainty: Confirmed; After a fall on 9 November 2026; operated the day after.</td></tr></tbody></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:68cee4cc-166f-5f2f-b38a-a1a45c9c606f"
+              }
+            ]
+          },
+          {
+            "title": "Significant procedures",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "10185-7",
+                  "display": "Hospital discharge procedure note"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><thead><tr><th>Entry</th><th>Date</th><th>Details</th></tr></thead><tbody><tr><td>Operation of the fractured hip</td><td>2026-11-10</td><td>Operation report: the fractured hip operated on 10 November 2026, the anaesthesia adapted to his heart failure and emphysema. Clindamycin was given before the operation instead of a penicillin because of his penicillin allergy. Apixaban was paused before the operation and bleeding prepared for; the blood loss was as expected and no transfusion was needed. No complications. Full weight bearing allowed.</td></tr></tbody></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:f5efe33b-e9a7-5329-94f8-c3caea987f96"
+              }
+            ]
+          },
+          {
+            "title": "Significant results",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "30954-2",
+                  "display": "Relevant diagnostic tests/laboratory data note"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><thead><tr><th>Entry</th><th>Date</th><th>Details</th></tr></thead><tbody><tr><td>C-reactive protein</td><td>2026-11-11</td><td>Result: 86 mg/L; Interpretation: High</td></tr><tr><td>Haemoglobin</td><td>2026-11-11</td><td>Result: 98 g/L; Interpretation: Low</td></tr><tr><td>Creatinine</td><td>2026-11-09</td><td>Result: 121 umol/L; Interpretation: High</td></tr><tr><td>Haemoglobin</td><td>2026-11-09</td><td>Result: 115 g/L; Interpretation: Low</td></tr><tr><td>X-ray of the pelvis and hip, AP and cross-table lateral</td><td>2026-11-09</td><td>Status: final; Conclusion: Fracture of the femoral neck.</td></tr></tbody></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:678743b0-fc50-5ed3-991c-1e09fd187d73"
+              },
+              {
+                "reference": "urn:uuid:b6d439e5-b438-5ca9-871a-098209097d7a"
+              },
+              {
+                "reference": "urn:uuid:85412e8f-3733-5a81-957e-8b86bac26662"
+              },
+              {
+                "reference": "urn:uuid:98dc0ece-b505-5b95-8c39-274abc5554b7"
+              },
+              {
+                "reference": "urn:uuid:30835515-a068-5f47-878f-6d38200aca4c"
+              }
+            ]
+          },
+          {
+            "title": "Pharmacotherapy",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "87232-5",
+                  "display": "Medication administration.brief"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><thead><tr><th>Entry</th><th>Date</th><th>Details</th></tr></thead><tbody><tr><td>Clindamycin 600 mg, solution for infusion</td><td>2026-11-10</td><td>Status: completed; Dosage: 600 mg intravenously as a single dose before the operation; Reason: Antibiotic prophylaxis before the operation - penicillin allergy; Given instead of a penicillin because of his penicillin allergy.</td></tr></tbody></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:9cd1fd01-cac5-5711-b11b-4f42ce4eaae7"
+              }
+            ]
+          },
+          {
+            "title": "Discharge details",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "8650-4",
+                  "display": "Hospital discharge disposition note"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Status at discharge</b> 2026-11-16</p><p>Discharged on 16 November 2026 at 11:00 in a stable condition, by ambulance to his home in Sweden and the home care of his municipality.</p><p>The wound is dry and healing; the sutures are to be removed 14 days after the operation. No fever.</p><p>Mobility: walks short distances indoors with a walking frame and the help of one person, transfers with the help of one person, cannot manage stairs. Full weight bearing allowed.</p><p>Daily activities: needs help with personal care and dressing; Barthel index 45, against 70 before the fall.</p><p>Breathing: oxygen saturation 93 percent breathing room air; short of breath on exertion, as before the fall.</p><p>Pain: controlled with paracetamol. Oriented, no confusion during the stay.</p></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:7127549c-071d-50f2-9c6d-b23942270324"
+              }
+            ]
+          },
+          {
+            "title": "Functional status",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "47420-5",
+                  "display": "Functional status assessment note"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><thead><tr><th>Entry</th><th>Date</th><th>Details</th></tr></thead><tbody><tr><td>Barthel index</td><td>2026-11-16</td><td>Value: 45</td></tr></tbody></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:3e759b4d-0e01-5956-8738-6d8bcf3cce1f"
+              }
+            ]
+          },
+          {
+            "title": "Plan of care",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "18776-5",
+                  "display": "Plan of care note"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><thead><tr><th>Entry</th><th>Date</th><th>Details</th></tr></thead><tbody><tr><td>Rehabilitation and care after the fracture of the femoral neck - recommended at discharge</td><td>2026-11-16</td><td>Status: active; Intent: proposal; Activity: Rehabilitation of the hip: physiotherapy at home, walking training with the walking frame, full weight bearing (not-started); Activity: Extended home care: help with transfers, mobility, personal care and dressing, beside his two daily visits (not-started); Activity: Home rehabilitation adapted to his reduced lung capacity: paced walking and breathing exercises, oxygen saturation checked during exercise (not-started); Activity: Follow-up at his health centre in Sweden within two weeks: the wound, removal of the sutures, haemoglobin and the anticoagulant (not-started); Reasons: Fracture of neck of femur, Left hemiparesis, Pulmonary emphysema</td></tr></tbody></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:ecb3841b-444e-5c0c-aa1c-b0353da62071"
+              }
+            ]
+          },
+          {
+            "title": "Discharge medications",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "75311-1",
+                  "display": "Discharge medications note"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><thead><tr><th>Entry</th><th>Date</th><th>Details</th></tr></thead><tbody><tr><td>Apixaban 5 mg tablet</td><td>2026-11-11</td><td>Status: active; Dosage: 1 tablet (5 mg) twice daily; Paused before the operation; restarted on 11 November 2026, the day after it.</td></tr><tr><td>Paracetamol 1 g tablet</td><td>2026-11-10</td><td>Status: active; Dosage: 1 tablet (1 g) up to four times daily for pain; Until: 2026-11-30; Reason: Pain after the operation; New: for two weeks after the operation.</td></tr><tr><td>Metoprolol 50 mg prolonged-release tablet</td><td>2018-04-20</td><td>Status: active; Dosage: 1 tablet (50 mg) once daily in the morning; Unchanged.</td></tr><tr><td>Ramipril 5 mg tablet</td><td>2018-04-20</td><td>Status: active; Dosage: 1 tablet (5 mg) once daily; Unchanged.</td></tr><tr><td>Furosemide 40 mg tablet</td><td>2018-04-20</td><td>Status: active; Dosage: 1 tablet (40 mg) once daily in the morning; Unchanged.</td></tr><tr><td>Insulin glargine 100 units/mL solution for injection</td><td>2016-02-08</td><td>Status: active; Dosage: 22 units subcutaneously at bedtime; Unchanged.</td></tr><tr><td>Metformin 500 mg tablet</td><td>2004-07-15</td><td>Status: active; Dosage: 1 tablet (500 mg) twice daily with meals; Unchanged.</td></tr><tr><td>Glyceryl trinitrate 0.4 mg sublingual spray</td><td>2015-11-10</td><td>Status: active; Dosage: 1-2 doses under the tongue for chest pain, when needed; Unchanged.</td></tr><tr><td>Tiotropium 18 micrograms inhalation powder</td><td>2011-04-05</td><td>Status: active; Dosage: 1 inhalation once daily; Unchanged.</td></tr><tr><td>Bicalutamide 150 mg tablet</td><td>2020-09-14</td><td>Status: active; Dosage: 1 tablet (150 mg) once daily, as monotherapy; Unchanged.</td></tr><tr><td>Atorvastatin 20 mg tablet</td><td>2015-11-10</td><td>Status: active; Dosage: 1 tablet (20 mg) once daily in the evening; Unchanged.</td></tr></tbody></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:f81033f3-94d9-5edb-9a7d-5dfc0a2c5d89"
+              },
+              {
+                "reference": "urn:uuid:5355e310-85a3-587b-b3f6-18e6ea996544"
+              },
+              {
+                "reference": "urn:uuid:5edc89a4-781f-5778-b274-8cad4006b6db"
+              },
+              {
+                "reference": "urn:uuid:5371ca8b-40b4-5d9b-8f0e-1760615e6605"
+              },
+              {
+                "reference": "urn:uuid:adb89efa-0c19-5db8-b0cb-5bb2bc119b4e"
+              },
+              {
+                "reference": "urn:uuid:e3ab567c-ce28-5940-9ecc-f276789d1297"
+              },
+              {
+                "reference": "urn:uuid:dffc29af-0ff4-5308-901a-91abf263d7f4"
+              },
+              {
+                "reference": "urn:uuid:85f1b274-d3e2-565a-b802-9d6def60134d"
+              },
+              {
+                "reference": "urn:uuid:78574696-fc77-5470-9b27-991d426b1e6a"
+              },
+              {
+                "reference": "urn:uuid:27fe3c48-7bbc-56a7-8f1d-f86ffca552b6"
+              },
+              {
+                "reference": "urn:uuid:4e57491f-6637-58b0-a9d7-9ba86eb8830b"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:caf1fdf3-6f1d-5026-8aa6-8fabc937a889",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "194302096997",
+        "active": true,
+        "identifier": [
+          {
+            "value": "194302096997",
+            "system": "http://electronichealth.se/identifier/personnummer"
+          }
+        ],
+        "name": [
+          {
+            "family": "Bergstr\u00f6m",
+            "given": [
+              "Arne",
+              "Gustav"
+            ],
+            "text": "Arne Gustav Bergstr\u00f6m",
+            "use": "official"
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1943-02-09",
+        "address": [
+          {
+            "city": "Falkenberg",
+            "country": "SE",
+            "type": "physical",
+            "use": "home"
+          }
+        ],
+        "communication": [
+          {
+            "language": {
+              "coding": [
+                {
+                  "system": "urn:ietf:bcp:47",
+                  "code": "sv"
+                }
+              ],
+              "text": "Swedish"
+            },
+            "preferred": true
+          }
+        ],
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/patient-eu-core"
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:ce14ae03-be1a-5103-b9b9-891bc4a3e825",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "1000000000042700000",
+        "status": "finished",
+        "subject": {
+          "reference": "urn:uuid:caf1fdf3-6f1d-5026-8aa6-8fabc937a889"
+        },
+        "period": {
+          "start": "2026-11-09T14:20:00+01:00",
+          "end": "2026-11-16T11:00:00+01:00"
+        },
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.752.129.2.2.2.25",
+                "code": "3",
+                "display": "v\u00e5rdtillf\u00e4lle"
+              }
+            ],
+            "text": "Inpatient stay"
+          }
+        ],
+        "serviceProvider": {
+          "display": "Rigshospitalet",
+          "reference": "urn:uuid:429e4abf-2978-52d1-a013-4d27496e6c99"
+        },
+        "participant": [
+          {
+            "individual": {
+              "display": "Mette Lund",
+              "reference": "urn:uuid:fd2d7e51-e6cf-5a01-869e-517c5e9a51d2"
+            }
+          }
+        ],
+        "reasonCode": [
+          {
+            "text": "Fall, hip pain"
+          }
+        ],
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/hdr/StructureDefinition/encounter-eu-hdr"
+          ]
+        },
+        "class": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/coding-purpose",
+              "valueCoding": {
+                "system": "http://hl7.org/fhir/coding-purpose",
+                "code": "translated"
+              }
+            }
+          ],
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "IMP",
+          "display": "inpatient encounter"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:4b552e17-5f6a-5fcd-89ed-a2f3fb1b6492",
+      "resource": {
+        "resourceType": "DocumentReference",
+        "id": "1000000000042800000",
+        "status": "current",
+        "subject": {
+          "reference": "urn:uuid:caf1fdf3-6f1d-5026-8aa6-8fabc937a889"
+        },
+        "date": "2026-11-16T10:15:00+01:00",
+        "content": [
+          {
+            "attachment": {
+              "contentType": "text/plain",
+              "data": "QWRtaXR0ZWQgdGhyb3VnaCB0aGUgZW1lcmdlbmN5IGRlcGFydG1lbnQgb24gOSBOb3ZlbWJlciAyMDI2IGFmdGVyIGEgZmFsbCB3aGlsZSB2aXNpdGluZyBoaXMgc29uIGluIENvcGVuaGFnZW4uIFgtcmF5IHNob3dlZCBhIGZyYWN0dXJlIG9mIHRoZSBuZWNrIG9mIHRoZSBmZW11ci4KSGlzIFN3ZWRpc2ggcGF0aWVudCBzdW1tYXJ5IHdhcyByZWNlaXZlZCBiZWZvcmUgc3VyZ2VyeS4gQmVjYXVzZSBvZiBoaXMgcGVuaWNpbGxpbiBhbGxlcmd5IGFub3RoZXIgYW50aWJpb3RpYyB3YXMgZ2l2ZW4sIGhpcyBhbnRpY29hZ3VsYW50IHRyZWF0bWVudCB3YXMgdGFrZW4gaW50byBhY2NvdW50IGFuZCBibGVlZGluZyBwcmVwYXJlZCBmb3IsIGFuZCB0aGUgYW5hZXN0aGVzaWEgd2FzIGFkYXB0ZWQgdG8gaGlzIGhlYXJ0IGZhaWx1cmUgYW5kIGVtcGh5c2VtYS4KT3BlcmF0ZWQgb24gMTAgTm92ZW1iZXIgMjAyNi4gVGhlIGNvdXJzZSBhZnRlciB0aGUgb3BlcmF0aW9uIHdhcyB3aXRob3V0IGNvbXBsaWNhdGlvbnMuCkRpc2NoYXJnZWQgb24gMTYgTm92ZW1iZXIgMjAyNiBpbiBhIHN0YWJsZSBjb25kaXRpb24uIEhpcyByZWd1bGFyIG1lZGljYXRpb24gLSBpbnN1bGluLCBibG9vZC1wcmVzc3VyZSBtZWRpY2F0aW9uIGFuZCBhbnRpY29hZ3VsYW50IC0gY29udGludWVzLiBSZWNvbW1lbmRlZCBhZnRlciBkaXNjaGFyZ2U6IHJlaGFiaWxpdGF0aW9uIG9mIHRoZSBoaXAgYW5kIGZvbGxvdy11cCBieSBoaXMgaGVhbHRoIGNlbnRyZSBpbiBTd2VkZW4u",
+              "title": "Discharge summary",
+              "language": "en"
+            }
+          }
+        ],
+        "type": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "18842-5",
+              "display": "Discharge summary"
+            }
+          ],
+          "text": "Discharge summary"
+        },
+        "author": [
+          {
+            "display": "Mette Lund",
+            "reference": "urn:uuid:fd2d7e51-e6cf-5a01-869e-517c5e9a51d2"
+          }
+        ],
+        "context": {
+          "encounter": [
+            {
+              "reference": "urn:uuid:ce14ae03-be1a-5103-b9b9-891bc4a3e825"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:2bdd6c90-505a-5a5c-8bfa-41243dd89592",
+      "resource": {
+        "resourceType": "Flag",
+        "id": "1000000000041900000",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/flag-priority",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/flag-priority-code",
+                  "code": "PH",
+                  "display": "High priority"
+                }
+              ],
+              "text": "High priority"
+            }
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/note",
+            "valueAnnotation": {
+              "authorString": "Erik Holm",
+              "time": "2026-06-12T10:30:00+02:00",
+              "text": "Apixaban for atrial fibrillation - check before any procedure or injection."
+            }
+          }
+        ],
+        "status": "active",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/flag-category",
+                "code": "drug",
+                "display": "Drug"
+              }
+            ],
+            "text": "Drug"
+          }
+        ],
+        "code": {
+          "text": "Anticoagulant treatment - bleeding risk"
+        },
+        "subject": {
+          "reference": "urn:uuid:caf1fdf3-6f1d-5026-8aa6-8fabc937a889"
+        },
+        "period": {
+          "start": "2017-10-05T00:00:00+02:00"
+        },
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/flag-patient-eu-core"
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:9475652c-64bd-5ca4-bfde-4126a713988d",
+      "resource": {
+        "resourceType": "AllergyIntolerance",
+        "id": "1000000000004900000",
+        "patient": {
+          "reference": "urn:uuid:caf1fdf3-6f1d-5026-8aa6-8fabc937a889"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "256262001",
+              "display": "European white birch pollen"
+            }
+          ],
+          "text": "Birch pollen"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active",
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical"
+            }
+          ],
+          "text": "Active"
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "code": "confirmed",
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification"
+            }
+          ],
+          "text": "Confirmed"
+        },
+        "category": [
+          "environment"
+        ],
+        "criticality": "low",
+        "onsetDateTime": "1988-04-02T00:00:00+02:00",
+        "reaction": [
+          {
+            "manifestation": [
+              {
+                "coding": [
+                  {
+                    "system": "http://snomed.info/sct",
+                    "code": "878820003",
+                    "display": "Rhinoconjunctivitis"
+                  }
+                ],
+                "text": "Rhinoconjunctivitis"
+              }
+            ],
+            "severity": "mild"
+          }
+        ],
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/allergyIntolerance-eu-core"
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:ab2bf8bf-1ae6-591e-be23-0f7251b709c9",
+      "resource": {
+        "resourceType": "AllergyIntolerance",
+        "id": "1000000000004800000",
+        "patient": {
+          "reference": "urn:uuid:caf1fdf3-6f1d-5026-8aa6-8fabc937a889"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "764146007",
+              "display": "Penicillin"
+            }
+          ],
+          "text": "Penicillin"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active",
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical"
+            }
+          ],
+          "text": "Active"
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "code": "confirmed",
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification"
+            }
+          ],
+          "text": "Confirmed"
+        },
+        "category": [
+          "medication"
+        ],
+        "criticality": "high",
+        "onsetDateTime": "1972-06-18T00:00:00+02:00",
+        "note": [
+          {
+            "text": "Anaphylaxis after phenoxymethylpenicillin in 1972, treated in an emergency department. Avoid all beta-lactam antibiotics until an allergy work-up has been done."
+          }
+        ],
+        "reaction": [
+          {
+            "manifestation": [
+              {
+                "coding": [
+                  {
+                    "system": "http://snomed.info/sct",
+                    "code": "39579001",
+                    "display": "Anaphylaxis"
+                  }
+                ],
+                "text": "Anaphylaxis"
+              }
+            ],
+            "severity": "severe"
+          }
+        ],
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/allergyIntolerance-eu-core"
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:68cee4cc-166f-5f2f-b38a-a1a45c9c606f",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "1000000000042900000",
+        "subject": {
+          "reference": "urn:uuid:caf1fdf3-6f1d-5026-8aa6-8fabc937a889"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "5913000",
+              "display": "Fracture of neck of femur"
+            }
+          ],
+          "text": "Fracture of neck of femur"
+        },
+        "onsetDateTime": "2026-11-09T00:00:00+01:00",
+        "recordedDate": "2026-11-09T00:00:00+01:00",
+        "encounter": {
+          "reference": "urn:uuid:ce14ae03-be1a-5103-b9b9-891bc4a3e825"
+        },
+        "asserter": {
+          "display": "Mette Lund",
+          "reference": "urn:uuid:fd2d7e51-e6cf-5a01-869e-517c5e9a51d2"
+        },
+        "note": [
+          {
+            "text": "After a fall on 9 November 2026; operated the day after."
+          }
+        ],
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/condition-eu-core"
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:f5efe33b-e9a7-5329-94f8-c3caea987f96",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "1000000000043000000",
+        "status": "completed",
+        "subject": {
+          "reference": "urn:uuid:caf1fdf3-6f1d-5026-8aa6-8fabc937a889"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "28181007",
+              "display": "Operation on hip joint"
+            }
+          ],
+          "text": "Operation of the fractured hip"
+        },
+        "performedPeriod": {
+          "start": "2026-11-10T09:15:00+01:00",
+          "end": "2026-11-10T10:30:00+01:00"
+        },
+        "encounter": {
+          "reference": "urn:uuid:ce14ae03-be1a-5103-b9b9-891bc4a3e825"
+        },
+        "performer": [
+          {
+            "actor": {
+              "display": "Lars Winther",
+              "reference": "urn:uuid:93106caa-8812-53fe-8c28-c60db7b11fab"
+            }
+          }
+        ],
+        "note": [
+          {
+            "text": "Operation report: the fractured hip operated on 10 November 2026, the anaesthesia adapted to his heart failure and emphysema. Clindamycin was given before the operation instead of a penicillin because of his penicillin allergy. Apixaban was paused before the operation and bleeding prepared for; the blood loss was as expected and no transfusion was needed. No complications. Full weight bearing allowed."
+          }
+        ],
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/procedure-eu-core"
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:678743b0-fc50-5ed3-991c-1e09fd187d73",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "1000000000043900000",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medicalTestResult-eu-core"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "urn:uuid:caf1fdf3-6f1d-5026-8aa6-8fabc937a889"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1988-5",
+              "display": "C reactive protein [Mass/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "C-reactive protein"
+        },
+        "identifier": [
+          {
+            "system": "http://medrave.com/fhir/identifier/lab-panel",
+            "value": "RH-LAB-20261111"
+          }
+        ],
+        "encounter": {
+          "reference": "urn:uuid:ce14ae03-be1a-5103-b9b9-891bc4a3e825"
+        },
+        "effectiveDateTime": "2026-11-11T07:00:00+01:00",
+        "issued": "2026-11-11T08:15:00+01:00",
+        "performer": [
+          {
+            "display": "Karen Juul",
+            "reference": "urn:uuid:8ec97181-1829-556e-93dc-3e2356d54d96"
+          }
+        ],
+        "valueQuantity": {
+          "value": 86.0,
+          "unit": "mg/L"
+        },
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "code": "H"
+              }
+            ],
+            "text": "High"
+          }
+        ],
+        "referenceRange": [
+          {
+            "high": {
+              "value": 10.0
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:b6d439e5-b438-5ca9-871a-098209097d7a",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "1000000000043800000",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medicalTestResult-eu-core"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "urn:uuid:caf1fdf3-6f1d-5026-8aa6-8fabc937a889"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "718-7",
+              "display": "Hemoglobin [Mass/volume] in Blood"
+            }
+          ],
+          "text": "Haemoglobin"
+        },
+        "identifier": [
+          {
+            "system": "http://medrave.com/fhir/identifier/lab-panel",
+            "value": "RH-LAB-20261111"
+          }
+        ],
+        "encounter": {
+          "reference": "urn:uuid:ce14ae03-be1a-5103-b9b9-891bc4a3e825"
+        },
+        "effectiveDateTime": "2026-11-11T07:00:00+01:00",
+        "issued": "2026-11-11T08:15:00+01:00",
+        "performer": [
+          {
+            "display": "Karen Juul",
+            "reference": "urn:uuid:8ec97181-1829-556e-93dc-3e2356d54d96"
+          }
+        ],
+        "valueQuantity": {
+          "value": 98.0,
+          "unit": "g/L"
+        },
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "code": "L"
+              }
+            ],
+            "text": "Low"
+          }
+        ],
+        "referenceRange": [
+          {
+            "low": {
+              "value": 134.0
+            },
+            "high": {
+              "value": 170.0
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:85412e8f-3733-5a81-957e-8b86bac26662",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "1000000000043700000",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medicalTestResult-eu-core"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "urn:uuid:caf1fdf3-6f1d-5026-8aa6-8fabc937a889"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "14682-9",
+              "display": "Creatinine [Moles/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Creatinine"
+        },
+        "identifier": [
+          {
+            "system": "http://medrave.com/fhir/identifier/lab-panel",
+            "value": "RH-LAB-20261109"
+          }
+        ],
+        "encounter": {
+          "reference": "urn:uuid:ce14ae03-be1a-5103-b9b9-891bc4a3e825"
+        },
+        "effectiveDateTime": "2026-11-09T15:30:00+01:00",
+        "issued": "2026-11-09T16:10:00+01:00",
+        "performer": [
+          {
+            "display": "Karen Juul",
+            "reference": "urn:uuid:8ec97181-1829-556e-93dc-3e2356d54d96"
+          }
+        ],
+        "valueQuantity": {
+          "value": 121.0,
+          "unit": "umol/L"
+        },
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "code": "H"
+              }
+            ],
+            "text": "High"
+          }
+        ],
+        "referenceRange": [
+          {
+            "low": {
+              "value": 60.0
+            },
+            "high": {
+              "value": 105.0
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:98dc0ece-b505-5b95-8c39-274abc5554b7",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "1000000000043600000",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medicalTestResult-eu-core"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "urn:uuid:caf1fdf3-6f1d-5026-8aa6-8fabc937a889"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "718-7",
+              "display": "Hemoglobin [Mass/volume] in Blood"
+            }
+          ],
+          "text": "Haemoglobin"
+        },
+        "identifier": [
+          {
+            "system": "http://medrave.com/fhir/identifier/lab-panel",
+            "value": "RH-LAB-20261109"
+          }
+        ],
+        "encounter": {
+          "reference": "urn:uuid:ce14ae03-be1a-5103-b9b9-891bc4a3e825"
+        },
+        "effectiveDateTime": "2026-11-09T15:30:00+01:00",
+        "issued": "2026-11-09T16:10:00+01:00",
+        "performer": [
+          {
+            "display": "Karen Juul",
+            "reference": "urn:uuid:8ec97181-1829-556e-93dc-3e2356d54d96"
+          }
+        ],
+        "valueQuantity": {
+          "value": 115.0,
+          "unit": "g/L"
+        },
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "code": "L"
+              }
+            ],
+            "text": "Low"
+          }
+        ],
+        "referenceRange": [
+          {
+            "low": {
+              "value": 134.0
+            },
+            "high": {
+              "value": 170.0
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:30835515-a068-5f47-878f-6d38200aca4c",
+      "resource": {
+        "resourceType": "DiagnosticReport",
+        "id": "1000000000044000000",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-DiagnosticReport.note",
+            "valueAnnotation": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/annotationType",
+                  "valueCodeableConcept": {
+                    "coding": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "59776-5"
+                      }
+                    ]
+                  }
+                }
+              ],
+              "text": "Fracture of the femoral neck. No other fracture is seen."
+            }
+          }
+        ],
+        "identifier": [
+          {
+            "system": "http://medrave.com/fhir/identifier/demo-imaging-report",
+            "value": "RH-RTG-20261109"
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+                "code": "RAD",
+                "display": "Radiology"
+              }
+            ],
+            "text": "Radiology"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "37089-0",
+              "display": "XR Pelvis and Hip AP and Lateral crosstable"
+            }
+          ],
+          "text": "X-ray of the pelvis and hip, AP and cross-table lateral"
+        },
+        "subject": {
+          "reference": "urn:uuid:caf1fdf3-6f1d-5026-8aa6-8fabc937a889"
+        },
+        "encounter": {
+          "reference": "urn:uuid:ce14ae03-be1a-5103-b9b9-891bc4a3e825"
+        },
+        "effectiveDateTime": "2026-11-09T15:05:00+01:00",
+        "issued": "2026-11-09T15:40:00+01:00",
+        "performer": [
+          {
+            "display": "Department of Radiology, Rigshospitalet",
+            "reference": "urn:uuid:e620ccab-3754-54a2-8247-073359ec041b"
+          }
+        ],
+        "resultsInterpreter": [
+          {
+            "display": "Henrik Dahl",
+            "reference": "urn:uuid:8f63f602-80a1-5aeb-94eb-cf4ca5c544f6"
+          }
+        ],
+        "conclusion": "Fracture of the femoral neck.",
+        "conclusionCode": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "5913000",
+                "display": "Fracture of neck of femur"
+              }
+            ],
+            "text": "Fracture of neck of femur"
+          }
+        ],
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/diagnosticReport-eu-core"
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:9cd1fd01-cac5-5711-b11b-4f42ce4eaae7",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "1000000000044100000",
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "J01FF01",
+              "display": "clindamycin"
+            }
+          ],
+          "text": "Clindamycin 600 mg, solution for infusion"
+        },
+        "subject": {
+          "reference": "urn:uuid:caf1fdf3-6f1d-5026-8aa6-8fabc937a889"
+        },
+        "context": {
+          "reference": "urn:uuid:ce14ae03-be1a-5103-b9b9-891bc4a3e825"
+        },
+        "effectiveDateTime": "2026-11-10T08:30:00+01:00",
+        "dateAsserted": "2026-11-16T10:00:00+01:00",
+        "reasonCode": [
+          {
+            "text": "Antibiotic prophylaxis before the operation - penicillin allergy"
+          }
+        ],
+        "note": [
+          {
+            "text": "Given instead of a penicillin because of his penicillin allergy."
+          }
+        ],
+        "dosage": [
+          {
+            "text": "600 mg intravenously as a single dose before the operation"
+          }
+        ],
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medicationStatement-eu-core"
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:7127549c-071d-50f2-9c6d-b23942270324",
+      "resource": {
+        "resourceType": "DocumentReference",
+        "id": "1000000000043500000",
+        "status": "current",
+        "subject": {
+          "reference": "urn:uuid:caf1fdf3-6f1d-5026-8aa6-8fabc937a889"
+        },
+        "date": "2026-11-16T10:20:00+01:00",
+        "content": [
+          {
+            "attachment": {
+              "contentType": "text/plain",
+              "data": "RGlzY2hhcmdlZCBvbiAxNiBOb3ZlbWJlciAyMDI2IGF0IDExOjAwIGluIGEgc3RhYmxlIGNvbmRpdGlvbiwgYnkgYW1idWxhbmNlIHRvIGhpcyBob21lIGluIFN3ZWRlbiBhbmQgdGhlIGhvbWUgY2FyZSBvZiBoaXMgbXVuaWNpcGFsaXR5LgpUaGUgd291bmQgaXMgZHJ5IGFuZCBoZWFsaW5nOyB0aGUgc3V0dXJlcyBhcmUgdG8gYmUgcmVtb3ZlZCAxNCBkYXlzIGFmdGVyIHRoZSBvcGVyYXRpb24uIE5vIGZldmVyLgpNb2JpbGl0eTogd2Fsa3Mgc2hvcnQgZGlzdGFuY2VzIGluZG9vcnMgd2l0aCBhIHdhbGtpbmcgZnJhbWUgYW5kIHRoZSBoZWxwIG9mIG9uZSBwZXJzb24sIHRyYW5zZmVycyB3aXRoIHRoZSBoZWxwIG9mIG9uZSBwZXJzb24sIGNhbm5vdCBtYW5hZ2Ugc3RhaXJzLiBGdWxsIHdlaWdodCBiZWFyaW5nIGFsbG93ZWQuCkRhaWx5IGFjdGl2aXRpZXM6IG5lZWRzIGhlbHAgd2l0aCBwZXJzb25hbCBjYXJlIGFuZCBkcmVzc2luZzsgQmFydGhlbCBpbmRleCA0NSwgYWdhaW5zdCA3MCBiZWZvcmUgdGhlIGZhbGwuCkJyZWF0aGluZzogb3h5Z2VuIHNhdHVyYXRpb24gOTMgcGVyY2VudCBicmVhdGhpbmcgcm9vbSBhaXI7IHNob3J0IG9mIGJyZWF0aCBvbiBleGVydGlvbiwgYXMgYmVmb3JlIHRoZSBmYWxsLgpQYWluOiBjb250cm9sbGVkIHdpdGggcGFyYWNldGFtb2wuIE9yaWVudGVkLCBubyBjb25mdXNpb24gZHVyaW5nIHRoZSBzdGF5Lg==",
+              "title": "Status at discharge",
+              "language": "en"
+            }
+          }
+        ],
+        "type": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8650-4",
+              "display": "Hospital discharge disposition Narrative"
+            }
+          ],
+          "text": "Status at discharge"
+        },
+        "author": [
+          {
+            "display": "Mette Lund",
+            "reference": "urn:uuid:fd2d7e51-e6cf-5a01-869e-517c5e9a51d2"
+          }
+        ],
+        "context": {
+          "encounter": [
+            {
+              "reference": "urn:uuid:ce14ae03-be1a-5103-b9b9-891bc4a3e825"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:3e759b4d-0e01-5956-8738-6d8bcf3cce1f",
+      "resource": {
+        "resourceType": "ClinicalImpression",
+        "id": "1000000000045400000",
+        "status": "completed",
+        "subject": {
+          "reference": "urn:uuid:caf1fdf3-6f1d-5026-8aa6-8fabc937a889"
+        },
+        "effectiveDateTime": "2026-11-16T09:00:00+01:00",
+        "finding": [
+          {
+            "itemReference": {
+              "reference": "urn:uuid:9dc80607-f31d-5b02-88b4-cc0f5b3348d4"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:9dc80607-f31d-5b02-88b4-cc0f5b3348d4",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "1000000000045400000",
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:caf1fdf3-6f1d-5026-8aa6-8fabc937a889"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "96761-2",
+              "display": "Total score Barthel Index"
+            }
+          ],
+          "text": "Barthel index"
+        },
+        "valueQuantity": {
+          "value": 45.0
+        },
+        "encounter": {
+          "reference": "urn:uuid:ce14ae03-be1a-5103-b9b9-891bc4a3e825"
+        },
+        "effectiveInstant": "2026-11-16T09:00:00+01:00"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:ecb3841b-444e-5c0c-aa1c-b0353da62071",
+      "resource": {
+        "resourceType": "CarePlan",
+        "id": "1000000000045300000",
+        "status": "active",
+        "intent": "proposal",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "734163000",
+                "display": "Care plan"
+              }
+            ],
+            "text": "Care plan"
+          }
+        ],
+        "title": "Rehabilitation and care after the fracture of the femoral neck - recommended at discharge",
+        "description": "Recommended by Rigshospitalet for his care and rehabilitation at home in Sweden.",
+        "subject": {
+          "reference": "urn:uuid:caf1fdf3-6f1d-5026-8aa6-8fabc937a889"
+        },
+        "encounter": {
+          "reference": "urn:uuid:ce14ae03-be1a-5103-b9b9-891bc4a3e825"
+        },
+        "period": {
+          "start": "2026-11-16T00:00:00+01:00"
+        },
+        "author": {
+          "display": "Mette Lund",
+          "reference": "urn:uuid:fd2d7e51-e6cf-5a01-869e-517c5e9a51d2"
+        },
+        "activity": [
+          {
+            "detail": {
+              "kind": "ServiceRequest",
+              "reasonCode": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://snomed.info/sct",
+                      "code": "5913000",
+                      "display": "Fracture of neck of femur"
+                    }
+                  ],
+                  "text": "Fracture of neck of femur"
+                }
+              ],
+              "status": "not-started",
+              "description": "Rehabilitation of the hip: physiotherapy at home, walking training with the walking frame, full weight bearing"
+            }
+          },
+          {
+            "detail": {
+              "kind": "ServiceRequest",
+              "reasonCode": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://snomed.info/sct",
+                      "code": "278287000",
+                      "display": "Left hemiparesis"
+                    }
+                  ],
+                  "text": "Left hemiparesis"
+                }
+              ],
+              "status": "not-started",
+              "description": "Extended home care: help with transfers, mobility, personal care and dressing, beside his two daily visits"
+            }
+          },
+          {
+            "detail": {
+              "kind": "ServiceRequest",
+              "reasonCode": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://snomed.info/sct",
+                      "code": "87433001",
+                      "display": "Pulmonary emphysema"
+                    }
+                  ],
+                  "text": "Pulmonary emphysema"
+                }
+              ],
+              "status": "not-started",
+              "description": "Home rehabilitation adapted to his reduced lung capacity: paced walking and breathing exercises, oxygen saturation checked during exercise"
+            }
+          },
+          {
+            "detail": {
+              "kind": "Appointment",
+              "status": "not-started",
+              "description": "Follow-up at his health centre in Sweden within two weeks: the wound, removal of the sutures, haemoglobin and the anticoagulant"
+            }
+          }
+        ],
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/hdr/StructureDefinition/carePlan-eu-hdr"
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:f81033f3-94d9-5edb-9a7d-5dfc0a2c5d89",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "1000000000045200000",
+        "status": "active",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "B01AF02",
+              "display": "apixaban"
+            }
+          ],
+          "text": "Apixaban 5 mg tablet"
+        },
+        "subject": {
+          "reference": "urn:uuid:caf1fdf3-6f1d-5026-8aa6-8fabc937a889"
+        },
+        "context": {
+          "reference": "urn:uuid:ce14ae03-be1a-5103-b9b9-891bc4a3e825"
+        },
+        "effectivePeriod": {
+          "start": "2026-11-11T08:00:00+01:00"
+        },
+        "dateAsserted": "2026-11-16T10:00:00+01:00",
+        "note": [
+          {
+            "text": "Paused before the operation; restarted on 11 November 2026, the day after it."
+          }
+        ],
+        "dosage": [
+          {
+            "text": "1 tablet (5 mg) twice daily"
+          }
+        ],
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medicationStatement-eu-core"
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:5355e310-85a3-587b-b3f6-18e6ea996544",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "1000000000045100000",
+        "status": "active",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "N02BE01",
+              "display": "paracetamol"
+            }
+          ],
+          "text": "Paracetamol 1 g tablet"
+        },
+        "subject": {
+          "reference": "urn:uuid:caf1fdf3-6f1d-5026-8aa6-8fabc937a889"
+        },
+        "context": {
+          "reference": "urn:uuid:ce14ae03-be1a-5103-b9b9-891bc4a3e825"
+        },
+        "effectivePeriod": {
+          "start": "2026-11-10T12:00:00+01:00",
+          "end": "2026-11-30T00:00:00+01:00"
+        },
+        "dateAsserted": "2026-11-16T10:00:00+01:00",
+        "reasonCode": [
+          {
+            "text": "Pain after the operation"
+          }
+        ],
+        "note": [
+          {
+            "text": "New: for two weeks after the operation."
+          }
+        ],
+        "dosage": [
+          {
+            "text": "1 tablet (1 g) up to four times daily for pain"
+          }
+        ],
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medicationStatement-eu-core"
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:5edc89a4-781f-5778-b274-8cad4006b6db",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "1000000000045000000",
+        "status": "active",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "C07AB02",
+              "display": "metoprolol"
+            }
+          ],
+          "text": "Metoprolol 50 mg prolonged-release tablet"
+        },
+        "subject": {
+          "reference": "urn:uuid:caf1fdf3-6f1d-5026-8aa6-8fabc937a889"
+        },
+        "context": {
+          "reference": "urn:uuid:ce14ae03-be1a-5103-b9b9-891bc4a3e825"
+        },
+        "effectivePeriod": {
+          "start": "2018-04-20T00:00:00+02:00"
+        },
+        "dateAsserted": "2026-11-16T10:00:00+01:00",
+        "note": [
+          {
+            "text": "Unchanged."
+          }
+        ],
+        "dosage": [
+          {
+            "text": "1 tablet (50 mg) once daily in the morning"
+          }
+        ],
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medicationStatement-eu-core"
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:5371ca8b-40b4-5d9b-8f0e-1760615e6605",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "1000000000044900000",
+        "status": "active",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "C09AA05",
+              "display": "ramipril"
+            }
+          ],
+          "text": "Ramipril 5 mg tablet"
+        },
+        "subject": {
+          "reference": "urn:uuid:caf1fdf3-6f1d-5026-8aa6-8fabc937a889"
+        },
+        "context": {
+          "reference": "urn:uuid:ce14ae03-be1a-5103-b9b9-891bc4a3e825"
+        },
+        "effectivePeriod": {
+          "start": "2018-04-20T00:00:00+02:00"
+        },
+        "dateAsserted": "2026-11-16T10:00:00+01:00",
+        "note": [
+          {
+            "text": "Unchanged."
+          }
+        ],
+        "dosage": [
+          {
+            "text": "1 tablet (5 mg) once daily"
+          }
+        ],
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medicationStatement-eu-core"
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:adb89efa-0c19-5db8-b0cb-5bb2bc119b4e",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "1000000000044800000",
+        "status": "active",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "C03CA01",
+              "display": "furosemide"
+            }
+          ],
+          "text": "Furosemide 40 mg tablet"
+        },
+        "subject": {
+          "reference": "urn:uuid:caf1fdf3-6f1d-5026-8aa6-8fabc937a889"
+        },
+        "context": {
+          "reference": "urn:uuid:ce14ae03-be1a-5103-b9b9-891bc4a3e825"
+        },
+        "effectivePeriod": {
+          "start": "2018-04-20T00:00:00+02:00"
+        },
+        "dateAsserted": "2026-11-16T10:00:00+01:00",
+        "note": [
+          {
+            "text": "Unchanged."
+          }
+        ],
+        "dosage": [
+          {
+            "text": "1 tablet (40 mg) once daily in the morning"
+          }
+        ],
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medicationStatement-eu-core"
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e3ab567c-ce28-5940-9ecc-f276789d1297",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "1000000000044700000",
+        "status": "active",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "A10AE04",
+              "display": "insulin glargine"
+            }
+          ],
+          "text": "Insulin glargine 100 units/mL solution for injection"
+        },
+        "subject": {
+          "reference": "urn:uuid:caf1fdf3-6f1d-5026-8aa6-8fabc937a889"
+        },
+        "context": {
+          "reference": "urn:uuid:ce14ae03-be1a-5103-b9b9-891bc4a3e825"
+        },
+        "effectivePeriod": {
+          "start": "2016-02-08T00:00:00+01:00"
+        },
+        "dateAsserted": "2026-11-16T10:00:00+01:00",
+        "note": [
+          {
+            "text": "Unchanged."
+          }
+        ],
+        "dosage": [
+          {
+            "text": "22 units subcutaneously at bedtime"
+          }
+        ],
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medicationStatement-eu-core"
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:dffc29af-0ff4-5308-901a-91abf263d7f4",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "1000000000044600000",
+        "status": "active",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "A10BA02",
+              "display": "metformin"
+            }
+          ],
+          "text": "Metformin 500 mg tablet"
+        },
+        "subject": {
+          "reference": "urn:uuid:caf1fdf3-6f1d-5026-8aa6-8fabc937a889"
+        },
+        "context": {
+          "reference": "urn:uuid:ce14ae03-be1a-5103-b9b9-891bc4a3e825"
+        },
+        "effectivePeriod": {
+          "start": "2004-07-15T00:00:00+02:00"
+        },
+        "dateAsserted": "2026-11-16T10:00:00+01:00",
+        "note": [
+          {
+            "text": "Unchanged."
+          }
+        ],
+        "dosage": [
+          {
+            "text": "1 tablet (500 mg) twice daily with meals"
+          }
+        ],
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medicationStatement-eu-core"
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:85f1b274-d3e2-565a-b802-9d6def60134d",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "1000000000044500000",
+        "status": "active",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "C01DA02",
+              "display": "glyceryl trinitrate"
+            }
+          ],
+          "text": "Glyceryl trinitrate 0.4 mg sublingual spray"
+        },
+        "subject": {
+          "reference": "urn:uuid:caf1fdf3-6f1d-5026-8aa6-8fabc937a889"
+        },
+        "context": {
+          "reference": "urn:uuid:ce14ae03-be1a-5103-b9b9-891bc4a3e825"
+        },
+        "effectivePeriod": {
+          "start": "2015-11-10T00:00:00+01:00"
+        },
+        "dateAsserted": "2026-11-16T10:00:00+01:00",
+        "note": [
+          {
+            "text": "Unchanged."
+          }
+        ],
+        "dosage": [
+          {
+            "text": "1-2 doses under the tongue for chest pain, when needed"
+          }
+        ],
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medicationStatement-eu-core"
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:78574696-fc77-5470-9b27-991d426b1e6a",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "1000000000044400000",
+        "status": "active",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "R03BB04",
+              "display": "tiotropium bromide"
+            }
+          ],
+          "text": "Tiotropium 18 micrograms inhalation powder"
+        },
+        "subject": {
+          "reference": "urn:uuid:caf1fdf3-6f1d-5026-8aa6-8fabc937a889"
+        },
+        "context": {
+          "reference": "urn:uuid:ce14ae03-be1a-5103-b9b9-891bc4a3e825"
+        },
+        "effectivePeriod": {
+          "start": "2011-04-05T00:00:00+02:00"
+        },
+        "dateAsserted": "2026-11-16T10:00:00+01:00",
+        "note": [
+          {
+            "text": "Unchanged."
+          }
+        ],
+        "dosage": [
+          {
+            "text": "1 inhalation once daily"
+          }
+        ],
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medicationStatement-eu-core"
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:27fe3c48-7bbc-56a7-8f1d-f86ffca552b6",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "1000000000044300000",
+        "status": "active",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "L02BB03",
+              "display": "bicalutamide"
+            }
+          ],
+          "text": "Bicalutamide 150 mg tablet"
+        },
+        "subject": {
+          "reference": "urn:uuid:caf1fdf3-6f1d-5026-8aa6-8fabc937a889"
+        },
+        "context": {
+          "reference": "urn:uuid:ce14ae03-be1a-5103-b9b9-891bc4a3e825"
+        },
+        "effectivePeriod": {
+          "start": "2020-09-14T00:00:00+02:00"
+        },
+        "dateAsserted": "2026-11-16T10:00:00+01:00",
+        "note": [
+          {
+            "text": "Unchanged."
+          }
+        ],
+        "dosage": [
+          {
+            "text": "1 tablet (150 mg) once daily, as monotherapy"
+          }
+        ],
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medicationStatement-eu-core"
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:4e57491f-6637-58b0-a9d7-9ba86eb8830b",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "1000000000044200000",
+        "status": "active",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "C10AA05",
+              "display": "atorvastatin"
+            }
+          ],
+          "text": "Atorvastatin 20 mg tablet"
+        },
+        "subject": {
+          "reference": "urn:uuid:caf1fdf3-6f1d-5026-8aa6-8fabc937a889"
+        },
+        "context": {
+          "reference": "urn:uuid:ce14ae03-be1a-5103-b9b9-891bc4a3e825"
+        },
+        "effectivePeriod": {
+          "start": "2015-11-10T00:00:00+01:00"
+        },
+        "dateAsserted": "2026-11-16T10:00:00+01:00",
+        "note": [
+          {
+            "text": "Unchanged."
+          }
+        ],
+        "dosage": [
+          {
+            "text": "1 tablet (20 mg) once daily in the evening"
+          }
+        ],
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medicationStatement-eu-core"
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:429e4abf-2978-52d1-a013-4d27496e6c99",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "429e4abf-2978-52d1-a013-4d27496e6c99",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/organization-eu-core"
+          ]
+        },
+        "name": "Rigshospitalet"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:fd2d7e51-e6cf-5a01-869e-517c5e9a51d2",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "fd2d7e51-e6cf-5a01-869e-517c5e9a51d2",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/practitioner-eu-core"
+          ]
+        },
+        "name": [
+          {
+            "text": "Mette Lund"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:93106caa-8812-53fe-8c28-c60db7b11fab",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "93106caa-8812-53fe-8c28-c60db7b11fab",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/practitioner-eu-core"
+          ]
+        },
+        "name": [
+          {
+            "text": "Lars Winther"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:8ec97181-1829-556e-93dc-3e2356d54d96",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "8ec97181-1829-556e-93dc-3e2356d54d96",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/practitioner-eu-core"
+          ]
+        },
+        "name": [
+          {
+            "text": "Karen Juul"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e620ccab-3754-54a2-8247-073359ec041b",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "e620ccab-3754-54a2-8247-073359ec041b",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/organization-eu-core"
+          ]
+        },
+        "name": "Department of Radiology, Rigshospitalet"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:8f63f602-80a1-5aeb-94eb-cf4ca5c544f6",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "8f63f602-80a1-5aeb-94eb-cf4ca5c544f6",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/practitioner-eu-core"
+          ]
+        },
+        "name": [
+          {
+            "text": "Henrik Dahl"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:718ab3e1-6eaa-5454-832e-e0c1d02aa8da",
+      "resource": {
+        "resourceType": "Device",
+        "id": "718ab3e1-6eaa-5454-832e-e0c1d02aa8da",
+        "identifier": [
+          {
+            "system": "http://medrave.com/fhir/identifier/platform",
+            "value": "medrave-cdr"
+          }
+        ],
+        "deviceName": [
+          {
+            "name": "Medrave CDR",
+            "type": "user-friendly-name"
+          }
+        ],
+        "version": [
+          {
+            "value": "1.0.0+2def0d16e02cd392515e23d80a6336bea3006875"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:b33a8fae-9f7a-567c-94c4-005ad9c46455",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "b33a8fae-9f7a-567c-94c4-005ad9c46455",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/organization-eu-core"
+          ]
+        },
+        "identifier": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "PRN"
+                }
+              ]
+            },
+            "system": "urn:oid:1.2.752.29.4.19",
+            "value": "SE2321000000-0001"
+          }
+        ],
+        "name": "Region Demo"
+      }
+    }
+  ]
+}

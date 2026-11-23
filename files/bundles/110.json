@@ -1,0 +1,1238 @@
+{
+  "resourceType": "Bundle",
+  "id": "3001f2cc-6d7a-414b-8ea7-e28643dd48b5",
+  "meta": {
+    "profile": [
+      "http://hl7.eu/fhir/eps/StructureDefinition/bundle-eu-eps"
+    ]
+  },
+  "identifier": {
+    "system": "urn:ietf:rfc:3986",
+    "value": "urn:uuid:3001f2cc-6d7a-414b-8ea7-e28643dd48b5"
+  },
+  "type": "document",
+  "timestamp": "2026-11-19T15:31:25Z",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:6de26aa2-af28-4d10-ac07-ddec05c8fd1e",
+      "resource": {
+        "resourceType": "Composition",
+        "id": "6de26aa2-af28-4d10-ac07-ddec05c8fd1e",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/composition-eu-eps"
+          ]
+        },
+        "identifier": {
+          "system": "urn:ietf:rfc:3986",
+          "value": "urn:uuid:3001f2cc-6d7a-414b-8ea7-e28643dd48b5"
+        },
+        "status": "preliminary",
+        "type": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "60591-5",
+              "display": "Patient summary Document"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:a04eee74-74a9-41a2-8e27-073fdf58b85e"
+        },
+        "date": "2026-11-19T15:31:25Z",
+        "author": [
+          {
+            "reference": "urn:uuid:0218d6a9-2372-470b-86f4-6314bca052bb"
+          }
+        ],
+        "title": "Patient Summary - unreviewed automated draft",
+        "language": "en",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\" xml:lang=\"en\"><p>Unreviewed draft. Not for clinical use or patient-care decisions.</p></div>"
+        },
+        "section": [
+          {
+            "title": "Allergies and intolerances",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "48765-2",
+                  "display": "Allergies and intolerances"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\" xml:lang=\"en\"><p>No clinically verified source mapping available in this draft.</p></div>"
+            },
+            "emptyReason": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/list-empty-reason",
+                  "code": "unavailable",
+                  "display": "Unavailable"
+                }
+              ]
+            }
+          },
+          {
+            "title": "Problem list",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "11450-4",
+                  "display": "Problem list"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\" xml:lang=\"en\"><p>No clinically verified source mapping available in this draft.</p></div>"
+            },
+            "emptyReason": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/list-empty-reason",
+                  "code": "unavailable",
+                  "display": "Unavailable"
+                }
+              ]
+            }
+          },
+          {
+            "title": "Medication list",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "10160-0",
+                  "display": "Medication list"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\" xml:lang=\"en\"><p>Unreviewed AI-proposed source facts. Do not use for clinical decisions.</p></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:3d8f6bab-f009-4a82-94d3-310cbfc5810b"
+              }
+            ]
+          },
+          {
+            "title": "Immunizations",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "11369-6",
+                  "display": "Immunizations"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\" xml:lang=\"en\"><p>No clinically verified source mapping available in this draft.</p></div>"
+            },
+            "emptyReason": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/list-empty-reason",
+                  "code": "unavailable",
+                  "display": "Unavailable"
+                }
+              ]
+            }
+          },
+          {
+            "title": "Relevant diagnostic tests and laboratory data",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "30954-2",
+                  "display": "Relevant diagnostic tests and laboratory data"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\" xml:lang=\"en\"><p>Unreviewed AI-proposed source facts. Do not use for clinical decisions.</p></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:2da214c6-a298-4286-9c1a-6c6f520a9ae1"
+              }
+            ]
+          },
+          {
+            "title": "Medical devices",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "46264-8",
+                  "display": "Medical devices"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\" xml:lang=\"en\"><p>No clinically verified source mapping available in this draft.</p></div>"
+            },
+            "emptyReason": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/list-empty-reason",
+                  "code": "unavailable",
+                  "display": "Unavailable"
+                }
+              ]
+            }
+          },
+          {
+            "title": "Plan of care",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "18776-5",
+                  "display": "Plan of care"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\" xml:lang=\"en\"><p>No clinically verified source mapping available in this draft.</p></div>"
+            },
+            "emptyReason": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/list-empty-reason",
+                  "code": "unavailable",
+                  "display": "Unavailable"
+                }
+              ]
+            }
+          },
+          {
+            "title": "History of procedures",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "47519-4",
+                  "display": "History of procedures"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\" xml:lang=\"en\"><p>No clinically verified source mapping available in this draft.</p></div>"
+            },
+            "emptyReason": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/list-empty-reason",
+                  "code": "unavailable",
+                  "display": "Unavailable"
+                }
+              ]
+            }
+          },
+          {
+            "title": "Social history",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "29762-2",
+                  "display": "Social history"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\" xml:lang=\"en\"><p>Unreviewed AI-proposed source facts. Do not use for clinical decisions.</p></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:fae40f86-d1e2-448f-8578-74d85c7ceab1"
+              },
+              {
+                "reference": "urn:uuid:c7f1c3f2-4cf3-48ca-a017-edb9ae9946ea"
+              },
+              {
+                "reference": "urn:uuid:86062b97-e16d-482c-9815-701552ccb95b"
+              },
+              {
+                "reference": "urn:uuid:5fd00362-7c77-42e7-b12b-db82f4a44048"
+              },
+              {
+                "reference": "urn:uuid:7575ef0e-dc81-479c-8d66-01abbaf40e32"
+              },
+              {
+                "reference": "urn:uuid:4fe716b7-6c28-43a9-94e4-497c04bb9b08"
+              },
+              {
+                "reference": "urn:uuid:284f3887-b3a5-4b87-ab39-e7ab2589657a"
+              },
+              {
+                "reference": "urn:uuid:5232dbdc-c6f0-42ae-8109-15b185f595c2"
+              },
+              {
+                "reference": "urn:uuid:ab4c7861-77eb-48e8-bfd8-b454334318af"
+              },
+              {
+                "reference": "urn:uuid:81c67ca8-5d20-4112-92c5-b30a6a2cb7e5"
+              },
+              {
+                "reference": "urn:uuid:f0dac129-f64e-494f-98ef-c69d7dad5402"
+              },
+              {
+                "reference": "urn:uuid:479bd011-fddf-4d10-9bb3-22237923e4d5"
+              },
+              {
+                "reference": "urn:uuid:0e1b3b42-5235-4843-b54b-9838e05bfd35"
+              }
+            ]
+          },
+          {
+            "title": "Vital signs",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "8716-3",
+                  "display": "Vital signs"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\" xml:lang=\"en\"><p>Unreviewed AI-proposed source facts. Do not use for clinical decisions.</p></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:427a5ed6-d547-4b52-b0a1-f68711ba0313"
+              },
+              {
+                "reference": "urn:uuid:0426e9d6-c023-4013-947f-9b4ee52d0fe7"
+              },
+              {
+                "reference": "urn:uuid:20389b56-1b02-48b4-941b-6d3f7d37a1da"
+              },
+              {
+                "reference": "urn:uuid:62488fcd-6e66-40c4-abe7-dba42c1e90ee"
+              },
+              {
+                "reference": "urn:uuid:6020f610-8600-48d2-961e-17336d7a696d"
+              },
+              {
+                "reference": "urn:uuid:9b042ad1-3743-4a9b-a9ea-3f22687d428a"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a04eee74-74a9-41a2-8e27-073fdf58b85e",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "a04eee74-74a9-41a2-8e27-073fdf58b85e",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/patient-eu-eps"
+          ]
+        },
+        "name": [
+          {
+            "_text": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+                  "valueCode": "unknown"
+                }
+              ]
+            }
+          }
+        ],
+        "_birthDate": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+              "valueCode": "unknown"
+            }
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\" xml:lang=\"en\"><p>Unreviewed patient demographics from the supplied source.</p></div>"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:0218d6a9-2372-470b-86f4-6314bca052bb",
+      "resource": {
+        "resourceType": "Device",
+        "id": "0218d6a9-2372-470b-86f4-6314bca052bb",
+        "deviceName": [
+          {
+            "name": "EPS Transformer - unreviewed draft generator",
+            "type": "user-friendly-name"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\" xml:lang=\"en\"><p>Software generator; no clinical attestation.</p></div>"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:3d8f6bab-f009-4a82-94d3-310cbfc5810b",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "3d8f6bab-f009-4a82-94d3-310cbfc5810b",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/MedicationStatement-eu-eps"
+          ]
+        },
+        "status": "unknown",
+        "medicationReference": {
+          "reference": "urn:uuid:eefc2385-6490-45d1-bfe7-30350e5d6a6f"
+        },
+        "subject": {
+          "reference": "urn:uuid:a04eee74-74a9-41a2-8e27-073fdf58b85e"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\" xml:lang=\"en\"><p>Unreviewed medication statement; treatment details require review.</p></div>"
+        },
+        "_effectiveDateTime": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+              "valueCode": "unknown"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:eefc2385-6490-45d1-bfe7-30350e5d6a6f",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "eefc2385-6490-45d1-bfe7-30350e5d6a6f",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medication-eu-core"
+          ]
+        },
+        "code": {
+          "text": "Acetylsalicylsyra"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\" xml:lang=\"en\"><p>Unreviewed source medication: Acetylsalicylsyra</p></div>"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:fae40f86-d1e2-448f-8578-74d85c7ceab1",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "fae40f86-d1e2-448f-8578-74d85c7ceab1",
+        "status": "unknown",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "social-history",
+                "display": "Social History"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "urn:uuid:a04eee74-74a9-41a2-8e27-073fdf58b85e"
+        },
+        "effectiveDateTime": "2025-11-18",
+        "code": {
+          "text": "Socialt"
+        },
+        "valueString": "Gift bor med frun i villa, jobbad deltid som trädgårdsmästare",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\" xml:lang=\"en\"><p>Unreviewed observation: Socialt: Gift bor med frun i villa, jobbad deltid som trädgårdsmästare</p></div>"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:c7f1c3f2-4cf3-48ca-a017-edb9ae9946ea",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "c7f1c3f2-4cf3-48ca-a017-edb9ae9946ea",
+        "status": "unknown",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "social-history",
+                "display": "Social History"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "urn:uuid:a04eee74-74a9-41a2-8e27-073fdf58b85e"
+        },
+        "effectiveDateTime": "2025-11-18",
+        "code": {
+          "text": "Tobak"
+        },
+        "valueString": "Tidigare rökt",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\" xml:lang=\"en\"><p>Unreviewed observation: Tobak: Tidigare rökt</p></div>"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:86062b97-e16d-482c-9815-701552ccb95b",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "86062b97-e16d-482c-9815-701552ccb95b",
+        "status": "unknown",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "social-history",
+                "display": "Social History"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "urn:uuid:a04eee74-74a9-41a2-8e27-073fdf58b85e"
+        },
+        "effectiveDateTime": "2025-11-18",
+        "code": {
+          "text": "Alkohol"
+        },
+        "valueQuantity": {
+          "value": 1,
+          "unit": "stdglas/v"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\" xml:lang=\"en\"><p>Unreviewed observation: Alkohol: 1 stdglas/v</p></div>"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:5fd00362-7c77-42e7-b12b-db82f4a44048",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "5fd00362-7c77-42e7-b12b-db82f4a44048",
+        "status": "unknown",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "social-history",
+                "display": "Social History"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "urn:uuid:a04eee74-74a9-41a2-8e27-073fdf58b85e"
+        },
+        "effectiveDateTime": "2025-11-18",
+        "code": {
+          "text": "Fysisk träning"
+        },
+        "valueString": "Konditionsträning",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\" xml:lang=\"en\"><p>Unreviewed observation: Fysisk träning: Konditionsträning</p></div>"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:7575ef0e-dc81-479c-8d66-01abbaf40e32",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "7575ef0e-dc81-479c-8d66-01abbaf40e32",
+        "status": "unknown",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "social-history",
+                "display": "Social History"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "urn:uuid:a04eee74-74a9-41a2-8e27-073fdf58b85e"
+        },
+        "effectiveDateTime": "2023-11-14",
+        "code": {
+          "text": "Socialt"
+        },
+        "valueString": "gift bor med frun i villa pensionerad trädgårdsmästare",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\" xml:lang=\"en\"><p>Unreviewed observation: Socialt: gift bor med frun i villa pensionerad trädgårdsmästare</p></div>"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:4fe716b7-6c28-43a9-94e4-497c04bb9b08",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4fe716b7-6c28-43a9-94e4-497c04bb9b08",
+        "status": "unknown",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "social-history",
+                "display": "Social History"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "urn:uuid:a04eee74-74a9-41a2-8e27-073fdf58b85e"
+        },
+        "effectiveDateTime": "2023-11-14",
+        "code": {
+          "text": "Tobak"
+        },
+        "valueString": "Tidigare rökt",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\" xml:lang=\"en\"><p>Unreviewed observation: Tobak: Tidigare rökt</p></div>"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:284f3887-b3a5-4b87-ab39-e7ab2589657a",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "284f3887-b3a5-4b87-ab39-e7ab2589657a",
+        "status": "unknown",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "social-history",
+                "display": "Social History"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "urn:uuid:a04eee74-74a9-41a2-8e27-073fdf58b85e"
+        },
+        "effectiveDateTime": "2023-11-14",
+        "code": {
+          "text": "Fysisk träning"
+        },
+        "valueString": "Konditionsträning",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\" xml:lang=\"en\"><p>Unreviewed observation: Fysisk träning: Konditionsträning</p></div>"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:5232dbdc-c6f0-42ae-8109-15b185f595c2",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "5232dbdc-c6f0-42ae-8109-15b185f595c2",
+        "status": "unknown",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "social-history",
+                "display": "Social History"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "urn:uuid:a04eee74-74a9-41a2-8e27-073fdf58b85e"
+        },
+        "effectiveDateTime": "2022-11-12",
+        "code": {
+          "text": "Socialt"
+        },
+        "valueString": "Gift bor med frun i villa, jobbar deltid som trädgårdsmästare.",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\" xml:lang=\"en\"><p>Unreviewed observation: Socialt: Gift bor med frun i villa, jobbar deltid som trädgårdsmästare.</p></div>"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:ab4c7861-77eb-48e8-bfd8-b454334318af",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "ab4c7861-77eb-48e8-bfd8-b454334318af",
+        "status": "unknown",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "social-history",
+                "display": "Social History"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "urn:uuid:a04eee74-74a9-41a2-8e27-073fdf58b85e"
+        },
+        "effectiveDateTime": "2022-11-12",
+        "code": {
+          "text": "Tobak"
+        },
+        "valueString": "Tidigare rökt",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\" xml:lang=\"en\"><p>Unreviewed observation: Tobak: Tidigare rökt</p></div>"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:81c67ca8-5d20-4112-92c5-b30a6a2cb7e5",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "81c67ca8-5d20-4112-92c5-b30a6a2cb7e5",
+        "status": "unknown",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "social-history",
+                "display": "Social History"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "urn:uuid:a04eee74-74a9-41a2-8e27-073fdf58b85e"
+        },
+        "effectiveDateTime": "2022-11-12",
+        "code": {
+          "text": "Alkohol"
+        },
+        "valueQuantity": {
+          "value": 4,
+          "unit": "stdglas/v"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\" xml:lang=\"en\"><p>Unreviewed observation: Alkohol: 4 stdglas/v</p></div>"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:427a5ed6-d547-4b52-b0a1-f68711ba0313",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "427a5ed6-d547-4b52-b0a1-f68711ba0313",
+        "status": "unknown",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "urn:uuid:a04eee74-74a9-41a2-8e27-073fdf58b85e"
+        },
+        "effectiveDateTime": "2022-11-12",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "85354-9",
+              "display": "Blood pressure panel"
+            }
+          ]
+        },
+        "component": [
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "8480-6",
+                  "display": "Systolic blood pressure"
+                }
+              ]
+            },
+            "valueQuantity": {
+              "value": 189,
+              "unit": "mmHg",
+              "system": "http://unitsofmeasure.org",
+              "code": "mm[Hg]"
+            }
+          },
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "8462-4",
+                  "display": "Diastolic blood pressure"
+                }
+              ]
+            },
+            "valueQuantity": {
+              "value": 100,
+              "unit": "mmHg",
+              "system": "http://unitsofmeasure.org",
+              "code": "mm[Hg]"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\" xml:lang=\"en\"><p>Unreviewed observation: Systolic blood pressure: 189 mmHg, Diastolic blood pressure: 100 mmHg</p></div>"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:0426e9d6-c023-4013-947f-9b4ee52d0fe7",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "0426e9d6-c023-4013-947f-9b4ee52d0fe7",
+        "status": "unknown",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "urn:uuid:a04eee74-74a9-41a2-8e27-073fdf58b85e"
+        },
+        "effectiveDateTime": "2022-11-12",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8867-4",
+              "display": "Heart rate"
+            }
+          ]
+        },
+        "valueQuantity": {
+          "value": 96,
+          "unit": "slag/min",
+          "system": "http://unitsofmeasure.org",
+          "code": "/min"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\" xml:lang=\"en\"><p>Unreviewed observation: Pulsfrekvens: 96 slag/min</p></div>"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:20389b56-1b02-48b4-941b-6d3f7d37a1da",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "20389b56-1b02-48b4-941b-6d3f7d37a1da",
+        "status": "unknown",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "urn:uuid:a04eee74-74a9-41a2-8e27-073fdf58b85e"
+        },
+        "effectiveDateTime": "2022-11-12",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "9279-1",
+              "display": "Respiratory rate"
+            }
+          ]
+        },
+        "valueQuantity": {
+          "value": 16,
+          "unit": "andetag/min.",
+          "system": "http://unitsofmeasure.org",
+          "code": "/min"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\" xml:lang=\"en\"><p>Unreviewed observation: Andningsfrekvens: 16 andetag/min.</p></div>"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:62488fcd-6e66-40c4-abe7-dba42c1e90ee",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "62488fcd-6e66-40c4-abe7-dba42c1e90ee",
+        "status": "unknown",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "urn:uuid:a04eee74-74a9-41a2-8e27-073fdf58b85e"
+        },
+        "effectiveDateTime": "2022-11-12",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8302-2",
+              "display": "Body height"
+            }
+          ]
+        },
+        "valueQuantity": {
+          "value": 187,
+          "unit": "cm",
+          "system": "http://unitsofmeasure.org",
+          "code": "cm"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\" xml:lang=\"en\"><p>Unreviewed observation: Längd: 187 cm</p></div>"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:6020f610-8600-48d2-961e-17336d7a696d",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "6020f610-8600-48d2-961e-17336d7a696d",
+        "status": "unknown",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "urn:uuid:a04eee74-74a9-41a2-8e27-073fdf58b85e"
+        },
+        "effectiveDateTime": "2022-11-12",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "29463-7",
+              "display": "Body weight"
+            }
+          ]
+        },
+        "valueQuantity": {
+          "value": 86,
+          "unit": "kg",
+          "system": "http://unitsofmeasure.org",
+          "code": "kg"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\" xml:lang=\"en\"><p>Unreviewed observation: Vikt: 86 kg</p></div>"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:f0dac129-f64e-494f-98ef-c69d7dad5402",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "f0dac129-f64e-494f-98ef-c69d7dad5402",
+        "status": "unknown",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "social-history",
+                "display": "Social History"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "urn:uuid:a04eee74-74a9-41a2-8e27-073fdf58b85e"
+        },
+        "effectiveDateTime": "2020-11-12",
+        "code": {
+          "text": "Socialt"
+        },
+        "valueString": "Gift bor med frun i villa, jobbad deltid som trädgårdsmästare",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\" xml:lang=\"en\"><p>Unreviewed observation: Socialt: Gift bor med frun i villa, jobbad deltid som trädgårdsmästare</p></div>"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:479bd011-fddf-4d10-9bb3-22237923e4d5",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "479bd011-fddf-4d10-9bb3-22237923e4d5",
+        "status": "unknown",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "social-history",
+                "display": "Social History"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "urn:uuid:a04eee74-74a9-41a2-8e27-073fdf58b85e"
+        },
+        "effectiveDateTime": "2020-11-12",
+        "code": {
+          "text": "Tobak"
+        },
+        "valueString": "Tidigare rökt",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\" xml:lang=\"en\"><p>Unreviewed observation: Tobak: Tidigare rökt</p></div>"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:0e1b3b42-5235-4843-b54b-9838e05bfd35",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "0e1b3b42-5235-4843-b54b-9838e05bfd35",
+        "status": "unknown",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "social-history",
+                "display": "Social History"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "urn:uuid:a04eee74-74a9-41a2-8e27-073fdf58b85e"
+        },
+        "effectiveDateTime": "2020-11-12",
+        "code": {
+          "text": "Alkohol"
+        },
+        "valueQuantity": {
+          "value": 5,
+          "unit": "stdglas/v"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\" xml:lang=\"en\"><p>Unreviewed observation: Alkohol: 5 stdglas/v</p></div>"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:2da214c6-a298-4286-9c1a-6c6f520a9ae1",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "2da214c6-a298-4286-9c1a-6c6f520a9ae1",
+        "status": "unknown",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "urn:uuid:a04eee74-74a9-41a2-8e27-073fdf58b85e"
+        },
+        "effectiveDateTime": "2020-11-12",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medicalTestResult-eu-core"
+          ]
+        },
+        "code": {
+          "text": "EKG-tolkning"
+        },
+        "valueString": "Normalt",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\" xml:lang=\"en\"><p>Unreviewed observation: EKG-tolkning: Normalt</p></div>"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:9b042ad1-3743-4a9b-a9ea-3f22687d428a",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "9b042ad1-3743-4a9b-a9ea-3f22687d428a",
+        "status": "unknown",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "urn:uuid:a04eee74-74a9-41a2-8e27-073fdf58b85e"
+        },
+        "effectiveDateTime": "2020-11-12",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "85354-9",
+              "display": "Blood pressure panel"
+            }
+          ]
+        },
+        "component": [
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "8480-6",
+                  "display": "Systolic blood pressure"
+                }
+              ]
+            },
+            "valueQuantity": {
+              "value": 180,
+              "unit": "mmHg",
+              "system": "http://unitsofmeasure.org",
+              "code": "mm[Hg]"
+            }
+          },
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "8462-4",
+                  "display": "Diastolic blood pressure"
+                }
+              ]
+            },
+            "valueQuantity": {
+              "value": 95,
+              "unit": "mmHg",
+              "system": "http://unitsofmeasure.org",
+              "code": "mm[Hg]"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\" xml:lang=\"en\"><p>Unreviewed observation: Systolic blood pressure: 180 mmHg, Diastolic blood pressure: 95 mmHg</p></div>"
+        }
+      }
+    }
+  ]
+}

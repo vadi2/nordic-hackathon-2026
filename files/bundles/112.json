@@ -1,0 +1,3062 @@
+{
+  "resourceType": "Bundle",
+  "id": "1ce9df34-f95c-4e5c-bea8-1ef93907e93f",
+  "meta": {
+    "profile": [
+      "http://hl7.eu/fhir/eps/StructureDefinition/bundle-eu-eps"
+    ]
+  },
+  "identifier": {
+    "system": "urn:ietf:rfc:3986",
+    "value": "urn:uuid:1ce9df34-f95c-4e5c-bea8-1ef93907e93f"
+  },
+  "type": "document",
+  "timestamp": "2026-11-19T16:33:09Z",
+  "entry": [
+    {
+      "fullUrl": "https://hip-cdr-connector-fhir-psm.psm.sandbox1.vghip.cloud/fhir/R4/Composition/d94d359c-4331-4d69-bc2c-9d76c75a13d2",
+      "resource": {
+        "resourceType": "Composition",
+        "id": "d94d359c-4331-4d69-bc2c-9d76c75a13d2",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/composition-eu-eps"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Patient Summary</b></p><p>Patient: Peter Bergström</p><p>Date: 2026-11-19T16:33:09Z</p></div>"
+        },
+        "identifier": {
+          "system": "https://hip.vitagroup.ag/sid/ehds-composition-identifier",
+          "value": "d94d359c-4331-4d69-bc2c-9d76c75a13d2"
+        },
+        "status": "final",
+        "type": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "60591-5",
+              "display": "Patient summary Document"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/b5ccf456-9247-4ab1-a8df-a784b8648314",
+          "display": "Peter Bergström"
+        },
+        "date": "2026-11-19T16:33:09Z",
+        "author": [
+          {
+            "display": "vitagroup AG"
+          }
+        ],
+        "title": "Patient Summary",
+        "confidentiality": "N",
+        "event": [
+          {
+            "code": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ActClass",
+                    "code": "PCPR",
+                    "display": "care provision"
+                  }
+                ]
+              }
+            ],
+            "period": {
+              "end": "2026-11-19T16:33:09Z"
+            }
+          }
+        ],
+        "section": [
+          {
+            "title": "Problem List",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "11450-4",
+                  "display": "Problem list - Reported"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><thead><tr><th>Problem List</th><th>Details</th><th>Status</th><th>Date</th></tr></thead><tbody><tr><td>Venous ulcer of lower leg</td><td></td><td>Active</td><td>2023-05-19</td></tr><tr><td>Malignant neoplasm of prostate</td><td></td><td>Active</td><td>2020-08-11</td></tr><tr><td>Left hemiparesis</td><td></td><td>Active</td><td>2019-02-03</td></tr><tr><td>Chronic congestive heart failure</td><td></td><td>Active</td><td>2018-04-12</td></tr><tr><td>Atrial fibrillation</td><td></td><td>Active</td><td>2017-09-22</td></tr><tr><td>Stable angina</td><td></td><td>Active</td><td>2015-11-05</td></tr><tr><td>Pulmonary emphysema</td><td></td><td>Active</td><td>2011-03-17</td></tr><tr><td>Type 2 diabetes mellitus</td><td></td><td>Active</td><td>2004-06-30</td></tr><tr><td>Essential hypertension</td><td></td><td>Active</td><td>1998-10-02</td></tr></tbody></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "Condition/9e191df1-8160-48ac-a13d-a0924d4707ee"
+              },
+              {
+                "reference": "Condition/3deb629a-5ce1-486d-a434-1244fb39c212"
+              },
+              {
+                "reference": "Condition/f1f92155-7383-4b50-aebe-b293bc9710a5"
+              },
+              {
+                "reference": "Condition/55b3e859-f27e-4fde-905e-0a411f404ad8"
+              },
+              {
+                "reference": "Condition/2c727bc3-24c4-428c-9108-0f7c50d3963c"
+              },
+              {
+                "reference": "Condition/81023db3-a5c0-44cc-acf3-8d4bff7d920b"
+              },
+              {
+                "reference": "Condition/b77cc94b-2002-4eeb-a1b8-f0d5385dc41e"
+              },
+              {
+                "reference": "Condition/11818131-fe6c-4114-bb29-54e95c4e2b43"
+              },
+              {
+                "reference": "Condition/50f0b52e-ddc0-4081-98ef-52095894cadc"
+              }
+            ]
+          },
+          {
+            "title": "Allergies and Intolerances",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "48765-2",
+                  "display": "Allergies and adverse reactions Document"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><thead><tr><th>Allergies and Intolerances</th><th>Details</th><th>Status</th><th>Date</th></tr></thead><tbody><tr><td>European white birch pollen</td><td>Criticality: low; Reaction: Rhinoconjunctivitis</td><td>Active</td><td>1988-04-02</td></tr><tr><td>Penicillin</td><td>Criticality: high; Reaction: Anaphylaxis</td><td>Active</td><td>1972-06-18</td></tr></tbody></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "AllergyIntolerance/ab199c49-06ae-41e5-bddc-1e934c19afcf"
+              },
+              {
+                "reference": "AllergyIntolerance/8704a29c-710b-4a9d-a81d-ae7a3c70e617"
+              }
+            ]
+          },
+          {
+            "title": "Medication Summary",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "10160-0",
+                  "display": "History of Medication use Narrative"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><thead><tr><th>Medication Summary</th><th>Details</th><th>Status</th><th>Date</th></tr></thead><tbody><tr><td>Bikalutamid 150 mg tablett</td><td>1 tablett (150 mg) 1 gång dagligen som monoterapi (ingen GnRH-analog)</td><td>active</td><td>2020-09-14</td></tr><tr><td>Metoprolol depottablett 50 mg</td><td>1 tablett (50 mg) 1 gång dagligen på morgonen</td><td>active</td><td>2018-04-20</td></tr><tr><td>Ramipril 5 mg tablett</td><td>1 tablett (5 mg) 1 gång dagligen</td><td>active</td><td>2018-04-20</td></tr><tr><td>Furosemid 40 mg tablett</td><td>1 tablett (40 mg) 1 gång dagligen på morgonen</td><td>active</td><td>2018-04-20</td></tr><tr><td>Apixaban 5 mg tablett</td><td>1 tablett (5 mg) 2 gånger dagligen</td><td>active</td><td>2017-10-05</td></tr><tr><td>Insulin glargin 100 E/ml injektionsvätska</td><td>22 enheter subkutant till natten</td><td>active</td><td>2016-02-08</td></tr><tr><td>Glyceryltrinitrat 0,4 mg sublingual spray</td><td>1-2 doser under tungan vid bröstsmärta, vid behov</td><td>active</td><td>2015-11-10</td></tr><tr><td>Atorvastatin 20 mg tablett</td><td>1 tablett (20 mg) 1 gång dagligen till kvällen</td><td>active</td><td>2015-11-10</td></tr><tr><td>Tiotropium 18 mikrogram inhalationspulver</td><td>1 inhalation 1 gång dagligen</td><td>active</td><td>2011-04-05</td></tr><tr><td>Metformin 500 mg tablett</td><td>1 tablett (500 mg) 2 gånger dagligen i samband med måltid</td><td>active</td><td>2004-07-15</td></tr></tbody></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "MedicationStatement/9ac385a0-1d26-4e8c-9130-71dc788920bb"
+              },
+              {
+                "reference": "MedicationStatement/54f12332-a1f1-45fb-ac90-2bcf1c09627e"
+              },
+              {
+                "reference": "MedicationStatement/07114a2c-7e6c-4712-ab13-b65323d9ae87"
+              },
+              {
+                "reference": "MedicationStatement/8f95bf78-fe67-4cc4-91ff-b6966b389b5b"
+              },
+              {
+                "reference": "MedicationStatement/36e1e832-b64a-49ef-92eb-cc0cd912816e"
+              },
+              {
+                "reference": "MedicationStatement/f56fa3c1-7ff5-4a2d-819d-c892f6b7936e"
+              },
+              {
+                "reference": "MedicationStatement/971f6c55-65fc-47dc-9d62-0ebdf2a109ac"
+              },
+              {
+                "reference": "MedicationStatement/7f2467f6-0054-4174-aabf-207743d88287"
+              },
+              {
+                "reference": "MedicationStatement/397351b2-620d-4ef6-b85e-8fc9e3156b1b"
+              },
+              {
+                "reference": "MedicationStatement/71d61dbc-84ff-419a-bc3c-b9090d220760"
+              }
+            ]
+          },
+          {
+            "title": "History of Procedures",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "47519-4",
+                  "display": "History of Procedures Document"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><thead><tr><th>History of Procedures</th><th>Details</th><th>Status</th><th>Date</th></tr></thead><tbody><tr><td>Transurethral resection of prostate</td><td></td><td>completed</td><td>2020-11-26</td></tr></tbody></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "Procedure/2126fbc6-bde5-4824-99d8-dc5fbf0e3742"
+              }
+            ]
+          },
+          {
+            "title": "Medical Devices",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "46264-8",
+                  "display": "History of medical device use"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><thead><tr><th>Medical Devices</th><th>Details</th><th>Status</th><th>Date</th></tr></thead><tbody><tr><td>Rollator</td><td></td><td>active</td><td>2019-06-01</td></tr></tbody></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "DeviceUseStatement/adb3ad2e-687e-4d4c-800f-046a6a043fb4"
+              }
+            ]
+          },
+          {
+            "title": "History of Immunizations",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "11369-6",
+                  "display": "History of Immunization Narrative"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><thead><tr><th>History of Immunizations</th><th>Details</th><th>Status</th><th>Date</th></tr></thead><tbody><tr><td>Vaccine product containing only Influenza virus antigen (medicinal product)</td><td></td><td>completed</td><td>2025-10-09</td></tr><tr><td>SARS-CoV-2 antigen vaccine</td><td></td><td>completed</td><td>2025-10-09</td></tr><tr><td>Streptococcus pneumoniae antigen only vaccine product</td><td></td><td>completed</td><td>2021-11-04</td></tr></tbody></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "Immunization/cde700e0-67e1-421c-8aad-eab3b63b61aa"
+              },
+              {
+                "reference": "Immunization/71e97732-4e79-4956-827e-66022d7f3050"
+              },
+              {
+                "reference": "Immunization/95cbd97a-e868-44c3-9a6e-efb5ce0be102"
+              }
+            ]
+          },
+          {
+            "title": "Results",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "30954-2",
+                  "display": "Relevant diagnostic tests/laboratory data Narrative"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><thead><tr><th>Results</th><th>Details</th><th>Status</th><th>Date</th></tr></thead><tbody><tr><td>Hemoglobin A1c/Hemoglobin.total standardized per IFCC-RMP for CDT in Blood</td><td>58 mmol/mol; (High)</td><td>final</td><td>2026-06-12</td></tr><tr><td>Creatinine [Moles/volume] in Serum or Plasma</td><td>118 umol/L; (High)</td><td>final</td><td>2026-06-12</td></tr><tr><td>Glomerular filtration rate [Volume Rate/Area] in Serum, Plasma or Blood by Creatinine-based formula (CKD-EPI)/1.73 sq M</td><td>46 mL/min/{1.73_m2}; (Low)</td><td>final</td><td>2026-06-12</td></tr><tr><td>Hemoglobin [Mass/volume] in Blood</td><td>112 g/L; (Low)</td><td>final</td><td>2026-06-12</td></tr><tr><td>Potassium [Moles/volume] in Serum or Plasma</td><td>4.4 mmol/L</td><td>final</td><td>2026-06-12</td></tr><tr><td>Natriuretic peptide.B prohormone N-Terminal [Mass/volume] in Serum or Plasma</td><td>1840 ng/L; (High)</td><td>final</td><td>2026-06-12</td></tr><tr><td>Prostate specific Ag [Mass/volume] in Serum or Plasma</td><td>12.4 ug/L; (High)</td><td>final</td><td>2026-05-04</td></tr></tbody></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "Observation/bf138c18-1bfd-4e8f-929f-37d5095290cf"
+              },
+              {
+                "reference": "Observation/6761e03e-9ea6-4336-9887-0e80bde897fb"
+              },
+              {
+                "reference": "Observation/b0b1275f-986f-4a00-b909-dd08c7e2f545"
+              },
+              {
+                "reference": "Observation/bdab6e56-2e7c-40b1-95a6-cf43f1cd6eb7"
+              },
+              {
+                "reference": "Observation/c67fa19c-92f9-4923-aed8-0aa3fc08a3ef"
+              },
+              {
+                "reference": "Observation/cc436517-c6c9-4b61-a832-acb0f57337f0"
+              },
+              {
+                "reference": "Observation/bdbb0256-34e9-44c2-91f6-a6f244c2351b"
+              }
+            ]
+          },
+          {
+            "title": "History of Past Illness",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "11348-0",
+                  "display": "History of Past illness Narrative"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><thead><tr><th>History of Past Illness</th><th>Details</th><th>Status</th><th>Date</th></tr></thead><tbody><tr><td>Cerebrovascular accident</td><td></td><td>Inactive</td><td>2019-02-03</td></tr></tbody></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "Condition/8067ec3d-7266-49dc-a026-ed7ec584c62f"
+              }
+            ]
+          },
+          {
+            "title": "Plan of Care",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "18776-5",
+                  "display": "Plan of care note"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><thead><tr><th>Plan of Care</th><th>Details</th><th>Status</th><th>Date</th></tr></thead><tbody><tr><td>Planerat återbesök på Vårdcentralen Kvarnängen - årlig kontroll av hjärtsvikt och diabetes</td><td></td><td>active</td><td>2026-06-12</td></tr><tr><td>Sårvård av venöst bensår höger underben - kompressionsbehandling och omläggning två gånger per vecka</td><td></td><td>active</td><td>2023-05-19</td></tr><tr><td>Hemtjänst två besök dagligen - stöd med läkemedel, personlig vård och måltider</td><td></td><td>active</td><td>2019-06-01</td></tr></tbody></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "CarePlan/ab3701c4-9992-4d36-9180-fea3b015d716"
+              },
+              {
+                "reference": "CarePlan/ab4db421-6f98-4fcb-bc6c-0cc4d9ae8a82"
+              },
+              {
+                "reference": "CarePlan/a3f067b5-b86d-4873-bdf6-5ca180906a03"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://hip-cdr-connector-fhir-psm.psm.sandbox1.vghip.cloud/fhir/R4/Patient/b5ccf456-9247-4ab1-a8df-a784b8648314",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "b5ccf456-9247-4ab1-a8df-a784b8648314",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-11-19T09:55:23.526+00:00",
+          "source": "#yDb7Gs5hQVi94z2b",
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/patient-eu-eps",
+            "http://hl7.se/fhir/ig/base/StructureDefinition/SEBasePatient"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><tr><th>Name</th><td>Peter Bergström</td></tr><tr><th>Gender</th><td>male</td></tr><tr><th>Date of birth</th><td>1943-02-09</td></tr><tr><th>Identifier</th><td>194302093457</td></tr><tr><th>Preferred language</th><td>Swedish</td></tr><tr><th>Address</th><td>Ängsbacken 8 A, Falkenberg, SE</td></tr></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "http://electronichealth.se/identifier/personnummer",
+            "value": "194302093457"
+          },
+          {
+            "system": "ehrbase://love.is.in.the.ehr",
+            "value": "1aed68b0-69ac-492c-abbe-deaaf762453a"
+          }
+        ],
+        "name": [
+          {
+            "text": "Peter Bergström",
+            "family": "Bergström",
+            "given": [
+              "Peter",
+              "Gustav"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+46 70 000 00 02",
+            "use": "home"
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1943-02-09",
+        "address": [
+          {
+            "use": "home",
+            "type": "physical",
+            "line": [
+              "Ängsbacken 8 A"
+            ],
+            "city": "Falkenberg",
+            "postalCode": "311 34",
+            "country": "SE"
+          }
+        ],
+        "contact": [
+          {
+            "relationship": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0131",
+                    "code": "C",
+                    "display": "Emergency Contact"
+                  }
+                ],
+                "text": "Emergency Contact"
+              }
+            ],
+            "name": {
+              "text": "Mikael Bergström",
+              "family": "Bergström",
+              "given": [
+                "Mikael"
+              ]
+            },
+            "telecom": [
+              {
+                "system": "phone",
+                "value": "+45 20 00 00 03"
+              }
+            ],
+            "address": {
+              "city": "København",
+              "country": "DK"
+            }
+          }
+        ],
+        "communication": [
+          {
+            "language": {
+              "coding": [
+                {
+                  "system": "urn:ietf:bcp:47",
+                  "code": "sv",
+                  "display": "Swedish"
+                }
+              ],
+              "text": "Swedish"
+            },
+            "preferred": true
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://hip-cdr-connector-fhir-psm.psm.sandbox1.vghip.cloud/fhir/R4/Condition/9e191df1-8160-48ac-a13d-a0924d4707ee",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "9e191df1-8160-48ac-a13d-a0924d4707ee",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-11-19T09:55:31.687602Z",
+          "source": "sweden.hip-cdr-core-ehrbase-enterprise-psm.psm.sandbox1.vghip.cloud"
+        },
+        "identifier": [
+          {
+            "system": "https://hip.vitagroup.ag/sid/condition-identifier",
+            "value": "4f7d3498-e8a4-4c06-bb76-50ee6d678a4a"
+          }
+        ],
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active",
+              "display": "Active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed",
+              "display": "Condition verification status"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "problem-list-item",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "1237117000",
+              "display": "Venous ulcer of lower leg"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/b5ccf456-9247-4ab1-a8df-a784b8648314"
+        },
+        "onsetDateTime": "2023-05-19",
+        "recordedDate": "2023-05-19"
+      }
+    },
+    {
+      "fullUrl": "https://hip-cdr-connector-fhir-psm.psm.sandbox1.vghip.cloud/fhir/R4/Condition/3deb629a-5ce1-486d-a434-1244fb39c212",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "3deb629a-5ce1-486d-a434-1244fb39c212",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-11-19T09:55:31.687602Z",
+          "source": "sweden.hip-cdr-core-ehrbase-enterprise-psm.psm.sandbox1.vghip.cloud"
+        },
+        "identifier": [
+          {
+            "system": "https://hip.vitagroup.ag/sid/condition-identifier",
+            "value": "35ee3ab3-cb69-4c66-92a3-83be0dc38d56"
+          }
+        ],
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active",
+              "display": "Active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed",
+              "display": "Condition verification status"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "problem-list-item",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "399068003",
+              "display": "Malignant neoplasm of prostate"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/b5ccf456-9247-4ab1-a8df-a784b8648314"
+        },
+        "onsetDateTime": "2020-08-11",
+        "recordedDate": "2020-08-11"
+      }
+    },
+    {
+      "fullUrl": "https://hip-cdr-connector-fhir-psm.psm.sandbox1.vghip.cloud/fhir/R4/Condition/f1f92155-7383-4b50-aebe-b293bc9710a5",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "f1f92155-7383-4b50-aebe-b293bc9710a5",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-11-19T09:55:31.687602Z",
+          "source": "sweden.hip-cdr-core-ehrbase-enterprise-psm.psm.sandbox1.vghip.cloud"
+        },
+        "identifier": [
+          {
+            "system": "https://hip.vitagroup.ag/sid/condition-identifier",
+            "value": "36f73f29-dc6d-46ec-9f70-efd73a37612c"
+          }
+        ],
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active",
+              "display": "Active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed",
+              "display": "Condition verification status"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "problem-list-item",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "278287000",
+              "display": "Left hemiparesis"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/b5ccf456-9247-4ab1-a8df-a784b8648314"
+        },
+        "onsetDateTime": "2019-02-03",
+        "recordedDate": "2019-02-03"
+      }
+    },
+    {
+      "fullUrl": "https://hip-cdr-connector-fhir-psm.psm.sandbox1.vghip.cloud/fhir/R4/Condition/55b3e859-f27e-4fde-905e-0a411f404ad8",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "55b3e859-f27e-4fde-905e-0a411f404ad8",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-11-19T09:55:31.687602Z",
+          "source": "sweden.hip-cdr-core-ehrbase-enterprise-psm.psm.sandbox1.vghip.cloud"
+        },
+        "identifier": [
+          {
+            "system": "https://hip.vitagroup.ag/sid/condition-identifier",
+            "value": "58596f25-97db-4a71-a809-db56064d8787"
+          }
+        ],
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active",
+              "display": "Active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed",
+              "display": "Condition verification status"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "problem-list-item",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "88805009",
+              "display": "Chronic congestive heart failure"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/b5ccf456-9247-4ab1-a8df-a784b8648314"
+        },
+        "onsetDateTime": "2018-04-12",
+        "recordedDate": "2018-04-12"
+      }
+    },
+    {
+      "fullUrl": "https://hip-cdr-connector-fhir-psm.psm.sandbox1.vghip.cloud/fhir/R4/Condition/2c727bc3-24c4-428c-9108-0f7c50d3963c",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "2c727bc3-24c4-428c-9108-0f7c50d3963c",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-11-19T09:55:31.687602Z",
+          "source": "sweden.hip-cdr-core-ehrbase-enterprise-psm.psm.sandbox1.vghip.cloud"
+        },
+        "identifier": [
+          {
+            "system": "https://hip.vitagroup.ag/sid/condition-identifier",
+            "value": "60190283-48e0-4f34-a857-780bc51b3bc8"
+          }
+        ],
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active",
+              "display": "Active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed",
+              "display": "Condition verification status"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "problem-list-item",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "49436004",
+              "display": "Atrial fibrillation"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/b5ccf456-9247-4ab1-a8df-a784b8648314"
+        },
+        "onsetDateTime": "2017-09-22",
+        "recordedDate": "2017-09-22"
+      }
+    },
+    {
+      "fullUrl": "https://hip-cdr-connector-fhir-psm.psm.sandbox1.vghip.cloud/fhir/R4/Condition/81023db3-a5c0-44cc-acf3-8d4bff7d920b",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "81023db3-a5c0-44cc-acf3-8d4bff7d920b",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-11-19T09:55:31.687602Z",
+          "source": "sweden.hip-cdr-core-ehrbase-enterprise-psm.psm.sandbox1.vghip.cloud"
+        },
+        "identifier": [
+          {
+            "system": "https://hip.vitagroup.ag/sid/condition-identifier",
+            "value": "4eed1abe-c733-4135-8ebb-3876348d436f"
+          }
+        ],
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active",
+              "display": "Active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed",
+              "display": "Condition verification status"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "problem-list-item",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "233819005",
+              "display": "Stable angina"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/b5ccf456-9247-4ab1-a8df-a784b8648314"
+        },
+        "onsetDateTime": "2015-11-05",
+        "recordedDate": "2015-11-05"
+      }
+    },
+    {
+      "fullUrl": "https://hip-cdr-connector-fhir-psm.psm.sandbox1.vghip.cloud/fhir/R4/Condition/b77cc94b-2002-4eeb-a1b8-f0d5385dc41e",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "b77cc94b-2002-4eeb-a1b8-f0d5385dc41e",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-11-19T09:55:31.687602Z",
+          "source": "sweden.hip-cdr-core-ehrbase-enterprise-psm.psm.sandbox1.vghip.cloud"
+        },
+        "identifier": [
+          {
+            "system": "https://hip.vitagroup.ag/sid/condition-identifier",
+            "value": "9abddce1-7d02-4822-8fda-9a14ed372115"
+          }
+        ],
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active",
+              "display": "Active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed",
+              "display": "Condition verification status"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "problem-list-item",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "87433001",
+              "display": "Pulmonary emphysema"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/b5ccf456-9247-4ab1-a8df-a784b8648314"
+        },
+        "onsetDateTime": "2011-03-17",
+        "recordedDate": "2011-03-17"
+      }
+    },
+    {
+      "fullUrl": "https://hip-cdr-connector-fhir-psm.psm.sandbox1.vghip.cloud/fhir/R4/Condition/11818131-fe6c-4114-bb29-54e95c4e2b43",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "11818131-fe6c-4114-bb29-54e95c4e2b43",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-11-19T09:55:31.687602Z",
+          "source": "sweden.hip-cdr-core-ehrbase-enterprise-psm.psm.sandbox1.vghip.cloud"
+        },
+        "identifier": [
+          {
+            "system": "https://hip.vitagroup.ag/sid/condition-identifier",
+            "value": "630310a2-7ef4-4f05-9c34-a26b3851d206"
+          }
+        ],
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active",
+              "display": "Active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed",
+              "display": "Condition verification status"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "problem-list-item",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "44054006",
+              "display": "Type 2 diabetes mellitus"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/b5ccf456-9247-4ab1-a8df-a784b8648314"
+        },
+        "onsetDateTime": "2004-06-30",
+        "recordedDate": "2004-06-30"
+      }
+    },
+    {
+      "fullUrl": "https://hip-cdr-connector-fhir-psm.psm.sandbox1.vghip.cloud/fhir/R4/Condition/50f0b52e-ddc0-4081-98ef-52095894cadc",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "50f0b52e-ddc0-4081-98ef-52095894cadc",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-11-19T09:55:31.687602Z",
+          "source": "sweden.hip-cdr-core-ehrbase-enterprise-psm.psm.sandbox1.vghip.cloud"
+        },
+        "identifier": [
+          {
+            "system": "https://hip.vitagroup.ag/sid/condition-identifier",
+            "value": "da722746-bca3-4c7c-b5db-860fb33a34f9"
+          }
+        ],
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active",
+              "display": "Active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed",
+              "display": "Condition verification status"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "problem-list-item",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "59621000",
+              "display": "Essential hypertension"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/b5ccf456-9247-4ab1-a8df-a784b8648314"
+        },
+        "onsetDateTime": "1998-10-02",
+        "recordedDate": "1998-10-02"
+      }
+    },
+    {
+      "fullUrl": "https://hip-cdr-connector-fhir-psm.psm.sandbox1.vghip.cloud/fhir/R4/AllergyIntolerance/ab199c49-06ae-41e5-bddc-1e934c19afcf",
+      "resource": {
+        "resourceType": "AllergyIntolerance",
+        "id": "ab199c49-06ae-41e5-bddc-1e934c19afcf",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-11-19T09:55:31.687602Z",
+          "source": "sweden.hip-cdr-core-ehrbase-enterprise-psm.psm.sandbox1.vghip.cloud"
+        },
+        "identifier": [
+          {
+            "system": "https://hip.vitagroup.ag/sid/allergy-intolerance-identifier",
+            "value": "b0476d15-3438-4bb1-913a-a38915106dce"
+          }
+        ],
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+              "code": "active",
+              "display": "Active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+              "code": "confirmed",
+              "display": "Confirmed"
+            }
+          ]
+        },
+        "type": "allergy",
+        "category": [
+          "environment"
+        ],
+        "criticality": "low",
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "256262001",
+              "display": "European white birch pollen"
+            }
+          ]
+        },
+        "patient": {
+          "reference": "Patient/b5ccf456-9247-4ab1-a8df-a784b8648314"
+        },
+        "onsetDateTime": "1988-04-02",
+        "recordedDate": "1988-04-02",
+        "reaction": [
+          {
+            "manifestation": [
+              {
+                "coding": [
+                  {
+                    "system": "http://snomed.info/sct",
+                    "code": "878820003",
+                    "display": "Rhinoconjunctivitis"
+                  }
+                ]
+              }
+            ],
+            "severity": "mild"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://hip-cdr-connector-fhir-psm.psm.sandbox1.vghip.cloud/fhir/R4/AllergyIntolerance/8704a29c-710b-4a9d-a81d-ae7a3c70e617",
+      "resource": {
+        "resourceType": "AllergyIntolerance",
+        "id": "8704a29c-710b-4a9d-a81d-ae7a3c70e617",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-11-19T09:55:31.687602Z",
+          "source": "sweden.hip-cdr-core-ehrbase-enterprise-psm.psm.sandbox1.vghip.cloud"
+        },
+        "identifier": [
+          {
+            "system": "https://hip.vitagroup.ag/sid/allergy-intolerance-identifier",
+            "value": "dd974989-6616-4615-b16f-b8d5a3c9c218"
+          }
+        ],
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+              "code": "active",
+              "display": "Active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+              "code": "confirmed",
+              "display": "Confirmed"
+            }
+          ]
+        },
+        "type": "allergy",
+        "category": [
+          "medication"
+        ],
+        "criticality": "high",
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "764146007",
+              "display": "Penicillin"
+            }
+          ]
+        },
+        "patient": {
+          "reference": "Patient/b5ccf456-9247-4ab1-a8df-a784b8648314"
+        },
+        "onsetDateTime": "1972-06-18",
+        "recordedDate": "1972-06-18",
+        "note": [
+          {
+            "text": "Anafylaxi efter fenoximetylpenicillin 1972, vårdad på akutmottagning. Undvik samtliga betalaktamantibiotika tills allergiutredning genomförts."
+          }
+        ],
+        "reaction": [
+          {
+            "manifestation": [
+              {
+                "coding": [
+                  {
+                    "system": "http://snomed.info/sct",
+                    "code": "39579001",
+                    "display": "Anaphylaxis"
+                  }
+                ]
+              }
+            ],
+            "severity": "severe"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://hip-cdr-connector-fhir-psm.psm.sandbox1.vghip.cloud/fhir/R4/MedicationStatement/9ac385a0-1d26-4e8c-9130-71dc788920bb",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "9ac385a0-1d26-4e8c-9130-71dc788920bb",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-11-19T09:55:31.687602Z",
+          "source": "sweden.hip-cdr-core-ehrbase-enterprise-psm.psm.sandbox1.vghip.cloud"
+        },
+        "identifier": [
+          {
+            "system": "https://hip.vitagroup.ag/sid/medication-statement-identifier",
+            "value": "acbb452d-b68b-4eb5-9b99-7b4810e070ec"
+          }
+        ],
+        "status": "active",
+        "medicationReference": {
+          "reference": "Medication/462733df-1cbb-4e56-bc93-d7f5e4c1b497",
+          "type": "Medication",
+          "display": "Bikalutamid 150 mg tablett"
+        },
+        "subject": {
+          "reference": "Patient/b5ccf456-9247-4ab1-a8df-a784b8648314"
+        },
+        "effectivePeriod": {
+          "start": "2020-09-14"
+        },
+        "reasonCode": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "399068003",
+                "display": "Malignant neoplasm of prostate"
+              }
+            ]
+          }
+        ],
+        "dosage": [
+          {
+            "text": "1 tablett (150 mg) 1 gång dagligen som monoterapi (ingen GnRH-analog)"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://hip-cdr-connector-fhir-psm.psm.sandbox1.vghip.cloud/fhir/R4/MedicationStatement/54f12332-a1f1-45fb-ac90-2bcf1c09627e",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "54f12332-a1f1-45fb-ac90-2bcf1c09627e",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-11-19T09:55:31.687602Z",
+          "source": "sweden.hip-cdr-core-ehrbase-enterprise-psm.psm.sandbox1.vghip.cloud"
+        },
+        "identifier": [
+          {
+            "system": "https://hip.vitagroup.ag/sid/medication-statement-identifier",
+            "value": "32486f4f-d72c-4021-bad9-aa24dc2843d4"
+          }
+        ],
+        "status": "active",
+        "medicationReference": {
+          "reference": "Medication/7555aed3-7d39-4add-b729-c20733dca747",
+          "type": "Medication",
+          "display": "Metoprolol depottablett 50 mg"
+        },
+        "subject": {
+          "reference": "Patient/b5ccf456-9247-4ab1-a8df-a784b8648314"
+        },
+        "effectivePeriod": {
+          "start": "2018-04-20"
+        },
+        "reasonCode": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "88805009",
+                "display": "Chronic congestive heart failure"
+              }
+            ]
+          }
+        ],
+        "dosage": [
+          {
+            "text": "1 tablett (50 mg) 1 gång dagligen på morgonen"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://hip-cdr-connector-fhir-psm.psm.sandbox1.vghip.cloud/fhir/R4/MedicationStatement/07114a2c-7e6c-4712-ab13-b65323d9ae87",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "07114a2c-7e6c-4712-ab13-b65323d9ae87",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-11-19T09:55:31.687602Z",
+          "source": "sweden.hip-cdr-core-ehrbase-enterprise-psm.psm.sandbox1.vghip.cloud"
+        },
+        "identifier": [
+          {
+            "system": "https://hip.vitagroup.ag/sid/medication-statement-identifier",
+            "value": "ca9a226a-f02e-4293-a0bc-0cb7d018dec9"
+          }
+        ],
+        "status": "active",
+        "medicationReference": {
+          "reference": "Medication/2e985320-6c32-4c62-b5db-3097605dc73d",
+          "type": "Medication",
+          "display": "Ramipril 5 mg tablett"
+        },
+        "subject": {
+          "reference": "Patient/b5ccf456-9247-4ab1-a8df-a784b8648314"
+        },
+        "effectivePeriod": {
+          "start": "2018-04-20"
+        },
+        "reasonCode": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "88805009",
+                "display": "Chronic congestive heart failure"
+              }
+            ]
+          }
+        ],
+        "dosage": [
+          {
+            "text": "1 tablett (5 mg) 1 gång dagligen"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://hip-cdr-connector-fhir-psm.psm.sandbox1.vghip.cloud/fhir/R4/MedicationStatement/8f95bf78-fe67-4cc4-91ff-b6966b389b5b",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "8f95bf78-fe67-4cc4-91ff-b6966b389b5b",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-11-19T09:55:31.687602Z",
+          "source": "sweden.hip-cdr-core-ehrbase-enterprise-psm.psm.sandbox1.vghip.cloud"
+        },
+        "identifier": [
+          {
+            "system": "https://hip.vitagroup.ag/sid/medication-statement-identifier",
+            "value": "c42642fa-2208-4e18-884d-2ae49cb8b75d"
+          }
+        ],
+        "status": "active",
+        "medicationReference": {
+          "reference": "Medication/9c896dfb-65c8-4b44-919f-409df1180afc",
+          "type": "Medication",
+          "display": "Furosemid 40 mg tablett"
+        },
+        "subject": {
+          "reference": "Patient/b5ccf456-9247-4ab1-a8df-a784b8648314"
+        },
+        "effectivePeriod": {
+          "start": "2018-04-20"
+        },
+        "reasonCode": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "88805009",
+                "display": "Chronic congestive heart failure"
+              }
+            ]
+          }
+        ],
+        "dosage": [
+          {
+            "text": "1 tablett (40 mg) 1 gång dagligen på morgonen"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://hip-cdr-connector-fhir-psm.psm.sandbox1.vghip.cloud/fhir/R4/MedicationStatement/36e1e832-b64a-49ef-92eb-cc0cd912816e",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "36e1e832-b64a-49ef-92eb-cc0cd912816e",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-11-19T09:55:31.687602Z",
+          "source": "sweden.hip-cdr-core-ehrbase-enterprise-psm.psm.sandbox1.vghip.cloud"
+        },
+        "identifier": [
+          {
+            "system": "https://hip.vitagroup.ag/sid/medication-statement-identifier",
+            "value": "e33a596f-b961-46f3-8037-46719a6b4c2b"
+          }
+        ],
+        "status": "active",
+        "medicationReference": {
+          "reference": "Medication/cbc798ac-a8ab-4a9b-ba89-949dc0e06a83",
+          "type": "Medication",
+          "display": "Apixaban 5 mg tablett"
+        },
+        "subject": {
+          "reference": "Patient/b5ccf456-9247-4ab1-a8df-a784b8648314"
+        },
+        "effectivePeriod": {
+          "start": "2017-10-05"
+        },
+        "reasonCode": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "49436004",
+                "display": "Atrial fibrillation"
+              }
+            ]
+          }
+        ],
+        "dosage": [
+          {
+            "text": "1 tablett (5 mg) 2 gånger dagligen"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://hip-cdr-connector-fhir-psm.psm.sandbox1.vghip.cloud/fhir/R4/MedicationStatement/f56fa3c1-7ff5-4a2d-819d-c892f6b7936e",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "f56fa3c1-7ff5-4a2d-819d-c892f6b7936e",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-11-19T09:55:31.687602Z",
+          "source": "sweden.hip-cdr-core-ehrbase-enterprise-psm.psm.sandbox1.vghip.cloud"
+        },
+        "identifier": [
+          {
+            "system": "https://hip.vitagroup.ag/sid/medication-statement-identifier",
+            "value": "77292f66-8404-4e4d-ac8b-54c80d5b77bb"
+          }
+        ],
+        "status": "active",
+        "medicationReference": {
+          "reference": "Medication/c9936ff4-ea64-4027-81f9-00709f070012",
+          "type": "Medication",
+          "display": "Insulin glargin 100 E/ml injektionsvätska"
+        },
+        "subject": {
+          "reference": "Patient/b5ccf456-9247-4ab1-a8df-a784b8648314"
+        },
+        "effectivePeriod": {
+          "start": "2016-02-08"
+        },
+        "reasonCode": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "44054006",
+                "display": "Type 2 diabetes mellitus"
+              }
+            ]
+          }
+        ],
+        "dosage": [
+          {
+            "text": "22 enheter subkutant till natten"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://hip-cdr-connector-fhir-psm.psm.sandbox1.vghip.cloud/fhir/R4/MedicationStatement/971f6c55-65fc-47dc-9d62-0ebdf2a109ac",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "971f6c55-65fc-47dc-9d62-0ebdf2a109ac",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-11-19T09:55:31.687602Z",
+          "source": "sweden.hip-cdr-core-ehrbase-enterprise-psm.psm.sandbox1.vghip.cloud"
+        },
+        "identifier": [
+          {
+            "system": "https://hip.vitagroup.ag/sid/medication-statement-identifier",
+            "value": "c5733c94-4263-405b-ba68-fa81aa5043aa"
+          }
+        ],
+        "status": "active",
+        "medicationReference": {
+          "reference": "Medication/750bf2a1-af2f-476a-8053-f117e0d6a934",
+          "type": "Medication",
+          "display": "Glyceryltrinitrat 0,4 mg sublingual spray"
+        },
+        "subject": {
+          "reference": "Patient/b5ccf456-9247-4ab1-a8df-a784b8648314"
+        },
+        "effectivePeriod": {
+          "start": "2015-11-10"
+        },
+        "reasonCode": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "233819005",
+                "display": "Stable angina"
+              }
+            ]
+          }
+        ],
+        "dosage": [
+          {
+            "text": "1-2 doser under tungan vid bröstsmärta, vid behov"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://hip-cdr-connector-fhir-psm.psm.sandbox1.vghip.cloud/fhir/R4/MedicationStatement/7f2467f6-0054-4174-aabf-207743d88287",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "7f2467f6-0054-4174-aabf-207743d88287",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-11-19T09:55:31.687602Z",
+          "source": "sweden.hip-cdr-core-ehrbase-enterprise-psm.psm.sandbox1.vghip.cloud"
+        },
+        "identifier": [
+          {
+            "system": "https://hip.vitagroup.ag/sid/medication-statement-identifier",
+            "value": "cd10f9ea-975d-4915-a7b6-ecd73ab31f77"
+          }
+        ],
+        "status": "active",
+        "medicationReference": {
+          "reference": "Medication/9073e88a-8f7d-4e24-8dbc-aab39cc20f26",
+          "type": "Medication",
+          "display": "Atorvastatin 20 mg tablett"
+        },
+        "subject": {
+          "reference": "Patient/b5ccf456-9247-4ab1-a8df-a784b8648314"
+        },
+        "effectivePeriod": {
+          "start": "2015-11-10"
+        },
+        "reasonCode": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "233819005",
+                "display": "Stable angina"
+              }
+            ]
+          }
+        ],
+        "dosage": [
+          {
+            "text": "1 tablett (20 mg) 1 gång dagligen till kvällen"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://hip-cdr-connector-fhir-psm.psm.sandbox1.vghip.cloud/fhir/R4/MedicationStatement/397351b2-620d-4ef6-b85e-8fc9e3156b1b",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "397351b2-620d-4ef6-b85e-8fc9e3156b1b",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-11-19T09:55:31.687602Z",
+          "source": "sweden.hip-cdr-core-ehrbase-enterprise-psm.psm.sandbox1.vghip.cloud"
+        },
+        "identifier": [
+          {
+            "system": "https://hip.vitagroup.ag/sid/medication-statement-identifier",
+            "value": "4e2f8391-96ad-4736-b045-c52095a034ef"
+          }
+        ],
+        "status": "active",
+        "medicationReference": {
+          "reference": "Medication/9a46308d-b9f4-424b-8fc2-f184b5761cf6",
+          "type": "Medication",
+          "display": "Tiotropium 18 mikrogram inhalationspulver"
+        },
+        "subject": {
+          "reference": "Patient/b5ccf456-9247-4ab1-a8df-a784b8648314"
+        },
+        "effectivePeriod": {
+          "start": "2011-04-05"
+        },
+        "reasonCode": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "87433001",
+                "display": "Pulmonary emphysema"
+              }
+            ]
+          }
+        ],
+        "dosage": [
+          {
+            "text": "1 inhalation 1 gång dagligen"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://hip-cdr-connector-fhir-psm.psm.sandbox1.vghip.cloud/fhir/R4/MedicationStatement/71d61dbc-84ff-419a-bc3c-b9090d220760",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "71d61dbc-84ff-419a-bc3c-b9090d220760",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-11-19T09:55:31.687602Z",
+          "source": "sweden.hip-cdr-core-ehrbase-enterprise-psm.psm.sandbox1.vghip.cloud"
+        },
+        "identifier": [
+          {
+            "system": "https://hip.vitagroup.ag/sid/medication-statement-identifier",
+            "value": "2b43ef92-4225-42bb-9dce-ba380d01264d"
+          }
+        ],
+        "status": "active",
+        "medicationReference": {
+          "reference": "Medication/25fc8bec-15b7-4458-9a32-7333bbc62af5",
+          "type": "Medication",
+          "display": "Metformin 500 mg tablett"
+        },
+        "subject": {
+          "reference": "Patient/b5ccf456-9247-4ab1-a8df-a784b8648314"
+        },
+        "effectivePeriod": {
+          "start": "2004-07-15"
+        },
+        "reasonCode": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "44054006",
+                "display": "Type 2 diabetes mellitus"
+              }
+            ]
+          }
+        ],
+        "dosage": [
+          {
+            "text": "1 tablett (500 mg) 2 gånger dagligen i samband med måltid"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://hip-cdr-connector-fhir-psm.psm.sandbox1.vghip.cloud/fhir/R4/Procedure/2126fbc6-bde5-4824-99d8-dc5fbf0e3742",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "2126fbc6-bde5-4824-99d8-dc5fbf0e3742",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-11-19T09:55:31.687602Z",
+          "source": "sweden.hip-cdr-core-ehrbase-enterprise-psm.psm.sandbox1.vghip.cloud"
+        },
+        "identifier": [
+          {
+            "system": "https://hip.vitagroup.ag/sid/procedure-identifier",
+            "value": "378f900d-8239-4424-bb7c-3d5d891804aa"
+          }
+        ],
+        "status": "completed",
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "90199006",
+              "display": "Transurethral resection of prostate"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/b5ccf456-9247-4ab1-a8df-a784b8648314"
+        },
+        "performedDateTime": "2020-11-26",
+        "note": [
+          {
+            "text": "Utförd på Länssjukhuset Söderås, Varberg. Ingen peroperativ komplikation."
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://hip-cdr-connector-fhir-psm.psm.sandbox1.vghip.cloud/fhir/R4/DeviceUseStatement/adb3ad2e-687e-4d4c-800f-046a6a043fb4",
+      "resource": {
+        "resourceType": "DeviceUseStatement",
+        "id": "adb3ad2e-687e-4d4c-800f-046a6a043fb4",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-11-19T09:55:23.526+00:00",
+          "source": "#yDb7Gs5hQVi94z2b",
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/deviceUseStatement-eu-eps"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><tr><th>Device</th><td>Rollator</td></tr><tr><th>In use since</th><td>2019-06-01</td></tr><tr><th>Status</th><td>active</td></tr><tr><th>Note</th><td>Utprovad av arbetsterapeut efter stroke 2019. Används inomhus och utomhus.</td></tr></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "https://hip.vitagroup.ag/sid/device-use-statement-identifier",
+            "value": "5aa58ea4-ba1d-4b90-98e1-d18e1d475009"
+          }
+        ],
+        "status": "active",
+        "subject": {
+          "reference": "Patient/b5ccf456-9247-4ab1-a8df-a784b8648314",
+          "display": "Peter Bergström"
+        },
+        "timingPeriod": {
+          "start": "2019-06-01"
+        },
+        "device": {
+          "reference": "Device/9d5f2290-d12d-4813-b4d1-63d2fa4b715d",
+          "display": "Rollator"
+        },
+        "note": [
+          {
+            "text": "Utprovad av arbetsterapeut efter stroke 2019. Används inomhus och utomhus."
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://hip-cdr-connector-fhir-psm.psm.sandbox1.vghip.cloud/fhir/R4/Immunization/cde700e0-67e1-421c-8aad-eab3b63b61aa",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "cde700e0-67e1-421c-8aad-eab3b63b61aa",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-11-19T09:55:31.687602Z",
+          "source": "sweden.hip-cdr-core-ehrbase-enterprise-psm.psm.sandbox1.vghip.cloud"
+        },
+        "identifier": [
+          {
+            "system": "https://hip.vitagroup.ag/sid/immunization-identifier",
+            "value": "7377ec41-e2ca-49b7-8726-d1ff0a2ffe9b"
+          }
+        ],
+        "status": "completed",
+        "vaccineCode": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "1181000221105",
+              "display": "Vaccine product containing only Influenza virus antigen (medicinal product)"
+            },
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "J07BB02",
+              "display": "influenza, inactivated, split virus or surface antigen"
+            }
+          ]
+        },
+        "patient": {
+          "reference": "Patient/b5ccf456-9247-4ab1-a8df-a784b8648314"
+        },
+        "occurrenceDateTime": "2025-10-09"
+      }
+    },
+    {
+      "fullUrl": "https://hip-cdr-connector-fhir-psm.psm.sandbox1.vghip.cloud/fhir/R4/Immunization/71e97732-4e79-4956-827e-66022d7f3050",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "71e97732-4e79-4956-827e-66022d7f3050",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-11-19T09:55:31.687602Z",
+          "source": "sweden.hip-cdr-core-ehrbase-enterprise-psm.psm.sandbox1.vghip.cloud"
+        },
+        "identifier": [
+          {
+            "system": "https://hip.vitagroup.ag/sid/immunization-identifier",
+            "value": "fce1c947-1f4d-44da-b743-8b3c4e62a6ca"
+          }
+        ],
+        "status": "completed",
+        "vaccineCode": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "1119305005",
+              "display": "SARS-CoV-2 antigen vaccine"
+            },
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "J07BN04",
+              "display": "covid-19, protein subunit"
+            }
+          ]
+        },
+        "patient": {
+          "reference": "Patient/b5ccf456-9247-4ab1-a8df-a784b8648314"
+        },
+        "occurrenceDateTime": "2025-10-09"
+      }
+    },
+    {
+      "fullUrl": "https://hip-cdr-connector-fhir-psm.psm.sandbox1.vghip.cloud/fhir/R4/Immunization/95cbd97a-e868-44c3-9a6e-efb5ce0be102",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "95cbd97a-e868-44c3-9a6e-efb5ce0be102",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-11-19T09:55:31.687602Z",
+          "source": "sweden.hip-cdr-core-ehrbase-enterprise-psm.psm.sandbox1.vghip.cloud"
+        },
+        "identifier": [
+          {
+            "system": "https://hip.vitagroup.ag/sid/immunization-identifier",
+            "value": "1d74706e-96b7-4a21-81ea-753167c039f1"
+          }
+        ],
+        "status": "completed",
+        "vaccineCode": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "981000221107",
+              "display": "Streptococcus pneumoniae antigen only vaccine product"
+            }
+          ]
+        },
+        "patient": {
+          "reference": "Patient/b5ccf456-9247-4ab1-a8df-a784b8648314"
+        },
+        "occurrenceDateTime": "2021-11-04"
+      }
+    },
+    {
+      "fullUrl": "https://hip-cdr-connector-fhir-psm.psm.sandbox1.vghip.cloud/fhir/R4/Observation/bf138c18-1bfd-4e8f-929f-37d5095290cf",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "bf138c18-1bfd-4e8f-929f-37d5095290cf",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-11-19T09:55:31.687602Z",
+          "source": "sweden.hip-cdr-core-ehrbase-enterprise-psm.psm.sandbox1.vghip.cloud"
+        },
+        "identifier": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "OBI"
+                }
+              ]
+            },
+            "system": "https://hip.vitagroup.ag/sid/observation-identifier",
+            "value": "9d41e9fe-fd6b-49e6-a25d-bc9285261919"
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "59261-8",
+              "display": "Hemoglobin A1c/Hemoglobin.total standardized per IFCC-RMP for CDT in Blood"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/b5ccf456-9247-4ab1-a8df-a784b8648314"
+        },
+        "effectiveDateTime": "2026-06-12",
+        "valueQuantity": {
+          "value": 58,
+          "unit": "mmol/mol",
+          "system": "http://unitsofmeasure.org",
+          "code": "mmol/mol"
+        },
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "code": "H",
+                "display": "High"
+              }
+            ]
+          }
+        ],
+        "referenceRange": [
+          {
+            "low": {
+              "value": 27
+            },
+            "high": {
+              "value": 42
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://hip-cdr-connector-fhir-psm.psm.sandbox1.vghip.cloud/fhir/R4/Observation/6761e03e-9ea6-4336-9887-0e80bde897fb",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "6761e03e-9ea6-4336-9887-0e80bde897fb",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-11-19T09:55:31.687602Z",
+          "source": "sweden.hip-cdr-core-ehrbase-enterprise-psm.psm.sandbox1.vghip.cloud"
+        },
+        "identifier": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "OBI"
+                }
+              ]
+            },
+            "system": "https://hip.vitagroup.ag/sid/observation-identifier",
+            "value": "7f13e8bf-f3a5-4de7-8c04-3c29f851f35e"
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "14682-9",
+              "display": "Creatinine [Moles/volume] in Serum or Plasma"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/b5ccf456-9247-4ab1-a8df-a784b8648314"
+        },
+        "effectiveDateTime": "2026-06-12",
+        "valueQuantity": {
+          "value": 118,
+          "unit": "umol/L",
+          "system": "http://unitsofmeasure.org",
+          "code": "umol/L"
+        },
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "code": "H",
+                "display": "High"
+              }
+            ]
+          }
+        ],
+        "referenceRange": [
+          {
+            "low": {
+              "value": 60
+            },
+            "high": {
+              "value": 105
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://hip-cdr-connector-fhir-psm.psm.sandbox1.vghip.cloud/fhir/R4/Observation/b0b1275f-986f-4a00-b909-dd08c7e2f545",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "b0b1275f-986f-4a00-b909-dd08c7e2f545",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-11-19T09:55:31.687602Z",
+          "source": "sweden.hip-cdr-core-ehrbase-enterprise-psm.psm.sandbox1.vghip.cloud"
+        },
+        "identifier": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "OBI"
+                }
+              ]
+            },
+            "system": "https://hip.vitagroup.ag/sid/observation-identifier",
+            "value": "f0e9c8ed-d3db-426c-a816-1d1b0805f05d"
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "62238-1",
+              "display": "Glomerular filtration rate [Volume Rate/Area] in Serum, Plasma or Blood by Creatinine-based formula (CKD-EPI)/1.73 sq M"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/b5ccf456-9247-4ab1-a8df-a784b8648314"
+        },
+        "effectiveDateTime": "2026-06-12",
+        "valueQuantity": {
+          "value": 46,
+          "unit": "mL/min/{1.73_m2}",
+          "system": "http://unitsofmeasure.org",
+          "code": "mL/min/{1.73_m2}"
+        },
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "code": "L",
+                "display": "Low"
+              }
+            ]
+          }
+        ],
+        "referenceRange": [
+          {
+            "low": {
+              "value": 60
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://hip-cdr-connector-fhir-psm.psm.sandbox1.vghip.cloud/fhir/R4/Observation/bdab6e56-2e7c-40b1-95a6-cf43f1cd6eb7",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "bdab6e56-2e7c-40b1-95a6-cf43f1cd6eb7",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-11-19T09:55:31.687602Z",
+          "source": "sweden.hip-cdr-core-ehrbase-enterprise-psm.psm.sandbox1.vghip.cloud"
+        },
+        "identifier": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "OBI"
+                }
+              ]
+            },
+            "system": "https://hip.vitagroup.ag/sid/observation-identifier",
+            "value": "f8cef23d-8e22-4930-973f-867120f8c9c4"
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "718-7",
+              "display": "Hemoglobin [Mass/volume] in Blood"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/b5ccf456-9247-4ab1-a8df-a784b8648314"
+        },
+        "effectiveDateTime": "2026-06-12",
+        "valueQuantity": {
+          "value": 112,
+          "unit": "g/L",
+          "system": "http://unitsofmeasure.org",
+          "code": "g/L"
+        },
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "code": "L",
+                "display": "Low"
+              }
+            ]
+          }
+        ],
+        "referenceRange": [
+          {
+            "low": {
+              "value": 134
+            },
+            "high": {
+              "value": 170
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://hip-cdr-connector-fhir-psm.psm.sandbox1.vghip.cloud/fhir/R4/Observation/c67fa19c-92f9-4923-aed8-0aa3fc08a3ef",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "c67fa19c-92f9-4923-aed8-0aa3fc08a3ef",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-11-19T09:55:31.687602Z",
+          "source": "sweden.hip-cdr-core-ehrbase-enterprise-psm.psm.sandbox1.vghip.cloud"
+        },
+        "identifier": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "OBI"
+                }
+              ]
+            },
+            "system": "https://hip.vitagroup.ag/sid/observation-identifier",
+            "value": "03806566-d896-42ff-b9d8-c25a809b57cf"
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2823-3",
+              "display": "Potassium [Moles/volume] in Serum or Plasma"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/b5ccf456-9247-4ab1-a8df-a784b8648314"
+        },
+        "effectiveDateTime": "2026-06-12",
+        "valueQuantity": {
+          "value": 4.4,
+          "unit": "mmol/L",
+          "system": "http://unitsofmeasure.org",
+          "code": "mmol/L"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 3.5
+            },
+            "high": {
+              "value": 4.6
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://hip-cdr-connector-fhir-psm.psm.sandbox1.vghip.cloud/fhir/R4/Observation/cc436517-c6c9-4b61-a832-acb0f57337f0",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "cc436517-c6c9-4b61-a832-acb0f57337f0",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-11-19T09:55:31.687602Z",
+          "source": "sweden.hip-cdr-core-ehrbase-enterprise-psm.psm.sandbox1.vghip.cloud"
+        },
+        "identifier": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "OBI"
+                }
+              ]
+            },
+            "system": "https://hip.vitagroup.ag/sid/observation-identifier",
+            "value": "2865b18d-5091-4e62-8565-9212b74ff3df"
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "33762-6",
+              "display": "Natriuretic peptide.B prohormone N-Terminal [Mass/volume] in Serum or Plasma"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/b5ccf456-9247-4ab1-a8df-a784b8648314"
+        },
+        "effectiveDateTime": "2026-06-12",
+        "valueQuantity": {
+          "value": 1840,
+          "unit": "ng/L",
+          "system": "http://unitsofmeasure.org",
+          "code": "ng/L"
+        },
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "code": "H",
+                "display": "High"
+              }
+            ]
+          }
+        ],
+        "referenceRange": [
+          {
+            "high": {
+              "value": 300
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://hip-cdr-connector-fhir-psm.psm.sandbox1.vghip.cloud/fhir/R4/Observation/bdbb0256-34e9-44c2-91f6-a6f244c2351b",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "bdbb0256-34e9-44c2-91f6-a6f244c2351b",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-11-19T09:55:31.687602Z",
+          "source": "sweden.hip-cdr-core-ehrbase-enterprise-psm.psm.sandbox1.vghip.cloud"
+        },
+        "identifier": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "OBI"
+                }
+              ]
+            },
+            "system": "https://hip.vitagroup.ag/sid/observation-identifier",
+            "value": "029de7df-7704-494b-84a3-5114e985dfad"
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2857-1",
+              "display": "Prostate specific Ag [Mass/volume] in Serum or Plasma"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/b5ccf456-9247-4ab1-a8df-a784b8648314"
+        },
+        "effectiveDateTime": "2026-05-04",
+        "valueQuantity": {
+          "value": 12.4,
+          "unit": "ug/L",
+          "system": "http://unitsofmeasure.org",
+          "code": "ug/L"
+        },
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "code": "H",
+                "display": "High"
+              }
+            ]
+          }
+        ],
+        "referenceRange": [
+          {
+            "high": {
+              "value": 4
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://hip-cdr-connector-fhir-psm.psm.sandbox1.vghip.cloud/fhir/R4/Condition/8067ec3d-7266-49dc-a026-ed7ec584c62f",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "8067ec3d-7266-49dc-a026-ed7ec584c62f",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-11-19T09:55:31.687602Z",
+          "source": "sweden.hip-cdr-core-ehrbase-enterprise-psm.psm.sandbox1.vghip.cloud"
+        },
+        "identifier": [
+          {
+            "system": "https://hip.vitagroup.ag/sid/condition-identifier",
+            "value": "44eeaec6-eb5f-4a60-b7fe-cca9375ea284"
+          }
+        ],
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "inactive",
+              "display": "Inactive"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed",
+              "display": "Condition verification status"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "problem-list-item",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "230690007",
+              "display": "Cerebrovascular accident"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/b5ccf456-9247-4ab1-a8df-a784b8648314"
+        },
+        "onsetDateTime": "2019-02-03",
+        "recordedDate": "2019-02-03"
+      }
+    },
+    {
+      "fullUrl": "https://hip-cdr-connector-fhir-psm.psm.sandbox1.vghip.cloud/fhir/R4/CarePlan/ab3701c4-9992-4d36-9180-fea3b015d716",
+      "resource": {
+        "resourceType": "CarePlan",
+        "id": "ab3701c4-9992-4d36-9180-fea3b015d716",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-11-19T09:55:23.526+00:00",
+          "source": "#yDb7Gs5hQVi94z2b"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><tr><th>Planned activity</th><td>Planerat återbesök på Vårdcentralen Kvarnängen - årlig kontroll av hjärtsvikt och diabetes</td></tr><tr><th>Status</th><td>scheduled</td></tr><tr><th>Scheduled</th><td>2026-09-15</td></tr><tr><th>Plan active since</th><td>2026-06-12</td></tr></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "https://hip.vitagroup.ag/sid/care-plan-identifier",
+            "value": "54701b8b-9ed5-4817-ad39-172b4b143f70"
+          }
+        ],
+        "status": "active",
+        "intent": "plan",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "734163000",
+                "display": "Care plan"
+              }
+            ],
+            "text": "Care plan"
+          }
+        ],
+        "title": "Planerat återbesök på Vårdcentralen Kvarnängen - årlig kontroll av hjärtsvikt och diabetes",
+        "subject": {
+          "reference": "Patient/b5ccf456-9247-4ab1-a8df-a784b8648314",
+          "display": "Peter Bergström"
+        },
+        "period": {
+          "start": "2026-06-12"
+        },
+        "activity": [
+          {
+            "detail": {
+              "kind": "Appointment",
+              "reasonCode": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://snomed.info/sct",
+                      "code": "88805009",
+                      "display": "Chronic congestive heart failure"
+                    }
+                  ],
+                  "text": "Kronisk hjärtsvikt"
+                }
+              ],
+              "status": "scheduled",
+              "scheduledPeriod": {
+                "start": "2026-09-15"
+              },
+              "description": "Planerat återbesök på Vårdcentralen Kvarnängen - årlig kontroll av hjärtsvikt och diabetes"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://hip-cdr-connector-fhir-psm.psm.sandbox1.vghip.cloud/fhir/R4/CarePlan/ab4db421-6f98-4fcb-bc6c-0cc4d9ae8a82",
+      "resource": {
+        "resourceType": "CarePlan",
+        "id": "ab4db421-6f98-4fcb-bc6c-0cc4d9ae8a82",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-11-19T09:55:23.526+00:00",
+          "source": "#yDb7Gs5hQVi94z2b"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><tr><th>Planned activity</th><td>Sårvård av venöst bensår höger underben - kompressionsbehandling och omläggning två gånger per vecka</td></tr><tr><th>Status</th><td>in-progress</td></tr><tr><th>Plan active since</th><td>2023-05-19</td></tr><tr><th>Note</th><td>Utförs av distriktssköterska i hemmet.</td></tr></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "https://hip.vitagroup.ag/sid/care-plan-identifier",
+            "value": "2bf1a07e-9c7b-4483-9c89-cb78185e4a16"
+          }
+        ],
+        "status": "active",
+        "intent": "plan",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "734163000",
+                "display": "Care plan"
+              }
+            ],
+            "text": "Care plan"
+          }
+        ],
+        "title": "Sårvård av venöst bensår höger underben - kompressionsbehandling och omläggning två gånger per vecka",
+        "subject": {
+          "reference": "Patient/b5ccf456-9247-4ab1-a8df-a784b8648314",
+          "display": "Peter Bergström"
+        },
+        "period": {
+          "start": "2023-05-19"
+        },
+        "activity": [
+          {
+            "detail": {
+              "kind": "ServiceRequest",
+              "code": {
+                "text": "Sårvård av venöst bensår"
+              },
+              "reasonCode": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://snomed.info/sct",
+                      "code": "1237117000",
+                      "display": "Venous ulcer of lower leg"
+                    }
+                  ],
+                  "text": "Venöst bensår"
+                }
+              ],
+              "status": "in-progress",
+              "description": "Sårvård av venöst bensår höger underben - kompressionsbehandling och omläggning två gånger per vecka"
+            }
+          }
+        ],
+        "note": [
+          {
+            "text": "Utförs av distriktssköterska i hemmet."
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://hip-cdr-connector-fhir-psm.psm.sandbox1.vghip.cloud/fhir/R4/CarePlan/a3f067b5-b86d-4873-bdf6-5ca180906a03",
+      "resource": {
+        "resourceType": "CarePlan",
+        "id": "a3f067b5-b86d-4873-bdf6-5ca180906a03",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-11-19T09:55:23.526+00:00",
+          "source": "#yDb7Gs5hQVi94z2b"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><tr><th>Planned activity</th><td>Hemtjänst två besök dagligen - stöd med läkemedel, personlig vård och måltider</td></tr><tr><th>Status</th><td>in-progress</td></tr><tr><th>Plan active since</th><td>2019-06-01</td></tr><tr><th>Note</th><td>Beviljad av kommunens biståndsenhet. Kontaktperson finns i den samordnade individuella planen (SIP).</td></tr></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "https://hip.vitagroup.ag/sid/care-plan-identifier",
+            "value": "473fd79f-44b4-4cb8-8304-ee93c45756bc"
+          }
+        ],
+        "status": "active",
+        "intent": "plan",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "734163000",
+                "display": "Care plan"
+              }
+            ],
+            "text": "Care plan"
+          }
+        ],
+        "title": "Hemtjänst två besök dagligen - stöd med läkemedel, personlig vård och måltider",
+        "subject": {
+          "reference": "Patient/b5ccf456-9247-4ab1-a8df-a784b8648314",
+          "display": "Peter Bergström"
+        },
+        "period": {
+          "start": "2019-06-01"
+        },
+        "activity": [
+          {
+            "detail": {
+              "kind": "ServiceRequest",
+              "code": {
+                "text": "Hemtjänst"
+              },
+              "reasonCode": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://snomed.info/sct",
+                      "code": "278287000",
+                      "display": "Left hemiparesis"
+                    }
+                  ],
+                  "text": "Vänstersidig hemipares"
+                }
+              ],
+              "status": "in-progress",
+              "description": "Hemtjänst två besök dagligen - stöd med läkemedel, personlig vård och måltider"
+            }
+          }
+        ],
+        "note": [
+          {
+            "text": "Beviljad av kommunens biståndsenhet. Kontaktperson finns i den samordnade individuella planen (SIP)."
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://hip-cdr-connector-fhir-psm.psm.sandbox1.vghip.cloud/fhir/R4/Medication/cbc798ac-a8ab-4a9b-ba89-949dc0e06a83",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "cbc798ac-a8ab-4a9b-ba89-949dc0e06a83",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-11-19T09:55:23.526+00:00",
+          "source": "#yDb7Gs5hQVi94z2b",
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medication-eu-core"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><tr><th>Medication</th><td>Apixaban 5 mg tablett</td></tr><tr><th>Form</th><td>Oral tablet</td></tr></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "https://hip.vitagroup.ag/sid/medication-identifier",
+            "value": "f86ba718-1ade-427b-89c0-808ffa8d4bc5"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "B01AF02",
+              "display": "apixaban"
+            }
+          ],
+          "text": "Apixaban 5 mg tablett"
+        },
+        "form": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "421026006",
+              "display": "Oral tablet"
+            }
+          ],
+          "text": "Oral tablet"
+        }
+      }
+    },
+    {
+      "fullUrl": "https://hip-cdr-connector-fhir-psm.psm.sandbox1.vghip.cloud/fhir/R4/Medication/7555aed3-7d39-4add-b729-c20733dca747",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "7555aed3-7d39-4add-b729-c20733dca747",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-11-19T09:55:23.526+00:00",
+          "source": "#yDb7Gs5hQVi94z2b",
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medication-eu-core"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><tr><th>Medication</th><td>Metoprolol depottablett 50 mg</td></tr><tr><th>Form</th><td>Oral tablet</td></tr></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "https://hip.vitagroup.ag/sid/medication-identifier",
+            "value": "7336f797-679f-4175-8bf1-c408d67126b5"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "C07AB02",
+              "display": "metoprolol"
+            }
+          ],
+          "text": "Metoprolol depottablett 50 mg"
+        },
+        "form": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "421026006",
+              "display": "Oral tablet"
+            }
+          ],
+          "text": "Oral tablet"
+        }
+      }
+    },
+    {
+      "fullUrl": "https://hip-cdr-connector-fhir-psm.psm.sandbox1.vghip.cloud/fhir/R4/Medication/2e985320-6c32-4c62-b5db-3097605dc73d",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "2e985320-6c32-4c62-b5db-3097605dc73d",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-11-19T09:55:23.526+00:00",
+          "source": "#yDb7Gs5hQVi94z2b",
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medication-eu-core"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><tr><th>Medication</th><td>Ramipril 5 mg tablett</td></tr><tr><th>Form</th><td>Oral tablet</td></tr></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "https://hip.vitagroup.ag/sid/medication-identifier",
+            "value": "aa8d75b5-df50-4bac-b7c5-204d3d5f0336"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "C09AA05",
+              "display": "ramipril"
+            }
+          ],
+          "text": "Ramipril 5 mg tablett"
+        },
+        "form": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "421026006",
+              "display": "Oral tablet"
+            }
+          ],
+          "text": "Oral tablet"
+        }
+      }
+    },
+    {
+      "fullUrl": "https://hip-cdr-connector-fhir-psm.psm.sandbox1.vghip.cloud/fhir/R4/Medication/9c896dfb-65c8-4b44-919f-409df1180afc",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "9c896dfb-65c8-4b44-919f-409df1180afc",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-11-19T09:55:23.526+00:00",
+          "source": "#yDb7Gs5hQVi94z2b",
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medication-eu-core"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><tr><th>Medication</th><td>Furosemid 40 mg tablett</td></tr><tr><th>Form</th><td>Oral tablet</td></tr></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "https://hip.vitagroup.ag/sid/medication-identifier",
+            "value": "0100f4ec-1e69-468b-9b80-5a452ab568bc"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "C03CA01",
+              "display": "furosemide"
+            }
+          ],
+          "text": "Furosemid 40 mg tablett"
+        },
+        "form": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "421026006",
+              "display": "Oral tablet"
+            }
+          ],
+          "text": "Oral tablet"
+        }
+      }
+    },
+    {
+      "fullUrl": "https://hip-cdr-connector-fhir-psm.psm.sandbox1.vghip.cloud/fhir/R4/Medication/c9936ff4-ea64-4027-81f9-00709f070012",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "c9936ff4-ea64-4027-81f9-00709f070012",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-11-19T09:55:23.526+00:00",
+          "source": "#yDb7Gs5hQVi94z2b",
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medication-eu-core"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><tr><th>Medication</th><td>Insulin glargin 100 E/ml injektionsvätska</td></tr></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "https://hip.vitagroup.ag/sid/medication-identifier",
+            "value": "24232ee5-e8da-4fbf-832b-f6ac36cdf18a"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "A10AE04",
+              "display": "insulin glargine"
+            }
+          ],
+          "text": "Insulin glargin 100 E/ml injektionsvätska"
+        }
+      }
+    },
+    {
+      "fullUrl": "https://hip-cdr-connector-fhir-psm.psm.sandbox1.vghip.cloud/fhir/R4/Medication/25fc8bec-15b7-4458-9a32-7333bbc62af5",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "25fc8bec-15b7-4458-9a32-7333bbc62af5",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-11-19T09:55:23.526+00:00",
+          "source": "#yDb7Gs5hQVi94z2b",
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medication-eu-core"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><tr><th>Medication</th><td>Metformin 500 mg tablett</td></tr><tr><th>Form</th><td>Oral tablet</td></tr></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "https://hip.vitagroup.ag/sid/medication-identifier",
+            "value": "697697fc-2b2c-4313-a0a3-eb054169c17f"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "A10BA02",
+              "display": "metformin"
+            }
+          ],
+          "text": "Metformin 500 mg tablett"
+        },
+        "form": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "421026006",
+              "display": "Oral tablet"
+            }
+          ],
+          "text": "Oral tablet"
+        }
+      }
+    },
+    {
+      "fullUrl": "https://hip-cdr-connector-fhir-psm.psm.sandbox1.vghip.cloud/fhir/R4/Medication/750bf2a1-af2f-476a-8053-f117e0d6a934",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "750bf2a1-af2f-476a-8053-f117e0d6a934",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-11-19T09:55:23.526+00:00",
+          "source": "#yDb7Gs5hQVi94z2b",
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medication-eu-core"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><tr><th>Medication</th><td>Glyceryltrinitrat 0,4 mg sublingual spray</td></tr></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "https://hip.vitagroup.ag/sid/medication-identifier",
+            "value": "ad8fd242-6e24-4c16-bdd9-42a91609003d"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "C01DA02",
+              "display": "glyceryl trinitrate"
+            }
+          ],
+          "text": "Glyceryltrinitrat 0,4 mg sublingual spray"
+        }
+      }
+    },
+    {
+      "fullUrl": "https://hip-cdr-connector-fhir-psm.psm.sandbox1.vghip.cloud/fhir/R4/Medication/9a46308d-b9f4-424b-8fc2-f184b5761cf6",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "9a46308d-b9f4-424b-8fc2-f184b5761cf6",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-11-19T09:55:23.526+00:00",
+          "source": "#yDb7Gs5hQVi94z2b",
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medication-eu-core"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><tr><th>Medication</th><td>Tiotropium 18 mikrogram inhalationspulver</td></tr></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "https://hip.vitagroup.ag/sid/medication-identifier",
+            "value": "f0e9ade0-b711-43b1-8b03-9e3d11fee93f"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "R03BB04",
+              "display": "tiotropium bromide"
+            }
+          ],
+          "text": "Tiotropium 18 mikrogram inhalationspulver"
+        }
+      }
+    },
+    {
+      "fullUrl": "https://hip-cdr-connector-fhir-psm.psm.sandbox1.vghip.cloud/fhir/R4/Medication/462733df-1cbb-4e56-bc93-d7f5e4c1b497",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "462733df-1cbb-4e56-bc93-d7f5e4c1b497",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-11-19T09:55:23.526+00:00",
+          "source": "#yDb7Gs5hQVi94z2b",
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medication-eu-core"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><tr><th>Medication</th><td>Bikalutamid 150 mg tablett</td></tr><tr><th>Form</th><td>Oral tablet</td></tr></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "https://hip.vitagroup.ag/sid/medication-identifier",
+            "value": "b13a36ac-9f4a-4372-9dd9-1a4dd0aeca0c"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "L02BB03",
+              "display": "bicalutamide"
+            }
+          ],
+          "text": "Bikalutamid 150 mg tablett"
+        },
+        "form": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "421026006",
+              "display": "Oral tablet"
+            }
+          ],
+          "text": "Oral tablet"
+        }
+      }
+    },
+    {
+      "fullUrl": "https://hip-cdr-connector-fhir-psm.psm.sandbox1.vghip.cloud/fhir/R4/Medication/9073e88a-8f7d-4e24-8dbc-aab39cc20f26",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "9073e88a-8f7d-4e24-8dbc-aab39cc20f26",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-11-19T09:55:23.526+00:00",
+          "source": "#yDb7Gs5hQVi94z2b",
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medication-eu-core"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><tr><th>Medication</th><td>Atorvastatin 20 mg tablett</td></tr><tr><th>Form</th><td>Oral tablet</td></tr></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "https://hip.vitagroup.ag/sid/medication-identifier",
+            "value": "a783502f-5038-4a43-8fd3-b61674854ad8"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "C10AA05",
+              "display": "atorvastatin"
+            }
+          ],
+          "text": "Atorvastatin 20 mg tablett"
+        },
+        "form": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "421026006",
+              "display": "Oral tablet"
+            }
+          ],
+          "text": "Oral tablet"
+        }
+      }
+    },
+    {
+      "fullUrl": "https://hip-cdr-connector-fhir-psm.psm.sandbox1.vghip.cloud/fhir/R4/Device/9d5f2290-d12d-4813-b4d1-63d2fa4b715d",
+      "resource": {
+        "resourceType": "Device",
+        "id": "9d5f2290-d12d-4813-b4d1-63d2fa4b715d",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-11-19T09:55:23.526+00:00",
+          "source": "#yDb7Gs5hQVi94z2b",
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/device-eu-eps"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><tr><th>Device</th><td>Rollator</td></tr><tr><th>Status</th><td>active</td></tr></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "https://hip.vitagroup.ag/sid/device-identifier",
+            "value": "484a0a8f-df59-4415-8938-0968db8f8cb9"
+          }
+        ],
+        "status": "active",
+        "type": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "404946006",
+              "display": "Wheeled walking frame"
+            }
+          ],
+          "text": "Rollator"
+        },
+        "patient": {
+          "reference": "Patient/b5ccf456-9247-4ab1-a8df-a784b8648314"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,3689 @@
+{
+  "resourceType": "Bundle",
+  "id": "a2e00005-0000-4000-8000-000000000000",
+  "meta": {
+    "profile": [
+      "http://hl7.eu/fhir/eps/StructureDefinition/bundle-eu-eps"
+    ]
+  },
+  "language": "en",
+  "identifier": {
+    "system": "urn:ietf:rfc:3986",
+    "value": "urn:uuid:a2e00005-0000-4000-8000-000000000000"
+  },
+  "type": "document",
+  "timestamp": "2026-11-18T14:00:00+00:00",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:a2e00005-0000-4000-8000-000000000001",
+      "resource": {
+        "resourceType": "Composition",
+        "id": "a2e00005-0000-4000-8000-000000000001",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/composition-eu-eps"
+          ]
+        },
+        "identifier": {
+          "system": "urn:ietf:rfc:3986",
+          "value": "urn:uuid:a2e00005-0000-4000-8000-000000000001"
+        },
+        "status": "final",
+        "type": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "60591-5",
+              "display": "Patient summary Document"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:a2e00004-0000-4000-8000-000000000001",
+          "display": "Bertil Åkesson"
+        },
+        "date": "2026-11-18T14:00:00+00:00",
+        "author": [
+          {
+            "reference": "urn:uuid:a2e00002-0000-4000-8000-000000000001",
+            "display": "Dr Guðrún Jónsdóttir"
+          },
+          {
+            "reference": "urn:uuid:a2e00001-0000-4000-8000-000000000001",
+            "display": "Landspítali"
+          }
+        ],
+        "title": "Patient Summary: Bertil Åkesson",
+        "confidentiality": "N",
+        "attester": [
+          {
+            "mode": "legal",
+            "time": "2026-11-18T14:00:00+00:00",
+            "party": {
+              "reference": "urn:uuid:a2e00002-0000-4000-8000-000000000001",
+              "display": "Dr Guðrún Jónsdóttir"
+            }
+          }
+        ],
+        "custodian": {
+          "reference": "urn:uuid:a2e00001-0000-4000-8000-000000000001",
+          "display": "Landspítali"
+        },
+        "section": [
+          {
+            "title": "Allergies and intolerances",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "48765-2",
+                  "display": "Allergies and adverse reactions Document"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Penicillin (criticality high): Anaphylaxis</li><li>Birch pollen (criticality low): Allergic rhinitis (hay fever) in spring</li></ul></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:a2e00005-0000-4000-8000-000000000002"
+              },
+              {
+                "reference": "urn:uuid:a2e00005-0000-4000-8000-000000000003"
+              }
+            ]
+          },
+          {
+            "title": "Problem list",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "11450-4",
+                  "display": "Problem list - Reported"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Heart failure (NYHA II, reduced ejection fraction)</li><li>Atrial fibrillation, permanent</li><li>Type 2 diabetes mellitus, insulin treated</li><li>Angina pectoris, stable</li><li>Emphysema</li><li>Hypertension</li><li>Venous leg ulcer, left lower leg</li><li>Locally advanced prostate cancer (cT3a N0 M0), on androgen deprivation therapy</li><li>Femoral neck fracture, right (Garden IV), fall in Reykjavík</li></ul></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:a2e00005-0000-4000-8000-000000000005"
+              },
+              {
+                "reference": "urn:uuid:a2e00005-0000-4000-8000-000000000006"
+              },
+              {
+                "reference": "urn:uuid:a2e00005-0000-4000-8000-000000000007"
+              },
+              {
+                "reference": "urn:uuid:a2e00005-0000-4000-8000-000000000008"
+              },
+              {
+                "reference": "urn:uuid:a2e00005-0000-4000-8000-000000000009"
+              },
+              {
+                "reference": "urn:uuid:a2e00005-0000-4000-8000-000000000010"
+              },
+              {
+                "reference": "urn:uuid:a2e00005-0000-4000-8000-000000000011"
+              },
+              {
+                "reference": "urn:uuid:a2e00005-0000-4000-8000-000000000012"
+              },
+              {
+                "reference": "urn:uuid:a2e00005-0000-4000-8000-000000000013"
+              }
+            ]
+          },
+          {
+            "title": "Medication summary",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "10160-0",
+                  "display": "History of Medication use Narrative"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Insulin glargine 100 units/ml (Lantus): 20 units subcutaneously in the evening</li><li>Metformin 500 mg tablet: 500 mg twice daily with meals</li><li>Apixaban 2.5 mg tablet (Eliquis): 2.5 mg twice daily</li><li>Ramipril 5 mg tablet: 5 mg once daily in the morning</li><li>Furosemide 40 mg tablet: 40 mg once daily in the morning</li><li>Bisoprolol 5 mg tablet: 5 mg once daily in the morning</li><li>Glyceryl trinitrate 0.4 mg/dose sublingual spray: 1 to 2 doses under the tongue as needed for chest pain</li><li>Tiotropium 2.5 microgram/dose inhalation solution (Spiriva Respimat): 2 inhalations once daily</li><li>Leuprorelin 22.5 mg depot injection (Eligard): 22.5 mg subcutaneously every 3 months, next dose 15 January 2027</li><li>Paracetamol 1 g tablet: 1 g three times daily for 14 days after surgery</li></ul></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:a2e00005-0000-4000-8000-000000000017"
+              },
+              {
+                "reference": "urn:uuid:a2e00005-0000-4000-8000-000000000018"
+              },
+              {
+                "reference": "urn:uuid:a2e00005-0000-4000-8000-000000000019"
+              },
+              {
+                "reference": "urn:uuid:a2e00005-0000-4000-8000-000000000020"
+              },
+              {
+                "reference": "urn:uuid:a2e00005-0000-4000-8000-000000000021"
+              },
+              {
+                "reference": "urn:uuid:a2e00005-0000-4000-8000-000000000022"
+              },
+              {
+                "reference": "urn:uuid:a2e00005-0000-4000-8000-000000000023"
+              },
+              {
+                "reference": "urn:uuid:a2e00005-0000-4000-8000-000000000024"
+              },
+              {
+                "reference": "urn:uuid:a2e00005-0000-4000-8000-000000000025"
+              },
+              {
+                "reference": "urn:uuid:a2e00005-0000-4000-8000-000000000026"
+              }
+            ]
+          },
+          {
+            "title": "History of procedures",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "47519-4",
+                  "display": "History of Procedures Document"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Cemented bipolar hemiarthroplasty of the right hip, 2026-11-10</li></ul></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:a2e00005-0000-4000-8000-000000000027"
+              }
+            ]
+          },
+          {
+            "title": "Immunizations",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "11369-6",
+                  "display": "History of Immunization note"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Influenza vaccine, season 2025/2026, 2025-10-14</li><li>Pneumococcal conjugate vaccine, 2023-04-03</li></ul></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:a2e00005-0000-4000-8000-000000000044"
+              },
+              {
+                "reference": "urn:uuid:a2e00005-0000-4000-8000-000000000045"
+              }
+            ]
+          },
+          {
+            "title": "Results",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "30954-2",
+                  "display": "Relevant diagnostic tests/laboratory data note"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Haemoglobin: 102 g/L</li><li>Creatinine: 136 umol/L</li><li>eGFR (CKD-EPI 2021): 42 mL/min/1.73m2</li><li>HbA1c (IFCC): 62 mmol/mol</li><li>Potassium: 4.1 mmol/L</li><li>CRP: 38 mg/L</li><li>PSA: 1.8 ug/L</li></ul></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:a2e00005-0000-4000-8000-000000000028"
+              },
+              {
+                "reference": "urn:uuid:a2e00005-0000-4000-8000-000000000029"
+              },
+              {
+                "reference": "urn:uuid:a2e00005-0000-4000-8000-000000000030"
+              },
+              {
+                "reference": "urn:uuid:a2e00005-0000-4000-8000-000000000031"
+              },
+              {
+                "reference": "urn:uuid:a2e00005-0000-4000-8000-000000000032"
+              },
+              {
+                "reference": "urn:uuid:a2e00005-0000-4000-8000-000000000033"
+              },
+              {
+                "reference": "urn:uuid:a2e00005-0000-4000-8000-000000000034"
+              }
+            ]
+          },
+          {
+            "title": "Vital signs",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "8716-3",
+                  "display": "Vital signs note"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Blood pressure: 132/74 mmHg</li><li>Heart rate: 78 beats/minute</li><li>Body weight: 74 kg</li></ul></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:a2e00005-0000-4000-8000-000000000035"
+              },
+              {
+                "reference": "urn:uuid:a2e00005-0000-4000-8000-000000000036"
+              },
+              {
+                "reference": "urn:uuid:a2e00005-0000-4000-8000-000000000037"
+              }
+            ]
+          },
+          {
+            "title": "Functional status",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "47420-5",
+                  "display": "Functional status assessment note"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Reduced mobility: walks with a rollator</li><li>Needs home care twice a day</li></ul></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:a2e00005-0000-4000-8000-000000000014"
+              },
+              {
+                "reference": "urn:uuid:a2e00005-0000-4000-8000-000000000015"
+              }
+            ]
+          },
+          {
+            "title": "Social history",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "29762-2",
+                  "display": "Social history note"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Tobacco smoking status: Former smoker, stopped 1995 (about 30 pack-years)</li><li>Living situation: Lives alone in a flat in Sjöbacka (widower)</li></ul></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:a2e00005-0000-4000-8000-000000000038"
+              },
+              {
+                "reference": "urn:uuid:a2e00005-0000-4000-8000-000000000039"
+              }
+            ]
+          },
+          {
+            "title": "History of past illness",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "11348-0",
+                  "display": "History of Past illness note"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Ischaemic stroke 2019, residual left-sided weakness</li></ul></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:a2e00005-0000-4000-8000-000000000016"
+              }
+            ]
+          },
+          {
+            "title": "Alerts",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "104605-1",
+                  "display": "Alert"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Anticoagulated: apixaban 2.5 mg twice daily (bleeding risk)</li></ul></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:a2e00005-0000-4000-8000-000000000004"
+              }
+            ]
+          },
+          {
+            "title": "Advance directives",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "42348-3",
+                  "display": "Advance healthcare directives"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Wishes to be cared for at home in Sjöbacka, with his son involved, and consents to sharing his health data with his Swedish care providers</li></ul></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:a2e00005-0000-4000-8000-000000000046"
+              }
+            ]
+          },
+          {
+            "title": "Medical devices",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "46264-8",
+                  "display": "History of medical device use"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Bipolar hip hemiarthroplasty, cemented</li><li>Rollator</li></ul></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:a2e00005-0000-4000-8000-000000000042"
+              },
+              {
+                "reference": "urn:uuid:a2e00005-0000-4000-8000-000000000043"
+              }
+            ]
+          },
+          {
+            "title": "Plan of care",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "18776-5",
+                  "display": "Plan of care note"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Home care and support plan, Sjöbacka kommun</li><li>Follow-up at Vårdcentralen Kvarnängen</li></ul></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:a2e00005-0000-4000-8000-000000000047"
+              },
+              {
+                "reference": "urn:uuid:a2e00005-0000-4000-8000-000000000050"
+              }
+            ]
+          },
+          {
+            "title": "Health insurance and payers",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "48768-6",
+                  "display": "Payment sources Document"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Swedish regional public healthcare: Region Skåne</li><li>European Health Insurance Card (EHIC): Försäkringskassan (Swedish Social Insurance Agency)</li></ul></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:a2e00005-0000-4000-8000-000000000048"
+              },
+              {
+                "reference": "urn:uuid:a2e00005-0000-4000-8000-000000000049"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a2e00004-0000-4000-8000-000000000001",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "a2e00004-0000-4000-8000-000000000001",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/patient-eu-eps"
+          ]
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "NI",
+                  "display": "National unique individual identifier"
+                }
+              ],
+              "text": "Swedish personal identity number (personnummer)"
+            },
+            "system": "urn:oid:1.2.752.129.2.1.3.1",
+            "value": "194305127054"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "use": "official",
+            "family": "Åkesson",
+            "given": [
+              "Bertil"
+            ],
+            "text": "Bertil Åkesson"
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+46 70 174 06 42",
+            "use": "mobile"
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1943-05-12",
+        "address": [
+          {
+            "use": "home",
+            "type": "physical",
+            "line": [
+              "Kvarngatan 7"
+            ],
+            "city": "Sjöbacka",
+            "postalCode": "234 56",
+            "country": "SE",
+            "text": "Kvarngatan 7, 234 56 Sjöbacka, Sweden"
+          }
+        ],
+        "maritalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+              "code": "W",
+              "display": "Widowed"
+            }
+          ]
+        },
+        "contact": [
+          {
+            "relationship": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0131",
+                    "code": "N",
+                    "display": "Next-of-Kin"
+                  }
+                ]
+              },
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+                    "code": "SON",
+                    "display": "natural son"
+                  }
+                ]
+              }
+            ],
+            "name": {
+              "family": "Åkesson",
+              "given": [
+                "Mikael"
+              ],
+              "text": "Mikael Åkesson"
+            },
+            "telecom": [
+              {
+                "system": "phone",
+                "value": "+354 691 0617",
+                "use": "mobile"
+              }
+            ],
+            "address": {
+              "use": "home",
+              "line": [
+                "Hofsvallagata 21"
+              ],
+              "city": "Reykjavík",
+              "postalCode": "101",
+              "country": "IS",
+              "text": "Hofsvallagata 21, 101 Reykjavík, Iceland"
+            }
+          }
+        ],
+        "communication": [
+          {
+            "language": {
+              "coding": [
+                {
+                  "system": "urn:ietf:bcp:47",
+                  "code": "sv",
+                  "display": "Swedish"
+                }
+              ],
+              "text": "Swedish"
+            },
+            "preferred": true
+          }
+        ],
+        "generalPractitioner": [
+          {
+            "reference": "urn:uuid:a2e00002-0000-4000-8000-000000000002",
+            "display": "Dr Karin Lindqvist, Vårdcentralen Kvarnängen"
+          }
+        ],
+        "managingOrganization": {
+          "reference": "urn:uuid:a2e00001-0000-4000-8000-000000000001",
+          "display": "Landspítali"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a2e00001-0000-4000-8000-000000000001",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "a2e00001-0000-4000-8000-000000000001",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/organization-eu-core"
+          ]
+        },
+        "active": true,
+        "name": "Landspítali",
+        "address": [
+          {
+            "line": [
+              "Hringbraut"
+            ],
+            "city": "Reykjavík",
+            "postalCode": "101",
+            "country": "IS"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a2e00001-0000-4000-8000-000000000002",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "a2e00001-0000-4000-8000-000000000002",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/organization-eu-core"
+          ]
+        },
+        "active": true,
+        "name": "Vårdcentralen Kvarnängen",
+        "address": [
+          {
+            "line": [
+              "Kvarnängsvägen 2"
+            ],
+            "city": "Sjöbacka",
+            "postalCode": "234 51",
+            "country": "SE"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a2e00001-0000-4000-8000-000000000003",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "a2e00001-0000-4000-8000-000000000003",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/organization-eu-core"
+          ]
+        },
+        "active": true,
+        "name": "Sjöbacka kommun",
+        "alias": [
+          "Sjöbacka kommun, hemtjänst och rehab"
+        ],
+        "address": [
+          {
+            "city": "Sjöbacka",
+            "postalCode": "234 50",
+            "country": "SE"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a2e00002-0000-4000-8000-000000000001",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "a2e00002-0000-4000-8000-000000000001",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/practitioner-eu-core"
+          ]
+        },
+        "active": true,
+        "name": [
+          {
+            "family": "Jónsdóttir",
+            "given": [
+              "Guðrún"
+            ],
+            "prefix": [
+              "Dr"
+            ],
+            "text": "Dr Guðrún Jónsdóttir"
+          }
+        ],
+        "qualification": [
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "22731001",
+                  "display": "Orthopedic surgeon"
+                }
+              ],
+              "text": "Orthopaedic surgeon"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a2e00002-0000-4000-8000-000000000002",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "a2e00002-0000-4000-8000-000000000002",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/practitioner-eu-core"
+          ]
+        },
+        "active": true,
+        "name": [
+          {
+            "family": "Lindqvist",
+            "given": [
+              "Karin"
+            ],
+            "prefix": [
+              "Dr"
+            ],
+            "text": "Dr Karin Lindqvist"
+          }
+        ],
+        "qualification": [
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "62247001",
+                  "display": "Family medicine specialist"
+                }
+              ],
+              "text": "General practitioner"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a2e00005-0000-4000-8000-000000000002",
+      "resource": {
+        "resourceType": "AllergyIntolerance",
+        "id": "a2e00005-0000-4000-8000-000000000002",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/allergyIntolerance-eu-core"
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+              "code": "active",
+              "display": "Active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+              "code": "confirmed",
+              "display": "Confirmed"
+            }
+          ]
+        },
+        "type": "allergy",
+        "category": [
+          "medication"
+        ],
+        "criticality": "high",
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "764146007",
+              "display": "Penicillin"
+            }
+          ],
+          "text": "Penicillin"
+        },
+        "patient": {
+          "reference": "urn:uuid:a2e00004-0000-4000-8000-000000000001",
+          "display": "Bertil Åkesson"
+        },
+        "onsetDateTime": "1987",
+        "recordedDate": "2026-10-06",
+        "reaction": [
+          {
+            "manifestation": [
+              {
+                "coding": [
+                  {
+                    "system": "http://snomed.info/sct",
+                    "code": "39579001",
+                    "display": "Anaphylaxis"
+                  }
+                ],
+                "text": "Anaphylaxis"
+              }
+            ],
+            "severity": "severe",
+            "description": "Anaphylactic reaction to phenoxymethylpenicillin in 1987. Use clindamycin for surgical prophylaxis."
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a2e00005-0000-4000-8000-000000000003",
+      "resource": {
+        "resourceType": "AllergyIntolerance",
+        "id": "a2e00005-0000-4000-8000-000000000003",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/allergyIntolerance-eu-core"
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+              "code": "active",
+              "display": "Active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+              "code": "confirmed",
+              "display": "Confirmed"
+            }
+          ]
+        },
+        "type": "allergy",
+        "category": [
+          "environment"
+        ],
+        "criticality": "low",
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "1396850006",
+              "display": "Birch pollen"
+            }
+          ],
+          "text": "Birch pollen"
+        },
+        "patient": {
+          "reference": "urn:uuid:a2e00004-0000-4000-8000-000000000001",
+          "display": "Bertil Åkesson"
+        },
+        "onsetDateTime": "1975",
+        "recordedDate": "2026-10-06",
+        "reaction": [
+          {
+            "manifestation": [
+              {
+                "coding": [
+                  {
+                    "system": "http://snomed.info/sct",
+                    "code": "61582004",
+                    "display": "Allergic rhinitis"
+                  }
+                ],
+                "text": "Allergic rhinitis (hay fever) in spring"
+              }
+            ],
+            "severity": "mild"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a2e00005-0000-4000-8000-000000000004",
+      "resource": {
+        "resourceType": "Flag",
+        "id": "a2e00005-0000-4000-8000-000000000004",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/flag-patient-eu-core"
+          ]
+        },
+        "status": "active",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/flag-category",
+                "code": "clinical",
+                "display": "Clinical"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "182764009",
+              "display": "Anticoagulant therapy"
+            }
+          ],
+          "text": "Anticoagulated: apixaban 2.5 mg twice daily (bleeding risk)"
+        },
+        "subject": {
+          "reference": "urn:uuid:a2e00004-0000-4000-8000-000000000001",
+          "display": "Bertil Åkesson"
+        },
+        "period": {
+          "start": "2019-05-14"
+        },
+        "author": {
+          "reference": "urn:uuid:a2e00002-0000-4000-8000-000000000002",
+          "display": "Dr Karin Lindqvist"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a2e00005-0000-4000-8000-000000000005",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "a2e00005-0000-4000-8000-000000000005",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/condition-eu-core"
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active",
+              "display": "Active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed",
+              "display": "Confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "problem-list-item",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "84114007",
+              "display": "Heart failure"
+            },
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10",
+              "code": "I50.9"
+            }
+          ],
+          "text": "Heart failure (NYHA II, reduced ejection fraction)"
+        },
+        "subject": {
+          "reference": "urn:uuid:a2e00004-0000-4000-8000-000000000001",
+          "display": "Bertil Åkesson"
+        },
+        "onsetDateTime": "2021-02",
+        "recordedDate": "2026-10-06"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a2e00005-0000-4000-8000-000000000006",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "a2e00005-0000-4000-8000-000000000006",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/condition-eu-core"
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active",
+              "display": "Active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed",
+              "display": "Confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "problem-list-item",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "49436004",
+              "display": "Atrial fibrillation"
+            },
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10",
+              "code": "I48.9"
+            }
+          ],
+          "text": "Atrial fibrillation, permanent"
+        },
+        "subject": {
+          "reference": "urn:uuid:a2e00004-0000-4000-8000-000000000001",
+          "display": "Bertil Åkesson"
+        },
+        "onsetDateTime": "2019-05",
+        "recordedDate": "2026-10-06"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a2e00005-0000-4000-8000-000000000007",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "a2e00005-0000-4000-8000-000000000007",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/condition-eu-core"
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active",
+              "display": "Active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed",
+              "display": "Confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "problem-list-item",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "237599002",
+              "display": "Insulin treated type 2 diabetes mellitus"
+            },
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10",
+              "code": "E11.9"
+            }
+          ],
+          "text": "Type 2 diabetes mellitus, insulin treated"
+        },
+        "subject": {
+          "reference": "urn:uuid:a2e00004-0000-4000-8000-000000000001",
+          "display": "Bertil Åkesson"
+        },
+        "onsetDateTime": "2008",
+        "recordedDate": "2026-10-06"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a2e00005-0000-4000-8000-000000000008",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "a2e00005-0000-4000-8000-000000000008",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/condition-eu-core"
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active",
+              "display": "Active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed",
+              "display": "Confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "problem-list-item",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "194828000",
+              "display": "Angina pectoris"
+            },
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10",
+              "code": "I20.9"
+            }
+          ],
+          "text": "Angina pectoris, stable"
+        },
+        "subject": {
+          "reference": "urn:uuid:a2e00004-0000-4000-8000-000000000001",
+          "display": "Bertil Åkesson"
+        },
+        "onsetDateTime": "2016",
+        "recordedDate": "2026-10-06"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a2e00005-0000-4000-8000-000000000009",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "a2e00005-0000-4000-8000-000000000009",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/condition-eu-core"
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active",
+              "display": "Active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed",
+              "display": "Confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "problem-list-item",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "87433001",
+              "display": "Pulmonary emphysema"
+            },
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10",
+              "code": "J43.9"
+            }
+          ],
+          "text": "Emphysema"
+        },
+        "subject": {
+          "reference": "urn:uuid:a2e00004-0000-4000-8000-000000000001",
+          "display": "Bertil Åkesson"
+        },
+        "onsetDateTime": "2014",
+        "recordedDate": "2026-10-06"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a2e00005-0000-4000-8000-000000000010",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "a2e00005-0000-4000-8000-000000000010",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/condition-eu-core"
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active",
+              "display": "Active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed",
+              "display": "Confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "problem-list-item",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "38341003",
+              "display": "Hypertensive disorder"
+            },
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10",
+              "code": "I10"
+            }
+          ],
+          "text": "Hypertension"
+        },
+        "subject": {
+          "reference": "urn:uuid:a2e00004-0000-4000-8000-000000000001",
+          "display": "Bertil Åkesson"
+        },
+        "onsetDateTime": "2002",
+        "recordedDate": "2026-10-06"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a2e00005-0000-4000-8000-000000000011",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "a2e00005-0000-4000-8000-000000000011",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/condition-eu-core"
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active",
+              "display": "Active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed",
+              "display": "Confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "problem-list-item",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "1237117000",
+              "display": "Venous ulcer of lower leg"
+            },
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10",
+              "code": "L97"
+            }
+          ],
+          "text": "Venous leg ulcer, left lower leg"
+        },
+        "subject": {
+          "reference": "urn:uuid:a2e00004-0000-4000-8000-000000000001",
+          "display": "Bertil Åkesson"
+        },
+        "onsetDateTime": "2026-08",
+        "recordedDate": "2026-08-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a2e00005-0000-4000-8000-000000000012",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "a2e00005-0000-4000-8000-000000000012",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/condition-eu-core"
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active",
+              "display": "Active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed",
+              "display": "Confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "problem-list-item",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "399068003",
+              "display": "Malignant neoplasm of prostate"
+            },
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10",
+              "code": "C61"
+            }
+          ],
+          "text": "Locally advanced prostate cancer (cT3a N0 M0), on androgen deprivation therapy"
+        },
+        "subject": {
+          "reference": "urn:uuid:a2e00004-0000-4000-8000-000000000001",
+          "display": "Bertil Åkesson"
+        },
+        "onsetDateTime": "2024-03",
+        "recordedDate": "2026-10-06",
+        "note": [
+          {
+            "text": "Followed by the urology clinic in Sweden. Last PSA 1.8 ug/L."
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a2e00005-0000-4000-8000-000000000013",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "a2e00005-0000-4000-8000-000000000013",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/condition-eu-core"
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active",
+              "display": "Active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed",
+              "display": "Confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "problem-list-item",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "46491000087105",
+              "display": "Fracture of neck of right femur"
+            },
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10",
+              "code": "S72.0"
+            }
+          ],
+          "text": "Femoral neck fracture, right (Garden IV), fall in Reykjavík"
+        },
+        "subject": {
+          "reference": "urn:uuid:a2e00004-0000-4000-8000-000000000001",
+          "display": "Bertil Åkesson"
+        },
+        "onsetDateTime": "2026-11-09",
+        "recordedDate": "2026-11-09",
+        "note": [
+          {
+            "text": "Fell on the stairs at his son's home in Reykjavík on 9 November 2026. Operated at Landspítali on 10 November 2026."
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a2e00005-0000-4000-8000-000000000014",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "a2e00005-0000-4000-8000-000000000014",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/condition-eu-core"
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active",
+              "display": "Active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed",
+              "display": "Confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "problem-list-item",
+                "display": "Problem List Item"
+              },
+              {
+                "system": "http://loinc.org",
+                "code": "47420-5",
+                "display": "Functional status assessment note"
+              }
+            ]
+          }
+        ],
+        "severity": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "6736007",
+              "display": "Moderate severity"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "719232003",
+              "display": "Difficulty walking"
+            },
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10",
+              "code": "Z74.0"
+            }
+          ],
+          "text": "Reduced mobility: walks with a rollator"
+        },
+        "subject": {
+          "reference": "urn:uuid:a2e00004-0000-4000-8000-000000000001",
+          "display": "Bertil Åkesson"
+        },
+        "onsetDateTime": "2019-09-02",
+        "recordedDate": "2026-10-06",
+        "note": [
+          {
+            "text": "Walks indoors and short distances outdoors with a rollator since the 2019 stroke (left-sided weakness). Stairs only with a handrail. Needs help to put on compression stockings."
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a2e00005-0000-4000-8000-000000000015",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "a2e00005-0000-4000-8000-000000000015",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/condition-eu-core"
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active",
+              "display": "Active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed",
+              "display": "Confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "problem-list-item",
+                "display": "Problem List Item"
+              },
+              {
+                "system": "http://loinc.org",
+                "code": "47420-5",
+                "display": "Functional status assessment note"
+              }
+            ]
+          }
+        ],
+        "severity": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "6736007",
+              "display": "Moderate severity"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "105507009",
+              "display": "Patient dependence on care provider"
+            },
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10",
+              "code": "Z74.1"
+            }
+          ],
+          "text": "Needs home care twice a day"
+        },
+        "subject": {
+          "reference": "urn:uuid:a2e00004-0000-4000-8000-000000000001",
+          "display": "Bertil Åkesson"
+        },
+        "onsetDateTime": "2019-09-02",
+        "recordedDate": "2026-10-06",
+        "note": [
+          {
+            "text": "Home care from Sjöbacka kommun twice a day (morning and evening) since 2019: personal care, compression stockings, supervision of insulin and medication. Wound care for the leg ulcer twice a week since August 2026."
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a2e00005-0000-4000-8000-000000000016",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "a2e00005-0000-4000-8000-000000000016",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/condition-eu-core"
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "resolved",
+              "display": "Resolved"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed",
+              "display": "Confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "problem-list-item",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "422504002",
+              "display": "Ischemic stroke"
+            },
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10",
+              "code": "I63.9"
+            }
+          ],
+          "text": "Ischaemic stroke 2019, residual left-sided weakness"
+        },
+        "subject": {
+          "reference": "urn:uuid:a2e00004-0000-4000-8000-000000000001",
+          "display": "Bertil Åkesson"
+        },
+        "onsetDateTime": "2019-05-12",
+        "abatementDateTime": "2019-08-30",
+        "recordedDate": "2019-05-12",
+        "note": [
+          {
+            "text": "Cardioembolic stroke due to atrial fibrillation. Residual mild left-sided weakness (left hemiparesis). Apixaban since May 2019."
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a2e00005-0000-4000-8000-000000000017",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "a2e00005-0000-4000-8000-000000000017",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/MedicationStatement-eu-eps"
+          ]
+        },
+        "status": "active",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "A10AE04",
+              "display": "insulin glargine"
+            }
+          ],
+          "text": "Insulin glargine 100 units/ml (Lantus)"
+        },
+        "subject": {
+          "reference": "urn:uuid:a2e00004-0000-4000-8000-000000000001",
+          "display": "Bertil Åkesson"
+        },
+        "effectivePeriod": {
+          "start": "2015-01-10"
+        },
+        "dateAsserted": "2026-10-06",
+        "informationSource": {
+          "reference": "urn:uuid:a2e00002-0000-4000-8000-000000000002",
+          "display": "Dr Karin Lindqvist"
+        },
+        "reasonReference": [
+          {
+            "reference": "urn:uuid:a2e00005-0000-4000-8000-000000000007",
+            "display": "Type 2 diabetes mellitus, insulin treated"
+          }
+        ],
+        "dosage": [
+          {
+            "text": "20 units subcutaneously in the evening",
+            "route": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "34206005",
+                  "display": "Subcutaneous route"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a2e00005-0000-4000-8000-000000000018",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "a2e00005-0000-4000-8000-000000000018",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/MedicationStatement-eu-eps"
+          ]
+        },
+        "status": "active",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "A10BA02",
+              "display": "metformin"
+            }
+          ],
+          "text": "Metformin 500 mg tablet"
+        },
+        "subject": {
+          "reference": "urn:uuid:a2e00004-0000-4000-8000-000000000001",
+          "display": "Bertil Åkesson"
+        },
+        "effectivePeriod": {
+          "start": "2008-06-01"
+        },
+        "dateAsserted": "2026-10-06",
+        "informationSource": {
+          "reference": "urn:uuid:a2e00002-0000-4000-8000-000000000002",
+          "display": "Dr Karin Lindqvist"
+        },
+        "reasonReference": [
+          {
+            "reference": "urn:uuid:a2e00005-0000-4000-8000-000000000007",
+            "display": "Type 2 diabetes mellitus, insulin treated"
+          }
+        ],
+        "dosage": [
+          {
+            "text": "500 mg twice daily with meals",
+            "route": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "26643006",
+                  "display": "Oral route"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a2e00005-0000-4000-8000-000000000019",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "a2e00005-0000-4000-8000-000000000019",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/MedicationStatement-eu-eps"
+          ]
+        },
+        "status": "active",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "B01AF02",
+              "display": "apixaban"
+            }
+          ],
+          "text": "Apixaban 2.5 mg tablet (Eliquis)"
+        },
+        "subject": {
+          "reference": "urn:uuid:a2e00004-0000-4000-8000-000000000001",
+          "display": "Bertil Åkesson"
+        },
+        "effectivePeriod": {
+          "start": "2019-05-14"
+        },
+        "dateAsserted": "2026-10-06",
+        "informationSource": {
+          "reference": "urn:uuid:a2e00002-0000-4000-8000-000000000002",
+          "display": "Dr Karin Lindqvist"
+        },
+        "reasonReference": [
+          {
+            "reference": "urn:uuid:a2e00005-0000-4000-8000-000000000006",
+            "display": "Atrial fibrillation, permanent"
+          }
+        ],
+        "dosage": [
+          {
+            "text": "2.5 mg twice daily",
+            "route": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "26643006",
+                  "display": "Oral route"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a2e00005-0000-4000-8000-000000000020",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "a2e00005-0000-4000-8000-000000000020",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/MedicationStatement-eu-eps"
+          ]
+        },
+        "status": "active",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "C09AA05",
+              "display": "ramipril"
+            }
+          ],
+          "text": "Ramipril 5 mg tablet"
+        },
+        "subject": {
+          "reference": "urn:uuid:a2e00004-0000-4000-8000-000000000001",
+          "display": "Bertil Åkesson"
+        },
+        "effectivePeriod": {
+          "start": "2010-04-01"
+        },
+        "dateAsserted": "2026-10-06",
+        "informationSource": {
+          "reference": "urn:uuid:a2e00002-0000-4000-8000-000000000002",
+          "display": "Dr Karin Lindqvist"
+        },
+        "reasonReference": [
+          {
+            "reference": "urn:uuid:a2e00005-0000-4000-8000-000000000010",
+            "display": "Hypertension"
+          }
+        ],
+        "dosage": [
+          {
+            "text": "5 mg once daily in the morning",
+            "route": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "26643006",
+                  "display": "Oral route"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a2e00005-0000-4000-8000-000000000021",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "a2e00005-0000-4000-8000-000000000021",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/MedicationStatement-eu-eps"
+          ]
+        },
+        "status": "active",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "C03CA01",
+              "display": "furosemide"
+            }
+          ],
+          "text": "Furosemide 40 mg tablet"
+        },
+        "subject": {
+          "reference": "urn:uuid:a2e00004-0000-4000-8000-000000000001",
+          "display": "Bertil Åkesson"
+        },
+        "effectivePeriod": {
+          "start": "2021-02-15"
+        },
+        "dateAsserted": "2026-10-06",
+        "informationSource": {
+          "reference": "urn:uuid:a2e00002-0000-4000-8000-000000000002",
+          "display": "Dr Karin Lindqvist"
+        },
+        "reasonReference": [
+          {
+            "reference": "urn:uuid:a2e00005-0000-4000-8000-000000000005",
+            "display": "Heart failure (NYHA II, reduced ejection fraction)"
+          }
+        ],
+        "dosage": [
+          {
+            "text": "40 mg once daily in the morning",
+            "route": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "26643006",
+                  "display": "Oral route"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a2e00005-0000-4000-8000-000000000022",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "a2e00005-0000-4000-8000-000000000022",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/MedicationStatement-eu-eps"
+          ]
+        },
+        "status": "active",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "C07AB07",
+              "display": "bisoprolol"
+            }
+          ],
+          "text": "Bisoprolol 5 mg tablet"
+        },
+        "subject": {
+          "reference": "urn:uuid:a2e00004-0000-4000-8000-000000000001",
+          "display": "Bertil Åkesson"
+        },
+        "effectivePeriod": {
+          "start": "2019-05-14"
+        },
+        "dateAsserted": "2026-10-06",
+        "informationSource": {
+          "reference": "urn:uuid:a2e00002-0000-4000-8000-000000000002",
+          "display": "Dr Karin Lindqvist"
+        },
+        "reasonReference": [
+          {
+            "reference": "urn:uuid:a2e00005-0000-4000-8000-000000000005",
+            "display": "Heart failure (NYHA II, reduced ejection fraction)"
+          }
+        ],
+        "dosage": [
+          {
+            "text": "5 mg once daily in the morning",
+            "route": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "26643006",
+                  "display": "Oral route"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a2e00005-0000-4000-8000-000000000023",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "a2e00005-0000-4000-8000-000000000023",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/MedicationStatement-eu-eps"
+          ]
+        },
+        "status": "active",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "C01DA02",
+              "display": "glyceryl trinitrate"
+            }
+          ],
+          "text": "Glyceryl trinitrate 0.4 mg/dose sublingual spray"
+        },
+        "subject": {
+          "reference": "urn:uuid:a2e00004-0000-4000-8000-000000000001",
+          "display": "Bertil Åkesson"
+        },
+        "effectivePeriod": {
+          "start": "2016-09-01"
+        },
+        "dateAsserted": "2026-10-06",
+        "informationSource": {
+          "reference": "urn:uuid:a2e00002-0000-4000-8000-000000000002",
+          "display": "Dr Karin Lindqvist"
+        },
+        "reasonReference": [
+          {
+            "reference": "urn:uuid:a2e00005-0000-4000-8000-000000000008",
+            "display": "Angina pectoris, stable"
+          }
+        ],
+        "dosage": [
+          {
+            "text": "1 to 2 doses under the tongue as needed for chest pain",
+            "route": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "37839007",
+                  "display": "Sublingual route"
+                }
+              ]
+            },
+            "asNeededBoolean": true
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a2e00005-0000-4000-8000-000000000024",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "a2e00005-0000-4000-8000-000000000024",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/MedicationStatement-eu-eps"
+          ]
+        },
+        "status": "active",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "R03BB04",
+              "display": "tiotropium bromide"
+            }
+          ],
+          "text": "Tiotropium 2.5 microgram/dose inhalation solution (Spiriva Respimat)"
+        },
+        "subject": {
+          "reference": "urn:uuid:a2e00004-0000-4000-8000-000000000001",
+          "display": "Bertil Åkesson"
+        },
+        "effectivePeriod": {
+          "start": "2014-11-01"
+        },
+        "dateAsserted": "2026-10-06",
+        "informationSource": {
+          "reference": "urn:uuid:a2e00002-0000-4000-8000-000000000002",
+          "display": "Dr Karin Lindqvist"
+        },
+        "reasonReference": [
+          {
+            "reference": "urn:uuid:a2e00005-0000-4000-8000-000000000009",
+            "display": "Emphysema"
+          }
+        ],
+        "dosage": [
+          {
+            "text": "2 inhalations once daily",
+            "route": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "447694001",
+                  "display": "Respiratory tract route"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a2e00005-0000-4000-8000-000000000025",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "a2e00005-0000-4000-8000-000000000025",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/MedicationStatement-eu-eps"
+          ]
+        },
+        "status": "active",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "L02AE02",
+              "display": "leuprorelin"
+            }
+          ],
+          "text": "Leuprorelin 22.5 mg depot injection (Eligard)"
+        },
+        "subject": {
+          "reference": "urn:uuid:a2e00004-0000-4000-8000-000000000001",
+          "display": "Bertil Åkesson"
+        },
+        "effectivePeriod": {
+          "start": "2024-04-15"
+        },
+        "dateAsserted": "2026-10-06",
+        "informationSource": {
+          "reference": "urn:uuid:a2e00002-0000-4000-8000-000000000002",
+          "display": "Dr Karin Lindqvist"
+        },
+        "reasonReference": [
+          {
+            "reference": "urn:uuid:a2e00005-0000-4000-8000-000000000012",
+            "display": "Locally advanced prostate cancer (cT3a N0 M0), on androgen deprivation therapy"
+          }
+        ],
+        "dosage": [
+          {
+            "text": "22.5 mg subcutaneously every 3 months, next dose 15 January 2027",
+            "route": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "34206005",
+                  "display": "Subcutaneous route"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a2e00005-0000-4000-8000-000000000026",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "a2e00005-0000-4000-8000-000000000026",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/MedicationStatement-eu-eps"
+          ]
+        },
+        "status": "active",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "N02BE01",
+              "display": "paracetamol"
+            }
+          ],
+          "text": "Paracetamol 1 g tablet"
+        },
+        "subject": {
+          "reference": "urn:uuid:a2e00004-0000-4000-8000-000000000001",
+          "display": "Bertil Åkesson"
+        },
+        "effectivePeriod": {
+          "start": "2026-11-10",
+          "end": "2026-11-24"
+        },
+        "dateAsserted": "2026-11-18",
+        "informationSource": {
+          "reference": "urn:uuid:a2e00002-0000-4000-8000-000000000001",
+          "display": "Dr Guðrún Jónsdóttir"
+        },
+        "reasonReference": [
+          {
+            "reference": "urn:uuid:a2e00005-0000-4000-8000-000000000013",
+            "display": "Femoral neck fracture, right (Garden IV), fall in Reykjavík"
+          }
+        ],
+        "dosage": [
+          {
+            "text": "1 g three times daily for 14 days after surgery",
+            "route": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "26643006",
+                  "display": "Oral route"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a2e00005-0000-4000-8000-000000000027",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "a2e00005-0000-4000-8000-000000000027",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/procedure-eu-eps"
+          ]
+        },
+        "status": "completed",
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "1217140007",
+              "display": "Partial replacement of joint of right hip with bipolar prosthesis"
+            }
+          ],
+          "text": "Cemented bipolar hemiarthroplasty of the right hip"
+        },
+        "subject": {
+          "reference": "urn:uuid:a2e00004-0000-4000-8000-000000000001",
+          "display": "Bertil Åkesson"
+        },
+        "performedDateTime": "2026-11-10T09:40:00+00:00",
+        "performer": [
+          {
+            "actor": {
+              "reference": "urn:uuid:a2e00002-0000-4000-8000-000000000001",
+              "display": "Dr Guðrún Jónsdóttir"
+            },
+            "onBehalfOf": {
+              "reference": "urn:uuid:a2e00001-0000-4000-8000-000000000001",
+              "display": "Landspítali"
+            }
+          }
+        ],
+        "reasonReference": [
+          {
+            "reference": "urn:uuid:a2e00005-0000-4000-8000-000000000013",
+            "display": "Femoral neck fracture, right (Garden IV), fall in Reykjavík"
+          }
+        ],
+        "bodySite": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "287579007",
+                "display": "Right hip region structure"
+              }
+            ]
+          }
+        ],
+        "note": [
+          {
+            "text": "Posterior approach under spinal anaesthesia. Clindamycin prophylaxis because of penicillin allergy. Uncomplicated, blood loss about 300 ml."
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a2e00005-0000-4000-8000-000000000028",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "a2e00005-0000-4000-8000-000000000028",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medicalTestResult-eu-core"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "718-7",
+              "display": "Hemoglobin [Mass/volume] in Blood"
+            }
+          ],
+          "text": "Haemoglobin"
+        },
+        "subject": {
+          "reference": "urn:uuid:a2e00004-0000-4000-8000-000000000001",
+          "display": "Bertil Åkesson"
+        },
+        "effectiveDateTime": "2026-11-18T07:30:00+00:00",
+        "performer": [
+          {
+            "reference": "urn:uuid:a2e00001-0000-4000-8000-000000000001",
+            "display": "Landspítali"
+          }
+        ],
+        "valueQuantity": {
+          "value": 102,
+          "unit": "g/L",
+          "system": "http://unitsofmeasure.org",
+          "code": "g/L"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 134,
+              "unit": "g/L",
+              "system": "http://unitsofmeasure.org",
+              "code": "g/L"
+            },
+            "high": {
+              "value": 170,
+              "unit": "g/L",
+              "system": "http://unitsofmeasure.org",
+              "code": "g/L"
+            }
+          }
+        ],
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "code": "L",
+                "display": "Low"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a2e00005-0000-4000-8000-000000000029",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "a2e00005-0000-4000-8000-000000000029",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medicalTestResult-eu-core"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "14682-9",
+              "display": "Creatinine [Moles/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Creatinine"
+        },
+        "subject": {
+          "reference": "urn:uuid:a2e00004-0000-4000-8000-000000000001",
+          "display": "Bertil Åkesson"
+        },
+        "effectiveDateTime": "2026-11-18T07:30:00+00:00",
+        "performer": [
+          {
+            "reference": "urn:uuid:a2e00001-0000-4000-8000-000000000001",
+            "display": "Landspítali"
+          }
+        ],
+        "valueQuantity": {
+          "value": 136,
+          "unit": "umol/L",
+          "system": "http://unitsofmeasure.org",
+          "code": "umol/L"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 60,
+              "unit": "umol/L",
+              "system": "http://unitsofmeasure.org",
+              "code": "umol/L"
+            },
+            "high": {
+              "value": 105,
+              "unit": "umol/L",
+              "system": "http://unitsofmeasure.org",
+              "code": "umol/L"
+            }
+          }
+        ],
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "code": "H",
+                "display": "High"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a2e00005-0000-4000-8000-000000000030",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "a2e00005-0000-4000-8000-000000000030",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medicalTestResult-eu-core"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "98979-8",
+              "display": "Glomerular filtration rate [Volume Rate/Area] in Serum, Plasma or Blood by Creatinine-based formula (CKD-EPI 2021)/1.73 sq M"
+            }
+          ],
+          "text": "eGFR (CKD-EPI 2021)"
+        },
+        "subject": {
+          "reference": "urn:uuid:a2e00004-0000-4000-8000-000000000001",
+          "display": "Bertil Åkesson"
+        },
+        "effectiveDateTime": "2026-11-18T07:30:00+00:00",
+        "performer": [
+          {
+            "reference": "urn:uuid:a2e00001-0000-4000-8000-000000000001",
+            "display": "Landspítali"
+          }
+        ],
+        "valueQuantity": {
+          "value": 42,
+          "unit": "mL/min/1.73m2",
+          "system": "http://unitsofmeasure.org",
+          "code": "mL/min/{1.73_m2}"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 60,
+              "unit": "mL/min/1.73m2",
+              "system": "http://unitsofmeasure.org",
+              "code": "mL/min/{1.73_m2}"
+            }
+          }
+        ],
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "code": "L",
+                "display": "Low"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a2e00005-0000-4000-8000-000000000031",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "a2e00005-0000-4000-8000-000000000031",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medicalTestResult-eu-core"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "59261-8",
+              "display": "Hemoglobin A1c/Hemoglobin.total standardized per IFCC-RMP for CDT in Blood"
+            }
+          ],
+          "text": "HbA1c (IFCC)"
+        },
+        "subject": {
+          "reference": "urn:uuid:a2e00004-0000-4000-8000-000000000001",
+          "display": "Bertil Åkesson"
+        },
+        "effectiveDateTime": "2026-09-15T08:10:00+02:00",
+        "performer": [
+          {
+            "reference": "urn:uuid:a2e00001-0000-4000-8000-000000000002",
+            "display": "Vårdcentralen Kvarnängen"
+          }
+        ],
+        "valueQuantity": {
+          "value": 62,
+          "unit": "mmol/mol",
+          "system": "http://unitsofmeasure.org",
+          "code": "mmol/mol"
+        },
+        "referenceRange": [
+          {
+            "high": {
+              "value": 42,
+              "unit": "mmol/mol",
+              "system": "http://unitsofmeasure.org",
+              "code": "mmol/mol"
+            }
+          }
+        ],
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "code": "H",
+                "display": "High"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a2e00005-0000-4000-8000-000000000032",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "a2e00005-0000-4000-8000-000000000032",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medicalTestResult-eu-core"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2823-3",
+              "display": "Potassium [Moles/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Potassium"
+        },
+        "subject": {
+          "reference": "urn:uuid:a2e00004-0000-4000-8000-000000000001",
+          "display": "Bertil Åkesson"
+        },
+        "effectiveDateTime": "2026-11-18T07:30:00+00:00",
+        "performer": [
+          {
+            "reference": "urn:uuid:a2e00001-0000-4000-8000-000000000001",
+            "display": "Landspítali"
+          }
+        ],
+        "valueQuantity": {
+          "value": 4.1,
+          "unit": "mmol/L",
+          "system": "http://unitsofmeasure.org",
+          "code": "mmol/L"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 3.5,
+              "unit": "mmol/L",
+              "system": "http://unitsofmeasure.org",
+              "code": "mmol/L"
+            },
+            "high": {
+              "value": 4.6,
+              "unit": "mmol/L",
+              "system": "http://unitsofmeasure.org",
+              "code": "mmol/L"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a2e00005-0000-4000-8000-000000000033",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "a2e00005-0000-4000-8000-000000000033",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medicalTestResult-eu-core"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "1988-5",
+              "display": "C reactive protein [Mass/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "CRP"
+        },
+        "subject": {
+          "reference": "urn:uuid:a2e00004-0000-4000-8000-000000000001",
+          "display": "Bertil Åkesson"
+        },
+        "effectiveDateTime": "2026-11-18T07:30:00+00:00",
+        "performer": [
+          {
+            "reference": "urn:uuid:a2e00001-0000-4000-8000-000000000001",
+            "display": "Landspítali"
+          }
+        ],
+        "valueQuantity": {
+          "value": 38,
+          "unit": "mg/L",
+          "system": "http://unitsofmeasure.org",
+          "code": "mg/L"
+        },
+        "referenceRange": [
+          {
+            "high": {
+              "value": 8,
+              "unit": "mg/L",
+              "system": "http://unitsofmeasure.org",
+              "code": "mg/L"
+            }
+          }
+        ],
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "code": "H",
+                "display": "High"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a2e00005-0000-4000-8000-000000000034",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "a2e00005-0000-4000-8000-000000000034",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medicalTestResult-eu-core"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2857-1",
+              "display": "Prostate specific Ag [Mass/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "PSA"
+        },
+        "subject": {
+          "reference": "urn:uuid:a2e00004-0000-4000-8000-000000000001",
+          "display": "Bertil Åkesson"
+        },
+        "effectiveDateTime": "2026-10-06T08:15:00+02:00",
+        "performer": [
+          {
+            "reference": "urn:uuid:a2e00001-0000-4000-8000-000000000002",
+            "display": "Vårdcentralen Kvarnängen"
+          }
+        ],
+        "valueQuantity": {
+          "value": 1.8,
+          "unit": "ug/L",
+          "system": "http://unitsofmeasure.org",
+          "code": "ug/L"
+        },
+        "referenceRange": [
+          {
+            "high": {
+              "value": 4,
+              "unit": "ug/L",
+              "system": "http://unitsofmeasure.org",
+              "code": "ug/L"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a2e00005-0000-4000-8000-000000000035",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "a2e00005-0000-4000-8000-000000000035",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/bp"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "85354-9",
+              "display": "Blood pressure panel with all children optional"
+            }
+          ],
+          "text": "Blood pressure"
+        },
+        "subject": {
+          "reference": "urn:uuid:a2e00004-0000-4000-8000-000000000001",
+          "display": "Bertil Åkesson"
+        },
+        "effectiveDateTime": "2026-11-18T08:00:00+00:00",
+        "performer": [
+          {
+            "reference": "urn:uuid:a2e00001-0000-4000-8000-000000000001",
+            "display": "Landspítali"
+          }
+        ],
+        "component": [
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "8480-6",
+                  "display": "Systolic blood pressure"
+                }
+              ]
+            },
+            "valueQuantity": {
+              "value": 132,
+              "unit": "mmHg",
+              "system": "http://unitsofmeasure.org",
+              "code": "mm[Hg]"
+            }
+          },
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "8462-4",
+                  "display": "Diastolic blood pressure"
+                }
+              ]
+            },
+            "valueQuantity": {
+              "value": 74,
+              "unit": "mmHg",
+              "system": "http://unitsofmeasure.org",
+              "code": "mm[Hg]"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a2e00005-0000-4000-8000-000000000036",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "a2e00005-0000-4000-8000-000000000036",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/heartrate"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8867-4",
+              "display": "Heart rate"
+            }
+          ],
+          "text": "Heart rate"
+        },
+        "subject": {
+          "reference": "urn:uuid:a2e00004-0000-4000-8000-000000000001",
+          "display": "Bertil Åkesson"
+        },
+        "effectiveDateTime": "2026-11-18T08:00:00+00:00",
+        "performer": [
+          {
+            "reference": "urn:uuid:a2e00001-0000-4000-8000-000000000001",
+            "display": "Landspítali"
+          }
+        ],
+        "valueQuantity": {
+          "value": 78,
+          "unit": "beats/minute",
+          "system": "http://unitsofmeasure.org",
+          "code": "/min"
+        },
+        "note": [
+          {
+            "text": "Irregular rhythm (atrial fibrillation)."
+          }
+        ],
+        "referenceRange": [
+          {
+            "low": {
+              "value": 60,
+              "unit": "beats/minute",
+              "system": "http://unitsofmeasure.org",
+              "code": "/min"
+            },
+            "high": {
+              "value": 100,
+              "unit": "beats/minute",
+              "system": "http://unitsofmeasure.org",
+              "code": "/min"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a2e00005-0000-4000-8000-000000000037",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "a2e00005-0000-4000-8000-000000000037",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/bodyweight"
+          ]
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "29463-7",
+              "display": "Body weight"
+            }
+          ],
+          "text": "Body weight"
+        },
+        "subject": {
+          "reference": "urn:uuid:a2e00004-0000-4000-8000-000000000001",
+          "display": "Bertil Åkesson"
+        },
+        "effectiveDateTime": "2026-11-18T08:00:00+00:00",
+        "performer": [
+          {
+            "reference": "urn:uuid:a2e00001-0000-4000-8000-000000000001",
+            "display": "Landspítali"
+          }
+        ],
+        "valueQuantity": {
+          "value": 74,
+          "unit": "kg",
+          "system": "http://unitsofmeasure.org",
+          "code": "kg"
+        },
+        "bodySite": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "38266002",
+              "display": "Entire body as a whole"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a2e00005-0000-4000-8000-000000000038",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "a2e00005-0000-4000-8000-000000000038",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "social-history",
+                "display": "Social History"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "72166-2",
+              "display": "Tobacco smoking status"
+            }
+          ],
+          "text": "Tobacco smoking status"
+        },
+        "subject": {
+          "reference": "urn:uuid:a2e00004-0000-4000-8000-000000000001",
+          "display": "Bertil Åkesson"
+        },
+        "effectiveDateTime": "2026-03-10",
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "8517006",
+              "display": "Ex-smoker"
+            }
+          ],
+          "text": "Former smoker, stopped 1995 (about 30 pack-years)"
+        },
+        "component": [
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "401201003",
+                  "display": "Cigarette pack-years"
+                }
+              ],
+              "text": "Pack-years"
+            },
+            "valueQuantity": {
+              "value": 30,
+              "unit": "pack-years",
+              "system": "http://unitsofmeasure.org",
+              "code": "{PackYears}"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a2e00005-0000-4000-8000-000000000039",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "a2e00005-0000-4000-8000-000000000039",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "social-history",
+                "display": "Social History"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "224130005",
+              "display": "Household composition"
+            }
+          ],
+          "text": "Living situation"
+        },
+        "subject": {
+          "reference": "urn:uuid:a2e00004-0000-4000-8000-000000000001",
+          "display": "Bertil Åkesson"
+        },
+        "effectiveDateTime": "2026-10-06",
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "105529008",
+              "display": "Lives alone"
+            }
+          ],
+          "text": "Lives alone in a flat in Sjöbacka (widower)"
+        },
+        "note": [
+          {
+            "text": "No relatives nearby: his son Mikael lives in Reykjavík, and Bertil visits him a few times a year."
+          }
+        ],
+        "component": [
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "63512-8",
+                  "display": "How many people are living or staying at this address [#]"
+                }
+              ],
+              "text": "People in the household"
+            },
+            "valueInteger": 1
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a2e00005-0000-4000-8000-000000000040",
+      "resource": {
+        "resourceType": "Device",
+        "id": "a2e00005-0000-4000-8000-000000000040",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/device-eu-eps"
+          ]
+        },
+        "status": "active",
+        "type": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "716300000",
+              "display": "Hip hemiarthroplasty femur prosthesis"
+            }
+          ],
+          "text": "Bipolar hip hemiarthroplasty, cemented"
+        },
+        "patient": {
+          "reference": "urn:uuid:a2e00004-0000-4000-8000-000000000001",
+          "display": "Bertil Åkesson"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a2e00005-0000-4000-8000-000000000041",
+      "resource": {
+        "resourceType": "Device",
+        "id": "a2e00005-0000-4000-8000-000000000041",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/device-eu-eps"
+          ]
+        },
+        "status": "active",
+        "type": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "1255320005",
+              "display": "Wheeled walker"
+            }
+          ],
+          "text": "Rollator"
+        },
+        "patient": {
+          "reference": "urn:uuid:a2e00004-0000-4000-8000-000000000001",
+          "display": "Bertil Åkesson"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a2e00005-0000-4000-8000-000000000042",
+      "resource": {
+        "resourceType": "DeviceUseStatement",
+        "id": "a2e00005-0000-4000-8000-000000000042",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/deviceUseStatement-eu-eps"
+          ]
+        },
+        "status": "active",
+        "subject": {
+          "reference": "urn:uuid:a2e00004-0000-4000-8000-000000000001",
+          "display": "Bertil Åkesson"
+        },
+        "timingDateTime": "2026-11-10T09:40:00+00:00",
+        "recordedOn": "2026-11-10",
+        "device": {
+          "reference": "urn:uuid:a2e00005-0000-4000-8000-000000000040",
+          "display": "Bipolar hip hemiarthroplasty, cemented"
+        },
+        "bodySite": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "287579007",
+              "display": "Right hip region structure"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a2e00005-0000-4000-8000-000000000043",
+      "resource": {
+        "resourceType": "DeviceUseStatement",
+        "id": "a2e00005-0000-4000-8000-000000000043",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/deviceUseStatement-eu-eps"
+          ]
+        },
+        "status": "active",
+        "subject": {
+          "reference": "urn:uuid:a2e00004-0000-4000-8000-000000000001",
+          "display": "Bertil Åkesson"
+        },
+        "timingPeriod": {
+          "start": "2019-09-02"
+        },
+        "recordedOn": "2019-09-02",
+        "device": {
+          "reference": "urn:uuid:a2e00005-0000-4000-8000-000000000041",
+          "display": "Rollator"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a2e00005-0000-4000-8000-000000000044",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "a2e00005-0000-4000-8000-000000000044",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/immunization-eu-core"
+          ]
+        },
+        "status": "completed",
+        "vaccineCode": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "1181000221105",
+              "display": "Influenza virus antigen only vaccine product"
+            }
+          ],
+          "text": "Influenza vaccine, season 2025/2026"
+        },
+        "patient": {
+          "reference": "urn:uuid:a2e00004-0000-4000-8000-000000000001",
+          "display": "Bertil Åkesson"
+        },
+        "occurrenceDateTime": "2025-10-14",
+        "primarySource": false,
+        "protocolApplied": [
+          {
+            "targetDisease": [
+              {
+                "coding": [
+                  {
+                    "system": "http://snomed.info/sct",
+                    "code": "6142004",
+                    "display": "Influenza"
+                  }
+                ]
+              }
+            ],
+            "doseNumberPositiveInt": 1
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a2e00005-0000-4000-8000-000000000045",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "a2e00005-0000-4000-8000-000000000045",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/immunization-eu-core"
+          ]
+        },
+        "status": "completed",
+        "vaccineCode": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "1801000221105",
+              "display": "Streptococcus pneumoniae capsular polysaccharide antigen conjugated only vaccine product"
+            }
+          ],
+          "text": "Pneumococcal conjugate vaccine"
+        },
+        "patient": {
+          "reference": "urn:uuid:a2e00004-0000-4000-8000-000000000001",
+          "display": "Bertil Åkesson"
+        },
+        "occurrenceDateTime": "2023-04-03",
+        "primarySource": false,
+        "protocolApplied": [
+          {
+            "targetDisease": [
+              {
+                "coding": [
+                  {
+                    "system": "http://snomed.info/sct",
+                    "code": "16814004",
+                    "display": "Pneumococcal infectious disease"
+                  }
+                ]
+              }
+            ],
+            "doseNumberPositiveInt": 1
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a2e00005-0000-4000-8000-000000000046",
+      "resource": {
+        "resourceType": "Consent",
+        "id": "a2e00005-0000-4000-8000-000000000046",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/consent-eu-eps"
+          ]
+        },
+        "status": "active",
+        "scope": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/consentscope",
+              "code": "adr",
+              "display": "Advanced Care Directive"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/consentcategorycodes",
+                "code": "acd",
+                "display": "Advance Directive"
+              }
+            ],
+            "text": "Wishes to be cared for at home in Sjöbacka, with his son involved, and consents to sharing his health data with his Swedish care providers"
+          }
+        ],
+        "patient": {
+          "reference": "urn:uuid:a2e00004-0000-4000-8000-000000000001",
+          "display": "Bertil Åkesson"
+        },
+        "dateTime": "2025-03-12T10:00:00+01:00",
+        "performer": [
+          {
+            "reference": "urn:uuid:a2e00004-0000-4000-8000-000000000001",
+            "display": "Bertil Åkesson"
+          }
+        ],
+        "organization": [
+          {
+            "reference": "urn:uuid:a2e00001-0000-4000-8000-000000000002",
+            "display": "Vårdcentralen Kvarnängen"
+          }
+        ],
+        "policyRule": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+              "code": "OPTIN",
+              "display": "opt-in"
+            }
+          ],
+          "text": "Patient opts in to sharing his health data with the Swedish care providers named below"
+        },
+        "provision": {
+          "type": "permit",
+          "period": {
+            "start": "2025-03-12"
+          },
+          "actor": [
+            {
+              "role": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "IRCP",
+                    "display": "information recipient"
+                  }
+                ]
+              },
+              "reference": {
+                "reference": "urn:uuid:a2e00001-0000-4000-8000-000000000002",
+                "display": "Vårdcentralen Kvarnängen"
+              }
+            },
+            {
+              "role": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "IRCP",
+                    "display": "information recipient"
+                  }
+                ]
+              },
+              "reference": {
+                "reference": "urn:uuid:a2e00001-0000-4000-8000-000000000003",
+                "display": "Sjöbacka kommun"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a2e00005-0000-4000-8000-000000000047",
+      "resource": {
+        "resourceType": "CarePlan",
+        "id": "a2e00005-0000-4000-8000-000000000047",
+        "status": "active",
+        "intent": "plan",
+        "title": "Home care and support plan, Sjöbacka kommun",
+        "description": "Home care morning and evening since the 2019 stroke: personal care, compression stockings, supervision of insulin and medication. Wound care for the left leg ulcer twice a week since August 2026. Safety alarm.",
+        "subject": {
+          "reference": "urn:uuid:a2e00004-0000-4000-8000-000000000001",
+          "display": "Bertil Åkesson"
+        },
+        "period": {
+          "start": "2019-09-02"
+        },
+        "created": "2026-08-20",
+        "author": {
+          "reference": "urn:uuid:a2e00001-0000-4000-8000-000000000003",
+          "display": "Sjöbacka kommun"
+        },
+        "addresses": [
+          {
+            "reference": "urn:uuid:a2e00005-0000-4000-8000-000000000015",
+            "display": "Needs home care twice a day"
+          },
+          {
+            "reference": "urn:uuid:a2e00005-0000-4000-8000-000000000014",
+            "display": "Reduced mobility: walks with a rollator"
+          }
+        ],
+        "activity": [
+          {
+            "detail": {
+              "status": "in-progress",
+              "description": "Home care morning and evening: personal care, compression stockings, insulin and medication (Sjöbacka kommun hemtjänst)"
+            }
+          },
+          {
+            "detail": {
+              "status": "in-progress",
+              "description": "Wound care for the left leg ulcer twice a week (Sjöbacka kommun, district nurse)"
+            }
+          },
+          {
+            "detail": {
+              "status": "in-progress",
+              "description": "Safety alarm (trygghetslarm)"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a2e00005-0000-4000-8000-000000000048",
+      "resource": {
+        "resourceType": "Coverage",
+        "id": "a2e00005-0000-4000-8000-000000000048",
+        "status": "active",
+        "type": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+              "code": "PUBLICPOL",
+              "display": "public healthcare"
+            }
+          ],
+          "text": "Swedish regional public healthcare"
+        },
+        "subscriberId": "194305127054",
+        "beneficiary": {
+          "reference": "urn:uuid:a2e00004-0000-4000-8000-000000000001",
+          "display": "Bertil Åkesson"
+        },
+        "relationship": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/subscriber-relationship",
+              "code": "self",
+              "display": "Self"
+            }
+          ]
+        },
+        "period": {
+          "start": "1943-05-12"
+        },
+        "payor": [
+          {
+            "display": "Region Skåne"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a2e00005-0000-4000-8000-000000000049",
+      "resource": {
+        "resourceType": "Coverage",
+        "id": "a2e00005-0000-4000-8000-000000000049",
+        "status": "active",
+        "type": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+              "code": "PUBLICPOL",
+              "display": "public healthcare"
+            }
+          ],
+          "text": "European Health Insurance Card (EHIC)"
+        },
+        "identifier": [
+          {
+            "type": {
+              "text": "EHIC card number"
+            },
+            "value": "80752000000194305127"
+          }
+        ],
+        "subscriberId": "80752000000194305127",
+        "beneficiary": {
+          "reference": "urn:uuid:a2e00004-0000-4000-8000-000000000001",
+          "display": "Bertil Åkesson"
+        },
+        "relationship": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/subscriber-relationship",
+              "code": "self",
+              "display": "Self"
+            }
+          ]
+        },
+        "period": {
+          "start": "2024-01-01",
+          "end": "2029-12-31"
+        },
+        "payor": [
+          {
+            "display": "Försäkringskassan (Swedish Social Insurance Agency)"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a2e00005-0000-4000-8000-000000000050",
+      "resource": {
+        "resourceType": "CarePlan",
+        "id": "a2e00005-0000-4000-8000-000000000050",
+        "status": "active",
+        "intent": "plan",
+        "title": "Follow-up at Vårdcentralen Kvarnängen",
+        "description": "Scheduled visit with Dr Karin Lindqvist on 3 December 2026: heart failure, diabetes, anticoagulation with apixaban and kidney function.",
+        "subject": {
+          "reference": "urn:uuid:a2e00004-0000-4000-8000-000000000001",
+          "display": "Bertil Åkesson"
+        },
+        "period": {
+          "start": "2026-10-06"
+        },
+        "created": "2026-10-06",
+        "author": {
+          "reference": "urn:uuid:a2e00002-0000-4000-8000-000000000002",
+          "display": "Dr Karin Lindqvist"
+        },
+        "addresses": [
+          {
+            "reference": "urn:uuid:a2e00005-0000-4000-8000-000000000005",
+            "display": "Heart failure (NYHA II, reduced ejection fraction)"
+          },
+          {
+            "reference": "urn:uuid:a2e00005-0000-4000-8000-000000000007",
+            "display": "Type 2 diabetes mellitus, insulin treated"
+          }
+        ],
+        "activity": [
+          {
+            "detail": {
+              "status": "scheduled",
+              "scheduledString": "3 December 2026, 10:00",
+              "description": "Visit with Dr Karin Lindqvist at Vårdcentralen Kvarnängen"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

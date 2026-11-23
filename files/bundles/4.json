@@ -1,0 +1,437 @@
+{
+  "resourceType": "Bundle",
+  "id": "d5221a8d-0a0a-421a-ad10-581cb97056c2",
+  "meta": {
+    "profile": [
+      "http://hl7.eu/fhir/hdr/StructureDefinition/bundle-eu-hdr"
+    ]
+  },
+  "language": "en",
+  "identifier": {
+    "system": "urn:ietf:rfc:3986",
+    "value": "urn:uuid:d5221a8d-0a0a-421a-ad10-581cb97056c2"
+  },
+  "type": "document",
+  "timestamp": "2026-11-17T22:26:14+01:00",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:f38df281-de8c-5ca3-bdde-1961794493a9",
+      "resource": {
+        "resourceType": "Composition",
+        "id": "f38df281-de8c-5ca3-bdde-1961794493a9",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/hdr/StructureDefinition/composition-eu-hdr"
+          ]
+        },
+        "identifier": {
+          "system": "urn:ietf:rfc:3986",
+          "value": "urn:uuid:f38df281-de8c-5ca3-bdde-1961794493a9"
+        },
+        "status": "final",
+        "type": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "34105-7",
+              "display": "Hospital Discharge summary"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:caf1fdf3-6f1d-5026-8aa6-8fabc937a889"
+        },
+        "encounter": {
+          "reference": "urn:uuid:ce14ae03-be1a-5103-b9b9-891bc4a3e825"
+        },
+        "date": "2026-11-17T22:26:14+01:00",
+        "author": [
+          {
+            "reference": "urn:uuid:718ab3e1-6eaa-5454-832e-e0c1d02aa8da"
+          }
+        ],
+        "title": "Hospital discharge report",
+        "custodian": {
+          "reference": "urn:uuid:b33a8fae-9f7a-567c-94c4-005ad9c46455"
+        },
+        "section": [
+          {
+            "title": "Discharge summary",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "18842-5",
+                  "display": "Discharge summary"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Discharge summary</b> 2026-11-16</p><p>Admitted through the emergency department on 9 November 2026 after a fall while visiting his son in Copenhagen. X-ray showed a fracture of the neck of the femur.</p><p>His Swedish patient summary was received before surgery. Because of his penicillin allergy another antibiotic was given, his anticoagulant treatment was taken into account and bleeding prepared for, and the anaesthesia was adapted to his heart failure and emphysema.</p><p>Operated on 10 November 2026. The course after the operation was without complications.</p><p>Discharged on 16 November 2026 in a stable condition. His regular medication - insulin, blood-pressure medication and anticoagulant - continues. Recommended after discharge: rehabilitation of the hip and follow-up by his health centre in Sweden.</p></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:4b552e17-5f6a-5fcd-89ed-a2f3fb1b6492"
+              }
+            ]
+          },
+          {
+            "title": "Diagnostic summary",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "11535-2",
+                  "display": "Hospital discharge diagnosis note"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><thead><tr><th>Entry</th><th>Date</th><th>Details</th></tr></thead><tbody><tr><td>Fracture of neck of femur</td><td>2026-11-09</td><td>Certainty: Confirmed; After a fall on 9 November 2026; operated the day after.</td></tr></tbody></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:68cee4cc-166f-5f2f-b38a-a1a45c9c606f"
+              }
+            ]
+          },
+          {
+            "title": "Significant procedures",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "10185-7",
+                  "display": "Hospital discharge procedure note"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><thead><tr><th>Entry</th><th>Date</th><th>Details</th></tr></thead><tbody><tr><td>Operation of the fractured hip</td><td>2026-11-10</td><td></td></tr></tbody></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:f5efe33b-e9a7-5329-94f8-c3caea987f96"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:caf1fdf3-6f1d-5026-8aa6-8fabc937a889",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "194302096997",
+        "active": true,
+        "identifier": [
+          {
+            "value": "194302096997",
+            "system": "http://electronichealth.se/identifier/personnummer"
+          }
+        ],
+        "name": [
+          {
+            "family": "Bergstr\u00f6m",
+            "given": [
+              "Arne",
+              "Gustav"
+            ],
+            "text": "Arne Gustav Bergstr\u00f6m",
+            "use": "official"
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1943-02-09",
+        "address": [
+          {
+            "city": "Falkenberg",
+            "country": "SE",
+            "type": "physical",
+            "use": "home"
+          }
+        ],
+        "communication": [
+          {
+            "language": {
+              "coding": [
+                {
+                  "system": "urn:ietf:bcp:47",
+                  "code": "sv"
+                }
+              ],
+              "text": "Swedish"
+            },
+            "preferred": true
+          }
+        ],
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/patient-eu-core"
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:ce14ae03-be1a-5103-b9b9-891bc4a3e825",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "1000000000042700000",
+        "status": "finished",
+        "subject": {
+          "reference": "urn:uuid:caf1fdf3-6f1d-5026-8aa6-8fabc937a889"
+        },
+        "period": {
+          "start": "2026-11-09T14:20:00+01:00",
+          "end": "2026-11-16T11:00:00+01:00"
+        },
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "urn:oid:1.2.752.129.2.2.2.25",
+                "code": "3",
+                "display": "v\u00e5rdtillf\u00e4lle"
+              }
+            ],
+            "text": "Inpatient stay"
+          }
+        ],
+        "serviceProvider": {
+          "display": "Rigshospitalet",
+          "reference": "urn:uuid:429e4abf-2978-52d1-a013-4d27496e6c99"
+        },
+        "participant": [
+          {
+            "individual": {
+              "display": "Mette Lund",
+              "reference": "urn:uuid:fd2d7e51-e6cf-5a01-869e-517c5e9a51d2"
+            }
+          }
+        ],
+        "reasonCode": [
+          {
+            "text": "Fall, hip pain"
+          }
+        ],
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/hdr/StructureDefinition/encounter-eu-hdr"
+          ]
+        },
+        "class": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/coding-purpose",
+              "valueCoding": {
+                "system": "http://hl7.org/fhir/coding-purpose",
+                "code": "translated"
+              }
+            }
+          ],
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "IMP",
+          "display": "inpatient encounter"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:4b552e17-5f6a-5fcd-89ed-a2f3fb1b6492",
+      "resource": {
+        "resourceType": "DocumentReference",
+        "id": "1000000000042800000",
+        "status": "current",
+        "subject": {
+          "reference": "urn:uuid:caf1fdf3-6f1d-5026-8aa6-8fabc937a889"
+        },
+        "date": "2026-11-16T10:15:00+01:00",
+        "content": [
+          {
+            "attachment": {
+              "contentType": "text/plain",
+              "data": "QWRtaXR0ZWQgdGhyb3VnaCB0aGUgZW1lcmdlbmN5IGRlcGFydG1lbnQgb24gOSBOb3ZlbWJlciAyMDI2IGFmdGVyIGEgZmFsbCB3aGlsZSB2aXNpdGluZyBoaXMgc29uIGluIENvcGVuaGFnZW4uIFgtcmF5IHNob3dlZCBhIGZyYWN0dXJlIG9mIHRoZSBuZWNrIG9mIHRoZSBmZW11ci4KSGlzIFN3ZWRpc2ggcGF0aWVudCBzdW1tYXJ5IHdhcyByZWNlaXZlZCBiZWZvcmUgc3VyZ2VyeS4gQmVjYXVzZSBvZiBoaXMgcGVuaWNpbGxpbiBhbGxlcmd5IGFub3RoZXIgYW50aWJpb3RpYyB3YXMgZ2l2ZW4sIGhpcyBhbnRpY29hZ3VsYW50IHRyZWF0bWVudCB3YXMgdGFrZW4gaW50byBhY2NvdW50IGFuZCBibGVlZGluZyBwcmVwYXJlZCBmb3IsIGFuZCB0aGUgYW5hZXN0aGVzaWEgd2FzIGFkYXB0ZWQgdG8gaGlzIGhlYXJ0IGZhaWx1cmUgYW5kIGVtcGh5c2VtYS4KT3BlcmF0ZWQgb24gMTAgTm92ZW1iZXIgMjAyNi4gVGhlIGNvdXJzZSBhZnRlciB0aGUgb3BlcmF0aW9uIHdhcyB3aXRob3V0IGNvbXBsaWNhdGlvbnMuCkRpc2NoYXJnZWQgb24gMTYgTm92ZW1iZXIgMjAyNiBpbiBhIHN0YWJsZSBjb25kaXRpb24uIEhpcyByZWd1bGFyIG1lZGljYXRpb24gLSBpbnN1bGluLCBibG9vZC1wcmVzc3VyZSBtZWRpY2F0aW9uIGFuZCBhbnRpY29hZ3VsYW50IC0gY29udGludWVzLiBSZWNvbW1lbmRlZCBhZnRlciBkaXNjaGFyZ2U6IHJlaGFiaWxpdGF0aW9uIG9mIHRoZSBoaXAgYW5kIGZvbGxvdy11cCBieSBoaXMgaGVhbHRoIGNlbnRyZSBpbiBTd2VkZW4u",
+              "title": "Discharge summary",
+              "language": "en"
+            }
+          }
+        ],
+        "type": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "18842-5",
+              "display": "Discharge summary"
+            }
+          ],
+          "text": "Discharge summary"
+        },
+        "author": [
+          {
+            "display": "Mette Lund",
+            "reference": "urn:uuid:fd2d7e51-e6cf-5a01-869e-517c5e9a51d2"
+          }
+        ],
+        "context": {
+          "encounter": [
+            {
+              "reference": "urn:uuid:ce14ae03-be1a-5103-b9b9-891bc4a3e825"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:68cee4cc-166f-5f2f-b38a-a1a45c9c606f",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "1000000000042900000",
+        "subject": {
+          "reference": "urn:uuid:caf1fdf3-6f1d-5026-8aa6-8fabc937a889"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "5913000",
+              "display": "Fracture of neck of femur"
+            }
+          ],
+          "text": "Fracture of neck of femur"
+        },
+        "onsetDateTime": "2026-11-09T00:00:00+01:00",
+        "recordedDate": "2026-11-09T00:00:00+01:00",
+        "encounter": {
+          "reference": "urn:uuid:ce14ae03-be1a-5103-b9b9-891bc4a3e825"
+        },
+        "asserter": {
+          "display": "Mette Lund",
+          "reference": "urn:uuid:fd2d7e51-e6cf-5a01-869e-517c5e9a51d2"
+        },
+        "note": [
+          {
+            "text": "After a fall on 9 November 2026; operated the day after."
+          }
+        ],
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/condition-eu-core"
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:f5efe33b-e9a7-5329-94f8-c3caea987f96",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "1000000000043000000",
+        "status": "completed",
+        "subject": {
+          "reference": "urn:uuid:caf1fdf3-6f1d-5026-8aa6-8fabc937a889"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "28181007",
+              "display": "Operation on hip joint"
+            }
+          ],
+          "text": "Operation of the fractured hip"
+        },
+        "performedDateTime": "2026-11-10T00:00:00+01:00",
+        "encounter": {
+          "reference": "urn:uuid:ce14ae03-be1a-5103-b9b9-891bc4a3e825"
+        },
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/procedure-eu-core"
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:429e4abf-2978-52d1-a013-4d27496e6c99",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "429e4abf-2978-52d1-a013-4d27496e6c99",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/organization-eu-core"
+          ]
+        },
+        "name": "Rigshospitalet"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:fd2d7e51-e6cf-5a01-869e-517c5e9a51d2",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "fd2d7e51-e6cf-5a01-869e-517c5e9a51d2",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/practitioner-eu-core"
+          ]
+        },
+        "name": [
+          {
+            "text": "Mette Lund"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:718ab3e1-6eaa-5454-832e-e0c1d02aa8da",
+      "resource": {
+        "resourceType": "Device",
+        "id": "718ab3e1-6eaa-5454-832e-e0c1d02aa8da",
+        "identifier": [
+          {
+            "system": "http://medrave.com/fhir/identifier/platform",
+            "value": "medrave-cdr"
+          }
+        ],
+        "deviceName": [
+          {
+            "name": "Medrave CDR",
+            "type": "user-friendly-name"
+          }
+        ],
+        "version": [
+          {
+            "value": "1.0.0+1591f4afaed47d8eea29d23aa86c100442446663"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:b33a8fae-9f7a-567c-94c4-005ad9c46455",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "b33a8fae-9f7a-567c-94c4-005ad9c46455",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/organization-eu-core"
+          ]
+        },
+        "identifier": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "PRN"
+                }
+              ]
+            },
+            "system": "urn:oid:1.2.752.29.4.19",
+            "value": "SE2321000000-0001"
+          }
+        ],
+        "name": "Region Demo"
+      }
+    }
+  ]
+}

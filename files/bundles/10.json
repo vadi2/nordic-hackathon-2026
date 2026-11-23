@@ -1,0 +1,1675 @@
+{
+  "resourceType": "Bundle",
+  "id": "91457e5e-9cb7-54b2-86b1-321cb69f22c3",
+  "meta": {
+    "profile": [
+      "http://hl7.eu/fhir/eps/StructureDefinition/bundle-eu-eps"
+    ]
+  },
+  "type": "document",
+  "language": "sv",
+  "identifier": {
+    "system": "urn:ietf:rfc:3986",
+    "value": "urn:uuid:2eadbae8-49a7-5fa6-bdaa-57ace6dbaea7"
+  },
+  "timestamp": "2026-11-18T19:15:37+01:00",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:5e4a7d05-bc0d-535f-8e01-08424df10756",
+      "resource": {
+        "resourceType": "Composition",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/composition-eu-eps"
+          ]
+        },
+        "status": "preliminary",
+        "type": {
+          "coding": [
+            {
+              "code": "60591-5",
+              "system": "http://loinc.org",
+              "display": "Patient summary Document"
+            }
+          ],
+          "text": "Patient summary Document"
+        },
+        "subject": {
+          "reference": "urn:uuid:4ffc122a-e9f2-5bef-a8f7-bb718e95872c"
+        },
+        "date": "2026-11-18T19:15:37+01:00",
+        "author": [
+          {
+            "reference": "urn:uuid:3cdea639-92c1-5d18-bc62-06b42a1f2922"
+          }
+        ],
+        "title": "European Patient Summary (mapped from supplied source records)",
+        "custodian": {
+          "reference": "urn:uuid:3cdea639-92c1-5d18-bc62-06b42a1f2922"
+        },
+        "section": [
+          {
+            "title": "Allergies and intolerances",
+            "code": {
+              "coding": [
+                {
+                  "code": "48765-2",
+                  "system": "http://loinc.org",
+                  "display": "Allergies and adverse reactions Document"
+                }
+              ],
+              "text": "Allergies and adverse reactions Document"
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>No information available in supplied records.</p></div>"
+            },
+            "emptyReason": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/list-empty-reason",
+                  "code": "unavailable",
+                  "display": "Unavailable"
+                }
+              ],
+              "text": "Information not available in supplied source records"
+            }
+          },
+          {
+            "title": "Problem list",
+            "code": {
+              "coding": [
+                {
+                  "code": "11450-4",
+                  "system": "http://loinc.org",
+                  "display": "Problem list - Reported"
+                }
+              ],
+              "text": "Problem list - Reported"
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>I489 Förmaksflimmer och förmaksfladder, ospecificerat</li><li>I495 Sick sinus syndrome</li><li>I109 Essentiell hypertoni</li></ul></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:0b130db8-1a85-5dc8-bc2e-7cc6b4887730"
+              },
+              {
+                "reference": "urn:uuid:c77a7189-bf5c-57cc-9624-2e71331ab631"
+              },
+              {
+                "reference": "urn:uuid:71b2a9c0-4a5a-5c89-9668-3965e34d5797"
+              }
+            ]
+          },
+          {
+            "title": "Medication list",
+            "code": {
+              "coding": [
+                {
+                  "code": "10160-0",
+                  "system": "http://loinc.org",
+                  "display": "History of Medication use Narrative"
+                }
+              ],
+              "text": "History of Medication use Narrative"
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Waran 2.5 mg Tablett; 2023-12-01 – 2024-11-19; &lt;1 tablett Pacemaker&gt;; &lt;1 tablett på morgonen Pacemaker&gt;</li><li>Waran 2.5 mg Tablett; 2024-11-21 – end not recorded; &lt;enligt separat behandlingsschema FF&gt;</li><li>Waran 2.5 mg Tablett; 2024-08-29 – 2024-09-09; &lt;2 tabletter på morgonen Pacemaker&gt;</li><li>Fragmin 5000 IE Injektionsvätska, lösning i förfylld spruta; 2024-11-11 – 2025-01-10; &lt;1 injektionsvätska, lösning i förfylld spruta vid behov blodförtunnande. Max 2 st per dygn&gt;</li><li>Salures 2.5 mg Tablett; 2024-11-11 – end not recorded; &lt;1 tablett på morgonen för blodtrycket&gt;</li><li>Fragmin 2500 IE Injektionsvätska, lösning i förfylld spruta; 2024-09-09 – 2024-09-16; &lt;0.6 ml injektionsvätska, lösning i förfylld spruta på morgonen&gt;</li><li>Aspirin 500 mg Tablett; 2024-08-29 – 2024-09-28; &lt;1 tablett på morgonen&gt;</li></ul></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:d39ea9ae-2683-520a-b4df-f9d187e2aca2"
+              },
+              {
+                "reference": "urn:uuid:0e11f868-7a4e-573a-bf41-12f5d40a532b"
+              },
+              {
+                "reference": "urn:uuid:9963df25-cae7-5668-8ac2-b4c366413c1c"
+              },
+              {
+                "reference": "urn:uuid:00c8e69a-eaa4-5c57-92d4-b9de8709b3c6"
+              },
+              {
+                "reference": "urn:uuid:83e71190-217d-526a-8075-dea51c5fa703"
+              },
+              {
+                "reference": "urn:uuid:848deebc-ff0f-5ba6-a388-e581c0114d75"
+              },
+              {
+                "reference": "urn:uuid:9c07f9eb-e4d6-50f3-922a-d04abec46922"
+              }
+            ]
+          },
+          {
+            "title": "Immunizations",
+            "code": {
+              "coding": [
+                {
+                  "code": "11369-6",
+                  "system": "http://loinc.org",
+                  "display": "History of Immunization note"
+                }
+              ],
+              "text": "History of Immunization note"
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>No information available in supplied records.</p></div>"
+            },
+            "emptyReason": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/list-empty-reason",
+                  "code": "unavailable",
+                  "display": "Unavailable"
+                }
+              ],
+              "text": "Information not available in supplied source records"
+            }
+          },
+          {
+            "title": "Relevant diagnostic tests and laboratory data",
+            "code": {
+              "coding": [
+                {
+                  "code": "30954-2",
+                  "system": "http://loinc.org",
+                  "display": "Relevant diagnostic tests/laboratory data note"
+                }
+              ],
+              "text": "Relevant diagnostic tests/laboratory data note"
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>P-PK(INR) 2,5 INR (2024-08-29)</li><li>P-PK(INR) 2,8 INR (2024-08-29)</li><li>P-PK(INR) 2,0 INR (2024-08-29)</li><li>Vikt: 75 kg (2024-11-06)</li><li>Vikt: 75 kg (2024-08-29)</li><li>Blodtryck systoliskt - övre: 123 mmHg (2023-10-26)</li><li>Blodtryck diastoliskt - nedre: 77 mmHg (2023-10-26)</li><li>Vikt: 73 kg (2023-10-26)</li><li>Blodtryck systoliskt - övre: 127 mmHg (2022-11-22)</li><li>Blodtryck diastoliskt - nedre: 82 mmHg (2022-11-22)</li><li>Pulsfrekvens: 69 slag/min (2022-11-22)</li><li>Vikt: 76 kg (2022-11-22)</li></ul></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:ef24cc51-767c-5fc4-98db-5d289f9d458b"
+              },
+              {
+                "reference": "urn:uuid:790a55a2-43e5-56eb-95dc-158287d89cb8"
+              },
+              {
+                "reference": "urn:uuid:bed2fbce-317f-56dc-b910-d4376e244198"
+              },
+              {
+                "reference": "urn:uuid:7a6d0919-23ac-5513-9f40-8e70346674f6"
+              },
+              {
+                "reference": "urn:uuid:9f67d3f6-638a-5871-8885-fc91afb14fe5"
+              },
+              {
+                "reference": "urn:uuid:0c9977a9-0ec0-5862-8425-43520aaf489b"
+              },
+              {
+                "reference": "urn:uuid:97f7ca1d-e177-5f22-9050-bdf8acdfaf9b"
+              },
+              {
+                "reference": "urn:uuid:ca6793ec-c27d-5900-a06d-3101e3c76868"
+              },
+              {
+                "reference": "urn:uuid:88255c83-c9a8-557d-a340-f2c0dd6af7fa"
+              },
+              {
+                "reference": "urn:uuid:116cf089-c960-5773-bb8e-f098477f39a2"
+              },
+              {
+                "reference": "urn:uuid:5aa646fd-1209-58f9-b0cd-161f138a3e36"
+              },
+              {
+                "reference": "urn:uuid:9d78ae57-135c-56bb-8b28-8b46c8e6de91"
+              }
+            ]
+          },
+          {
+            "title": "Medical devices",
+            "code": {
+              "coding": [
+                {
+                  "code": "46264-8",
+                  "system": "http://loinc.org",
+                  "display": "History of medical device use"
+                }
+              ],
+              "text": "History of medical device use"
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Pacemaker implanted 2023-11-10; current status unverified</li></ul></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:c23f016e-bf44-5a37-9607-29da0b2f754b"
+              }
+            ]
+          },
+          {
+            "title": "Plan of care",
+            "code": {
+              "coding": [
+                {
+                  "code": "18776-5",
+                  "system": "http://loinc.org",
+                  "display": "Plan of care note"
+                }
+              ],
+              "text": "Plan of care note"
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>2024-11-06 Åtgärd tobak: Rådgivande samtal med tillägg av läkemedel</li><li>2024-11-06 Åtgärd matvanor: Erbjudits</li><li>2024-08-29 Rekommenderade åtgärder vid lågt PK-INR: Uppföljning</li><li>2023-11-13 Postoperativ planering: En lungröntgen ska göras postoperativt för att utesluta pneumothorax. Inför hemgång skall pacemakern kontrolleras och finjusteras. Patienten får även instruktion av fysioterapeut om lämpliga armrörelser under de första 3-4 veckorna då läkning pågår.</li><li>2022-10-11 Åtgärd/planering: Åter om 3 månader</li></ul></div>"
+            },
+            "emptyReason": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/list-empty-reason",
+                  "code": "unavailable",
+                  "display": "Unavailable"
+                }
+              ],
+              "text": "Information not available in supplied source records"
+            }
+          },
+          {
+            "title": "History of procedures",
+            "code": {
+              "coding": [
+                {
+                  "code": "47519-4",
+                  "system": "http://loinc.org",
+                  "display": "History of Procedures Document"
+                }
+              ],
+              "text": "History of Procedures Document"
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>ZXG40 Inläggande av transvenös pacemaker (2023-11-10)</li></ul></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:2e9844e1-4778-5368-ba91-4eede4078a2f"
+              }
+            ]
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Mapped European Patient Summary. No known-absence assertions have been made for missing data; medication and condition status may require reconciliation.</p></div>"
+        },
+        "id": "5e4a7d05-bc0d-535f-8e01-08424df10756"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:4ffc122a-e9f2-5bef-a8f7-bb718e95872c",
+      "resource": {
+        "resourceType": "Patient",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/patient-eu-eps"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "http://electronichealth.se/identifier/personnummer",
+            "value": "195906113187"
+          }
+        ],
+        "name": [
+          {
+            "text": "OpenEHR Kvinna65"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Patient: OpenEHR Kvinna65</p></div>"
+        },
+        "id": "4ffc122a-e9f2-5bef-a8f7-bb718e95872c",
+        "birthDate": "1959-06-11"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:0b130db8-1a85-5dc8-bc2e-7cc6b4887730",
+      "resource": {
+        "resourceType": "Condition",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/condition-eu-core"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "I489",
+              "display": "Förmaksflimmer och förmaksfladder, ospecificerat",
+              "system": "https://terminologitjansten.inera.se/inera-kodverksforvaltning/kodverk/icd-10-se"
+            }
+          ],
+          "text": "Förmaksflimmer och förmaksfladder, ospecificerat"
+        },
+        "subject": {
+          "reference": "urn:uuid:4ffc122a-e9f2-5bef-a8f7-bb718e95872c"
+        },
+        "recordedDate": "2024-08-29",
+        "note": [
+          {
+            "text": "Original diagnosis coding recorded as Diagnos enl ICD-10; code system version not independently verified."
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>I489 Förmaksflimmer och förmaksfladder, ospecificerat</p></div>"
+        },
+        "id": "0b130db8-1a85-5dc8-bc2e-7cc6b4887730"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:c77a7189-bf5c-57cc-9624-2e71331ab631",
+      "resource": {
+        "resourceType": "Condition",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/condition-eu-core"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "I495",
+              "display": "Sick sinus syndrome",
+              "system": "https://terminologitjansten.inera.se/inera-kodverksforvaltning/kodverk/icd-10-se"
+            }
+          ],
+          "text": "Sick sinus syndrome"
+        },
+        "subject": {
+          "reference": "urn:uuid:4ffc122a-e9f2-5bef-a8f7-bb718e95872c"
+        },
+        "recordedDate": "2023-11-13",
+        "note": [
+          {
+            "text": "Original diagnosis coding recorded as Diagnos enl ICD-10; code system version not independently verified."
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>I495 Sick sinus syndrome</p></div>"
+        },
+        "id": "c77a7189-bf5c-57cc-9624-2e71331ab631"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:71b2a9c0-4a5a-5c89-9668-3965e34d5797",
+      "resource": {
+        "resourceType": "Condition",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/condition-eu-core"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "I109",
+              "display": "Essentiell hypertoni",
+              "system": "https://terminologitjansten.inera.se/inera-kodverksforvaltning/kodverk/icd-10-se"
+            }
+          ],
+          "text": "Essentiell hypertoni"
+        },
+        "subject": {
+          "reference": "urn:uuid:4ffc122a-e9f2-5bef-a8f7-bb718e95872c"
+        },
+        "recordedDate": "2022-10-11",
+        "note": [
+          {
+            "text": "Original diagnosis coding recorded as Diagnos enl ICD-10; code system version not independently verified."
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>I109 Essentiell hypertoni</p></div>"
+        },
+        "id": "71b2a9c0-4a5a-5c89-9668-3965e34d5797"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:689d302a-ce6a-5462-8ac9-4fb6b2222a06",
+      "resource": {
+        "resourceType": "Medication",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medication-eu-core"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "B01AA03",
+              "system": "http://www.whocc.no/atc",
+              "display": "Waran 2.5 mg Tablett"
+            }
+          ],
+          "text": "Waran 2.5 mg Tablett"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Waran 2.5 mg Tablett</p></div>"
+        },
+        "id": "689d302a-ce6a-5462-8ac9-4fb6b2222a06"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:d39ea9ae-2683-520a-b4df-f9d187e2aca2",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/MedicationStatement-eu-eps"
+          ]
+        },
+        "status": "completed",
+        "medicationReference": {
+          "reference": "urn:uuid:689d302a-ce6a-5462-8ac9-4fb6b2222a06",
+          "display": "Waran 2.5 mg Tablett"
+        },
+        "subject": {
+          "reference": "urn:uuid:4ffc122a-e9f2-5bef-a8f7-bb718e95872c"
+        },
+        "dosage": [
+          {
+            "text": "<1 tablett Pacemaker>; <1 tablett på morgonen Pacemaker>",
+            "route": {
+              "text": "Oralt"
+            }
+          }
+        ],
+        "identifier": [
+          {
+            "value": "195906113187-44"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Waran 2.5 mg Tablett; &lt;1 tablett Pacemaker&gt;; &lt;1 tablett på morgonen Pacemaker&gt;; 2023-12-01 - 2024-11-19</p></div>"
+        },
+        "effectivePeriod": {
+          "start": "2023-12-01",
+          "end": "2024-11-19"
+        },
+        "reasonCode": [
+          {
+            "text": "Pacemaker"
+          }
+        ],
+        "id": "d39ea9ae-2683-520a-b4df-f9d187e2aca2"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:17418362-d6e1-5da0-86b8-d797ed079952",
+      "resource": {
+        "resourceType": "Medication",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medication-eu-core"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "B01AA03",
+              "system": "http://www.whocc.no/atc",
+              "display": "Waran 2.5 mg Tablett"
+            }
+          ],
+          "text": "Waran 2.5 mg Tablett"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Waran 2.5 mg Tablett</p></div>"
+        },
+        "id": "17418362-d6e1-5da0-86b8-d797ed079952"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:0e11f868-7a4e-573a-bf41-12f5d40a532b",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/MedicationStatement-eu-eps"
+          ]
+        },
+        "status": "unknown",
+        "medicationReference": {
+          "reference": "urn:uuid:17418362-d6e1-5da0-86b8-d797ed079952",
+          "display": "Waran 2.5 mg Tablett"
+        },
+        "subject": {
+          "reference": "urn:uuid:4ffc122a-e9f2-5bef-a8f7-bb718e95872c"
+        },
+        "dosage": [
+          {
+            "text": "<enligt separat behandlingsschema FF>",
+            "route": {
+              "text": "Oralt"
+            }
+          }
+        ],
+        "identifier": [
+          {
+            "value": "195906113187-62"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Waran 2.5 mg Tablett; &lt;enligt separat behandlingsschema FF&gt;; 2024-11-21 - end not recorded</p></div>"
+        },
+        "effectivePeriod": {
+          "start": "2024-11-21"
+        },
+        "reasonCode": [
+          {
+            "text": "FF"
+          }
+        ],
+        "id": "0e11f868-7a4e-573a-bf41-12f5d40a532b"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:8257f72e-0430-5aef-b8b0-79201338d4f0",
+      "resource": {
+        "resourceType": "Medication",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medication-eu-core"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "B01AA03",
+              "system": "http://www.whocc.no/atc",
+              "display": "Waran 2.5 mg Tablett"
+            }
+          ],
+          "text": "Waran 2.5 mg Tablett"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Waran 2.5 mg Tablett</p></div>"
+        },
+        "id": "8257f72e-0430-5aef-b8b0-79201338d4f0"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:9963df25-cae7-5668-8ac2-b4c366413c1c",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/MedicationStatement-eu-eps"
+          ]
+        },
+        "status": "completed",
+        "medicationReference": {
+          "reference": "urn:uuid:8257f72e-0430-5aef-b8b0-79201338d4f0",
+          "display": "Waran 2.5 mg Tablett"
+        },
+        "subject": {
+          "reference": "urn:uuid:4ffc122a-e9f2-5bef-a8f7-bb718e95872c"
+        },
+        "dosage": [
+          {
+            "text": "<2 tabletter på morgonen Pacemaker>",
+            "route": {
+              "text": "Oralt"
+            }
+          }
+        ],
+        "identifier": [
+          {
+            "value": "195906113187-33"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Waran 2.5 mg Tablett; &lt;2 tabletter på morgonen Pacemaker&gt;; 2024-08-29 - 2024-09-09</p></div>"
+        },
+        "effectivePeriod": {
+          "start": "2024-08-29",
+          "end": "2024-09-09"
+        },
+        "reasonCode": [
+          {
+            "text": "Pacemaker"
+          }
+        ],
+        "id": "9963df25-cae7-5668-8ac2-b4c366413c1c"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:9d3a4c70-6c9d-5baf-85ce-fea2d8729428",
+      "resource": {
+        "resourceType": "Medication",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medication-eu-core"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "B01AB04",
+              "system": "http://www.whocc.no/atc",
+              "display": "Fragmin 5000 IE Injektionsvätska, lösning i förfylld spruta"
+            }
+          ],
+          "text": "Fragmin 5000 IE Injektionsvätska, lösning i förfylld spruta"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Fragmin 5000 IE Injektionsvätska, lösning i förfylld spruta</p></div>"
+        },
+        "id": "9d3a4c70-6c9d-5baf-85ce-fea2d8729428"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:00c8e69a-eaa4-5c57-92d4-b9de8709b3c6",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/MedicationStatement-eu-eps"
+          ]
+        },
+        "status": "completed",
+        "medicationReference": {
+          "reference": "urn:uuid:9d3a4c70-6c9d-5baf-85ce-fea2d8729428",
+          "display": "Fragmin 5000 IE Injektionsvätska, lösning i förfylld spruta"
+        },
+        "subject": {
+          "reference": "urn:uuid:4ffc122a-e9f2-5bef-a8f7-bb718e95872c"
+        },
+        "dosage": [
+          {
+            "text": "<1 injektionsvätska, lösning i förfylld spruta vid behov blodförtunnande. Max 2 st per dygn>",
+            "route": {
+              "text": "Subkutant"
+            }
+          }
+        ],
+        "identifier": [
+          {
+            "value": "195906113187-54"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Fragmin 5000 IE Injektionsvätska, lösning i förfylld spruta; &lt;1 injektionsvätska, lösning i förfylld spruta vid behov blodförtunnande. Max 2 st per dygn&gt;; 2024-11-11 - 2025-01-10</p></div>"
+        },
+        "effectivePeriod": {
+          "start": "2024-11-11",
+          "end": "2025-01-10"
+        },
+        "reasonCode": [
+          {
+            "text": "blodförtunnande"
+          }
+        ],
+        "id": "00c8e69a-eaa4-5c57-92d4-b9de8709b3c6"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:26411fcb-e1b2-5f5c-8ede-1c27218f05b5",
+      "resource": {
+        "resourceType": "Medication",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medication-eu-core"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "C03AA01",
+              "system": "http://www.whocc.no/atc",
+              "display": "Salures 2.5 mg Tablett"
+            }
+          ],
+          "text": "Salures 2.5 mg Tablett"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Salures 2.5 mg Tablett</p></div>"
+        },
+        "id": "26411fcb-e1b2-5f5c-8ede-1c27218f05b5"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:83e71190-217d-526a-8075-dea51c5fa703",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/MedicationStatement-eu-eps"
+          ]
+        },
+        "status": "unknown",
+        "medicationReference": {
+          "reference": "urn:uuid:26411fcb-e1b2-5f5c-8ede-1c27218f05b5",
+          "display": "Salures 2.5 mg Tablett"
+        },
+        "subject": {
+          "reference": "urn:uuid:4ffc122a-e9f2-5bef-a8f7-bb718e95872c"
+        },
+        "dosage": [
+          {
+            "text": "<1 tablett på morgonen för blodtrycket>",
+            "route": {
+              "text": "Oralt"
+            }
+          }
+        ],
+        "identifier": [
+          {
+            "value": "195906113187-53"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Salures 2.5 mg Tablett; &lt;1 tablett på morgonen för blodtrycket&gt;; 2024-11-11 - end not recorded</p></div>"
+        },
+        "effectivePeriod": {
+          "start": "2024-11-11"
+        },
+        "reasonCode": [
+          {
+            "text": "för blodtrycket"
+          }
+        ],
+        "id": "83e71190-217d-526a-8075-dea51c5fa703"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:66a24cad-58c7-5753-9e2a-d35e55536e18",
+      "resource": {
+        "resourceType": "Medication",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medication-eu-core"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "B01AB04",
+              "system": "http://www.whocc.no/atc",
+              "display": "Fragmin 2500 IE Injektionsvätska, lösning i förfylld spruta"
+            }
+          ],
+          "text": "Fragmin 2500 IE Injektionsvätska, lösning i förfylld spruta"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Fragmin 2500 IE Injektionsvätska, lösning i förfylld spruta</p></div>"
+        },
+        "id": "66a24cad-58c7-5753-9e2a-d35e55536e18"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:848deebc-ff0f-5ba6-a388-e581c0114d75",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/MedicationStatement-eu-eps"
+          ]
+        },
+        "status": "completed",
+        "medicationReference": {
+          "reference": "urn:uuid:66a24cad-58c7-5753-9e2a-d35e55536e18",
+          "display": "Fragmin 2500 IE Injektionsvätska, lösning i förfylld spruta"
+        },
+        "subject": {
+          "reference": "urn:uuid:4ffc122a-e9f2-5bef-a8f7-bb718e95872c"
+        },
+        "dosage": [
+          {
+            "text": "<0.6 ml injektionsvätska, lösning i förfylld spruta på morgonen>",
+            "route": {
+              "text": "Subkutant"
+            }
+          }
+        ],
+        "identifier": [
+          {
+            "value": "195906113187-49"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Fragmin 2500 IE Injektionsvätska, lösning i förfylld spruta; &lt;0.6 ml injektionsvätska, lösning i förfylld spruta på morgonen&gt;; 2024-09-09 - 2024-09-16</p></div>"
+        },
+        "effectivePeriod": {
+          "start": "2024-09-09",
+          "end": "2024-09-16"
+        },
+        "id": "848deebc-ff0f-5ba6-a388-e581c0114d75"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:da0cc2ce-8a1d-5b34-b546-3ad49e7917c3",
+      "resource": {
+        "resourceType": "Medication",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medication-eu-core"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "N02BA01",
+              "system": "http://www.whocc.no/atc",
+              "display": "Aspirin 500 mg Tablett"
+            }
+          ],
+          "text": "Aspirin 500 mg Tablett"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Aspirin 500 mg Tablett</p></div>"
+        },
+        "id": "da0cc2ce-8a1d-5b34-b546-3ad49e7917c3"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:9c07f9eb-e4d6-50f3-922a-d04abec46922",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/MedicationStatement-eu-eps"
+          ]
+        },
+        "status": "completed",
+        "medicationReference": {
+          "reference": "urn:uuid:da0cc2ce-8a1d-5b34-b546-3ad49e7917c3",
+          "display": "Aspirin 500 mg Tablett"
+        },
+        "subject": {
+          "reference": "urn:uuid:4ffc122a-e9f2-5bef-a8f7-bb718e95872c"
+        },
+        "dosage": [
+          {
+            "text": "<1 tablett på morgonen>",
+            "route": {
+              "text": "Oralt"
+            }
+          }
+        ],
+        "identifier": [
+          {
+            "value": "195906113187-34"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Aspirin 500 mg Tablett; &lt;1 tablett på morgonen&gt;; 2024-08-29 - 2024-09-28</p></div>"
+        },
+        "effectivePeriod": {
+          "start": "2024-08-29",
+          "end": "2024-09-28"
+        },
+        "id": "9c07f9eb-e4d6-50f3-922a-d04abec46922"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:ef24cc51-767c-5fc4-98db-5d289f9d458b",
+      "resource": {
+        "resourceType": "Observation",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medicalTestResult-eu-core"
+          ]
+        },
+        "status": "preliminary",
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "NPU01685",
+              "display": "P-PK(INR)",
+              "system": "http://npu-terminology.org"
+            }
+          ],
+          "text": "P-PK(INR)"
+        },
+        "subject": {
+          "reference": "urn:uuid:4ffc122a-e9f2-5bef-a8f7-bb718e95872c"
+        },
+        "identifier": [
+          {
+            "value": "26793811"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>P-PK(INR): 2,5 INR; referral 26793811</p></div>"
+        },
+        "effectiveDateTime": "2024-08-29T08:25:00+02:00",
+        "issued": "2024-09-15T09:23:11+02:00",
+        "valueQuantity": {
+          "value": 2.5,
+          "unit": "INR"
+        },
+        "referenceRange": [
+          {
+            "text": "<1,3"
+          }
+        ],
+        "note": [
+          {
+            "text": "Marked deviating in source; interpretation not independently verified."
+          }
+        ],
+        "id": "ef24cc51-767c-5fc4-98db-5d289f9d458b",
+        "performer": [
+          {
+            "reference": "urn:uuid:3cdea639-92c1-5d18-bc62-06b42a1f2922"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:790a55a2-43e5-56eb-95dc-158287d89cb8",
+      "resource": {
+        "resourceType": "Observation",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medicalTestResult-eu-core"
+          ]
+        },
+        "status": "preliminary",
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "NPU01685",
+              "display": "P-PK(INR)",
+              "system": "http://npu-terminology.org"
+            }
+          ],
+          "text": "P-PK(INR)"
+        },
+        "subject": {
+          "reference": "urn:uuid:4ffc122a-e9f2-5bef-a8f7-bb718e95872c"
+        },
+        "identifier": [
+          {
+            "value": "26793812"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>P-PK(INR): 2,8 INR; referral 26793812</p></div>"
+        },
+        "effectiveDateTime": "2024-08-29T08:25:00+02:00",
+        "issued": "2024-10-31T09:23:11+01:00",
+        "valueQuantity": {
+          "value": 2.8,
+          "unit": "INR"
+        },
+        "referenceRange": [
+          {
+            "text": "<1,3"
+          }
+        ],
+        "note": [
+          {
+            "text": "Marked deviating in source; interpretation not independently verified."
+          }
+        ],
+        "id": "790a55a2-43e5-56eb-95dc-158287d89cb8",
+        "performer": [
+          {
+            "reference": "urn:uuid:3cdea639-92c1-5d18-bc62-06b42a1f2922"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:bed2fbce-317f-56dc-b910-d4376e244198",
+      "resource": {
+        "resourceType": "Observation",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/medicalTestResult-eu-core"
+          ]
+        },
+        "status": "preliminary",
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "laboratory",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "NPU01685",
+              "display": "P-PK(INR)",
+              "system": "http://npu-terminology.org"
+            }
+          ],
+          "text": "P-PK(INR)"
+        },
+        "subject": {
+          "reference": "urn:uuid:4ffc122a-e9f2-5bef-a8f7-bb718e95872c"
+        },
+        "identifier": [
+          {
+            "value": "26793810"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>P-PK(INR): 2,0 INR; referral 26793810</p></div>"
+        },
+        "effectiveDateTime": "2024-08-29T08:25:00+02:00",
+        "issued": "2024-08-29T09:23:11+02:00",
+        "valueQuantity": {
+          "value": 2.0,
+          "unit": "INR"
+        },
+        "referenceRange": [
+          {
+            "text": "<1,3"
+          }
+        ],
+        "note": [
+          {
+            "text": "Marked deviating in source; interpretation not independently verified."
+          }
+        ],
+        "id": "bed2fbce-317f-56dc-b910-d4376e244198",
+        "performer": [
+          {
+            "reference": "urn:uuid:3cdea639-92c1-5d18-bc62-06b42a1f2922"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:7a6d0919-23ac-5513-9f40-8e70346674f6",
+      "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "vital-signs",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "display": "Vital Signs"
+              }
+            ],
+            "text": "Vital Signs"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "29463-7",
+              "system": "http://loinc.org",
+              "display": "Body weight"
+            }
+          ],
+          "text": "Body weight"
+        },
+        "subject": {
+          "reference": "urn:uuid:4ffc122a-e9f2-5bef-a8f7-bb718e95872c"
+        },
+        "effectiveDateTime": "2024-11-06",
+        "valueQuantity": {
+          "value": 75,
+          "unit": "kg",
+          "system": "http://unitsofmeasure.org",
+          "code": "kg"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Vikt: 75 kg</p></div>"
+        },
+        "id": "7a6d0919-23ac-5513-9f40-8e70346674f6",
+        "performer": [
+          {
+            "reference": "urn:uuid:3cdea639-92c1-5d18-bc62-06b42a1f2922"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:9f67d3f6-638a-5871-8885-fc91afb14fe5",
+      "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "vital-signs",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "display": "Vital Signs"
+              }
+            ],
+            "text": "Vital Signs"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "29463-7",
+              "system": "http://loinc.org",
+              "display": "Body weight"
+            }
+          ],
+          "text": "Body weight"
+        },
+        "subject": {
+          "reference": "urn:uuid:4ffc122a-e9f2-5bef-a8f7-bb718e95872c"
+        },
+        "effectiveDateTime": "2024-08-29",
+        "valueQuantity": {
+          "value": 75,
+          "unit": "kg",
+          "system": "http://unitsofmeasure.org",
+          "code": "kg"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Vikt: 75 kg</p></div>"
+        },
+        "id": "9f67d3f6-638a-5871-8885-fc91afb14fe5",
+        "performer": [
+          {
+            "reference": "urn:uuid:3cdea639-92c1-5d18-bc62-06b42a1f2922"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:0c9977a9-0ec0-5862-8425-43520aaf489b",
+      "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "vital-signs",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "display": "Vital Signs"
+              }
+            ],
+            "text": "Vital Signs"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "8480-6",
+              "system": "http://loinc.org",
+              "display": "Systolic blood pressure"
+            }
+          ],
+          "text": "Systolic blood pressure"
+        },
+        "subject": {
+          "reference": "urn:uuid:4ffc122a-e9f2-5bef-a8f7-bb718e95872c"
+        },
+        "effectiveDateTime": "2023-10-26",
+        "valueQuantity": {
+          "value": 123,
+          "unit": "mmHg",
+          "system": "http://unitsofmeasure.org",
+          "code": "mm[Hg]"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Blodtryck systoliskt - övre: 123 mmHg</p></div>"
+        },
+        "id": "0c9977a9-0ec0-5862-8425-43520aaf489b",
+        "performer": [
+          {
+            "reference": "urn:uuid:3cdea639-92c1-5d18-bc62-06b42a1f2922"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:97f7ca1d-e177-5f22-9050-bdf8acdfaf9b",
+      "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "vital-signs",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "display": "Vital Signs"
+              }
+            ],
+            "text": "Vital Signs"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "8462-4",
+              "system": "http://loinc.org",
+              "display": "Diastolic blood pressure"
+            }
+          ],
+          "text": "Diastolic blood pressure"
+        },
+        "subject": {
+          "reference": "urn:uuid:4ffc122a-e9f2-5bef-a8f7-bb718e95872c"
+        },
+        "effectiveDateTime": "2023-10-26",
+        "valueQuantity": {
+          "value": 77,
+          "unit": "mmHg",
+          "system": "http://unitsofmeasure.org",
+          "code": "mm[Hg]"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Blodtryck diastoliskt - nedre: 77 mmHg</p></div>"
+        },
+        "id": "97f7ca1d-e177-5f22-9050-bdf8acdfaf9b",
+        "performer": [
+          {
+            "reference": "urn:uuid:3cdea639-92c1-5d18-bc62-06b42a1f2922"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:ca6793ec-c27d-5900-a06d-3101e3c76868",
+      "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "vital-signs",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "display": "Vital Signs"
+              }
+            ],
+            "text": "Vital Signs"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "29463-7",
+              "system": "http://loinc.org",
+              "display": "Body weight"
+            }
+          ],
+          "text": "Body weight"
+        },
+        "subject": {
+          "reference": "urn:uuid:4ffc122a-e9f2-5bef-a8f7-bb718e95872c"
+        },
+        "effectiveDateTime": "2023-10-26",
+        "valueQuantity": {
+          "value": 73,
+          "unit": "kg",
+          "system": "http://unitsofmeasure.org",
+          "code": "kg"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Vikt: 73 kg</p></div>"
+        },
+        "id": "ca6793ec-c27d-5900-a06d-3101e3c76868",
+        "performer": [
+          {
+            "reference": "urn:uuid:3cdea639-92c1-5d18-bc62-06b42a1f2922"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:88255c83-c9a8-557d-a340-f2c0dd6af7fa",
+      "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "vital-signs",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "display": "Vital Signs"
+              }
+            ],
+            "text": "Vital Signs"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "8480-6",
+              "system": "http://loinc.org",
+              "display": "Systolic blood pressure"
+            }
+          ],
+          "text": "Systolic blood pressure"
+        },
+        "subject": {
+          "reference": "urn:uuid:4ffc122a-e9f2-5bef-a8f7-bb718e95872c"
+        },
+        "effectiveDateTime": "2022-11-22",
+        "valueQuantity": {
+          "value": 127,
+          "unit": "mmHg",
+          "system": "http://unitsofmeasure.org",
+          "code": "mm[Hg]"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Blodtryck systoliskt - övre: 127 mmHg</p></div>"
+        },
+        "id": "88255c83-c9a8-557d-a340-f2c0dd6af7fa",
+        "performer": [
+          {
+            "reference": "urn:uuid:3cdea639-92c1-5d18-bc62-06b42a1f2922"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:116cf089-c960-5773-bb8e-f098477f39a2",
+      "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "vital-signs",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "display": "Vital Signs"
+              }
+            ],
+            "text": "Vital Signs"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "8462-4",
+              "system": "http://loinc.org",
+              "display": "Diastolic blood pressure"
+            }
+          ],
+          "text": "Diastolic blood pressure"
+        },
+        "subject": {
+          "reference": "urn:uuid:4ffc122a-e9f2-5bef-a8f7-bb718e95872c"
+        },
+        "effectiveDateTime": "2022-11-22",
+        "valueQuantity": {
+          "value": 82,
+          "unit": "mmHg",
+          "system": "http://unitsofmeasure.org",
+          "code": "mm[Hg]"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Blodtryck diastoliskt - nedre: 82 mmHg</p></div>"
+        },
+        "id": "116cf089-c960-5773-bb8e-f098477f39a2",
+        "performer": [
+          {
+            "reference": "urn:uuid:3cdea639-92c1-5d18-bc62-06b42a1f2922"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:5aa646fd-1209-58f9-b0cd-161f138a3e36",
+      "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "vital-signs",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "display": "Vital Signs"
+              }
+            ],
+            "text": "Vital Signs"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "8867-4",
+              "system": "http://loinc.org",
+              "display": "Heart rate"
+            }
+          ],
+          "text": "Heart rate"
+        },
+        "subject": {
+          "reference": "urn:uuid:4ffc122a-e9f2-5bef-a8f7-bb718e95872c"
+        },
+        "effectiveDateTime": "2022-11-22",
+        "valueQuantity": {
+          "value": 69,
+          "unit": "beats/min",
+          "system": "http://unitsofmeasure.org",
+          "code": "/min"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Pulsfrekvens: 69 slag/min</p></div>"
+        },
+        "id": "5aa646fd-1209-58f9-b0cd-161f138a3e36",
+        "performer": [
+          {
+            "reference": "urn:uuid:3cdea639-92c1-5d18-bc62-06b42a1f2922"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:9d78ae57-135c-56bb-8b28-8b46c8e6de91",
+      "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "vital-signs",
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "display": "Vital Signs"
+              }
+            ],
+            "text": "Vital Signs"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "29463-7",
+              "system": "http://loinc.org",
+              "display": "Body weight"
+            }
+          ],
+          "text": "Body weight"
+        },
+        "subject": {
+          "reference": "urn:uuid:4ffc122a-e9f2-5bef-a8f7-bb718e95872c"
+        },
+        "effectiveDateTime": "2022-11-22",
+        "valueQuantity": {
+          "value": 76,
+          "unit": "kg",
+          "system": "http://unitsofmeasure.org",
+          "code": "kg"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Vikt: 76 kg</p></div>"
+        },
+        "id": "9d78ae57-135c-56bb-8b28-8b46c8e6de91",
+        "performer": [
+          {
+            "reference": "urn:uuid:3cdea639-92c1-5d18-bc62-06b42a1f2922"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:2e9844e1-4778-5368-ba91-4eede4078a2f",
+      "resource": {
+        "resourceType": "Procedure",
+        "status": "completed",
+        "code": {
+          "coding": [
+            {
+              "code": "ZXG40",
+              "system": "http://hl7.se/fhir/ig/base/CodeSystem/sct-kvå",
+              "display": "Inläggande av transvenös pacemaker"
+            }
+          ],
+          "text": "Inläggande av transvenös pacemaker"
+        },
+        "subject": {
+          "reference": "urn:uuid:4ffc122a-e9f2-5bef-a8f7-bb718e95872c"
+        },
+        "performedDateTime": "2023-11-10",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>ZXG40 Inläggande av transvenös pacemaker 2023-11-10</p></div>"
+        },
+        "id": "2e9844e1-4778-5368-ba91-4eede4078a2f"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:80e5618e-3dc5-57a6-b304-eee721b719f8",
+      "resource": {
+        "resourceType": "Device",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/device-eu-eps"
+          ]
+        },
+        "type": {
+          "text": "Pacemaker"
+        },
+        "patient": {
+          "reference": "urn:uuid:4ffc122a-e9f2-5bef-a8f7-bb718e95872c"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Pacemaker, reported implanted 2023-11-10</p></div>"
+        },
+        "id": "80e5618e-3dc5-57a6-b304-eee721b719f8"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:c23f016e-bf44-5a37-9607-29da0b2f754b",
+      "resource": {
+        "resourceType": "DeviceUseStatement",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/deviceUseStatement-eu-eps"
+          ]
+        },
+        "status": "unknown",
+        "subject": {
+          "reference": "urn:uuid:4ffc122a-e9f2-5bef-a8f7-bb718e95872c"
+        },
+        "device": {
+          "reference": "urn:uuid:80e5618e-3dc5-57a6-b304-eee721b719f8",
+          "display": "Pacemaker"
+        },
+        "timingPeriod": {
+          "start": "2023-11-10"
+        },
+        "note": [
+          {
+            "text": "Status reflects documented implantation only; current device-use status has not been verified."
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Pacemaker implanted 2023-11-10; current status unverified</p></div>"
+        },
+        "id": "c23f016e-bf44-5a37-9607-29da0b2f754b"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:3cdea639-92c1-5d18-bc62-06b42a1f2922",
+      "resource": {
+        "resourceType": "Organization",
+        "name": "Testenhet 17 **CSTC",
+        "identifier": [
+          {
+            "value": "2748"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Testenhet 17 **CSTC</p></div>"
+        },
+        "id": "3cdea639-92c1-5d18-bc62-06b42a1f2922"
+      }
+    }
+  ]
+}

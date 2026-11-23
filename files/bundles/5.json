@@ -1,0 +1,598 @@
+{
+  "resourceType": "Bundle",
+  "id": "f5b61d91-7d65-48dd-92a9-9b0f81d87764",
+  "meta": {
+    "profile": [
+      "http://hl7.eu/fhir/imaging/StructureDefinition/BundleReportEuImaging"
+    ]
+  },
+  "identifier": {
+    "system": "urn:ietf:rfc:3986",
+    "value": "urn:uuid:f5b61d91-7d65-48dd-92a9-9b0f81d87764"
+  },
+  "type": "document",
+  "timestamp": "2026-11-18T08:50:34+01:00",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:2fe00da3-38e9-5721-a155-0461d5178ce5",
+      "resource": {
+        "resourceType": "Composition",
+        "id": "2fe00da3-38e9-5721-a155-0461d5178ce5",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/imaging/StructureDefinition/CompositionEuImaging"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.eu/fhir/extensions/StructureDefinition/composition-diagnosticReportReference",
+            "valueReference": {
+              "reference": "urn:uuid:a526bba6-5fda-5b0b-ba69-bcf853af0d4a"
+            }
+          }
+        ],
+        "identifier": {
+          "system": "http://medrave.com/fhir/identifier/demo-imaging-report",
+          "value": "ARNE-RTG-20260612"
+        },
+        "status": "final",
+        "type": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "36643-5",
+              "display": "XR Chest 2 Views"
+            }
+          ],
+          "text": "R\u00f6ntgen thorax, frontal- och sidobild"
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+                "code": "RAD",
+                "display": "Radiology"
+              }
+            ],
+            "text": "Radiology"
+          },
+          {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "85430-7"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "http://hl7.eu/fhir/health-data-api/CodeSystem/eehrxf-document-priority-category-cs",
+                "code": "Medical-Imaging"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "urn:uuid:caf1fdf3-6f1d-5026-8aa6-8fabc937a889"
+        },
+        "date": "2026-06-12T14:05:00+02:00",
+        "author": [
+          {
+            "reference": "urn:uuid:b788457a-7ef1-53d1-aed4-1852a2c019dd"
+          },
+          {
+            "reference": "urn:uuid:05b1094a-877e-5bab-b478-9678fb3615d4"
+          }
+        ],
+        "title": "R\u00f6ntgen thorax, frontal- och sidobild",
+        "custodian": {
+          "reference": "urn:uuid:b33a8fae-9f7a-567c-94c4-005ad9c46455"
+        },
+        "section": [
+          {
+            "title": "Imaging study",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "18726-0",
+                  "display": "Radiology studies (set)"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Study Instance UID: 2.25.173584030631869422327093935913044072294</li><li>Modality: DX - Digital Radiography</li><li>Started: 2026-06-12 09:40</li><li>Description: Thorax, frontal- och sidobild</li></ul></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:614afa5c-38be-5012-80f1-1106b68ba1dd"
+              }
+            ]
+          },
+          {
+            "extension": [
+              {
+                "url": "http://hl7.org/fhir/StructureDefinition/note",
+                "valueAnnotation": {
+                  "text": "Hj\u00e4rtsvikt? Pleurav\u00e4tska? Pneumoni?"
+                }
+              }
+            ],
+            "title": "Order",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "55115-0",
+                  "display": "Requested imaging studies information Document"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Clinical indication: Hj\u00e4rtsvikt? Pleurav\u00e4tska? Pneumoni?</li><li>Accession number: RTG-20260612-0042</li></ul></div>"
+            }
+          },
+          {
+            "extension": [
+              {
+                "url": "http://hl7.org/fhir/StructureDefinition/note",
+                "valueAnnotation": {
+                  "text": "K\u00e4nd kronisk hj\u00e4rtsvikt och lungemfysem. Tilltagande andf\u00e5ddhet och bensvullnad den senaste veckan."
+                }
+              }
+            ],
+            "title": "History",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "11329-0",
+                  "display": "History general Narrative - Reported"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>K\u00e4nd kronisk hj\u00e4rtsvikt och lungemfysem. Tilltagande andf\u00e5ddhet och bensvullnad den senaste veckan.</p></div>"
+            }
+          },
+          {
+            "extension": [
+              {
+                "url": "http://hl7.org/fhir/StructureDefinition/note",
+                "valueAnnotation": {
+                  "text": "Frontal- och sidobild i st\u00e5ende."
+                }
+              }
+            ],
+            "title": "Procedure",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "55111-9",
+                  "display": "Current imaging procedure descriptions Document"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Frontal- och sidobild i st\u00e5ende.</p></div>"
+            }
+          },
+          {
+            "extension": [
+              {
+                "url": "http://hl7.org/fhir/StructureDefinition/note",
+                "valueAnnotation": {
+                  "text": "J\u00e4mf\u00f6rt med unders\u00f6kningen 2025-11-03: pleurav\u00e4tskan har tillkommit, i \u00f6vrigt of\u00f6r\u00e4ndrat."
+                }
+              }
+            ],
+            "title": "Comparison",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "18834-2",
+                  "display": "Radiology Comparison study (narrative)"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>J\u00e4mf\u00f6rt med unders\u00f6kningen 2025-11-03: pleurav\u00e4tskan har tillkommit, i \u00f6vrigt of\u00f6r\u00e4ndrat.</p></div>"
+            }
+          },
+          {
+            "extension": [
+              {
+                "url": "http://hl7.org/fhir/StructureDefinition/note",
+                "valueAnnotation": {
+                  "text": "F\u00f6rstorad hj\u00e4rtskugga. L\u00e4tt vidgade k\u00e4rl i lungornas \u00f6vre delar. Sm\u00e5 m\u00e4ngder pleurav\u00e4tska bilateralt. \u00d6veruppbl\u00e5sta lungor med avplanade diafragmavalv, f\u00f6renligt med emfysem. Ingen pneumothorax. Inga infiltrat."
+                }
+              }
+            ],
+            "title": "Findings",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "59776-5",
+                  "display": "Radiology Study observation (narrative)"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>F\u00f6rstorad hj\u00e4rtskugga. L\u00e4tt vidgade k\u00e4rl i lungornas \u00f6vre delar. Sm\u00e5 m\u00e4ngder pleurav\u00e4tska bilateralt. \u00d6veruppbl\u00e5sta lungor med avplanade diafragmavalv, f\u00f6renligt med emfysem. Ingen pneumothorax. Inga infiltrat.</p></div>"
+            }
+          },
+          {
+            "extension": [
+              {
+                "url": "http://hl7.org/fhir/StructureDefinition/note",
+                "valueAnnotation": {
+                  "text": "Hj\u00e4rtf\u00f6rstoring och sm\u00e5 m\u00e4ngder pleurav\u00e4tska bilateralt, f\u00f6renligt med hj\u00e4rtsvikt. Emfysem. Ingen pneumoni."
+                }
+              }
+            ],
+            "title": "Impression",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "19005-8",
+                  "display": "Radiology Imaging study [Impression] (narrative)"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Hj\u00e4rtf\u00f6rstoring och sm\u00e5 m\u00e4ngder pleurav\u00e4tska bilateralt, f\u00f6renligt med hj\u00e4rtsvikt. Emfysem. Ingen pneumoni.</p><ul><li>Imaging diagnosis: Hj\u00e4rtf\u00f6rstoring</li><li>Imaging diagnosis: Pleurav\u00e4tska</li><li>Imaging diagnosis: Lungemfysem</li></ul></div>"
+            }
+          },
+          {
+            "extension": [
+              {
+                "url": "http://hl7.org/fhir/StructureDefinition/note",
+                "valueAnnotation": {
+                  "text": "Ny lungr\u00f6ntgen om besv\u00e4ren inte g\u00e5r tillbaka efter behandling."
+                }
+              }
+            ],
+            "title": "Recommendation",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "18783-1",
+                  "display": "Radiology Study recommendation (narrative)"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Ny lungr\u00f6ntgen om besv\u00e4ren inte g\u00e5r tillbaka efter behandling.</li></ul></div>"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a526bba6-5fda-5b0b-ba69-bcf853af0d4a",
+      "resource": {
+        "resourceType": "DiagnosticReport",
+        "id": "a526bba6-5fda-5b0b-ba69-bcf853af0d4a",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/imaging/StructureDefinition/DiagnosticReportEuImaging"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-DiagnosticReport.composition",
+            "valueReference": {
+              "reference": "urn:uuid:2fe00da3-38e9-5721-a155-0461d5178ce5"
+            }
+          }
+        ],
+        "identifier": [
+          {
+            "system": "http://medrave.com/fhir/identifier/demo-imaging-report",
+            "value": "ARNE-RTG-20260612"
+          }
+        ],
+        "basedOn": [
+          {
+            "type": "ServiceRequest",
+            "identifier": {
+              "type": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                    "code": "ACSN"
+                  },
+                  {
+                    "system": "http://dicom.nema.org/resources/ontology/DCM",
+                    "code": "121022",
+                    "display": "Accession Number"
+                  }
+                ]
+              },
+              "system": "http://medrave.com/fhir/identifier/demo-accession-number",
+              "value": "RTG-20260612-0042"
+            }
+          }
+        ],
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+                "code": "RAD",
+                "display": "Radiology"
+              }
+            ],
+            "text": "Radiology"
+          },
+          {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "85430-7"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "system": "http://hl7.eu/fhir/health-data-api/CodeSystem/eehrxf-document-priority-category-cs",
+                "code": "Medical-Imaging"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "36643-5",
+              "display": "XR Chest 2 Views"
+            }
+          ],
+          "text": "R\u00f6ntgen thorax, frontal- och sidobild"
+        },
+        "subject": {
+          "reference": "urn:uuid:caf1fdf3-6f1d-5026-8aa6-8fabc937a889"
+        },
+        "effectiveDateTime": "2026-06-12T09:40:00+02:00",
+        "issued": "2026-06-12T14:05:00+02:00",
+        "performer": [
+          {
+            "reference": "urn:uuid:05b1094a-877e-5bab-b478-9678fb3615d4"
+          }
+        ],
+        "resultsInterpreter": [
+          {
+            "reference": "urn:uuid:b788457a-7ef1-53d1-aed4-1852a2c019dd"
+          }
+        ],
+        "imagingStudy": [
+          {
+            "reference": "urn:uuid:614afa5c-38be-5012-80f1-1106b68ba1dd"
+          }
+        ],
+        "conclusion": "Hj\u00e4rtf\u00f6rstoring och sm\u00e5 m\u00e4ngder pleurav\u00e4tska bilateralt, f\u00f6renligt med hj\u00e4rtsvikt. Emfysem. Ingen pneumoni.",
+        "conclusionCode": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "8186001",
+                "display": "Cardiomegaly"
+              }
+            ],
+            "text": "Hj\u00e4rtf\u00f6rstoring"
+          },
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "60046008",
+                "display": "Pleural effusion"
+              }
+            ],
+            "text": "Pleurav\u00e4tska"
+          },
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "87433001",
+                "display": "Pulmonary emphysema"
+              }
+            ],
+            "text": "Lungemfysem"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:614afa5c-38be-5012-80f1-1106b68ba1dd",
+      "resource": {
+        "resourceType": "ImagingStudy",
+        "id": "614afa5c-38be-5012-80f1-1106b68ba1dd",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/imaging/StructureDefinition/ImagingStudyEuImaging"
+          ]
+        },
+        "identifier": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://dicom.nema.org/resources/ontology/DCM",
+                  "code": "110180",
+                  "display": "Study Instance UID"
+                }
+              ]
+            },
+            "system": "urn:dicom:uid",
+            "value": "urn:oid:2.25.173584030631869422327093935913044072294"
+          }
+        ],
+        "status": "available",
+        "modality": [
+          {
+            "system": "http://dicom.nema.org/resources/ontology/DCM",
+            "code": "DX",
+            "display": "Digital Radiography"
+          }
+        ],
+        "subject": {
+          "reference": "urn:uuid:caf1fdf3-6f1d-5026-8aa6-8fabc937a889"
+        },
+        "started": "2026-06-12T09:40:00+02:00",
+        "description": "Thorax, frontal- och sidobild"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:caf1fdf3-6f1d-5026-8aa6-8fabc937a889",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "194302096997",
+        "active": true,
+        "identifier": [
+          {
+            "value": "194302096997",
+            "system": "http://electronichealth.se/identifier/personnummer"
+          }
+        ],
+        "name": [
+          {
+            "family": "Bergstr\u00f6m",
+            "given": [
+              "Arne",
+              "Gustav"
+            ],
+            "text": "Arne Gustav Bergstr\u00f6m",
+            "use": "official"
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1943-02-09",
+        "address": [
+          {
+            "city": "Falkenberg",
+            "country": "SE",
+            "type": "physical",
+            "use": "home"
+          }
+        ],
+        "communication": [
+          {
+            "language": {
+              "coding": [
+                {
+                  "system": "urn:ietf:bcp:47",
+                  "code": "sv"
+                }
+              ],
+              "text": "Swedish"
+            },
+            "preferred": true
+          }
+        ],
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/patient-eu-core"
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:b788457a-7ef1-53d1-aed4-1852a2c019dd",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "b788457a-7ef1-53d1-aed4-1852a2c019dd",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/practitioner-eu-core"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "urn:oid:1.2.752.29.4.19",
+            "value": "SE2321000016-9401"
+          }
+        ],
+        "name": [
+          {
+            "text": "Maria Sj\u00f6berg"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:05b1094a-877e-5bab-b478-9678fb3615d4",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "05b1094a-877e-5bab-b478-9678fb3615d4",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/organization-eu-core"
+          ]
+        },
+        "identifier": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "PRN"
+                }
+              ]
+            },
+            "system": "urn:oid:1.2.752.29.4.19",
+            "value": "SE2321000016-RTG1"
+          }
+        ],
+        "name": "R\u00f6ntgenavdelningen, Region Demo"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:b33a8fae-9f7a-567c-94c4-005ad9c46455",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "b33a8fae-9f7a-567c-94c4-005ad9c46455",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/organization-eu-core"
+          ]
+        },
+        "identifier": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "PRN"
+                }
+              ]
+            },
+            "system": "urn:oid:1.2.752.29.4.19",
+            "value": "SE2321000000-0001"
+          }
+        ],
+        "name": "Region Demo"
+      }
+    }
+  ]
+}

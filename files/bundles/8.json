@@ -1,0 +1,2474 @@
+{
+  "resourceType": "Bundle",
+  "meta": {
+    "profile": [ "http://hl7.eu/fhir/eps/StructureDefinition/bundle-eu-eps" ]
+  },
+  "identifier": {
+    "system": "urn:ietf:rfc:3986",
+    "value": "urn:uuid:6488e211-accf-5b6c-9f81-4c640e2d797a"
+  },
+  "type": "document",
+  "timestamp": "2026-11-18T17:38:18.390+01:00",
+  "entry": [ {
+    "fullUrl": "urn:uuid:ec24409b-1e11-5280-83b6-65fc45f1a653",
+    "resource": {
+      "resourceType": "Composition",
+      "id": "ec24409b-1e11-5280-83b6-65fc45f1a653",
+      "language": "en",
+      "text": {
+        "status": "generated",
+        "div": "<div xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"><p>Patient Summary for Synthetic Testperson, composed by Platform24 eps-builder from Platform24 records.</p></div>"
+      },
+      "identifier": {
+        "system": "urn:ietf:rfc:3986",
+        "value": "urn:uuid:9d720785-a74e-5977-86c0-cbefe8384494"
+      },
+      "status": "final",
+      "type": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "60591-5",
+          "display": "Patient summary Document"
+        } ],
+        "text": "Patient summary"
+      },
+      "subject": {
+        "reference": "urn:uuid:47d637c3-44d0-59cf-899f-688adbeeedc5"
+      },
+      "date": "2026-11-18T17:38:18+01:00",
+      "author": [ {
+        "reference": "urn:uuid:3633703f-6d8f-507c-b88a-d0493750affa"
+      } ],
+      "title": "Patient Summary",
+      "custodian": {
+        "reference": "urn:uuid:3633703f-6d8f-507c-b88a-d0493750affa"
+      },
+      "section": [ {
+        "title": "Problem list",
+        "code": {
+          "coding": [ {
+            "system": "http://loinc.org",
+            "code": "11450-4",
+            "display": "Problem list"
+          } ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"><table><thead><tr><th>Problem</th><th>Code</th><th>Status</th><th>Source</th></tr></thead><tbody><tr><td>Heart failure</td><td>SNOMED CT 84114007</td><td>active, confirmed</td><td>recorded in Platform24 remote monitoring</td></tr><tr><td>Diabetes mellitus type 2</td><td>SNOMED CT 44054006</td><td>active, confirmed</td><td>recorded in Platform24 remote monitoring</td></tr><tr><td>Breathing problems</td><td>SNOMED CT 230145002, urn:oid:1.2.752.116.1.1.1.1.3 R06.0</td><td>active, unconfirmed</td><td>patient-reported, not clinician-verified; reported by the patient in Platform24 digital triage on 2026-11-17 (reason for contact)</td></tr><tr><td>Cuts</td><td>SNOMED CT 59091005, urn:oid:1.2.752.116.1.1.1.1.3 T14.1</td><td>active, unconfirmed</td><td>patient-reported, not clinician-verified; reported by the patient in Platform24 digital triage on 2026-11-17 (reason for contact)</td></tr><tr><td>High blood pressure</td><td>urn:oid:1.2.752.116.1.1.1.1.3 R03.0</td><td>active, unconfirmed</td><td>patient-reported, not clinician-verified; reported by the patient in Platform24 digital triage on 2026-11-17 (reason for contact)</td></tr></tbody></table></div>"
+        },
+        "entry": [ {
+          "reference": "urn:uuid:d2587eda-756d-51f2-9842-1be6c770199a"
+        }, {
+          "reference": "urn:uuid:cbdf3dea-c55e-50c7-b314-02e398ba0bfe"
+        }, {
+          "reference": "urn:uuid:1dc5f1b0-8a41-5c0d-87a7-66267411087e"
+        }, {
+          "reference": "urn:uuid:ed423058-abff-5efb-91e5-2c469be99744"
+        }, {
+          "reference": "urn:uuid:b222cb81-34f7-562d-a801-1f67e42646b3"
+        } ]
+      }, {
+        "title": "Allergies and intolerances",
+        "code": {
+          "coding": [ {
+            "system": "http://loinc.org",
+            "code": "48765-2",
+            "display": "Allergies and intolerances"
+          } ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"><table><thead><tr><th>Substance</th><th>Type</th><th>Category</th><th>Verification</th><th>Reported</th><th>Patient's words</th></tr></thead><tbody><tr><td>Penicillin</td><td>allergy</td><td>medication</td><td>unconfirmed</td><td>patient-reported, not clinician-verified; reported by the patient in Platform24 digital triage on 2026-11-17</td><td>I'm allergic to penicillin.</td></tr></tbody></table></div>"
+        },
+        "entry": [ {
+          "reference": "urn:uuid:5c57a078-a142-51ae-8997-f04ef12cf98c"
+        } ]
+      }, {
+        "title": "Medication summary",
+        "code": {
+          "coding": [ {
+            "system": "http://loinc.org",
+            "code": "10160-0",
+            "display": "Medication summary"
+          } ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"><table><thead><tr><th>Medication</th><th>Status</th><th>Note</th><th>Reported</th><th>Patient's words</th></tr></thead><tbody><tr><td>Metformin (ATC A10BA02)</td><td>active</td><td/><td>patient-reported, not clinician-verified; reported by the patient in Platform24 digital triage on 2026-11-17</td><td>I take metformin and furosemide, though I skipped the furosemide a few days last week.</td></tr><tr><td>Furosemide (ATC C03CA01)</td><td>active</td><td>Patient reports missed doses: &quot;I skipped the furosemide a few days last week&quot;</td><td>patient-reported, not clinician-verified; reported by the patient in Platform24 digital triage on 2026-11-17</td><td>I take metformin and furosemide, though I skipped the furosemide a few days last week.</td></tr></tbody></table></div>"
+        },
+        "entry": [ {
+          "reference": "urn:uuid:c3843fa4-edde-54f3-8941-45f69292de51"
+        }, {
+          "reference": "urn:uuid:244eaee8-c72f-5c4c-bbc7-77bf7fe6f1fa"
+        } ]
+      }, {
+        "title": "History of procedures",
+        "code": {
+          "coding": [ {
+            "system": "http://loinc.org",
+            "code": "47519-4",
+            "display": "History of procedures"
+          } ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"><table><thead><tr><th>Procedure</th><th>When</th><th>Status</th><th>Reported</th><th>Patient's words</th></tr></thead><tbody><tr><td>Coronary stent insertion (PCI)</td><td>3 years before 2026-11-17</td><td>completed</td><td>patient-reported, not clinician-verified; reported by the patient in Platform24 digital triage on 2026-11-17</td><td>Yes, heart failure since a heart attack 3 years ago, when I got a stent.</td></tr><tr><td>Cholecystectomy (gallbladder removal)</td><td>about 15 years before 2026-11-17</td><td>completed</td><td>patient-reported, not clinician-verified; reported by the patient in Platform24 digital triage on 2026-11-17</td><td>And my gallbladder was removed about 15 years ago.</td></tr></tbody></table></div>"
+        },
+        "entry": [ {
+          "reference": "urn:uuid:e607cbc0-f81d-59a4-8027-167d8c321aff"
+        }, {
+          "reference": "urn:uuid:5bd54d91-ddda-5920-bc7d-1dfc0d79989a"
+        } ]
+      }, {
+        "title": "Medical devices",
+        "code": {
+          "coding": [ {
+            "system": "http://loinc.org",
+            "code": "46264-8",
+            "display": "Medical devices"
+          } ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"><table><thead><tr><th>Device</th><th>In use</th><th>Basis</th></tr></thead><tbody><tr><td>Home blood pressure monitor</td><td>2026-10-20 to 2026-11-10</td><td>inferred from home measurements the patient reported in Platform24; make and model not recorded</td></tr><tr><td>Home weighing scale</td><td>2026-10-20 to 2026-11-10</td><td>inferred from home measurements the patient reported in Platform24; make and model not recorded</td></tr><tr><td>Home blood glucose meter</td><td>2026-10-20 to 2026-11-10</td><td>inferred from home measurements the patient reported in Platform24; make and model not recorded</td></tr></tbody></table></div>"
+        },
+        "entry": [ {
+          "reference": "urn:uuid:98604235-03f0-5268-96c3-cdee9e95e7d6"
+        }, {
+          "reference": "urn:uuid:5fc7646f-97f9-53ab-9bc5-d30afba3ae36"
+        }, {
+          "reference": "urn:uuid:84d18f02-c0a0-5e9e-aa25-2fa09a335734"
+        } ]
+      }, {
+        "title": "History of immunizations",
+        "code": {
+          "coding": [ {
+            "system": "http://loinc.org",
+            "code": "11369-6",
+            "display": "History of immunizations"
+          } ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"><table><thead><tr><th>Vaccine</th><th>When</th><th>Reported</th><th>Evidence</th></tr></thead><tbody><tr><td>Tetanus vaccine</td><td>4 doses; national vaccination programme followed; the last less than 20 years before 2026-11-17</td><td>patient-reported, not clinician-verified; reported by the patient in Platform24 digital triage on 2026-11-17</td><td>Answers in digital triage: &quot;Have you followed the national vaccination program for tetanus?&quot; Yes. &quot;Have you received 3 or 4 tetanus vaccines?&quot; 4 vaccines. &quot;Has it been longer than 20 years since the last vaccine?&quot; No.</td></tr><tr><td>Influenza vaccine</td><td>10 October, as reported on 2026-11-17</td><td>patient-reported, not clinician-verified; reported by the patient in Platform24 digital triage on 2026-11-17</td><td>I had my flu jab on 10 October and a COVID-19 booster in September, and I had the pneumococcal vaccine two years ago.</td></tr><tr><td>COVID-19 vaccine</td><td>September, as reported on 2026-11-17</td><td>patient-reported, not clinician-verified; reported by the patient in Platform24 digital triage on 2026-11-17</td><td>I had my flu jab on 10 October and a COVID-19 booster in September, and I had the pneumococcal vaccine two years ago.</td></tr><tr><td>Pneumococcal vaccine</td><td>2 years before 2026-11-17</td><td>patient-reported, not clinician-verified; reported by the patient in Platform24 digital triage on 2026-11-17</td><td>I had my flu jab on 10 October and a COVID-19 booster in September, and I had the pneumococcal vaccine two years ago.</td></tr></tbody></table></div>"
+        },
+        "entry": [ {
+          "reference": "urn:uuid:f17becd1-d6d9-5d2f-90ca-160c0c7386bf"
+        }, {
+          "reference": "urn:uuid:d1e5af2c-9222-51ea-a669-d96b6756b491"
+        }, {
+          "reference": "urn:uuid:e8c9dde7-736d-55fc-8fe0-39f6fe8a63c0"
+        }, {
+          "reference": "urn:uuid:3425bed3-4199-566c-a3ab-27df6768a471"
+        } ]
+      }, {
+        "title": "Results",
+        "code": {
+          "coding": [ {
+            "system": "http://loinc.org",
+            "code": "30954-2",
+            "display": "Results"
+          } ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"><table><thead><tr><th>Observation</th><th>Value</th><th>Date</th><th>Reported by</th></tr></thead><tbody><tr><td>Plasma glucose</td><td>7.6 mmol/L</td><td>2026-11-10T07:40:00Z</td><td>patient</td></tr><tr><td>Plasma glucose</td><td>8.2 mmol/L</td><td>2026-11-03T07:25:00Z</td><td>patient</td></tr><tr><td>Plasma glucose</td><td>8.9 mmol/L</td><td>2026-10-27T07:35:00Z</td><td>patient</td></tr><tr><td>Plasma glucose</td><td>9.8 mmol/L</td><td>2026-10-20T07:30:00Z</td><td>patient</td></tr></tbody></table></div>"
+        },
+        "entry": [ {
+          "reference": "urn:uuid:d75e6a94-a9cf-544d-adf8-b8b8ffd8639b"
+        }, {
+          "reference": "urn:uuid:5352dcf6-d600-5fdc-a80d-fdadcb04d49c"
+        }, {
+          "reference": "urn:uuid:e991d114-8ac0-5536-92af-7a2cc3f3070a"
+        }, {
+          "reference": "urn:uuid:16268060-ebc7-59ba-b160-f334207d2130"
+        } ]
+      }, {
+        "title": "Vital signs",
+        "code": {
+          "coding": [ {
+            "system": "http://loinc.org",
+            "code": "8716-3",
+            "display": "Vital signs"
+          } ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"><table><thead><tr><th>Observation</th><th>Value</th><th>Date</th><th>Reported by</th></tr></thead><tbody><tr><td>Blood pressure</td><td>136/85 mm[Hg]</td><td>2026-11-10T08:00:00Z</td><td>patient</td></tr><tr><td>Blood pressure</td><td>139/87 mm[Hg]</td><td>2026-11-03T08:15:00Z</td><td>patient</td></tr><tr><td>Blood pressure</td><td>144/90 mm[Hg]</td><td>2026-10-27T08:05:00Z</td><td>patient</td></tr><tr><td>Blood pressure</td><td>118/79 mm[Hg]</td><td>2026-10-26T14:02:01.994Z</td><td>patient</td></tr><tr><td>Blood pressure</td><td>122/78 mm[Hg]</td><td>2026-10-26T13:59:42.154Z</td><td>patient</td></tr><tr><td>Blood pressure</td><td>120/80 mm[Hg]</td><td>2026-10-26T13:59:00.186Z</td><td>patient</td></tr><tr><td>Blood pressure</td><td>148/92 mm[Hg]</td><td>2026-10-20T08:10:00Z</td><td>patient</td></tr><tr><td>Body weight</td><td>94.6 kg</td><td>2026-11-10T07:45:00Z</td><td>patient</td></tr><tr><td>Body weight</td><td>95.1 kg</td><td>2026-11-03T07:55:00Z</td><td>patient</td></tr><tr><td>Body weight</td><td>96.4 kg</td><td>2026-10-20T07:50:00Z</td><td>patient</td></tr><tr><td>Heart rate</td><td>68 /min</td><td>2026-10-26T14:02:01.994Z</td><td>patient</td></tr><tr><td>Heart rate</td><td>72 /min</td><td>2026-10-26T13:59:42.154Z</td><td>patient</td></tr><tr><td>Heart rate</td><td>70 /min</td><td>2026-10-26T13:59:00.186Z</td><td>patient</td></tr></tbody></table></div>"
+        },
+        "entry": [ {
+          "reference": "urn:uuid:b4e0b3d4-c136-5d5b-8eaa-719712b976d2"
+        }, {
+          "reference": "urn:uuid:9445256e-ac6b-5fbf-9a20-d1b48026aec0"
+        }, {
+          "reference": "urn:uuid:beb74b7b-b11f-5404-99a5-b83e97a3fa7e"
+        }, {
+          "reference": "urn:uuid:5d69087f-dc55-5333-b72e-a6a0f78b100e"
+        }, {
+          "reference": "urn:uuid:745615c2-9e57-5111-abd1-dd30cfd03c90"
+        }, {
+          "reference": "urn:uuid:87df906a-9098-5f12-8ef1-b96ae1097861"
+        }, {
+          "reference": "urn:uuid:f7b2154e-604f-56e6-adb3-23f6bb78c463"
+        }, {
+          "reference": "urn:uuid:ba55ee00-6906-54db-b659-a233b002208d"
+        }, {
+          "reference": "urn:uuid:86966c40-6b54-5d6a-8cc9-d29a358b32ab"
+        }, {
+          "reference": "urn:uuid:0b9ae370-824d-5f9a-8420-3e34954abad4"
+        }, {
+          "reference": "urn:uuid:b8303249-6211-570f-9277-3b7d3c0ba575"
+        }, {
+          "reference": "urn:uuid:5c383c02-2e46-5708-b858-77de0ea1bfac"
+        }, {
+          "reference": "urn:uuid:f427d4ea-90b0-54fe-950c-497c23130497"
+        } ]
+      }, {
+        "title": "History of past illness",
+        "code": {
+          "coding": [ {
+            "system": "http://loinc.org",
+            "code": "11329-0",
+            "display": "History of past illness"
+          } ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"><table><thead><tr><th>Illness</th><th>When</th><th>Status</th><th>Reported</th><th>Patient's words</th></tr></thead><tbody><tr><td>Heart attack (myocardial infarction)</td><td>3 years before 2026-11-17</td><td>resolved, unconfirmed</td><td>patient-reported, not clinician-verified; reported by the patient in Platform24 digital triage on 2026-11-17</td><td>Yes, heart failure since a heart attack 3 years ago, when I got a stent.</td></tr><tr><td>Pneumonia</td><td>in 2019</td><td>resolved, unconfirmed</td><td>patient-reported, not clinician-verified; reported by the patient in Platform24 digital triage on 2026-11-17</td><td>I had pneumonia in 2019 and a kidney stone about 10 years ago, both cleared up.</td></tr><tr><td>Kidney stone</td><td>about 10 years before 2026-11-17</td><td>resolved, unconfirmed</td><td>patient-reported, not clinician-verified; reported by the patient in Platform24 digital triage on 2026-11-17</td><td>I had pneumonia in 2019 and a kidney stone about 10 years ago, both cleared up.</td></tr></tbody></table></div>"
+        },
+        "entry": [ {
+          "reference": "urn:uuid:da8a5faa-94d5-5a71-ab7a-c61db49f22c0"
+        }, {
+          "reference": "urn:uuid:89665dd0-af46-5b5a-8404-4b37faab5851"
+        }, {
+          "reference": "urn:uuid:c974bb08-d100-50f4-94ab-aae47a1ede59"
+        } ]
+      }, {
+        "title": "Functional status",
+        "code": {
+          "coding": [ {
+            "system": "http://loinc.org",
+            "code": "47420-5",
+            "display": "Functional status"
+          } ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"><table><thead><tr><th>Assessment</th><th>Answers</th><th>Reported</th></tr></thead><tbody><tr><td>What the patient can and cannot do, as answered in digital triage</td><td>Breathing problems in these situations: In the context of exercise or physical activity; When I go up the stairs (1-2 floors); When walking on flat ground. Not chosen: When I get dressed; When I speak or say some sentences; When I am resting. New loss of abilities at the moment: None of the above. Not chosen: Unable to eat or drink; Unable to sit up for 10 minutes; Unable to get dressed or go to the toilet; Unable to think clearly or communicate; Experiencing heart palpitations or cold sweats.</td><td>patient-reported, not clinician-verified; reported by the patient in Platform24 digital triage on 2026-11-17</td></tr><tr><td>What the patient can and cannot do, as answered in digital triage</td><td>New loss of abilities at the moment: None of the above. Not chosen: Unable to eat or drink; Unable to sit up for 10 minutes; Unable to get dressed or go to the toilet; Unable to think clearly or communicate; Experiencing heart palpitations or cold sweats.</td><td>patient-reported, not clinician-verified; reported by the patient in Platform24 digital triage on 2026-11-17</td></tr></tbody></table></div>"
+        },
+        "entry": [ {
+          "reference": "urn:uuid:5b8e6c16-27ba-5681-9be3-9e814aa0519b"
+        }, {
+          "reference": "urn:uuid:a1377563-a472-56ba-8349-287c01c68842"
+        } ]
+      }, {
+        "title": "Health concerns",
+        "code": {
+          "coding": [ {
+            "system": "http://loinc.org",
+            "code": "104605-1",
+            "display": "Health concerns"
+          } ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"><table><thead><tr><th>Alert</th><th>Since</th><th>Source</th></tr></thead><tbody><tr><td>Triage urgency: acute (acute)</td><td>2026-11-17</td><td>assessed by Platform24 digital triage on 2026-11-17</td></tr><tr><td>Triage urgency: acute (acute)</td><td>2026-11-17</td><td>assessed by Platform24 digital triage on 2026-11-17</td></tr><tr><td>Triage urgency: planned (planned)</td><td>2026-11-17</td><td>assessed by Platform24 digital triage on 2026-11-17</td></tr></tbody></table></div>"
+        },
+        "entry": [ {
+          "reference": "urn:uuid:4e3172cc-14aa-5cb8-8f8d-01c15671642a"
+        }, {
+          "reference": "urn:uuid:6a04bc5d-5d93-5d64-aa29-d91608fa819b"
+        }, {
+          "reference": "urn:uuid:1624f4f4-c59f-5213-9fd2-85ff32a1dc01"
+        } ]
+      }, {
+        "title": "Plan of care",
+        "code": {
+          "coding": [ {
+            "system": "http://loinc.org",
+            "code": "18776-5",
+            "display": "Plan of care"
+          } ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"><table><thead><tr><th>Plan</th><th>Activity</th><th>Source</th></tr></thead><tbody><tr><td>Triage recommendation</td><td>Assessment in general practice (online consultation possible)</td><td>assessed by Platform24 digital triage on 2026-11-17</td></tr><tr><td>Triage recommendation</td><td>Assessment in general practice (online consultation possible)</td><td>assessed by Platform24 digital triage on 2026-11-17</td></tr><tr><td>Triage recommendation</td><td>Assessment in general practice (online consultation possible)</td><td>assessed by Platform24 digital triage on 2026-11-17</td></tr></tbody></table></div>"
+        },
+        "entry": [ {
+          "reference": "urn:uuid:2c8b2e01-6642-5100-b720-2819350b3807"
+        }, {
+          "reference": "urn:uuid:ce8c4eb3-cd2b-5bde-b483-2c7e78d21035"
+        }, {
+          "reference": "urn:uuid:4f97b84e-c50d-5790-9c69-2ccfe2b4f6cb"
+        } ]
+      }, {
+        "title": "Advance directives",
+        "code": {
+          "coding": [ {
+            "system": "http://loinc.org",
+            "code": "42348-3",
+            "display": "Advance directives"
+          } ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"><table><thead><tr><th>Directive</th><th>Refuses</th><th>Reported</th><th>Patient's words</th></tr></thead><tbody><tr><td>Living will</td><td>Cardiopulmonary resuscitation</td><td>patient-reported, not clinician-verified; reported by the patient in Platform24 digital triage on 2026-11-17; the document itself has not been seen</td><td>I have written a living will: I do not want to be resuscitated if my heart stops, and my wife and my GP have a copy.</td></tr></tbody></table></div>"
+        },
+        "entry": [ {
+          "reference": "urn:uuid:09e33bfc-3527-5b12-97c6-79bf0dea9f73"
+        } ]
+      }, {
+        "title": "Social history",
+        "code": {
+          "coding": [ {
+            "system": "http://loinc.org",
+            "code": "29762-2",
+            "display": "Social history"
+          } ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"><table><thead><tr><th>Observation</th><th>Value</th><th>Reported</th><th>Evidence</th></tr></thead><tbody><tr><td>Tobacco smoking status</td><td>Former smoker (SNOMED CT 8517006)</td><td>patient-reported, not clinician-verified; reported by the patient in Platform24 digital triage on 2026-11-17</td><td>Patient's words: &quot;I used to smoke but stopped 10 years ago.&quot;</td></tr></tbody></table></div>"
+        },
+        "entry": [ {
+          "reference": "urn:uuid:f3b935a5-7421-5202-9e53-0f6f8108975a"
+        } ]
+      }, {
+        "title": "Travel history",
+        "code": {
+          "coding": [ {
+            "system": "http://loinc.org",
+            "code": "10182-4",
+            "display": "Travel history"
+          } ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"><table><thead><tr><th>Country</th><th>Back on</th><th>Reported</th><th>Patient's words</th></tr></thead><tbody><tr><td>Spain (ES)</td><td>2026-10-25</td><td>patient-reported, not clinician-verified; reported by the patient in Platform24 digital triage on 2026-11-17</td><td>We were in Spain for two weeks in October and came back on 25 October.</td></tr></tbody></table></div>"
+        },
+        "entry": [ {
+          "reference": "urn:uuid:fd455cab-dda3-55f0-baf3-2b3d41d90792"
+        } ]
+      }, {
+        "title": "Patient story",
+        "code": {
+          "coding": [ {
+            "system": "http://loinc.org",
+            "code": "81338-6",
+            "display": "Patient story"
+          } ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"><table><thead><tr><th>What matters to the patient</th><th>Reported</th><th>Patient's words</th></tr></thead><tbody><tr><td>Stay in my own home and to be able to walk to the shop again without stopping</td><td>patient-reported, not clinician-verified; reported by the patient in Platform24 digital triage on 2026-11-17</td><td>What matters most to me is to stay in my own home and to be able to walk to the shop again without stopping.</td></tr></tbody></table><p><b>In the patient's words, as confirmed in digital triage</b> (reported by the patient in Platform24 digital triage on 2026-11-17)</p><p>You have told me that you are increasingly short of breath and your ankles are swollen. Over a week, this affects stairs, flat walking and lying down.</p><p>You also say you have gained 3 kg in 10 days and a dry cough at night, but no chest pain, chest pressure or fever.</p><p>You also told me that you have heart failure.</p><p><b>In the patient's words, as confirmed in digital triage</b> (reported by the patient in Platform24 digital triage on 2026-11-17)</p><p>You have told me that you stepped on a sharp stone two days ago and cut under your left heel. It is shallow, with mild 2/10 pain when walking, and not worsening.</p><p>You also say it is slightly red and tender, with no pus, swelling or fever, and that cleaning it and using a plaster helped.</p><p>You also mentioned diabetes.</p><p><b>In the patient's words, as confirmed in digital triage</b> (reported by the patient in Platform24 digital triage on 2026-11-17)</p><p>You have told me that your blood pressure has been high for about a week, around 155 over 95. It is similar morning and evening, so you are seeking an assessment.</p><p>You also say you have no chest pain or pressure, headache, nausea, vision problems or dizziness.</p><p>You also told me you have heart failure and type 2 diabetes.</p></div>"
+        },
+        "entry": [ {
+          "reference": "urn:uuid:7e666ed1-4605-50e8-98cb-aef9f230bcd1"
+        } ]
+      } ]
+    }
+  }, {
+    "fullUrl": "urn:uuid:47d637c3-44d0-59cf-899f-688adbeeedc5",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "47d637c3-44d0-59cf-899f-688adbeeedc5",
+      "text": {
+        "status": "generated",
+        "div": "<div xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"><p>Synthetic Testperson, born 1960-01-01 (synthetic test person)</p></div>"
+      },
+      "name": [ {
+        "family": "Testperson",
+        "given": [ "Synthetic" ]
+      } ],
+      "gender": "female",
+      "birthDate": "1960-01-01"
+    }
+  }, {
+    "fullUrl": "urn:uuid:3633703f-6d8f-507c-b88a-d0493750affa",
+    "resource": {
+      "resourceType": "Organization",
+      "id": "3633703f-6d8f-507c-b88a-d0493750affa",
+      "text": {
+        "status": "generated",
+        "div": "<div xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"><p>Platform24</p></div>"
+      },
+      "name": "Platform24"
+    }
+  }, {
+    "fullUrl": "urn:uuid:d2587eda-756d-51f2-9842-1be6c770199a",
+    "resource": {
+      "resourceType": "Condition",
+      "id": "d2587eda-756d-51f2-9842-1be6c770199a",
+      "text": {
+        "status": "generated",
+        "div": "<div xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"><p>Heart failure (active, confirmed; recorded in Platform24 remote monitoring)</p></div>"
+      },
+      "clinicalStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active",
+          "display": "Active"
+        } ]
+      },
+      "verificationStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+          "code": "confirmed",
+          "display": "Confirmed"
+        } ]
+      },
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+          "code": "problem-list-item",
+          "display": "Problem List Item"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "84114007",
+          "display": "Heart failure"
+        } ],
+        "text": "Heart failure"
+      },
+      "subject": {
+        "reference": "urn:uuid:47d637c3-44d0-59cf-899f-688adbeeedc5"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:cbdf3dea-c55e-50c7-b314-02e398ba0bfe",
+    "resource": {
+      "resourceType": "Condition",
+      "id": "cbdf3dea-c55e-50c7-b314-02e398ba0bfe",
+      "text": {
+        "status": "generated",
+        "div": "<div xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"><p>Diabetes mellitus type 2 (active, confirmed; recorded in Platform24 remote monitoring)</p></div>"
+      },
+      "clinicalStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active",
+          "display": "Active"
+        } ]
+      },
+      "verificationStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+          "code": "confirmed",
+          "display": "Confirmed"
+        } ]
+      },
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+          "code": "problem-list-item",
+          "display": "Problem List Item"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "44054006",
+          "display": "Diabetes mellitus type 2"
+        } ],
+        "text": "Diabetes mellitus type 2"
+      },
+      "subject": {
+        "reference": "urn:uuid:47d637c3-44d0-59cf-899f-688adbeeedc5"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:1dc5f1b0-8a41-5c0d-87a7-66267411087e",
+    "resource": {
+      "resourceType": "Condition",
+      "id": "1dc5f1b0-8a41-5c0d-87a7-66267411087e",
+      "text": {
+        "status": "generated",
+        "div": "<div xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"><p>Breathing problems (active, unconfirmed; patient-reported, not clinician-verified; reported by the patient in Platform24 digital triage on 2026-11-17 (reason for contact))</p></div>"
+      },
+      "clinicalStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active",
+          "display": "Active"
+        } ]
+      },
+      "verificationStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+          "code": "unconfirmed",
+          "display": "Unconfirmed"
+        } ]
+      },
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+          "code": "problem-list-item",
+          "display": "Problem List Item"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "230145002"
+        }, {
+          "system": "urn:oid:1.2.752.116.1.1.1.1.3",
+          "code": "R06.0"
+        } ],
+        "text": "Breathing problems"
+      },
+      "subject": {
+        "reference": "urn:uuid:47d637c3-44d0-59cf-899f-688adbeeedc5"
+      },
+      "onsetString": "3–7 days before contact",
+      "recordedDate": "2026-11-17T18:01:23+01:00",
+      "asserter": {
+        "reference": "urn:uuid:47d637c3-44d0-59cf-899f-688adbeeedc5"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:ed423058-abff-5efb-91e5-2c469be99744",
+    "resource": {
+      "resourceType": "Condition",
+      "id": "ed423058-abff-5efb-91e5-2c469be99744",
+      "text": {
+        "status": "generated",
+        "div": "<div xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"><p>Cuts (active, unconfirmed; patient-reported, not clinician-verified; reported by the patient in Platform24 digital triage on 2026-11-17 (reason for contact))</p></div>"
+      },
+      "clinicalStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active",
+          "display": "Active"
+        } ]
+      },
+      "verificationStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+          "code": "unconfirmed",
+          "display": "Unconfirmed"
+        } ]
+      },
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+          "code": "problem-list-item",
+          "display": "Problem List Item"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "59091005"
+        }, {
+          "system": "urn:oid:1.2.752.116.1.1.1.1.3",
+          "code": "T14.1"
+        } ],
+        "text": "Cuts"
+      },
+      "subject": {
+        "reference": "urn:uuid:47d637c3-44d0-59cf-899f-688adbeeedc5"
+      },
+      "recordedDate": "2026-11-17T19:08:49+01:00",
+      "asserter": {
+        "reference": "urn:uuid:47d637c3-44d0-59cf-899f-688adbeeedc5"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:b222cb81-34f7-562d-a801-1f67e42646b3",
+    "resource": {
+      "resourceType": "Condition",
+      "id": "b222cb81-34f7-562d-a801-1f67e42646b3",
+      "text": {
+        "status": "generated",
+        "div": "<div xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"><p>High blood pressure (active, unconfirmed; patient-reported, not clinician-verified; reported by the patient in Platform24 digital triage on 2026-11-17 (reason for contact))</p></div>"
+      },
+      "clinicalStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active",
+          "display": "Active"
+        } ]
+      },
+      "verificationStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+          "code": "unconfirmed",
+          "display": "Unconfirmed"
+        } ]
+      },
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+          "code": "problem-list-item",
+          "display": "Problem List Item"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "urn:oid:1.2.752.116.1.1.1.1.3",
+          "code": "R03.0"
+        } ],
+        "text": "High blood pressure"
+      },
+      "subject": {
+        "reference": "urn:uuid:47d637c3-44d0-59cf-899f-688adbeeedc5"
+      },
+      "recordedDate": "2026-11-17T19:11:12+01:00",
+      "asserter": {
+        "reference": "urn:uuid:47d637c3-44d0-59cf-899f-688adbeeedc5"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:5c57a078-a142-51ae-8997-f04ef12cf98c",
+    "resource": {
+      "resourceType": "AllergyIntolerance",
+      "id": "5c57a078-a142-51ae-8997-f04ef12cf98c",
+      "text": {
+        "status": "generated",
+        "div": "<div xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"><p>Penicillin allergy (active, unconfirmed; patient-reported, not clinician-verified; reported by the patient in Platform24 digital triage on 2026-11-17). Patient's words: &quot;I'm allergic to penicillin.&quot;</p></div>"
+      },
+      "clinicalStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+          "code": "active",
+          "display": "Active"
+        } ]
+      },
+      "verificationStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+          "code": "unconfirmed",
+          "display": "Unconfirmed"
+        } ]
+      },
+      "type": "allergy",
+      "category": [ "medication" ],
+      "code": {
+        "text": "Penicillin"
+      },
+      "patient": {
+        "reference": "urn:uuid:47d637c3-44d0-59cf-899f-688adbeeedc5"
+      },
+      "recordedDate": "2026-11-17T18:01:23+01:00",
+      "asserter": {
+        "reference": "urn:uuid:47d637c3-44d0-59cf-899f-688adbeeedc5"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:c3843fa4-edde-54f3-8941-45f69292de51",
+    "resource": {
+      "resourceType": "MedicationStatement",
+      "id": "c3843fa4-edde-54f3-8941-45f69292de51",
+      "text": {
+        "status": "generated",
+        "div": "<div xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"><p>Metformin (active; patient-reported, not clinician-verified; reported by the patient in Platform24 digital triage on 2026-11-17). Patient's words: &quot;I take metformin and furosemide, though I skipped the furosemide a few days last week.&quot;</p></div>"
+      },
+      "status": "active",
+      "medicationCodeableConcept": {
+        "coding": [ {
+          "system": "http://www.whocc.no/atc",
+          "code": "A10BA02",
+          "display": "metformin"
+        } ],
+        "text": "Metformin"
+      },
+      "subject": {
+        "reference": "urn:uuid:47d637c3-44d0-59cf-899f-688adbeeedc5"
+      },
+      "_effectiveDateTime": {
+        "extension": [ {
+          "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+          "valueCode": "unknown"
+        } ]
+      },
+      "dateAsserted": "2026-11-17T18:01:23+01:00",
+      "informationSource": {
+        "reference": "urn:uuid:47d637c3-44d0-59cf-899f-688adbeeedc5"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:244eaee8-c72f-5c4c-bbc7-77bf7fe6f1fa",
+    "resource": {
+      "resourceType": "MedicationStatement",
+      "id": "244eaee8-c72f-5c4c-bbc7-77bf7fe6f1fa",
+      "text": {
+        "status": "generated",
+        "div": "<div xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"><p>Furosemide (active; patient-reported, not clinician-verified; reported by the patient in Platform24 digital triage on 2026-11-17). Patient reports missed doses: &quot;I skipped the furosemide a few days last week&quot;. Patient's words: &quot;I take metformin and furosemide, though I skipped the furosemide a few days last week.&quot;</p></div>"
+      },
+      "status": "active",
+      "medicationCodeableConcept": {
+        "coding": [ {
+          "system": "http://www.whocc.no/atc",
+          "code": "C03CA01",
+          "display": "furosemide"
+        } ],
+        "text": "Furosemide"
+      },
+      "subject": {
+        "reference": "urn:uuid:47d637c3-44d0-59cf-899f-688adbeeedc5"
+      },
+      "_effectiveDateTime": {
+        "extension": [ {
+          "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+          "valueCode": "unknown"
+        } ]
+      },
+      "dateAsserted": "2026-11-17T18:01:23+01:00",
+      "informationSource": {
+        "reference": "urn:uuid:47d637c3-44d0-59cf-899f-688adbeeedc5"
+      },
+      "note": [ {
+        "text": "Patient reports missed doses: \"I skipped the furosemide a few days last week\""
+      } ]
+    }
+  }, {
+    "fullUrl": "urn:uuid:e607cbc0-f81d-59a4-8027-167d8c321aff",
+    "resource": {
+      "resourceType": "Procedure",
+      "id": "e607cbc0-f81d-59a4-8027-167d8c321aff",
+      "text": {
+        "status": "generated",
+        "div": "<div xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"><p>Coronary stent insertion (PCI), 3 years before 2026-11-17 (completed; patient-reported, not clinician-verified; reported by the patient in Platform24 digital triage on 2026-11-17). Patient's words: &quot;Yes, heart failure since a heart attack 3 years ago, when I got a stent.&quot;</p></div>"
+      },
+      "status": "completed",
+      "code": {
+        "text": "Coronary stent insertion (PCI)"
+      },
+      "subject": {
+        "reference": "urn:uuid:47d637c3-44d0-59cf-899f-688adbeeedc5"
+      },
+      "performedString": "3 years before 2026-11-17",
+      "recorder": {
+        "reference": "urn:uuid:47d637c3-44d0-59cf-899f-688adbeeedc5"
+      },
+      "asserter": {
+        "reference": "urn:uuid:47d637c3-44d0-59cf-899f-688adbeeedc5"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:5bd54d91-ddda-5920-bc7d-1dfc0d79989a",
+    "resource": {
+      "resourceType": "Procedure",
+      "id": "5bd54d91-ddda-5920-bc7d-1dfc0d79989a",
+      "text": {
+        "status": "generated",
+        "div": "<div xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"><p>Cholecystectomy (gallbladder removal), about 15 years before 2026-11-17 (completed; patient-reported, not clinician-verified; reported by the patient in Platform24 digital triage on 2026-11-17). Patient's words: &quot;And my gallbladder was removed about 15 years ago.&quot;</p></div>"
+      },
+      "status": "completed",
+      "code": {
+        "text": "Cholecystectomy (gallbladder removal)"
+      },
+      "subject": {
+        "reference": "urn:uuid:47d637c3-44d0-59cf-899f-688adbeeedc5"
+      },
+      "performedString": "about 15 years before 2026-11-17",
+      "recorder": {
+        "reference": "urn:uuid:47d637c3-44d0-59cf-899f-688adbeeedc5"
+      },
+      "asserter": {
+        "reference": "urn:uuid:47d637c3-44d0-59cf-899f-688adbeeedc5"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:98604235-03f0-5268-96c3-cdee9e95e7d6",
+    "resource": {
+      "resourceType": "DeviceUseStatement",
+      "id": "98604235-03f0-5268-96c3-cdee9e95e7d6",
+      "text": {
+        "status": "generated",
+        "div": "<div xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"><p>Uses a home blood pressure monitor, 2026-10-20 to 2026-11-10 (inferred from home measurements the patient reported in Platform24; make and model not recorded)</p></div>"
+      },
+      "status": "active",
+      "subject": {
+        "reference": "urn:uuid:47d637c3-44d0-59cf-899f-688adbeeedc5"
+      },
+      "timingPeriod": {
+        "start": "2026-10-20T10:10:00+02:00",
+        "end": "2026-11-10T09:00:00+01:00"
+      },
+      "device": {
+        "reference": "urn:uuid:e3c5cdf2-75b4-5b90-9f35-40e38a8f7d07"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:e3c5cdf2-75b4-5b90-9f35-40e38a8f7d07",
+    "resource": {
+      "resourceType": "Device",
+      "id": "e3c5cdf2-75b4-5b90-9f35-40e38a8f7d07",
+      "text": {
+        "status": "generated",
+        "div": "<div xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"><p>Home blood pressure monitor (inferred from home measurements the patient reported in Platform24; make and model not recorded)</p></div>"
+      },
+      "deviceName": [ {
+        "name": "Home blood pressure monitor",
+        "type": "user-friendly-name"
+      } ],
+      "type": {
+        "text": "Home blood pressure monitor"
+      },
+      "patient": {
+        "reference": "urn:uuid:47d637c3-44d0-59cf-899f-688adbeeedc5"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:5fc7646f-97f9-53ab-9bc5-d30afba3ae36",
+    "resource": {
+      "resourceType": "DeviceUseStatement",
+      "id": "5fc7646f-97f9-53ab-9bc5-d30afba3ae36",
+      "text": {
+        "status": "generated",
+        "div": "<div xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"><p>Uses a home weighing scale, 2026-10-20 to 2026-11-10 (inferred from home measurements the patient reported in Platform24; make and model not recorded)</p></div>"
+      },
+      "status": "active",
+      "subject": {
+        "reference": "urn:uuid:47d637c3-44d0-59cf-899f-688adbeeedc5"
+      },
+      "timingPeriod": {
+        "start": "2026-10-20T09:50:00+02:00",
+        "end": "2026-11-10T08:45:00+01:00"
+      },
+      "device": {
+        "reference": "urn:uuid:9438c255-cbad-514e-9a30-66d96451972f"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:9438c255-cbad-514e-9a30-66d96451972f",
+    "resource": {
+      "resourceType": "Device",
+      "id": "9438c255-cbad-514e-9a30-66d96451972f",
+      "text": {
+        "status": "generated",
+        "div": "<div xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"><p>Home weighing scale (inferred from home measurements the patient reported in Platform24; make and model not recorded)</p></div>"
+      },
+      "deviceName": [ {
+        "name": "Home weighing scale",
+        "type": "user-friendly-name"
+      } ],
+      "type": {
+        "text": "Home weighing scale"
+      },
+      "patient": {
+        "reference": "urn:uuid:47d637c3-44d0-59cf-899f-688adbeeedc5"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:84d18f02-c0a0-5e9e-aa25-2fa09a335734",
+    "resource": {
+      "resourceType": "DeviceUseStatement",
+      "id": "84d18f02-c0a0-5e9e-aa25-2fa09a335734",
+      "text": {
+        "status": "generated",
+        "div": "<div xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"><p>Uses a home blood glucose meter, 2026-10-20 to 2026-11-10 (inferred from home measurements the patient reported in Platform24; make and model not recorded)</p></div>"
+      },
+      "status": "active",
+      "subject": {
+        "reference": "urn:uuid:47d637c3-44d0-59cf-899f-688adbeeedc5"
+      },
+      "timingPeriod": {
+        "start": "2026-10-20T09:30:00+02:00",
+        "end": "2026-11-10T08:40:00+01:00"
+      },
+      "device": {
+        "reference": "urn:uuid:acb81dba-5112-5e29-9ad6-53e7b23864b4"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:acb81dba-5112-5e29-9ad6-53e7b23864b4",
+    "resource": {
+      "resourceType": "Device",
+      "id": "acb81dba-5112-5e29-9ad6-53e7b23864b4",
+      "text": {
+        "status": "generated",
+        "div": "<div xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"><p>Home blood glucose meter (inferred from home measurements the patient reported in Platform24; make and model not recorded)</p></div>"
+      },
+      "deviceName": [ {
+        "name": "Home blood glucose meter",
+        "type": "user-friendly-name"
+      } ],
+      "type": {
+        "text": "Home blood glucose meter"
+      },
+      "patient": {
+        "reference": "urn:uuid:47d637c3-44d0-59cf-899f-688adbeeedc5"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:f17becd1-d6d9-5d2f-90ca-160c0c7386bf",
+    "resource": {
+      "resourceType": "Immunization",
+      "id": "f17becd1-d6d9-5d2f-90ca-160c0c7386bf",
+      "text": {
+        "status": "generated",
+        "div": "<div xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"><p>Tetanus vaccine, 4 doses; national vaccination programme followed; the last less than 20 years before 2026-11-17 (patient-reported, not clinician-verified; reported by the patient in Platform24 digital triage on 2026-11-17). Answers in digital triage: &quot;Have you followed the national vaccination program for tetanus?&quot; Yes. &quot;Have you received 3 or 4 tetanus vaccines?&quot; 4 vaccines. &quot;Has it been longer than 20 years since the last vaccine?&quot; No.</p></div>"
+      },
+      "status": "completed",
+      "vaccineCode": {
+        "text": "Tetanus vaccine"
+      },
+      "patient": {
+        "reference": "urn:uuid:47d637c3-44d0-59cf-899f-688adbeeedc5"
+      },
+      "occurrenceString": "4 doses; national vaccination programme followed; the last less than 20 years before 2026-11-17",
+      "recorded": "2026-11-17T19:08:49+01:00",
+      "primarySource": false,
+      "reportOrigin": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/immunization-origin",
+          "code": "recall",
+          "display": "Parent/Guardian/Patient Recall"
+        } ]
+      },
+      "note": [ {
+        "text": "Answers in digital triage: \"Have you followed the national vaccination program for tetanus?\" Yes. \"Have you received 3 or 4 tetanus vaccines?\" 4 vaccines. \"Has it been longer than 20 years since the last vaccine?\" No."
+      } ]
+    }
+  }, {
+    "fullUrl": "urn:uuid:d1e5af2c-9222-51ea-a669-d96b6756b491",
+    "resource": {
+      "resourceType": "Immunization",
+      "id": "d1e5af2c-9222-51ea-a669-d96b6756b491",
+      "text": {
+        "status": "generated",
+        "div": "<div xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"><p>Influenza vaccine, 10 October, as reported on 2026-11-17 (patient-reported, not clinician-verified; reported by the patient in Platform24 digital triage on 2026-11-17). I had my flu jab on 10 October and a COVID-19 booster in September, and I had the pneumococcal vaccine two years ago.</p></div>"
+      },
+      "status": "completed",
+      "vaccineCode": {
+        "text": "Influenza vaccine"
+      },
+      "patient": {
+        "reference": "urn:uuid:47d637c3-44d0-59cf-899f-688adbeeedc5"
+      },
+      "occurrenceString": "10 October, as reported on 2026-11-17",
+      "recorded": "2026-11-17T19:08:49+01:00",
+      "primarySource": false,
+      "reportOrigin": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/immunization-origin",
+          "code": "recall",
+          "display": "Parent/Guardian/Patient Recall"
+        } ]
+      },
+      "note": [ {
+        "text": "I had my flu jab on 10 October and a COVID-19 booster in September, and I had the pneumococcal vaccine two years ago."
+      } ]
+    }
+  }, {
+    "fullUrl": "urn:uuid:e8c9dde7-736d-55fc-8fe0-39f6fe8a63c0",
+    "resource": {
+      "resourceType": "Immunization",
+      "id": "e8c9dde7-736d-55fc-8fe0-39f6fe8a63c0",
+      "text": {
+        "status": "generated",
+        "div": "<div xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"><p>COVID-19 vaccine, September, as reported on 2026-11-17 (patient-reported, not clinician-verified; reported by the patient in Platform24 digital triage on 2026-11-17). I had my flu jab on 10 October and a COVID-19 booster in September, and I had the pneumococcal vaccine two years ago.</p></div>"
+      },
+      "status": "completed",
+      "vaccineCode": {
+        "text": "COVID-19 vaccine"
+      },
+      "patient": {
+        "reference": "urn:uuid:47d637c3-44d0-59cf-899f-688adbeeedc5"
+      },
+      "occurrenceString": "September, as reported on 2026-11-17",
+      "recorded": "2026-11-17T19:08:49+01:00",
+      "primarySource": false,
+      "reportOrigin": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/immunization-origin",
+          "code": "recall",
+          "display": "Parent/Guardian/Patient Recall"
+        } ]
+      },
+      "note": [ {
+        "text": "I had my flu jab on 10 October and a COVID-19 booster in September, and I had the pneumococcal vaccine two years ago."
+      } ]
+    }
+  }, {
+    "fullUrl": "urn:uuid:3425bed3-4199-566c-a3ab-27df6768a471",
+    "resource": {
+      "resourceType": "Immunization",
+      "id": "3425bed3-4199-566c-a3ab-27df6768a471",
+      "text": {
+        "status": "generated",
+        "div": "<div xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"><p>Pneumococcal vaccine, 2 years before 2026-11-17 (patient-reported, not clinician-verified; reported by the patient in Platform24 digital triage on 2026-11-17). I had my flu jab on 10 October and a COVID-19 booster in September, and I had the pneumococcal vaccine two years ago.</p></div>"
+      },
+      "status": "completed",
+      "vaccineCode": {
+        "text": "Pneumococcal vaccine"
+      },
+      "patient": {
+        "reference": "urn:uuid:47d637c3-44d0-59cf-899f-688adbeeedc5"
+      },
+      "occurrenceString": "2 years before 2026-11-17",
+      "recorded": "2026-11-17T19:08:49+01:00",
+      "primarySource": false,
+      "reportOrigin": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/immunization-origin",
+          "code": "recall",
+          "display": "Parent/Guardian/Patient Recall"
+        } ]
+      },
+      "note": [ {
+        "text": "I had my flu jab on 10 October and a COVID-19 booster in September, and I had the pneumococcal vaccine two years ago."
+      } ]
+    }
+  }, {
+    "fullUrl": "urn:uuid:d75e6a94-a9cf-544d-adf8-b8b8ffd8639b",
+    "resource": {
+      "resourceType": "Observation",
+      "id": "d75e6a94-a9cf-544d-adf8-b8b8ffd8639b",
+      "meta": {
+        "profile": [ "http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-results-laboratory-pathology-uv-ips" ]
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"><p>Plasma glucose: 7.6 mmol/L at 2026-11-10T08:40:00+01:00 (patient-reported)</p></div>"
+      },
+      "status": "final",
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "laboratory",
+          "display": "Laboratory"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "14749-6",
+          "display": "Glucose [Moles/volume] in Serum or Plasma"
+        }, {
+          "system": "urn:oid:1.2.208.176.2.1",
+          "code": "NPU02192",
+          "display": "P-Glucose; subst.c."
+        } ],
+        "text": "Plasma glucose"
+      },
+      "subject": {
+        "reference": "urn:uuid:47d637c3-44d0-59cf-899f-688adbeeedc5"
+      },
+      "effectiveDateTime": "2026-11-10T08:40:00+01:00",
+      "performer": [ {
+        "reference": "urn:uuid:47d637c3-44d0-59cf-899f-688adbeeedc5"
+      } ],
+      "valueQuantity": {
+        "value": 7.6,
+        "unit": "mmol/L",
+        "system": "http://unitsofmeasure.org",
+        "code": "mmol/L"
+      },
+      "device": {
+        "reference": "urn:uuid:acb81dba-5112-5e29-9ad6-53e7b23864b4"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:5352dcf6-d600-5fdc-a80d-fdadcb04d49c",
+    "resource": {
+      "resourceType": "Observation",
+      "id": "5352dcf6-d600-5fdc-a80d-fdadcb04d49c",
+      "meta": {
+        "profile": [ "http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-results-laboratory-pathology-uv-ips" ]
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"><p>Plasma glucose: 8.2 mmol/L at 2026-11-03T08:25:00+01:00 (patient-reported)</p></div>"
+      },
+      "status": "final",
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "laboratory",
+          "display": "Laboratory"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "14749-6",
+          "display": "Glucose [Moles/volume] in Serum or Plasma"
+        }, {
+          "system": "urn:oid:1.2.208.176.2.1",
+          "code": "NPU02192",
+          "display": "P-Glucose; subst.c."
+        } ],
+        "text": "Plasma glucose"
+      },
+      "subject": {
+        "reference": "urn:uuid:47d637c3-44d0-59cf-899f-688adbeeedc5"
+      },
+      "effectiveDateTime": "2026-11-03T08:25:00+01:00",
+      "performer": [ {
+        "reference": "urn:uuid:47d637c3-44d0-59cf-899f-688adbeeedc5"
+      } ],
+      "valueQuantity": {
+        "value": 8.2,
+        "unit": "mmol/L",
+        "system": "http://unitsofmeasure.org",
+        "code": "mmol/L"
+      },
+      "device": {
+        "reference": "urn:uuid:acb81dba-5112-5e29-9ad6-53e7b23864b4"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:e991d114-8ac0-5536-92af-7a2cc3f3070a",
+    "resource": {
+      "resourceType": "Observation",
+      "id": "e991d114-8ac0-5536-92af-7a2cc3f3070a",
+      "meta": {
+        "profile": [ "http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-results-laboratory-pathology-uv-ips" ]
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"><p>Plasma glucose: 8.9 mmol/L at 2026-10-27T08:35:00+01:00 (patient-reported)</p></div>"
+      },
+      "status": "final",
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "laboratory",
+          "display": "Laboratory"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "14749-6",
+          "display": "Glucose [Moles/volume] in Serum or Plasma"
+        }, {
+          "system": "urn:oid:1.2.208.176.2.1",
+          "code": "NPU02192",
+          "display": "P-Glucose; subst.c."
+        } ],
+        "text": "Plasma glucose"
+      },
+      "subject": {
+        "reference": "urn:uuid:47d637c3-44d0-59cf-899f-688adbeeedc5"
+      },
+      "effectiveDateTime": "2026-10-27T08:35:00+01:00",
+      "performer": [ {
+        "reference": "urn:uuid:47d637c3-44d0-59cf-899f-688adbeeedc5"
+      } ],
+      "valueQuantity": {
+        "value": 8.9,
+        "unit": "mmol/L",
+        "system": "http://unitsofmeasure.org",
+        "code": "mmol/L"
+      },
+      "device": {
+        "reference": "urn:uuid:acb81dba-5112-5e29-9ad6-53e7b23864b4"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:16268060-ebc7-59ba-b160-f334207d2130",
+    "resource": {
+      "resourceType": "Observation",
+      "id": "16268060-ebc7-59ba-b160-f334207d2130",
+      "meta": {
+        "profile": [ "http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-results-laboratory-pathology-uv-ips" ]
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"><p>Plasma glucose: 9.8 mmol/L at 2026-10-20T09:30:00+02:00 (patient-reported)</p></div>"
+      },
+      "status": "final",
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "laboratory",
+          "display": "Laboratory"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "14749-6",
+          "display": "Glucose [Moles/volume] in Serum or Plasma"
+        }, {
+          "system": "urn:oid:1.2.208.176.2.1",
+          "code": "NPU02192",
+          "display": "P-Glucose; subst.c."
+        } ],
+        "text": "Plasma glucose"
+      },
+      "subject": {
+        "reference": "urn:uuid:47d637c3-44d0-59cf-899f-688adbeeedc5"
+      },
+      "effectiveDateTime": "2026-10-20T09:30:00+02:00",
+      "performer": [ {
+        "reference": "urn:uuid:47d637c3-44d0-59cf-899f-688adbeeedc5"
+      } ],
+      "valueQuantity": {
+        "value": 9.8,
+        "unit": "mmol/L",
+        "system": "http://unitsofmeasure.org",
+        "code": "mmol/L"
+      },
+      "device": {
+        "reference": "urn:uuid:acb81dba-5112-5e29-9ad6-53e7b23864b4"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:b4e0b3d4-c136-5d5b-8eaa-719712b976d2",
+    "resource": {
+      "resourceType": "Observation",
+      "id": "b4e0b3d4-c136-5d5b-8eaa-719712b976d2",
+      "meta": {
+        "profile": [ "http://hl7.org/fhir/StructureDefinition/vitalsigns", "http://hl7.org/fhir/StructureDefinition/bp" ]
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"><p>Blood pressure: 136/85 mm[Hg] at 2026-11-10T09:00:00+01:00 (patient-reported)</p></div>"
+      },
+      "status": "final",
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "vital-signs",
+          "display": "Vital Signs"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "85354-9",
+          "display": "Blood pressure panel with all children optional"
+        } ],
+        "text": "Blood pressure"
+      },
+      "subject": {
+        "reference": "urn:uuid:47d637c3-44d0-59cf-899f-688adbeeedc5"
+      },
+      "effectiveDateTime": "2026-11-10T09:00:00+01:00",
+      "performer": [ {
+        "reference": "urn:uuid:47d637c3-44d0-59cf-899f-688adbeeedc5"
+      } ],
+      "device": {
+        "reference": "urn:uuid:e3c5cdf2-75b4-5b90-9f35-40e38a8f7d07"
+      },
+      "component": [ {
+        "code": {
+          "coding": [ {
+            "system": "http://loinc.org",
+            "code": "8480-6",
+            "display": "Systolic blood pressure"
+          } ],
+          "text": "Systolic blood pressure"
+        },
+        "valueQuantity": {
+          "value": 136,
+          "unit": "mm[Hg]",
+          "system": "http://unitsofmeasure.org",
+          "code": "mm[Hg]"
+        }
+      }, {
+        "code": {
+          "coding": [ {
+            "system": "http://loinc.org",
+            "code": "8462-4",
+            "display": "Diastolic blood pressure"
+          } ],
+          "text": "Diastolic blood pressure"
+        },
+        "valueQuantity": {
+          "value": 85,
+          "unit": "mm[Hg]",
+          "system": "http://unitsofmeasure.org",
+          "code": "mm[Hg]"
+        }
+      } ]
+    }
+  }, {
+    "fullUrl": "urn:uuid:9445256e-ac6b-5fbf-9a20-d1b48026aec0",
+    "resource": {
+      "resourceType": "Observation",
+      "id": "9445256e-ac6b-5fbf-9a20-d1b48026aec0",
+      "meta": {
+        "profile": [ "http://hl7.org/fhir/StructureDefinition/vitalsigns", "http://hl7.org/fhir/StructureDefinition/bp" ]
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"><p>Blood pressure: 139/87 mm[Hg] at 2026-11-03T09:15:00+01:00 (patient-reported)</p></div>"
+      },
+      "status": "final",
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "vital-signs",
+          "display": "Vital Signs"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "85354-9",
+          "display": "Blood pressure panel with all children optional"
+        } ],
+        "text": "Blood pressure"
+      },
+      "subject": {
+        "reference": "urn:uuid:47d637c3-44d0-59cf-899f-688adbeeedc5"
+      },
+      "effectiveDateTime": "2026-11-03T09:15:00+01:00",
+      "performer": [ {
+        "reference": "urn:uuid:47d637c3-44d0-59cf-899f-688adbeeedc5"
+      } ],
+      "device": {
+        "reference": "urn:uuid:e3c5cdf2-75b4-5b90-9f35-40e38a8f7d07"
+      },
+      "component": [ {
+        "code": {
+          "coding": [ {
+            "system": "http://loinc.org",
+            "code": "8480-6",
+            "display": "Systolic blood pressure"
+          } ],
+          "text": "Systolic blood pressure"
+        },
+        "valueQuantity": {
+          "value": 139,
+          "unit": "mm[Hg]",
+          "system": "http://unitsofmeasure.org",
+          "code": "mm[Hg]"
+        }
+      }, {
+        "code": {
+          "coding": [ {
+            "system": "http://loinc.org",
+            "code": "8462-4",
+            "display": "Diastolic blood pressure"
+          } ],
+          "text": "Diastolic blood pressure"
+        },
+        "valueQuantity": {
+          "value": 87,
+          "unit": "mm[Hg]",
+          "system": "http://unitsofmeasure.org",
+          "code": "mm[Hg]"
+        }
+      } ]
+    }
+  }, {
+    "fullUrl": "urn:uuid:beb74b7b-b11f-5404-99a5-b83e97a3fa7e",
+    "resource": {
+      "resourceType": "Observation",
+      "id": "beb74b7b-b11f-5404-99a5-b83e97a3fa7e",
+      "meta": {
+        "profile": [ "http://hl7.org/fhir/StructureDefinition/vitalsigns", "http://hl7.org/fhir/StructureDefinition/bp" ]
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"><p>Blood pressure: 144/90 mm[Hg] at 2026-10-27T09:05:00+01:00 (patient-reported)</p></div>"
+      },
+      "status": "final",
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "vital-signs",
+          "display": "Vital Signs"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "85354-9",
+          "display": "Blood pressure panel with all children optional"
+        } ],
+        "text": "Blood pressure"
+      },
+      "subject": {
+        "reference": "urn:uuid:47d637c3-44d0-59cf-899f-688adbeeedc5"
+      },
+      "effectiveDateTime": "2026-10-27T09:05:00+01:00",
+      "performer": [ {
+        "reference": "urn:uuid:47d637c3-44d0-59cf-899f-688adbeeedc5"
+      } ],
+      "device": {
+        "reference": "urn:uuid:e3c5cdf2-75b4-5b90-9f35-40e38a8f7d07"
+      },
+      "component": [ {
+        "code": {
+          "coding": [ {
+            "system": "http://loinc.org",
+            "code": "8480-6",
+            "display": "Systolic blood pressure"
+          } ],
+          "text": "Systolic blood pressure"
+        },
+        "valueQuantity": {
+          "value": 144,
+          "unit": "mm[Hg]",
+          "system": "http://unitsofmeasure.org",
+          "code": "mm[Hg]"
+        }
+      }, {
+        "code": {
+          "coding": [ {
+            "system": "http://loinc.org",
+            "code": "8462-4",
+            "display": "Diastolic blood pressure"
+          } ],
+          "text": "Diastolic blood pressure"
+        },
+        "valueQuantity": {
+          "value": 90,
+          "unit": "mm[Hg]",
+          "system": "http://unitsofmeasure.org",
+          "code": "mm[Hg]"
+        }
+      } ]
+    }
+  }, {
+    "fullUrl": "urn:uuid:5d69087f-dc55-5333-b72e-a6a0f78b100e",
+    "resource": {
+      "resourceType": "Observation",
+      "id": "5d69087f-dc55-5333-b72e-a6a0f78b100e",
+      "meta": {
+        "profile": [ "http://hl7.org/fhir/StructureDefinition/vitalsigns", "http://hl7.org/fhir/StructureDefinition/bp" ]
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"><p>Blood pressure: 118/79 mm[Hg] at 2026-10-26T15:02:01+01:00 (patient-reported)</p></div>"
+      },
+      "status": "final",
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "vital-signs",
+          "display": "Vital Signs"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "85354-9",
+          "display": "Blood pressure panel with all children optional"
+        } ],
+        "text": "Blood pressure"
+      },
+      "subject": {
+        "reference": "urn:uuid:47d637c3-44d0-59cf-899f-688adbeeedc5"
+      },
+      "effectiveDateTime": "2026-10-26T15:02:01+01:00",
+      "performer": [ {
+        "reference": "urn:uuid:47d637c3-44d0-59cf-899f-688adbeeedc5"
+      } ],
+      "device": {
+        "reference": "urn:uuid:e3c5cdf2-75b4-5b90-9f35-40e38a8f7d07"
+      },
+      "component": [ {
+        "code": {
+          "coding": [ {
+            "system": "http://loinc.org",
+            "code": "8480-6",
+            "display": "Systolic blood pressure"
+          } ],
+          "text": "Systolic blood pressure"
+        },
+        "valueQuantity": {
+          "value": 118,
+          "unit": "mm[Hg]",
+          "system": "http://unitsofmeasure.org",
+          "code": "mm[Hg]"
+        }
+      }, {
+        "code": {
+          "coding": [ {
+            "system": "http://loinc.org",
+            "code": "8462-4",
+            "display": "Diastolic blood pressure"
+          } ],
+          "text": "Diastolic blood pressure"
+        },
+        "valueQuantity": {
+          "value": 79,
+          "unit": "mm[Hg]",
+          "system": "http://unitsofmeasure.org",
+          "code": "mm[Hg]"
+        }
+      } ]
+    }
+  }, {
+    "fullUrl": "urn:uuid:745615c2-9e57-5111-abd1-dd30cfd03c90",
+    "resource": {
+      "resourceType": "Observation",
+      "id": "745615c2-9e57-5111-abd1-dd30cfd03c90",
+      "meta": {
+        "profile": [ "http://hl7.org/fhir/StructureDefinition/vitalsigns", "http://hl7.org/fhir/StructureDefinition/bp" ]
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"><p>Blood pressure: 122/78 mm[Hg] at 2026-10-26T14:59:42+01:00 (patient-reported)</p></div>"
+      },
+      "status": "final",
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "vital-signs",
+          "display": "Vital Signs"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "85354-9",
+          "display": "Blood pressure panel with all children optional"
+        } ],
+        "text": "Blood pressure"
+      },
+      "subject": {
+        "reference": "urn:uuid:47d637c3-44d0-59cf-899f-688adbeeedc5"
+      },
+      "effectiveDateTime": "2026-10-26T14:59:42+01:00",
+      "performer": [ {
+        "reference": "urn:uuid:47d637c3-44d0-59cf-899f-688adbeeedc5"
+      } ],
+      "device": {
+        "reference": "urn:uuid:e3c5cdf2-75b4-5b90-9f35-40e38a8f7d07"
+      },
+      "component": [ {
+        "code": {
+          "coding": [ {
+            "system": "http://loinc.org",
+            "code": "8480-6",
+            "display": "Systolic blood pressure"
+          } ],
+          "text": "Systolic blood pressure"
+        },
+        "valueQuantity": {
+          "value": 122,
+          "unit": "mm[Hg]",
+          "system": "http://unitsofmeasure.org",
+          "code": "mm[Hg]"
+        }
+      }, {
+        "code": {
+          "coding": [ {
+            "system": "http://loinc.org",
+            "code": "8462-4",
+            "display": "Diastolic blood pressure"
+          } ],
+          "text": "Diastolic blood pressure"
+        },
+        "valueQuantity": {
+          "value": 78,
+          "unit": "mm[Hg]",
+          "system": "http://unitsofmeasure.org",
+          "code": "mm[Hg]"
+        }
+      } ]
+    }
+  }, {
+    "fullUrl": "urn:uuid:87df906a-9098-5f12-8ef1-b96ae1097861",
+    "resource": {
+      "resourceType": "Observation",
+      "id": "87df906a-9098-5f12-8ef1-b96ae1097861",
+      "meta": {
+        "profile": [ "http://hl7.org/fhir/StructureDefinition/vitalsigns", "http://hl7.org/fhir/StructureDefinition/bp" ]
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"><p>Blood pressure: 120/80 mm[Hg] at 2026-10-26T14:59:00+01:00 (patient-reported)</p></div>"
+      },
+      "status": "final",
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "vital-signs",
+          "display": "Vital Signs"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "85354-9",
+          "display": "Blood pressure panel with all children optional"
+        } ],
+        "text": "Blood pressure"
+      },
+      "subject": {
+        "reference": "urn:uuid:47d637c3-44d0-59cf-899f-688adbeeedc5"
+      },
+      "effectiveDateTime": "2026-10-26T14:59:00+01:00",
+      "performer": [ {
+        "reference": "urn:uuid:47d637c3-44d0-59cf-899f-688adbeeedc5"
+      } ],
+      "device": {
+        "reference": "urn:uuid:e3c5cdf2-75b4-5b90-9f35-40e38a8f7d07"
+      },
+      "component": [ {
+        "code": {
+          "coding": [ {
+            "system": "http://loinc.org",
+            "code": "8480-6",
+            "display": "Systolic blood pressure"
+          } ],
+          "text": "Systolic blood pressure"
+        },
+        "valueQuantity": {
+          "value": 120,
+          "unit": "mm[Hg]",
+          "system": "http://unitsofmeasure.org",
+          "code": "mm[Hg]"
+        }
+      }, {
+        "code": {
+          "coding": [ {
+            "system": "http://loinc.org",
+            "code": "8462-4",
+            "display": "Diastolic blood pressure"
+          } ],
+          "text": "Diastolic blood pressure"
+        },
+        "valueQuantity": {
+          "value": 80,
+          "unit": "mm[Hg]",
+          "system": "http://unitsofmeasure.org",
+          "code": "mm[Hg]"
+        }
+      } ]
+    }
+  }, {
+    "fullUrl": "urn:uuid:f7b2154e-604f-56e6-adb3-23f6bb78c463",
+    "resource": {
+      "resourceType": "Observation",
+      "id": "f7b2154e-604f-56e6-adb3-23f6bb78c463",
+      "meta": {
+        "profile": [ "http://hl7.org/fhir/StructureDefinition/vitalsigns", "http://hl7.org/fhir/StructureDefinition/bp" ]
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"><p>Blood pressure: 148/92 mm[Hg] at 2026-10-20T10:10:00+02:00 (patient-reported)</p></div>"
+      },
+      "status": "final",
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "vital-signs",
+          "display": "Vital Signs"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "85354-9",
+          "display": "Blood pressure panel with all children optional"
+        } ],
+        "text": "Blood pressure"
+      },
+      "subject": {
+        "reference": "urn:uuid:47d637c3-44d0-59cf-899f-688adbeeedc5"
+      },
+      "effectiveDateTime": "2026-10-20T10:10:00+02:00",
+      "performer": [ {
+        "reference": "urn:uuid:47d637c3-44d0-59cf-899f-688adbeeedc5"
+      } ],
+      "device": {
+        "reference": "urn:uuid:e3c5cdf2-75b4-5b90-9f35-40e38a8f7d07"
+      },
+      "component": [ {
+        "code": {
+          "coding": [ {
+            "system": "http://loinc.org",
+            "code": "8480-6",
+            "display": "Systolic blood pressure"
+          } ],
+          "text": "Systolic blood pressure"
+        },
+        "valueQuantity": {
+          "value": 148,
+          "unit": "mm[Hg]",
+          "system": "http://unitsofmeasure.org",
+          "code": "mm[Hg]"
+        }
+      }, {
+        "code": {
+          "coding": [ {
+            "system": "http://loinc.org",
+            "code": "8462-4",
+            "display": "Diastolic blood pressure"
+          } ],
+          "text": "Diastolic blood pressure"
+        },
+        "valueQuantity": {
+          "value": 92,
+          "unit": "mm[Hg]",
+          "system": "http://unitsofmeasure.org",
+          "code": "mm[Hg]"
+        }
+      } ]
+    }
+  }, {
+    "fullUrl": "urn:uuid:ba55ee00-6906-54db-b659-a233b002208d",
+    "resource": {
+      "resourceType": "Observation",
+      "id": "ba55ee00-6906-54db-b659-a233b002208d",
+      "meta": {
+        "profile": [ "http://hl7.org/fhir/StructureDefinition/vitalsigns", "http://hl7.org/fhir/StructureDefinition/bodyweight" ]
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"><p>Body weight: 94.6 kg at 2026-11-10T08:45:00+01:00 (patient-reported)</p></div>"
+      },
+      "status": "final",
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "vital-signs",
+          "display": "Vital Signs"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "29463-7",
+          "display": "Body weight"
+        }, {
+          "system": "http://snomed.info/sct",
+          "code": "27113001",
+          "display": "Body weight"
+        } ],
+        "text": "Body weight"
+      },
+      "subject": {
+        "reference": "urn:uuid:47d637c3-44d0-59cf-899f-688adbeeedc5"
+      },
+      "effectiveDateTime": "2026-11-10T08:45:00+01:00",
+      "performer": [ {
+        "reference": "urn:uuid:47d637c3-44d0-59cf-899f-688adbeeedc5"
+      } ],
+      "valueQuantity": {
+        "value": 94.6,
+        "unit": "kg",
+        "system": "http://unitsofmeasure.org",
+        "code": "kg"
+      },
+      "device": {
+        "reference": "urn:uuid:9438c255-cbad-514e-9a30-66d96451972f"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:86966c40-6b54-5d6a-8cc9-d29a358b32ab",
+    "resource": {
+      "resourceType": "Observation",
+      "id": "86966c40-6b54-5d6a-8cc9-d29a358b32ab",
+      "meta": {
+        "profile": [ "http://hl7.org/fhir/StructureDefinition/vitalsigns", "http://hl7.org/fhir/StructureDefinition/bodyweight" ]
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"><p>Body weight: 95.1 kg at 2026-11-03T08:55:00+01:00 (patient-reported)</p></div>"
+      },
+      "status": "final",
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "vital-signs",
+          "display": "Vital Signs"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "29463-7",
+          "display": "Body weight"
+        }, {
+          "system": "http://snomed.info/sct",
+          "code": "27113001",
+          "display": "Body weight"
+        } ],
+        "text": "Body weight"
+      },
+      "subject": {
+        "reference": "urn:uuid:47d637c3-44d0-59cf-899f-688adbeeedc5"
+      },
+      "effectiveDateTime": "2026-11-03T08:55:00+01:00",
+      "performer": [ {
+        "reference": "urn:uuid:47d637c3-44d0-59cf-899f-688adbeeedc5"
+      } ],
+      "valueQuantity": {
+        "value": 95.1,
+        "unit": "kg",
+        "system": "http://unitsofmeasure.org",
+        "code": "kg"
+      },
+      "device": {
+        "reference": "urn:uuid:9438c255-cbad-514e-9a30-66d96451972f"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:0b9ae370-824d-5f9a-8420-3e34954abad4",
+    "resource": {
+      "resourceType": "Observation",
+      "id": "0b9ae370-824d-5f9a-8420-3e34954abad4",
+      "meta": {
+        "profile": [ "http://hl7.org/fhir/StructureDefinition/vitalsigns", "http://hl7.org/fhir/StructureDefinition/bodyweight" ]
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"><p>Body weight: 96.4 kg at 2026-10-20T09:50:00+02:00 (patient-reported)</p></div>"
+      },
+      "status": "final",
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "vital-signs",
+          "display": "Vital Signs"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "29463-7",
+          "display": "Body weight"
+        }, {
+          "system": "http://snomed.info/sct",
+          "code": "27113001",
+          "display": "Body weight"
+        } ],
+        "text": "Body weight"
+      },
+      "subject": {
+        "reference": "urn:uuid:47d637c3-44d0-59cf-899f-688adbeeedc5"
+      },
+      "effectiveDateTime": "2026-10-20T09:50:00+02:00",
+      "performer": [ {
+        "reference": "urn:uuid:47d637c3-44d0-59cf-899f-688adbeeedc5"
+      } ],
+      "valueQuantity": {
+        "value": 96.4,
+        "unit": "kg",
+        "system": "http://unitsofmeasure.org",
+        "code": "kg"
+      },
+      "device": {
+        "reference": "urn:uuid:9438c255-cbad-514e-9a30-66d96451972f"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:b8303249-6211-570f-9277-3b7d3c0ba575",
+    "resource": {
+      "resourceType": "Observation",
+      "id": "b8303249-6211-570f-9277-3b7d3c0ba575",
+      "meta": {
+        "profile": [ "http://hl7.org/fhir/StructureDefinition/vitalsigns", "http://hl7.org/fhir/StructureDefinition/heartrate" ]
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"><p>Heart rate: 68 /min at 2026-10-26T15:02:01+01:00 (patient-reported)</p></div>"
+      },
+      "status": "final",
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "vital-signs",
+          "display": "Vital Signs"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "8867-4",
+          "display": "Heart rate"
+        } ],
+        "text": "Heart rate"
+      },
+      "subject": {
+        "reference": "urn:uuid:47d637c3-44d0-59cf-899f-688adbeeedc5"
+      },
+      "effectiveDateTime": "2026-10-26T15:02:01+01:00",
+      "performer": [ {
+        "reference": "urn:uuid:47d637c3-44d0-59cf-899f-688adbeeedc5"
+      } ],
+      "valueQuantity": {
+        "value": 68,
+        "unit": "/min",
+        "system": "http://unitsofmeasure.org",
+        "code": "/min"
+      },
+      "device": {
+        "reference": "urn:uuid:e3c5cdf2-75b4-5b90-9f35-40e38a8f7d07"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:5c383c02-2e46-5708-b858-77de0ea1bfac",
+    "resource": {
+      "resourceType": "Observation",
+      "id": "5c383c02-2e46-5708-b858-77de0ea1bfac",
+      "meta": {
+        "profile": [ "http://hl7.org/fhir/StructureDefinition/vitalsigns", "http://hl7.org/fhir/StructureDefinition/heartrate" ]
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"><p>Heart rate: 72 /min at 2026-10-26T14:59:42+01:00 (patient-reported)</p></div>"
+      },
+      "status": "final",
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "vital-signs",
+          "display": "Vital Signs"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "8867-4",
+          "display": "Heart rate"
+        } ],
+        "text": "Heart rate"
+      },
+      "subject": {
+        "reference": "urn:uuid:47d637c3-44d0-59cf-899f-688adbeeedc5"
+      },
+      "effectiveDateTime": "2026-10-26T14:59:42+01:00",
+      "performer": [ {
+        "reference": "urn:uuid:47d637c3-44d0-59cf-899f-688adbeeedc5"
+      } ],
+      "valueQuantity": {
+        "value": 72,
+        "unit": "/min",
+        "system": "http://unitsofmeasure.org",
+        "code": "/min"
+      },
+      "device": {
+        "reference": "urn:uuid:e3c5cdf2-75b4-5b90-9f35-40e38a8f7d07"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:f427d4ea-90b0-54fe-950c-497c23130497",
+    "resource": {
+      "resourceType": "Observation",
+      "id": "f427d4ea-90b0-54fe-950c-497c23130497",
+      "meta": {
+        "profile": [ "http://hl7.org/fhir/StructureDefinition/vitalsigns", "http://hl7.org/fhir/StructureDefinition/heartrate" ]
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"><p>Heart rate: 70 /min at 2026-10-26T14:59:00+01:00 (patient-reported)</p></div>"
+      },
+      "status": "final",
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "vital-signs",
+          "display": "Vital Signs"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "8867-4",
+          "display": "Heart rate"
+        } ],
+        "text": "Heart rate"
+      },
+      "subject": {
+        "reference": "urn:uuid:47d637c3-44d0-59cf-899f-688adbeeedc5"
+      },
+      "effectiveDateTime": "2026-10-26T14:59:00+01:00",
+      "performer": [ {
+        "reference": "urn:uuid:47d637c3-44d0-59cf-899f-688adbeeedc5"
+      } ],
+      "valueQuantity": {
+        "value": 70,
+        "unit": "/min",
+        "system": "http://unitsofmeasure.org",
+        "code": "/min"
+      },
+      "device": {
+        "reference": "urn:uuid:e3c5cdf2-75b4-5b90-9f35-40e38a8f7d07"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:da8a5faa-94d5-5a71-ab7a-c61db49f22c0",
+    "resource": {
+      "resourceType": "Condition",
+      "id": "da8a5faa-94d5-5a71-ab7a-c61db49f22c0",
+      "text": {
+        "status": "generated",
+        "div": "<div xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"><p>Heart attack (myocardial infarction), 3 years before 2026-11-17 (resolved, unconfirmed; patient-reported, not clinician-verified; reported by the patient in Platform24 digital triage on 2026-11-17). Patient's words: &quot;Yes, heart failure since a heart attack 3 years ago, when I got a stent.&quot;</p></div>"
+      },
+      "clinicalStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "resolved",
+          "display": "Resolved"
+        } ]
+      },
+      "verificationStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+          "code": "unconfirmed",
+          "display": "Unconfirmed"
+        } ]
+      },
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+          "code": "problem-list-item",
+          "display": "Problem List Item"
+        } ]
+      } ],
+      "code": {
+        "text": "Heart attack (myocardial infarction)"
+      },
+      "subject": {
+        "reference": "urn:uuid:47d637c3-44d0-59cf-899f-688adbeeedc5"
+      },
+      "onsetString": "3 years before 2026-11-17",
+      "recordedDate": "2026-11-17T18:01:23+01:00",
+      "asserter": {
+        "reference": "urn:uuid:47d637c3-44d0-59cf-899f-688adbeeedc5"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:89665dd0-af46-5b5a-8404-4b37faab5851",
+    "resource": {
+      "resourceType": "Condition",
+      "id": "89665dd0-af46-5b5a-8404-4b37faab5851",
+      "text": {
+        "status": "generated",
+        "div": "<div xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"><p>Pneumonia, in 2019 (resolved, unconfirmed; patient-reported, not clinician-verified; reported by the patient in Platform24 digital triage on 2026-11-17). Patient's words: &quot;I had pneumonia in 2019 and a kidney stone about 10 years ago, both cleared up.&quot;</p></div>"
+      },
+      "clinicalStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "resolved",
+          "display": "Resolved"
+        } ]
+      },
+      "verificationStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+          "code": "unconfirmed",
+          "display": "Unconfirmed"
+        } ]
+      },
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+          "code": "problem-list-item",
+          "display": "Problem List Item"
+        } ]
+      } ],
+      "code": {
+        "text": "Pneumonia"
+      },
+      "subject": {
+        "reference": "urn:uuid:47d637c3-44d0-59cf-899f-688adbeeedc5"
+      },
+      "onsetString": "in 2019",
+      "recordedDate": "2026-11-17T19:11:12+01:00",
+      "asserter": {
+        "reference": "urn:uuid:47d637c3-44d0-59cf-899f-688adbeeedc5"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:c974bb08-d100-50f4-94ab-aae47a1ede59",
+    "resource": {
+      "resourceType": "Condition",
+      "id": "c974bb08-d100-50f4-94ab-aae47a1ede59",
+      "text": {
+        "status": "generated",
+        "div": "<div xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"><p>Kidney stone, about 10 years before 2026-11-17 (resolved, unconfirmed; patient-reported, not clinician-verified; reported by the patient in Platform24 digital triage on 2026-11-17). Patient's words: &quot;I had pneumonia in 2019 and a kidney stone about 10 years ago, both cleared up.&quot;</p></div>"
+      },
+      "clinicalStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "resolved",
+          "display": "Resolved"
+        } ]
+      },
+      "verificationStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+          "code": "unconfirmed",
+          "display": "Unconfirmed"
+        } ]
+      },
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+          "code": "problem-list-item",
+          "display": "Problem List Item"
+        } ]
+      } ],
+      "code": {
+        "text": "Kidney stone"
+      },
+      "subject": {
+        "reference": "urn:uuid:47d637c3-44d0-59cf-899f-688adbeeedc5"
+      },
+      "onsetString": "about 10 years before 2026-11-17",
+      "recordedDate": "2026-11-17T19:11:12+01:00",
+      "asserter": {
+        "reference": "urn:uuid:47d637c3-44d0-59cf-899f-688adbeeedc5"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:5b8e6c16-27ba-5681-9be3-9e814aa0519b",
+    "resource": {
+      "resourceType": "ClinicalImpression",
+      "id": "5b8e6c16-27ba-5681-9be3-9e814aa0519b",
+      "text": {
+        "status": "generated",
+        "div": "<div xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"><p>What the patient can and cannot do, as answered in digital triage (patient-reported, not clinician-verified; reported by the patient in Platform24 digital triage on 2026-11-17): Breathing problems in these situations: In the context of exercise or physical activity; When I go up the stairs (1-2 floors); When walking on flat ground. Not chosen: When I get dressed; When I speak or say some sentences; When I am resting. New loss of abilities at the moment: None of the above. Not chosen: Unable to eat or drink; Unable to sit up for 10 minutes; Unable to get dressed or go to the toilet; Unable to think clearly or communicate; Experiencing heart palpitations or cold sweats.</p></div>"
+      },
+      "status": "completed",
+      "description": "What the patient can and cannot do, as answered in digital triage (patient-reported, not clinician-verified; reported by the patient in Platform24 digital triage on 2026-11-17)",
+      "subject": {
+        "reference": "urn:uuid:47d637c3-44d0-59cf-899f-688adbeeedc5"
+      },
+      "effectiveDateTime": "2026-11-17T18:01:23+01:00",
+      "date": "2026-11-17T18:01:23+01:00",
+      "summary": "Breathing problems in these situations: In the context of exercise or physical activity; When I go up the stairs (1-2 floors); When walking on flat ground. Not chosen: When I get dressed; When I speak or say some sentences; When I am resting. New loss of abilities at the moment: None of the above. Not chosen: Unable to eat or drink; Unable to sit up for 10 minutes; Unable to get dressed or go to the toilet; Unable to think clearly or communicate; Experiencing heart palpitations or cold sweats.",
+      "finding": [ {
+        "itemCodeableConcept": {
+          "text": "Breathing problems in these situations: In the context of exercise or physical activity; When I go up the stairs (1-2 floors); When walking on flat ground. Not chosen: When I get dressed; When I speak or say some sentences; When I am resting."
+        }
+      }, {
+        "itemCodeableConcept": {
+          "text": "New loss of abilities at the moment: None of the above. Not chosen: Unable to eat or drink; Unable to sit up for 10 minutes; Unable to get dressed or go to the toilet; Unable to think clearly or communicate; Experiencing heart palpitations or cold sweats."
+        }
+      } ]
+    }
+  }, {
+    "fullUrl": "urn:uuid:a1377563-a472-56ba-8349-287c01c68842",
+    "resource": {
+      "resourceType": "ClinicalImpression",
+      "id": "a1377563-a472-56ba-8349-287c01c68842",
+      "text": {
+        "status": "generated",
+        "div": "<div xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"><p>What the patient can and cannot do, as answered in digital triage (patient-reported, not clinician-verified; reported by the patient in Platform24 digital triage on 2026-11-17): New loss of abilities at the moment: None of the above. Not chosen: Unable to eat or drink; Unable to sit up for 10 minutes; Unable to get dressed or go to the toilet; Unable to think clearly or communicate; Experiencing heart palpitations or cold sweats.</p></div>"
+      },
+      "status": "completed",
+      "description": "What the patient can and cannot do, as answered in digital triage (patient-reported, not clinician-verified; reported by the patient in Platform24 digital triage on 2026-11-17)",
+      "subject": {
+        "reference": "urn:uuid:47d637c3-44d0-59cf-899f-688adbeeedc5"
+      },
+      "effectiveDateTime": "2026-11-17T19:11:12+01:00",
+      "date": "2026-11-17T19:11:12+01:00",
+      "summary": "New loss of abilities at the moment: None of the above. Not chosen: Unable to eat or drink; Unable to sit up for 10 minutes; Unable to get dressed or go to the toilet; Unable to think clearly or communicate; Experiencing heart palpitations or cold sweats.",
+      "finding": [ {
+        "itemCodeableConcept": {
+          "text": "New loss of abilities at the moment: None of the above. Not chosen: Unable to eat or drink; Unable to sit up for 10 minutes; Unable to get dressed or go to the toilet; Unable to think clearly or communicate; Experiencing heart palpitations or cold sweats."
+        }
+      } ]
+    }
+  }, {
+    "fullUrl": "urn:uuid:4e3172cc-14aa-5cb8-8f8d-01c15671642a",
+    "resource": {
+      "resourceType": "Flag",
+      "id": "4e3172cc-14aa-5cb8-8f8d-01c15671642a",
+      "text": {
+        "status": "generated",
+        "div": "<div xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"><p>Triage urgency: acute (acute) (assessed by Platform24 digital triage on 2026-11-17)</p></div>"
+      },
+      "status": "active",
+      "code": {
+        "text": "Triage urgency: acute (acute)"
+      },
+      "subject": {
+        "reference": "urn:uuid:47d637c3-44d0-59cf-899f-688adbeeedc5"
+      },
+      "period": {
+        "start": "2026-11-17T18:01:23+01:00"
+      },
+      "author": {
+        "reference": "urn:uuid:3633703f-6d8f-507c-b88a-d0493750affa"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:6a04bc5d-5d93-5d64-aa29-d91608fa819b",
+    "resource": {
+      "resourceType": "Flag",
+      "id": "6a04bc5d-5d93-5d64-aa29-d91608fa819b",
+      "text": {
+        "status": "generated",
+        "div": "<div xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"><p>Triage urgency: acute (acute) (assessed by Platform24 digital triage on 2026-11-17)</p></div>"
+      },
+      "status": "active",
+      "code": {
+        "text": "Triage urgency: acute (acute)"
+      },
+      "subject": {
+        "reference": "urn:uuid:47d637c3-44d0-59cf-899f-688adbeeedc5"
+      },
+      "period": {
+        "start": "2026-11-17T19:08:49+01:00"
+      },
+      "author": {
+        "reference": "urn:uuid:3633703f-6d8f-507c-b88a-d0493750affa"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:1624f4f4-c59f-5213-9fd2-85ff32a1dc01",
+    "resource": {
+      "resourceType": "Flag",
+      "id": "1624f4f4-c59f-5213-9fd2-85ff32a1dc01",
+      "text": {
+        "status": "generated",
+        "div": "<div xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"><p>Triage urgency: planned (planned) (assessed by Platform24 digital triage on 2026-11-17)</p></div>"
+      },
+      "status": "active",
+      "code": {
+        "text": "Triage urgency: planned (planned)"
+      },
+      "subject": {
+        "reference": "urn:uuid:47d637c3-44d0-59cf-899f-688adbeeedc5"
+      },
+      "period": {
+        "start": "2026-11-17T19:11:12+01:00"
+      },
+      "author": {
+        "reference": "urn:uuid:3633703f-6d8f-507c-b88a-d0493750affa"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:2c8b2e01-6642-5100-b720-2819350b3807",
+    "resource": {
+      "resourceType": "CarePlan",
+      "id": "2c8b2e01-6642-5100-b720-2819350b3807",
+      "text": {
+        "status": "generated",
+        "div": "<div xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"><p>Triage recommendation: Assessment in general practice (online consultation possible) (assessed by Platform24 digital triage on 2026-11-17)</p></div>"
+      },
+      "status": "active",
+      "intent": "plan",
+      "title": "Triage recommendation",
+      "description": "Assessment in general practice (online consultation possible)",
+      "subject": {
+        "reference": "urn:uuid:47d637c3-44d0-59cf-899f-688adbeeedc5"
+      },
+      "created": "2026-11-17T18:01:23+01:00",
+      "author": {
+        "reference": "urn:uuid:3633703f-6d8f-507c-b88a-d0493750affa"
+      },
+      "activity": [ {
+        "detail": {
+          "status": "not-started",
+          "description": "Assessment in general practice (online consultation possible)"
+        }
+      } ]
+    }
+  }, {
+    "fullUrl": "urn:uuid:ce8c4eb3-cd2b-5bde-b483-2c7e78d21035",
+    "resource": {
+      "resourceType": "CarePlan",
+      "id": "ce8c4eb3-cd2b-5bde-b483-2c7e78d21035",
+      "text": {
+        "status": "generated",
+        "div": "<div xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"><p>Triage recommendation: Assessment in general practice (online consultation possible) (assessed by Platform24 digital triage on 2026-11-17)</p></div>"
+      },
+      "status": "active",
+      "intent": "plan",
+      "title": "Triage recommendation",
+      "description": "Assessment in general practice (online consultation possible)",
+      "subject": {
+        "reference": "urn:uuid:47d637c3-44d0-59cf-899f-688adbeeedc5"
+      },
+      "created": "2026-11-17T19:08:49+01:00",
+      "author": {
+        "reference": "urn:uuid:3633703f-6d8f-507c-b88a-d0493750affa"
+      },
+      "activity": [ {
+        "detail": {
+          "status": "not-started",
+          "description": "Assessment in general practice (online consultation possible)"
+        }
+      } ]
+    }
+  }, {
+    "fullUrl": "urn:uuid:4f97b84e-c50d-5790-9c69-2ccfe2b4f6cb",
+    "resource": {
+      "resourceType": "CarePlan",
+      "id": "4f97b84e-c50d-5790-9c69-2ccfe2b4f6cb",
+      "text": {
+        "status": "generated",
+        "div": "<div xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"><p>Triage recommendation: Assessment in general practice (online consultation possible) (assessed by Platform24 digital triage on 2026-11-17)</p></div>"
+      },
+      "status": "active",
+      "intent": "plan",
+      "title": "Triage recommendation",
+      "description": "Assessment in general practice (online consultation possible)",
+      "subject": {
+        "reference": "urn:uuid:47d637c3-44d0-59cf-899f-688adbeeedc5"
+      },
+      "created": "2026-11-17T19:11:12+01:00",
+      "author": {
+        "reference": "urn:uuid:3633703f-6d8f-507c-b88a-d0493750affa"
+      },
+      "activity": [ {
+        "detail": {
+          "status": "not-started",
+          "description": "Assessment in general practice (online consultation possible)"
+        }
+      } ]
+    }
+  }, {
+    "fullUrl": "urn:uuid:09e33bfc-3527-5b12-97c6-79bf0dea9f73",
+    "resource": {
+      "resourceType": "Consent",
+      "id": "09e33bfc-3527-5b12-97c6-79bf0dea9f73",
+      "text": {
+        "status": "generated",
+        "div": "<div xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"><p>Living will: refuses cardiopulmonary resuscitation (patient-reported, not clinician-verified; reported by the patient in Platform24 digital triage on 2026-11-17; the document itself has not been seen). Patient's words: &quot;I have written a living will: I do not want to be resuscitated if my heart stops, and my wife and my GP have a copy.&quot;</p></div>"
+      },
+      "status": "active",
+      "scope": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/consentscope",
+          "code": "adr",
+          "display": "Advanced Care Directive"
+        } ]
+      },
+      "category": [ {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "59284-0",
+          "display": "Patient Consent"
+        } ]
+      } ],
+      "patient": {
+        "reference": "urn:uuid:47d637c3-44d0-59cf-899f-688adbeeedc5"
+      },
+      "dateTime": "2026-11-17T19:11:12+01:00",
+      "performer": [ {
+        "reference": "urn:uuid:47d637c3-44d0-59cf-899f-688adbeeedc5"
+      } ],
+      "policyRule": {
+        "text": "Living will (patient-reported, not clinician-verified; the document itself has not been seen)"
+      },
+      "provision": {
+        "type": "deny",
+        "code": [ {
+          "text": "Cardiopulmonary resuscitation"
+        } ]
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:f3b935a5-7421-5202-9e53-0f6f8108975a",
+    "resource": {
+      "resourceType": "Observation",
+      "id": "f3b935a5-7421-5202-9e53-0f6f8108975a",
+      "text": {
+        "status": "generated",
+        "div": "<div xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"><p>Tobacco smoking status: Former smoker (patient-reported, not clinician-verified; reported by the patient in Platform24 digital triage on 2026-11-17). Patient's words: &quot;I used to smoke but stopped 10 years ago.&quot;</p></div>"
+      },
+      "status": "final",
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "social-history",
+          "display": "Social History"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "72166-2",
+          "display": "Tobacco smoking status"
+        } ],
+        "text": "Tobacco smoking status"
+      },
+      "subject": {
+        "reference": "urn:uuid:47d637c3-44d0-59cf-899f-688adbeeedc5"
+      },
+      "effectivePeriod": {
+        "start": "2026-11-17T18:01:23+01:00",
+        "end": "2026-11-17T18:01:23+01:00"
+      },
+      "performer": [ {
+        "reference": "urn:uuid:47d637c3-44d0-59cf-899f-688adbeeedc5"
+      } ],
+      "valueCodeableConcept": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "8517006",
+          "display": "Ex-smoker"
+        } ],
+        "text": "Former smoker"
+      },
+      "note": [ {
+        "text": "Patient's words: \"I used to smoke but stopped 10 years ago.\""
+      } ]
+    }
+  }, {
+    "fullUrl": "urn:uuid:fd455cab-dda3-55f0-baf3-2b3d41d90792",
+    "resource": {
+      "resourceType": "Observation",
+      "id": "fd455cab-dda3-55f0-baf3-2b3d41d90792",
+      "meta": {
+        "profile": [ "http://hl7.eu/fhir/eps/StructureDefinition/observation-travel-eu-eps" ]
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"><p>Travelled to Spain, back on 2026-10-25 (patient-reported, not clinician-verified; reported by the patient in Platform24 digital triage on 2026-11-17). Patient's words: &quot;We were in Spain for two weeks in October and came back on 25 October.&quot;</p></div>"
+      },
+      "status": "final",
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "social-history",
+          "display": "Social History"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "94651-7",
+          "display": "Country of travel"
+        } ],
+        "text": "Country of travel"
+      },
+      "subject": {
+        "reference": "urn:uuid:47d637c3-44d0-59cf-899f-688adbeeedc5"
+      },
+      "effectivePeriod": {
+        "end": "2026-10-25"
+      },
+      "issued": "2026-11-17T19:11:12+01:00",
+      "performer": [ {
+        "reference": "urn:uuid:47d637c3-44d0-59cf-899f-688adbeeedc5"
+      } ],
+      "valueCodeableConcept": {
+        "coding": [ {
+          "system": "urn:iso:std:iso:3166",
+          "code": "ES",
+          "display": "Spain"
+        } ],
+        "text": "Spain"
+      },
+      "note": [ {
+        "text": "Patient's words: \"We were in Spain for two weeks in October and came back on 25 October.\""
+      } ]
+    }
+  }, {
+    "fullUrl": "urn:uuid:7e666ed1-4605-50e8-98cb-aef9f230bcd1",
+    "resource": {
+      "resourceType": "Goal",
+      "id": "7e666ed1-4605-50e8-98cb-aef9f230bcd1",
+      "text": {
+        "status": "generated",
+        "div": "<div xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"><p>Stay in my own home and to be able to walk to the shop again without stopping (what matters to the patient; patient-reported, not clinician-verified; reported by the patient in Platform24 digital triage on 2026-11-17)</p></div>"
+      },
+      "lifecycleStatus": "active",
+      "description": {
+        "text": "Stay in my own home and to be able to walk to the shop again without stopping"
+      },
+      "subject": {
+        "reference": "urn:uuid:47d637c3-44d0-59cf-899f-688adbeeedc5"
+      },
+      "startDate": "2026-11-17",
+      "expressedBy": {
+        "reference": "urn:uuid:47d637c3-44d0-59cf-899f-688adbeeedc5"
+      },
+      "note": [ {
+        "text": "Patient's words: \"What matters most to me is to stay in my own home and to be able to walk to the shop again without stopping.\""
+      } ]
+    }
+  } ]
+}
